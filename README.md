@@ -29,7 +29,7 @@ For MiSnap integration visit [MiSnap iOS repository](https://github.com/Mitek-Sy
 
 # Adding to your project
 
-* Add [MiSanap SDKs](https://github.com/Mitek-Systems/MiSnap-iOS) and obtain a license key
+* Add [MiSnap SDKs](https://github.com/Mitek-Systems/MiSnap-iOS) and obtain a license key
 * Add MiVIP SDKs to frameworks folder of your project (drag to XCode)
 * Choose option 'Embed & Sign' for your target(s)
 * Add external dependancy [SocketRocket](https://github.com/facebookincubator/SocketRocket) version 0.7.0
