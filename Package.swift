@@ -12,6 +12,7 @@ let package = Package(
         .library(
             name: "MiVIP",
             targets: ["MiVIPSdk","MiVIPApi","MiVIPLiveness"]
+        )
     ],
     targets: [
         .binaryTarget(
