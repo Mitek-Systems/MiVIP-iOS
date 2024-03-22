@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B3E9B6D27CCC6E8006983A3 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3E9B6C27CCC6E8006983A3 /* CoreNFC.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6B4B295227C5320C000D371A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4B295127C5320C000D371A /* AppDelegate.swift */; };
+		6B4B295427C5320C000D371A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4B295327C5320C000D371A /* SceneDelegate.swift */; };
+		6B4B295627C5320C000D371A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4B295527C5320C000D371A /* ViewController.swift */; };
+		6B4B295927C5320C000D371A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4B295727C5320C000D371A /* Main.storyboard */; };
+		6B4B295B27C5320F000D371A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4B295A27C5320F000D371A /* Assets.xcassets */; };
+		6B4B295E27C5320F000D371A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4B295C27C5320F000D371A /* LaunchScreen.storyboard */; };
+		6B7852EC2B9F6A6E008B1C16 /* MiVIPApi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7852E82B9F6A66008B1C16 /* MiVIPApi.xcframework */; };
+		6B7852ED2B9F6A6E008B1C16 /* MiVIPApi.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7852E82B9F6A66008B1C16 /* MiVIPApi.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B7852EE2B9F6A6F008B1C16 /* MiVIPLiveness.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7852E72B9F6A66008B1C16 /* MiVIPLiveness.xcframework */; };
+		6B7852EF2B9F6A6F008B1C16 /* MiVIPLiveness.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7852E72B9F6A66008B1C16 /* MiVIPLiveness.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B7852F02B9F6A70008B1C16 /* MiVIPSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7852E62B9F6A66008B1C16 /* MiVIPSdk.xcframework */; };
+		6B7852F12B9F6A70008B1C16 /* MiVIPSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7852E62B9F6A66008B1C16 /* MiVIPSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B9DAE4827F34D6E00BD3D67 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B9DAE4A27F34D6E00BD3D67 /* Localizable.strings */; };
+		6BA7EF2F298AC2070001800E /* MiSnapLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF08298AC2070001800E /* MiSnapLocalizable.strings */; };
+		6BA7EF30298AC2070001800E /* misnap_tutorial_passport_qr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF0B298AC2070001800E /* misnap_tutorial_passport_qr.jpg */; };
+		6BA7EF31298AC2070001800E /* misnap_tutorial_passport_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF0C298AC2070001800E /* misnap_tutorial_passport_portrait.jpg */; };
+		6BA7EF32298AC2070001800E /* misnap_tutorial_id_back_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF0D298AC2070001800E /* misnap_tutorial_id_back_portrait.jpg */; };
+		6BA7EF33298AC2070001800E /* misnap_tutorial_id_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF0E298AC2070001800E /* misnap_tutorial_id_portrait.jpg */; };
+		6BA7EF34298AC2070001800E /* misnap_tutorial_passport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF0F298AC2070001800E /* misnap_tutorial_passport.jpg */; };
+		6BA7EF35298AC2070001800E /* misnap_tutorial_id_back_portrait_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF10298AC2070001800E /* misnap_tutorial_id_back_portrait_2.jpg */; };
+		6BA7EF36298AC2070001800E /* misnap_tutorial_id_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF11298AC2070001800E /* misnap_tutorial_id_back.jpg */; };
+		6BA7EF37298AC2070001800E /* misnap_tutorial_passport_qr_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF13298AC2070001800E /* misnap_tutorial_passport_qr_portrait.jpg */; };
+		6BA7EF38298AC2070001800E /* misnap_tutorial_id.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF14298AC2070001800E /* misnap_tutorial_id.jpg */; };
+		6BA7EF39298AC2070001800E /* misnap_tutorial_passport_portrait_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF15298AC2070001800E /* misnap_tutorial_passport_portrait_2.jpg */; };
+		6BA7EF3A298AC2070001800E /* misnap_tutorial_id_portrait_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF16298AC2070001800E /* misnap_tutorial_id_portrait_2.jpg */; };
+		6BA7EF3B298AC2070001800E /* misnap_tutorial_passport_qr_portrait_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF17298AC2070001800E /* misnap_tutorial_passport_qr_portrait_2.jpg */; };
+		6BA7EF3C298AC2070001800E /* MiSnapFacialCaptureLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF19298AC2070001800E /* MiSnapFacialCaptureLocalizable.strings */; };
+		6BA7EF3D298AC2070001800E /* misnap_facial_capture_instruction_manual_with_finger.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF1C298AC2070001800E /* misnap_facial_capture_instruction_manual_with_finger.png */; };
+		6BA7EF3E298AC2070001800E /* misnap_facial_capture_instruction_image_oval.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF1D298AC2070001800E /* misnap_facial_capture_instruction_image_oval.png */; };
+		6BA7EF3F298AC2070001800E /* misnap_facial_capture_instruction_image_neutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF1E298AC2070001800E /* misnap_facial_capture_instruction_image_neutral.png */; };
+		6BA7EF40298AC2070001800E /* misnap_facial_capture_instruction_image_hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF1F298AC2070001800E /* misnap_facial_capture_instruction_image_hat.png */; };
+		6BA7EF41298AC2070001800E /* misnap_facial_capture_instruction_image_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF20298AC2070001800E /* misnap_facial_capture_instruction_image_mask.png */; };
+		6BA7EF42298AC2070001800E /* misnap_facial_capture_instruction_image_smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF21298AC2070001800E /* misnap_facial_capture_instruction_image_smile.png */; };
+		6BA7EF43298AC2070001800E /* MiSnapNFCLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF23298AC2070001800E /* MiSnapNFCLocalizable.strings */; };
+		6BA7EF44298AC2070001800E /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF26298AC2070001800E /* target.png */; };
+		6BA7EF45298AC2070001800E /* passport.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF27298AC2070001800E /* passport.png */; };
+		6BA7EF46298AC2070001800E /* id.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF28298AC2070001800E /* id.png */; };
+		6BA7EF47298AC2070001800E /* device.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF29298AC2070001800E /* device.png */; };
+		6BA7EF48298AC2070001800E /* MiSnapVoiceCaptureLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF2B298AC2070001800E /* MiSnapVoiceCaptureLocalizable.strings */; };
+		6BA7EF49298AC2070001800E /* misnap_voice_capture_instruction_distance.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF2E298AC2070001800E /* misnap_voice_capture_instruction_distance.png */; };
+		BCAA170F45E25861327E91DF /* Pods_whitelabel_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA68339B2D44DFBE5B454092 /* Pods_whitelabel_demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6BB8FE1427C7B4F400124BF8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6B7852EF2B9F6A6F008B1C16 /* MiVIPLiveness.xcframework in Embed Frameworks */,
+				6B7852ED2B9F6A6E008B1C16 /* MiVIPApi.xcframework in Embed Frameworks */,
+				6B7852F12B9F6A70008B1C16 /* MiVIPSdk.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B3E9B6C27CCC6E8006983A3 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		6B4B294E27C5320C000D371A /* whitelabel_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whitelabel_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4B295127C5320C000D371A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B4B295327C5320C000D371A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B4B295527C5320C000D371A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B4B295A27C5320F000D371A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B4B295F27C5320F000D371A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4EBC0127CFAF86001285AE /* whitelabel_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = whitelabel_demo.entitlements; sourceTree = "<group>"; };
+		6B5C9A482B5FFDC1007A092E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B5C9A492B5FFDC1007A092E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B7852E62B9F6A66008B1C16 /* MiVIPSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiVIPSdk.xcframework; sourceTree = "<group>"; };
+		6B7852E72B9F6A66008B1C16 /* MiVIPLiveness.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiVIPLiveness.xcframework; sourceTree = "<group>"; };
+		6B7852E82B9F6A66008B1C16 /* MiVIPApi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiVIPApi.xcframework; sourceTree = "<group>"; };
+		6B9DAE4927F34D6E00BD3D67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6BA7EF09298AC2070001800E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MiSnapLocalizable.strings; sourceTree = "<group>"; };
+		6BA7EF0A298AC2070001800E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MiSnapLocalizable.strings; sourceTree = "<group>"; };
+		6BA7EF0B298AC2070001800E /* misnap_tutorial_passport_qr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_passport_qr.jpg; sourceTree = "<group>"; };
+		6BA7EF0C298AC2070001800E /* misnap_tutorial_passport_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_passport_portrait.jpg; sourceTree = "<group>"; };
+		6BA7EF0D298AC2070001800E /* misnap_tutorial_id_back_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_back_portrait.jpg; sourceTree = "<group>"; };
+		6BA7EF0E298AC2070001800E /* misnap_tutorial_id_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_portrait.jpg; sourceTree = "<group>"; };
+		6BA7EF0F298AC2070001800E /* misnap_tutorial_passport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_passport.jpg; sourceTree = "<group>"; };
+		6BA7EF10298AC2070001800E /* misnap_tutorial_id_back_portrait_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_back_portrait_2.jpg; sourceTree = "<group>"; };
+		6BA7EF11298AC2070001800E /* misnap_tutorial_id_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_back.jpg; sourceTree = "<group>"; };
+		6BA7EF12298AC2070001800E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MiSnapLocalizable.strings; sourceTree = "<group>"; };
+		6BA7EF13298AC2070001800E /* misnap_tutorial_passport_qr_portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_passport_qr_portrait.jpg; sourceTree = "<group>"; };
+		6BA7EF14298AC2070001800E /* misnap_tutorial_id.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id.jpg; sourceTree = "<group>"; };
+		6BA7EF15298AC2070001800E /* misnap_tutorial_passport_portrait_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_passport_portrait_2.jpg; sourceTree = "<group>"; };
+		6BA7EF16298AC2070001800E /* misnap_tutorial_id_portrait_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_id_portrait_2.jpg; sourceTree = "<group>"; };
+		6BA7EF17298AC2070001800E /* misnap_tutorial_passport_qr_portrait_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = misnap_tutorial_passport_qr_portrait_2.jpg; sourceTree = "<group>"; };
+		6BA7EF1A298AC2070001800E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MiSnapFacialCaptureLocalizable.strings; sourceTree = "<group>"; };
+		6BA7EF1B298AC2070001800E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MiSnapFacialCaptureLocalizable.strings; sourceTree = "<group>"; };
+		6BA7EF1C298AC2070001800E /* misnap_facial_capture_instruction_manual_with_finger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_facial_capture_instruction_manual_with_finger.png; sourceTree = "<group>"; };
+		6BA7EF1D298AC2070001800E /* misnap_facial_capture_instruction_image_oval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_facial_capture_instruction_image_oval.png; sourceTree = "<group>"; };
+		6BA7EF1E298AC2070001800E /* misnap_facial_capture_instruction_image_neutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_facial_capture_instruction_image_neutral.png; sourceTree = "<group>"; };
+		6BA7EF1F298AC2070001800E /* misnap_facial_capture_instruction_image_hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_facial_capture_instruction_image_hat.png; sourceTree = "<group>"; };
+		6BA7EF20298AC2070001800E /* misnap_facial_capture_instruction_image_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_facial_capture_instruction_image_mask.png; sourceTree = "<group>"; };
+		6BA7EF21298AC2070001800E /* misnap_facial_capture_instruction_image_smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_facial_capture_instruction_image_smile.png; sourceTree = "<group>"; };
+		6BA7EF24298AC2070001800E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MiSnapNFCLocalizable.strings; sourceTree = "<group>"; };
+		6BA7EF25298AC2070001800E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MiSnapNFCLocalizable.strings; sourceTree = "<group>"; };
+		6BA7EF26298AC2070001800E /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+		6BA7EF27298AC2070001800E /* passport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passport.png; sourceTree = "<group>"; };
+		6BA7EF28298AC2070001800E /* id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id.png; sourceTree = "<group>"; };
+		6BA7EF29298AC2070001800E /* device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = device.png; sourceTree = "<group>"; };
+		6BA7EF2C298AC2070001800E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MiSnapVoiceCaptureLocalizable.strings; sourceTree = "<group>"; };
+		6BA7EF2D298AC2070001800E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MiSnapVoiceCaptureLocalizable.strings; sourceTree = "<group>"; };
+		6BA7EF2E298AC2070001800E /* misnap_voice_capture_instruction_distance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misnap_voice_capture_instruction_distance.png; sourceTree = "<group>"; };
+		8B8AB7162E7097A2E8F49464 /* Pods-whitelabel_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whitelabel_demo.release.xcconfig"; path = "Target Support Files/Pods-whitelabel_demo/Pods-whitelabel_demo.release.xcconfig"; sourceTree = "<group>"; };
+		DA68339B2D44DFBE5B454092 /* Pods_whitelabel_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whitelabel_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDF546026AA4D1DE4F79DDF /* Pods-whitelabel_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whitelabel_demo.debug.xcconfig"; path = "Target Support Files/Pods-whitelabel_demo/Pods-whitelabel_demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B4B294B27C5320C000D371A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7852EE2B9F6A6F008B1C16 /* MiVIPLiveness.xcframework in Frameworks */,
+				6B3E9B6D27CCC6E8006983A3 /* CoreNFC.framework in Frameworks */,
+				BCAA170F45E25861327E91DF /* Pods_whitelabel_demo.framework in Frameworks */,
+				6B7852EC2B9F6A6E008B1C16 /* MiVIPApi.xcframework in Frameworks */,
+				6B7852F02B9F6A70008B1C16 /* MiVIPSdk.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B4B294527C5320C000D371A = {
+			isa = PBXGroup;
+			children = (
+				6B4B295027C5320C000D371A /* whitelabel_demo */,
+				6B4B294F27C5320C000D371A /* Products */,
+				6B4B296527C532C9000D371A /* Frameworks */,
+				8AF6B79E59BEC778BC1197D1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6B4B294F27C5320C000D371A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B4B294E27C5320C000D371A /* whitelabel_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B4B295027C5320C000D371A /* whitelabel_demo */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7EF06298AC2070001800E /* MiAssets */,
+				6B4EBC0127CFAF86001285AE /* whitelabel_demo.entitlements */,
+				6B4B295127C5320C000D371A /* AppDelegate.swift */,
+				6B4B295327C5320C000D371A /* SceneDelegate.swift */,
+				6B4B295527C5320C000D371A /* ViewController.swift */,
+				6B4B295727C5320C000D371A /* Main.storyboard */,
+				6B4B295A27C5320F000D371A /* Assets.xcassets */,
+				6B4B295C27C5320F000D371A /* LaunchScreen.storyboard */,
+				6B4B295F27C5320F000D371A /* Info.plist */,
+				6B9DAE4A27F34D6E00BD3D67 /* Localizable.strings */,
+			);
+			path = whitelabel_demo;
+			sourceTree = "<group>";
+		};
+		6B4B296527C532C9000D371A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B7852E82B9F6A66008B1C16 /* MiVIPApi.xcframework */,
+				6B7852E72B9F6A66008B1C16 /* MiVIPLiveness.xcframework */,
+				6B7852E62B9F6A66008B1C16 /* MiVIPSdk.xcframework */,
+				6B3E9B6C27CCC6E8006983A3 /* CoreNFC.framework */,
+				DA68339B2D44DFBE5B454092 /* Pods_whitelabel_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BA7EF06298AC2070001800E /* MiAssets */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7EF07298AC2070001800E /* MiSnap */,
+				6BA7EF18298AC2070001800E /* MiSnapFacialCapture */,
+				6BA7EF22298AC2070001800E /* MiSnapNFC */,
+				6BA7EF2A298AC2070001800E /* MiSnapVoiceCapture */,
+			);
+			path = MiAssets;
+			sourceTree = "<group>";
+		};
+		6BA7EF07298AC2070001800E /* MiSnap */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7EF08298AC2070001800E /* MiSnapLocalizable.strings */,
+				6BA7EF0B298AC2070001800E /* misnap_tutorial_passport_qr.jpg */,
+				6BA7EF0C298AC2070001800E /* misnap_tutorial_passport_portrait.jpg */,
+				6BA7EF0D298AC2070001800E /* misnap_tutorial_id_back_portrait.jpg */,
+				6BA7EF0E298AC2070001800E /* misnap_tutorial_id_portrait.jpg */,
+				6BA7EF0F298AC2070001800E /* misnap_tutorial_passport.jpg */,
+				6BA7EF10298AC2070001800E /* misnap_tutorial_id_back_portrait_2.jpg */,
+				6BA7EF11298AC2070001800E /* misnap_tutorial_id_back.jpg */,
+				6BA7EF13298AC2070001800E /* misnap_tutorial_passport_qr_portrait.jpg */,
+				6BA7EF14298AC2070001800E /* misnap_tutorial_id.jpg */,
+				6BA7EF15298AC2070001800E /* misnap_tutorial_passport_portrait_2.jpg */,
+				6BA7EF16298AC2070001800E /* misnap_tutorial_id_portrait_2.jpg */,
+				6BA7EF17298AC2070001800E /* misnap_tutorial_passport_qr_portrait_2.jpg */,
+			);
+			path = MiSnap;
+			sourceTree = "<group>";
+		};
+		6BA7EF18298AC2070001800E /* MiSnapFacialCapture */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7EF19298AC2070001800E /* MiSnapFacialCaptureLocalizable.strings */,
+				6BA7EF1C298AC2070001800E /* misnap_facial_capture_instruction_manual_with_finger.png */,
+				6BA7EF1D298AC2070001800E /* misnap_facial_capture_instruction_image_oval.png */,
+				6BA7EF1E298AC2070001800E /* misnap_facial_capture_instruction_image_neutral.png */,
+				6BA7EF1F298AC2070001800E /* misnap_facial_capture_instruction_image_hat.png */,
+				6BA7EF20298AC2070001800E /* misnap_facial_capture_instruction_image_mask.png */,
+				6BA7EF21298AC2070001800E /* misnap_facial_capture_instruction_image_smile.png */,
+			);
+			path = MiSnapFacialCapture;
+			sourceTree = "<group>";
+		};
+		6BA7EF22298AC2070001800E /* MiSnapNFC */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7EF23298AC2070001800E /* MiSnapNFCLocalizable.strings */,
+				6BA7EF26298AC2070001800E /* target.png */,
+				6BA7EF27298AC2070001800E /* passport.png */,
+				6BA7EF28298AC2070001800E /* id.png */,
+				6BA7EF29298AC2070001800E /* device.png */,
+			);
+			path = MiSnapNFC;
+			sourceTree = "<group>";
+		};
+		6BA7EF2A298AC2070001800E /* MiSnapVoiceCapture */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7EF2B298AC2070001800E /* MiSnapVoiceCaptureLocalizable.strings */,
+				6BA7EF2E298AC2070001800E /* misnap_voice_capture_instruction_distance.png */,
+			);
+			path = MiSnapVoiceCapture;
+			sourceTree = "<group>";
+		};
+		8AF6B79E59BEC778BC1197D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF546026AA4D1DE4F79DDF /* Pods-whitelabel_demo.debug.xcconfig */,
+				8B8AB7162E7097A2E8F49464 /* Pods-whitelabel_demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B4B294D27C5320C000D371A /* whitelabel_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4B296227C5320F000D371A /* Build configuration list for PBXNativeTarget "whitelabel_demo" */;
+			buildPhases = (
+				EDA44DAD8190FDFA401AE299 /* [CP] Check Pods Manifest.lock */,
+				6B4B294A27C5320C000D371A /* Sources */,
+				6B4B294B27C5320C000D371A /* Frameworks */,
+				6B4B294C27C5320C000D371A /* Resources */,
+				6BB8FE1427C7B4F400124BF8 /* Embed Frameworks */,
+				507B3D464B6DF2D3FF12C767 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = whitelabel_demo;
+			productName = whitelabel_demo;
+			productReference = 6B4B294E27C5320C000D371A /* whitelabel_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B4B294627C5320C000D371A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6B4B294D27C5320C000D371A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B4B294927C5320C000D371A /* Build configuration list for PBXProject "whitelabel_demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				fr,
+				Base,
+			);
+			mainGroup = 6B4B294527C5320C000D371A;
+			productRefGroup = 6B4B294F27C5320C000D371A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B4B294D27C5320C000D371A /* whitelabel_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B4B294C27C5320C000D371A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA7EF3F298AC2070001800E /* misnap_facial_capture_instruction_image_neutral.png in Resources */,
+				6BA7EF3D298AC2070001800E /* misnap_facial_capture_instruction_manual_with_finger.png in Resources */,
+				6BA7EF42298AC2070001800E /* misnap_facial_capture_instruction_image_smile.png in Resources */,
+				6BA7EF30298AC2070001800E /* misnap_tutorial_passport_qr.jpg in Resources */,
+				6BA7EF40298AC2070001800E /* misnap_facial_capture_instruction_image_hat.png in Resources */,
+				6BA7EF45298AC2070001800E /* passport.png in Resources */,
+				6BA7EF46298AC2070001800E /* id.png in Resources */,
+				6BA7EF33298AC2070001800E /* misnap_tutorial_id_portrait.jpg in Resources */,
+				6BA7EF39298AC2070001800E /* misnap_tutorial_passport_portrait_2.jpg in Resources */,
+				6BA7EF38298AC2070001800E /* misnap_tutorial_id.jpg in Resources */,
+				6BA7EF3A298AC2070001800E /* misnap_tutorial_id_portrait_2.jpg in Resources */,
+				6BA7EF3B298AC2070001800E /* misnap_tutorial_passport_qr_portrait_2.jpg in Resources */,
+				6BA7EF44298AC2070001800E /* target.png in Resources */,
+				6BA7EF48298AC2070001800E /* MiSnapVoiceCaptureLocalizable.strings in Resources */,
+				6BA7EF31298AC2070001800E /* misnap_tutorial_passport_portrait.jpg in Resources */,
+				6BA7EF2F298AC2070001800E /* MiSnapLocalizable.strings in Resources */,
+				6BA7EF47298AC2070001800E /* device.png in Resources */,
+				6BA7EF3E298AC2070001800E /* misnap_facial_capture_instruction_image_oval.png in Resources */,
+				6B4B295E27C5320F000D371A /* LaunchScreen.storyboard in Resources */,
+				6BA7EF43298AC2070001800E /* MiSnapNFCLocalizable.strings in Resources */,
+				6BA7EF37298AC2070001800E /* misnap_tutorial_passport_qr_portrait.jpg in Resources */,
+				6B9DAE4827F34D6E00BD3D67 /* Localizable.strings in Resources */,
+				6BA7EF49298AC2070001800E /* misnap_voice_capture_instruction_distance.png in Resources */,
+				6B4B295B27C5320F000D371A /* Assets.xcassets in Resources */,
+				6BA7EF32298AC2070001800E /* misnap_tutorial_id_back_portrait.jpg in Resources */,
+				6BA7EF41298AC2070001800E /* misnap_facial_capture_instruction_image_mask.png in Resources */,
+				6B4B295927C5320C000D371A /* Main.storyboard in Resources */,
+				6BA7EF36298AC2070001800E /* misnap_tutorial_id_back.jpg in Resources */,
+				6BA7EF34298AC2070001800E /* misnap_tutorial_passport.jpg in Resources */,
+				6BA7EF3C298AC2070001800E /* MiSnapFacialCaptureLocalizable.strings in Resources */,
+				6BA7EF35298AC2070001800E /* misnap_tutorial_id_back_portrait_2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		507B3D464B6DF2D3FF12C767 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whitelabel_demo/Pods-whitelabel_demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whitelabel_demo/Pods-whitelabel_demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-whitelabel_demo/Pods-whitelabel_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA44DAD8190FDFA401AE299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-whitelabel_demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B4B294A27C5320C000D371A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4B295627C5320C000D371A /* ViewController.swift in Sources */,
+				6B4B295227C5320C000D371A /* AppDelegate.swift in Sources */,
+				6B4B295427C5320C000D371A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B4B295727C5320C000D371A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5C9A482B5FFDC1007A092E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B4B295C27C5320F000D371A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5C9A492B5FFDC1007A092E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6B9DAE4A27F34D6E00BD3D67 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B9DAE4927F34D6E00BD3D67 /* en */,
+			);
+			name = Localizable.strings;
+			path = whitelabel_demo;
+			sourceTree = SOURCE_ROOT;
+		};
+		6BA7EF08298AC2070001800E /* MiSnapLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA7EF09298AC2070001800E /* en */,
+				6BA7EF0A298AC2070001800E /* es */,
+				6BA7EF12298AC2070001800E /* fr */,
+			);
+			name = MiSnapLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		6BA7EF19298AC2070001800E /* MiSnapFacialCaptureLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA7EF1A298AC2070001800E /* en */,
+				6BA7EF1B298AC2070001800E /* es */,
+			);
+			name = MiSnapFacialCaptureLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		6BA7EF23298AC2070001800E /* MiSnapNFCLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA7EF24298AC2070001800E /* en */,
+				6BA7EF25298AC2070001800E /* es */,
+			);
+			name = MiSnapNFCLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		6BA7EF2B298AC2070001800E /* MiSnapVoiceCaptureLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA7EF2C298AC2070001800E /* en */,
+				6BA7EF2D298AC2070001800E /* es */,
+			);
+			name = MiSnapVoiceCaptureLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B4B296027C5320F000D371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B4B296127C5320F000D371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B4B296327C5320F000D371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFDF546026AA4D1DE4F79DDF /* Pods-whitelabel_demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_ENTITLEMENTS = whitelabel_demo/whitelabel_demo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = A752BYBDR6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/OpenSSL-Universal/Frameworks/ios",
+					"$(PROJECT_DIR)/whitelabel_demo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = whitelabel_demo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = whitelabel_demo;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses NFC to scan document chip";
+				INFOPLIST_KEY_NSCameraUsageDescription = "scan qr code/document";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for asssted video call";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "use stored document images";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hooyu.whitelabeldemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B4B296427C5320F000D371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8AB7162E7097A2E8F49464 /* Pods-whitelabel_demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_ENTITLEMENTS = whitelabel_demo/whitelabel_demo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = A752BYBDR6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/OpenSSL-Universal/Frameworks/ios",
+					"$(PROJECT_DIR)/whitelabel_demo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = whitelabel_demo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = whitelabel_demo;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses NFC to scan document chip";
+				INFOPLIST_KEY_NSCameraUsageDescription = "scan qr code/document";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for asssted video call";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "use stored document images";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hooyu.whitelabeldemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B4B294927C5320C000D371A /* Build configuration list for PBXProject "whitelabel_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4B296027C5320F000D371A /* Debug */,
+				6B4B296127C5320F000D371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4B296227C5320F000D371A /* Build configuration list for PBXNativeTarget "whitelabel_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4B296327C5320F000D371A /* Debug */,
+				6B4B296427C5320F000D371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B4B294627C5320C000D371A /* Project object */;
+}

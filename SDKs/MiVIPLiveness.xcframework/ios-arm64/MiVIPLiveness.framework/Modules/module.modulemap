@@ -1,0 +1,4 @@
+framework module MiVIPLiveness {
+  header "MiVIPLiveness-Swift.h"
+  requires objc
+}

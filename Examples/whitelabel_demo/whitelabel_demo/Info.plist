@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HOOYU_API_URL</key>
+	<string>https://mivip_instance.com</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location may be requested as an anti-fraud control, as part of the identity verification process by the third party who is making the identity request.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>alert_color</key>
+	<string>#FF203F</string>
+	<key>button_gradirn_end_color</key>
+	<string>#82368c</string>
+	<key>button_gradirn_start_color</key>
+	<string>#e31836</string>
+	<key>button_text_color</key>
+	<string>#FFFFFF</string>
+	<key>com.apple.developer.nfc.readersession.felica.systemcodes</key>
+	<array>
+		<string>12FC</string>
+	</array>
+	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+	<array>
+		<string>A0000002471001</string>
+		<string>A00000045645444C2D3031</string>
+		<string>A0000002472001</string>
+		<string>A000000003101001</string>
+		<string>A000000003101002</string>
+		<string>A0000000041010</string>
+		<string>A0000000042010</string>
+		<string>A0000000044010</string>
+		<string>44464D46412E44466172653234313031</string>
+		<string>D2760000850100</string>
+		<string>D2760000850101</string>
+		<string>00000000000000</string>
+	</array>
+	<key>header_color</key>
+	<string>#002548</string>
+	<key>logo_image</key>
+	<string>my_logo</string>
+	<key>main_color</key>
+	<string>#e31836</string>
+	<key>menu_item_background</key>
+	<string>#ffffff</string>
+</dict>
+</plist>

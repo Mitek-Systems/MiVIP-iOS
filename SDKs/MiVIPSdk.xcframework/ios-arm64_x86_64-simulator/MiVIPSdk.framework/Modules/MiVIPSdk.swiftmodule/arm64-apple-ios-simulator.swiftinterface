@@ -1,0 +1,680 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-bare-slash-regex -module-name MiVIPSdk
+import AVFoundation
+import AVKit
+import AppTrackingTransparency
+import CommonCrypto
+import CommonCrypto/*.CC_LONG*/
+import CommonCrypto/*.CC_MD5*/
+import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
+import CoreLocation
+import CoreMotion
+import DeveloperToolsSupport
+import Foundation
+import LocalAuthentication
+import MiSnap
+import MiSnapCore
+import MiSnapFacialCapture
+import MiSnapFacialCaptureUX
+import MiSnapNFC
+import MiSnapNFCUX
+import MiSnapUX
+import MiSnapVoiceCapture
+import MiSnapVoiceCaptureUX
+import MiVIPApi
+import MiVIPLiveness
+import MobileCoreServices
+import PDFKit
+import QuartzCore
+import Swift
+import SwiftUI
+import UIKit
+import UserNotifications
+import WebKit
+import _Concurrency
+import _CoreNFC_UIKit
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@objc @_Concurrency.MainActor(unsafe) public class BasicTransitionAnimator : ObjectiveC.NSObject, UIKit.UIViewControllerAnimatedTransitioning {
+  @_Concurrency.MainActor(unsafe) public init(options: UIKit.UIView.AnimationOptions = .transitionCrossDissolve, duration: Foundation.TimeInterval = 0.4)
+  @_Concurrency.MainActor(unsafe) @objc public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
+  @_Concurrency.MainActor(unsafe) @objc public func animateTransition(using transitionContext: any UIKit.UIViewControllerContextTransitioning)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class RequestState {
+  public var deviceId: Swift.String?
+  public var requestId: Swift.String?
+  public var businessId: Swift.String?
+  public var environment: Swift.String?
+  public var dpk: Swift.String?
+  public var documentCallbackUrl: Swift.String?
+  public var selfieCallbackUrl: Swift.String?
+  public var request: MiVIPApi.HooyuRequest?
+  public var selfieImage: UIKit.UIImage?
+  public var scoreResponse: MiVIPApi.ScoreResponse?
+  public var submitedDocumentTypes: Swift.Set<MiVIPApi.DocumentType>
+  public var videoPending: Swift.Bool
+  public var openBankingPending: Swift.Bool
+  public var maxSelfieAttemptsReached: Swift.Bool
+  public var compltedSocials: Swift.Set<Swift.String>
+  public var attachments: [Swift.String : MiVIPApi.Attachment]
+  public var poMaxAgeConfig: [MiVIPApi.DocumentType : Swift.Int]
+  public var documentMultiCaptureEnabled: Swift.Bool
+  public var livenessDetectionEnabled: Swift.Bool
+  public var mitekMiSnapCaptureEnabled: Swift.Bool
+  public var mitekFaceRecognition: Swift.Bool
+  public var mipassEnabled: Swift.Bool
+  public var mipassAskEnroll: Swift.Bool
+  public var mipassAskEnrollUserChoiceFace: Swift.Bool
+  public var mipassAskEnrollUserChoiceVoice: Swift.Bool
+  public var maskUserFields: Swift.Bool
+  public var reuseGetDisabled: Swift.Bool
+  public var reuseUseDisabled: Swift.Bool
+  public var disableGdpr: Swift.Bool
+  public var hideProgressBar: Swift.Bool
+  public var liveCaptureOnly: Swift.Set<Swift.String>
+  public var nfcDocumentSetting: Swift.Set<Swift.String>
+  public var oauthRequest: Swift.Bool
+  public var oauthQrCode: Swift.Bool
+  public var redirectDone: Swift.Bool
+  public var voiceSent: Swift.Bool
+  public var voiceError: Swift.Bool
+  public func mipassEnrollFace() -> Swift.Bool
+  public func mipassEnrollVoice() -> Swift.Bool
+  public var businessLogo: UIKit.UIImage?
+  public var primaryColor: UIKit.UIColor?
+  public var secondaryColor: UIKit.UIColor?
+  public var textOnBackgroundColor: UIKit.UIColor?
+  public var secondaryDarkColor: UIKit.UIColor?
+  public var mainButtonBackgroundColor: UIKit.UIColor?
+  public var mainButtonTextColor: UIKit.UIColor?
+  public var mainButtonBorderColor: UIKit.UIColor?
+  public var secButtonBackroundColor: UIKit.UIColor?
+  public var secButtonTextColor: UIKit.UIColor?
+  public var secButtonBorderColor: UIKit.UIColor?
+  public var progressBackgroundColor: UIKit.UIColor?
+  public var progressFillColor: UIKit.UIColor?
+  public var progressBorderColor: UIKit.UIColor?
+  public var textOnWhiteColor: UIKit.UIColor?
+  public var subTextColor: UIKit.UIColor?
+  public var inputTextColor: UIKit.UIColor?
+  public var textLightSecondary: UIKit.UIColor?
+  public var hubBackgroundColor: UIKit.UIColor?
+  public var hubBorderColor: UIKit.UIColor?
+  public var tipBorderColor: UIKit.UIColor?
+  public var tipBackgroundColor: UIKit.UIColor?
+  public var backgroundColor: UIKit.UIColor?
+  public var checkboxBorderColor: UIKit.UIColor?
+  public var successColor: UIKit.UIColor?
+  public var errorColor: UIKit.UIColor?
+  public var processingColor: UIKit.UIColor?
+  public var selectBorderColor: UIKit.UIColor?
+  public var selectTextColor: UIKit.UIColor?
+  public var selectBackgroundColor: UIKit.UIColor?
+  @objc deinit
+}
+@objc public class MBadgeHub : ObjectiveC.NSObject {
+  public init(view: UIKit.UIView)
+  convenience public init?(barButtonItem: UIKit.UIBarButtonItem)
+  public func setView(_ view: UIKit.UIView?, andCount startCount: Swift.Int)
+  public func setCircleAtFrame(_ frame: CoreFoundation.CGRect)
+  public func setCircleColor(_ circleColor: UIKit.UIColor?, label labelColor: UIKit.UIColor?)
+  public func setCircleBorderColor(_ color: UIKit.UIColor?, borderWidth width: CoreFoundation.CGFloat)
+  public func moveCircleBy(x: CoreFoundation.CGFloat, y: CoreFoundation.CGFloat)
+  public func scaleCircleSize(by scale: CoreFoundation.CGFloat)
+  public func increment()
+  public func increment(by amount: Swift.Int)
+  public func decrement()
+  public func decrement(by amount: Swift.Int)
+  public func hide()
+  public func show()
+  public func hideCount()
+  public func showCount()
+  public func getCurrentCount() -> Swift.Int
+  public func setMaxCount(to count: Swift.Int)
+  public func pop()
+  public func blink()
+  public func bump()
+  public func setCount(_ newCount: Swift.Int)
+  public func setCountLabelFont(_ font: UIKit.UIFont?)
+  public func getCountLabelFont() -> UIKit.UIFont?
+  public func bumpCenterY(yVal: CoreFoundation.CGFloat)
+  public func setAlpha(alpha: CoreFoundation.CGFloat)
+  public func checkZero()
+  @objc deinit
+}
+public class MiVIPHub {
+  public static let version: Swift.String
+  public init()
+  public func setReusableEnabled(_ reuseEnabled: Swift.Bool)
+  public func setSoundsDisabled(_ disabled: Swift.Bool)
+  public func setAccountDetails(email: Swift.String?, phone: Swift.String?, name: Swift.String?)
+  public func history(vc: UIKit.UIViewController, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  public func request(vc: UIKit.UIViewController, miVipRequestId: Swift.String, requestStatusDelegate: (any MiVIPSdk.RequestStatusDelegate)? = nil, documentCallbackUrl: Swift.String? = nil, selfieCallbackUrl: Swift.String? = nil, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  public func qrCode(vc: UIKit.UIViewController, requestStatusDelegate: (any MiVIPSdk.RequestStatusDelegate)? = nil, documentCallbackUrl: Swift.String? = nil, selfieCallbackUrl: Swift.String? = nil, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  public func account(vc: UIKit.UIViewController, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  @objc deinit
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var sideMenuController: MiVIPSdk.SideMenuController? {
+    get
+  }
+}
+public func NSLocalizedString(_ key: Swift.String, tableName: Swift.String? = nil, bundle: Foundation.Bundle = Bundle.main, value: Swift.String = "", comment: Swift.String) -> Swift.String
+extension Foundation.NSNotification.Name {
+  public static let hooyuNotificationKey: Foundation.NSNotification.Name
+}
+open class KeychainWrapper {
+  @available(*, deprecated, message: "KeychainWrapper.defaultKeychainWrapper is deprecated since version 2.2.1, use KeychainWrapper.standard instead")
+  public static let defaultKeychainWrapper: MiVIPSdk.KeychainWrapper
+  public static let standard: MiVIPSdk.KeychainWrapper
+  public var serviceName: Swift.String {
+    get
+  }
+  public var accessGroup: Swift.String? {
+    get
+  }
+  public init(serviceName: Swift.String, accessGroup: Swift.String? = nil)
+  open func hasValue(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
+  open func accessibilityOfKey(_ key: Swift.String) -> MiVIPSdk.KeychainItemAccessibility?
+  open func allKeys() -> Swift.Set<Swift.String>
+  open func integer(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Int?
+  open func float(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Float?
+  open func double(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Double?
+  open func bool(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool?
+  open func string(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.String?
+  open func object(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> (any Foundation.NSCoding)?
+  open func data(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Foundation.Data?
+  open func dataRef(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Foundation.Data?
+  @discardableResult
+  open func set(_ value: Swift.Int, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Swift.Float, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Swift.Double, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Swift.Bool, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Swift.String, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: any Foundation.NSCoding, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Foundation.Data, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @available(*, deprecated, message: "remove is deprecated since version 2.2.1, use removeObject instead")
+  @discardableResult
+  open func remove(key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func removeObject(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
+  @discardableResult
+  open func removeAllKeys() -> Swift.Bool
+  open class func wipeKeychain()
+  @objc deinit
+}
+public enum KeychainItemAccessibility {
+  @available(iOS 4, *)
+  case afterFirstUnlock
+  @available(iOS 4, *)
+  case afterFirstUnlockThisDeviceOnly
+  @available(iOS 4, *)
+  case always
+  @available(iOS 8, *)
+  case whenPasscodeSetThisDeviceOnly
+  @available(iOS 4, *)
+  case alwaysThisDeviceOnly
+  @available(iOS 4, *)
+  case whenUnlocked
+  @available(iOS 4, *)
+  case whenUnlockedThisDeviceOnly
+  public static func == (a: MiVIPSdk.KeychainItemAccessibility, b: MiVIPSdk.KeychainItemAccessibility) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CountryPickerViewController : UIKit.UITableViewController {
+  @_Concurrency.MainActor(unsafe) public var searchController: UIKit.UISearchController?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableView.Style)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MiVIPSdk.CountryPickerViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, titleForHeaderInSection section: Swift.Int) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func sectionIndexTitles(for tableView: UIKit.UITableView) -> [Swift.String]?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, sectionForSectionIndexTitle title: Swift.String, at index: Swift.Int) -> Swift.Int
+}
+extension MiVIPSdk.CountryPickerViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, willDisplayHeaderView view: UIKit.UIView, forSection section: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension MiVIPSdk.CountryPickerViewController : UIKit.UISearchResultsUpdating {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func updateSearchResults(for searchController: UIKit.UISearchController)
+}
+extension MiVIPSdk.CountryPickerViewController : UIKit.UISearchBarDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBarTextDidBeginEditing(_ searchBar: UIKit.UISearchBar)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBarCancelButtonClicked(_ searchBar: UIKit.UISearchBar)
+}
+extension MiVIPSdk.CountryPickerViewController : UIKit.UISearchControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func willPresentSearchController(_ searchController: UIKit.UISearchController)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func willDismissSearchController(_ searchController: UIKit.UISearchController)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class CodeInputView : UIKit.UIView, UIKit.UIKeyInput {
+  @_Concurrency.MainActor(unsafe) open var delegate: (any MiVIPSdk.CodeInputViewDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var canBecomeFirstResponder: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc public var hasText: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc open func insertText(_ text: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc open func deleteBackward()
+  @_Concurrency.MainActor(unsafe) open func clear()
+  @_Concurrency.MainActor(unsafe) @objc open var keyboardType: UIKit.UIKeyboardType {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+public protocol CodeInputViewDelegate {
+  func codeInputView(_ codeInputView: MiVIPSdk.CodeInputView, didFinishWithCode code: Swift.String)
+}
+@objc @_Concurrency.MainActor(unsafe) open class CodeInputBoxes : UIKit.UIView, UIKit.UIKeyInput {
+  @_Concurrency.MainActor(unsafe) open var delegate: (any MiVIPSdk.CodeInputBoxesDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var canBecomeFirstResponder: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, textColor: UIKit.UIColor, digits: Swift.Int = 4, isPhone: Swift.Bool, verifyText: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc public var hasText: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc open func insertText(_ text: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func paste(_ text: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc open func deleteBackward()
+  @_Concurrency.MainActor(unsafe) open func clear()
+  @_Concurrency.MainActor(unsafe) @objc open var keyboardType: UIKit.UIKeyboardType {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+public protocol CodeInputBoxesDelegate {
+  func codeInputView(_ codeInputView: MiVIPSdk.CodeInputBoxes, didFinishWithCode code: Swift.String)
+}
+extension MiVIPSdk.SideMenuController {
+  public struct Preferences {
+    @available(iOS, deprecated: 13.0, message: "Status bar animation no longer work after iOS 13")
+    public enum StatusBarBehavior {
+      case none
+      case slide
+      case fade
+      case hideOnMenu
+      public static func == (a: MiVIPSdk.SideMenuController.Preferences.StatusBarBehavior, b: MiVIPSdk.SideMenuController.Preferences.StatusBarBehavior) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+    public enum MenuDirection {
+      case left
+      case right
+      public static func == (a: MiVIPSdk.SideMenuController.Preferences.MenuDirection, b: MiVIPSdk.SideMenuController.Preferences.MenuDirection) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+    public enum MenuPosition {
+      case above
+      case under
+      case sideBySide
+      public static func == (a: MiVIPSdk.SideMenuController.Preferences.MenuPosition, b: MiVIPSdk.SideMenuController.Preferences.MenuPosition) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+    public struct Animation {
+      public var revealDuration: Swift.Double
+      public var hideDuration: Swift.Double
+      public var options: UIKit.UIView.AnimationOptions
+      public var dampingRatio: CoreFoundation.CGFloat
+      public var initialSpringVelocity: CoreFoundation.CGFloat
+      public var shouldAddShadowWhenRevealing: Swift.Bool
+      public var shadowAlpha: CoreFoundation.CGFloat
+      public var shadowColor: UIKit.UIColor
+      public var shouldAddBlurWhenRevealing: Swift.Bool
+    }
+    public struct Configuration {
+      public var menuWidth: CoreFoundation.CGFloat
+      public var position: MiVIPSdk.SideMenuController.Preferences.MenuPosition
+      public var shouldRespectLanguageDirection: Swift.Bool
+      public var forceRightToLeft: Swift.Bool
+      public var direction: MiVIPSdk.SideMenuController.Preferences.MenuDirection
+      @available(iOS, deprecated: 13.0, message: "Status bar animation no longer work after iOS 13")
+      public var statusBarBehavior: MiVIPSdk.SideMenuController.Preferences.StatusBarBehavior
+      public var enablePanGesture: Swift.Bool
+      public var enableRubberEffectWhenPanning: Swift.Bool
+      public var hideMenuWhenEnteringBackground: Swift.Bool
+      public var defaultCacheKey: Swift.String?
+      public var shouldUseContentSupportedOrientations: Swift.Bool
+      public var supportedOrientations: UIKit.UIInterfaceOrientationMask
+      public var shouldAutorotate: Swift.Bool
+      public var panGestureSensitivity: CoreFoundation.CGFloat
+    }
+    public var basic: MiVIPSdk.SideMenuController.Preferences.Configuration
+    public var animation: MiVIPSdk.SideMenuController.Preferences.Animation
+  }
+}
+@_inheritsConvenienceInitializers @objc(JRDropDown) @_Concurrency.MainActor(unsafe) open class MDropDown : UIKit.UITextField {
+  @_Concurrency.MainActor(unsafe) public var selectedIndex: Swift.Int?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var rowHeight: CoreFoundation.CGFloat
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var rowBackgroundColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var itemsColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var itemsTintColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var selectedRowColor: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var hideOptionsWhenSelect: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var isSearchEnable: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var borderColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var listHeight: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var borderWidth: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var cornerRadius: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public var optionArray: [Swift.String] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var optionImageArray: [Swift.String] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var optionIds: [Swift.Int]?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var arrowSize: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var arrowColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var checkMarkEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var handleKeyboard: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) public func showList()
+  @_Concurrency.MainActor(unsafe) public func hideList()
+  @objc @_Concurrency.MainActor(unsafe) public func touchAction()
+  @_Concurrency.MainActor(unsafe) open func searchFilter(text: Swift.String, searchText: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func didSelect(completion: @escaping (_ selectedText: Swift.String, _ index: Swift.Int, _ id: Swift.Int) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func listWillAppear(completion: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func listDidAppear(completion: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func listWillDisappear(completion: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func listDidDisappear(completion: @escaping () -> Swift.Void)
+}
+extension MiVIPSdk.MDropDown : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldBeginEditing(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+}
+extension MiVIPSdk.MDropDown : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+extension MiVIPSdk.MDropDown : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension UIKit.UIColor {
+  convenience public init(hex: Swift.String)
+}
+public protocol RequestStatusDelegate {
+  func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class NibView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class SideMenuSegue : UIKit.UIStoryboardSegue {
+  public enum ContentType : Swift.String {
+    case content
+    case menu
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public var contentType: MiVIPSdk.SideMenuSegue.ContentType
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func perform()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(identifier: Swift.String?, source: UIKit.UIViewController, destination: UIKit.UIViewController)
+  @objc deinit
+}
+public typealias CPVCountry = MiVIPSdk.Country
+public enum SearchBarPosition {
+  case tableViewHeader, navigationBar, hidden
+  public static func == (a: MiVIPSdk.SearchBarPosition, b: MiVIPSdk.SearchBarPosition) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Country : Swift.Equatable {
+  public let name: Swift.String
+  public let code: Swift.String
+  public let phoneCode: Swift.String
+  public func localizedName(_ locale: Foundation.Locale = Locale.current) -> Swift.String?
+  public var flag: UIKit.UIImage {
+    get
+  }
+}
+public func == (lhs: MiVIPSdk.Country, rhs: MiVIPSdk.Country) -> Swift.Bool
+public func != (lhs: MiVIPSdk.Country, rhs: MiVIPSdk.Country) -> Swift.Bool
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CountryPickerViewM : MiVIPSdk.NibView {
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var flagImageView: UIKit.UIImageView! {
+    @objc get
+    @objc set
+  }
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var countryDetailsLabel: UIKit.UILabel!
+  @_Concurrency.MainActor(unsafe) public var showCountryCodeInView: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var showPhoneCodeInView: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var showCountryNameInView: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var font: UIKit.UIFont {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var textColor: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var flagSpacingInView: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak public var dataSource: (any MiVIPSdk.CountryPickerViewDataSource)?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any MiVIPSdk.CountryPickerViewDelegate)?
+  @_Concurrency.MainActor(unsafe) weak public var hostViewController: UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) public var selectedCountry: MiVIPSdk.Country {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public func showCountriesList(from viewController: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) final public let countries: [MiVIPSdk.Country]
+  @objc deinit
+}
+extension MiVIPSdk.CountryPickerViewM {
+  @_Concurrency.MainActor(unsafe) public func setCountryByName(_ name: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func setCountryByPhoneCode(_ phoneCode: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func setCountryByCode(_ code: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func getCountryByName(_ name: Swift.String) -> MiVIPSdk.Country?
+  @_Concurrency.MainActor(unsafe) public func getCountryByPhoneCode(_ phoneCode: Swift.String) -> MiVIPSdk.Country?
+  @_Concurrency.MainActor(unsafe) public func getCountryByCode(_ code: Swift.String) -> MiVIPSdk.Country?
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class SideMenuController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public static var preferences: MiVIPSdk.SideMenuController.Preferences
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var contentSegueID: Swift.String
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var menuSegueID: Swift.String
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any MiVIPSdk.SideMenuControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) open var contentViewController: UIKit.UIViewController! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var menuViewController: UIKit.UIViewController! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var isMenuRevealed: Swift.Bool
+  @_Concurrency.MainActor(unsafe) convenience public init(contentViewController: UIKit.UIViewController, menuViewController: UIKit.UIViewController)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepare(for segue: UIKit.UIStoryboardSegue, sender: Any?)
+  @_Concurrency.MainActor(unsafe) open func revealMenu(animated: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) open func hideMenu(animated: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var childForStatusBarStyle: UIKit.UIViewController? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var childForStatusBarHidden: UIKit.UIViewController? {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) open func cache(viewControllerGenerator: @escaping () -> UIKit.UIViewController?, with identifier: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func cache(viewController: UIKit.UIViewController, with identifier: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func setContentViewController(with identifier: Swift.String, animated: Swift.Bool = false, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) open func setContentViewController(to viewController: UIKit.UIViewController, animated: Swift.Bool = false, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) open func currentCacheIdentifier() -> Swift.String?
+  @_Concurrency.MainActor(unsafe) open func clearCache(with identifier: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension MiVIPSdk.SideMenuController : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}
+public protocol SideMenuControllerDelegate : AnyObject {
+  func sideMenuController(_ sideMenuController: MiVIPSdk.SideMenuController, animationControllerFrom fromVC: UIKit.UIViewController, to toVC: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  func sideMenuController(_ sideMenuController: MiVIPSdk.SideMenuController, willShow viewController: UIKit.UIViewController, animated: Swift.Bool)
+  func sideMenuController(_ sideMenuController: MiVIPSdk.SideMenuController, didShow viewController: UIKit.UIViewController, animated: Swift.Bool)
+  func sideMenuControllerShouldRevealMenu(_ sideMenuController: MiVIPSdk.SideMenuController) -> Swift.Bool
+  func sideMenuControllerWillRevealMenu(_ sideMenuController: MiVIPSdk.SideMenuController)
+  func sideMenuControllerDidRevealMenu(_ sideMenuController: MiVIPSdk.SideMenuController)
+  func sideMenuControllerWillHideMenu(_ sideMenuController: MiVIPSdk.SideMenuController)
+  func sideMenuControllerDidHideMenu(_ sideMenuController: MiVIPSdk.SideMenuController)
+}
+extension MiVIPSdk.SideMenuControllerDelegate {
+  public func sideMenuController(_ sideMenuController: MiVIPSdk.SideMenuController, animationControllerFrom fromVC: UIKit.UIViewController, to toVC: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  public func sideMenuController(_ sideMenuController: MiVIPSdk.SideMenuController, willShow viewController: UIKit.UIViewController, animated: Swift.Bool)
+  public func sideMenuController(_ sideMenuController: MiVIPSdk.SideMenuController, didShow viewController: UIKit.UIViewController, animated: Swift.Bool)
+  public func sideMenuControllerShouldRevealMenu(_ sideMenuController: MiVIPSdk.SideMenuController) -> Swift.Bool
+  public func sideMenuControllerWillRevealMenu(_ sideMenuController: MiVIPSdk.SideMenuController)
+  public func sideMenuControllerDidRevealMenu(_ sideMenuController: MiVIPSdk.SideMenuController)
+  public func sideMenuControllerWillHideMenu(_ sideMenuController: MiVIPSdk.SideMenuController)
+  public func sideMenuControllerDidHideMenu(_ sideMenuController: MiVIPSdk.SideMenuController)
+}
+public protocol CountryPickerViewDelegate : AnyObject {
+  func countryPickerView(_ countryPickerView: MiVIPSdk.CountryPickerViewM, didSelectCountry country: MiVIPSdk.Country)
+  func countryPickerView(_ countryPickerView: MiVIPSdk.CountryPickerViewM, willShow viewController: MiVIPSdk.CountryPickerViewController)
+  func countryPickerView(_ countryPickerView: MiVIPSdk.CountryPickerViewM, didShow viewController: MiVIPSdk.CountryPickerViewController)
+}
+public protocol CountryPickerViewDataSource : AnyObject {
+  func preferredCountries(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> [MiVIPSdk.Country]
+  func sectionTitleForPreferredCountries(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.String?
+  func showOnlyPreferredSection(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.Bool
+  func sectionTitleLabelFont(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> UIKit.UIFont
+  func sectionTitleLabelColor(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> UIKit.UIColor?
+  func cellLabelFont(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> UIKit.UIFont
+  func cellLabelColor(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> UIKit.UIColor?
+  func cellImageViewSize(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> CoreFoundation.CGSize
+  func cellImageViewCornerRadius(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> CoreFoundation.CGFloat
+  func navigationTitle(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.String?
+  func closeButtonNavigationItem(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> UIKit.UIBarButtonItem?
+  func searchBarPosition(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> MiVIPSdk.SearchBarPosition
+  func showPhoneCodeInList(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.Bool
+  func showCountryCodeInList(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.Bool
+  func showCheckmarkInList(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.Bool
+  func localeForCountryNameInList(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Foundation.Locale
+  func excludedCountries(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> [MiVIPSdk.Country]
+}
+extension MiVIPSdk.CountryPickerViewDataSource {
+  public func preferredCountries(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> [MiVIPSdk.Country]
+  public func sectionTitleForPreferredCountries(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.String?
+  public func showOnlyPreferredSection(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.Bool
+  public func sectionTitleLabelFont(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> UIKit.UIFont
+  public func sectionTitleLabelColor(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> UIKit.UIColor?
+  public func cellLabelFont(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> UIKit.UIFont
+  public func cellLabelColor(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> UIKit.UIColor?
+  public func cellImageViewCornerRadius(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> CoreFoundation.CGFloat
+  public func cellImageViewSize(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> CoreFoundation.CGSize
+  public func navigationTitle(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.String?
+  public func closeButtonNavigationItem(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> UIKit.UIBarButtonItem?
+  public func searchBarPosition(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> MiVIPSdk.SearchBarPosition
+  public func showPhoneCodeInList(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.Bool
+  public func showCountryCodeInList(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.Bool
+  public func showCheckmarkInList(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Swift.Bool
+  public func localeForCountryNameInList(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> Foundation.Locale
+  public func excludedCountries(in countryPickerView: MiVIPSdk.CountryPickerViewM) -> [MiVIPSdk.Country]
+}
+extension MiVIPSdk.CountryPickerViewDelegate {
+  public func countryPickerView(_ countryPickerView: MiVIPSdk.CountryPickerViewM, willShow viewController: MiVIPSdk.CountryPickerViewController)
+  public func countryPickerView(_ countryPickerView: MiVIPSdk.CountryPickerViewM, didShow viewController: MiVIPSdk.CountryPickerViewController)
+}
+extension MiVIPSdk.KeychainItemAccessibility : Swift.Equatable {}
+extension MiVIPSdk.KeychainItemAccessibility : Swift.Hashable {}
+@available(iOS, deprecated: 13.0, message: "Status bar animation no longer work after iOS 13")
+extension MiVIPSdk.SideMenuController.Preferences.StatusBarBehavior : Swift.Equatable {}
+@available(iOS, deprecated: 13.0, message: "Status bar animation no longer work after iOS 13")
+extension MiVIPSdk.SideMenuController.Preferences.StatusBarBehavior : Swift.Hashable {}
+extension MiVIPSdk.SideMenuController.Preferences.MenuDirection : Swift.Equatable {}
+extension MiVIPSdk.SideMenuController.Preferences.MenuDirection : Swift.Hashable {}
+extension MiVIPSdk.SideMenuController.Preferences.MenuPosition : Swift.Equatable {}
+extension MiVIPSdk.SideMenuController.Preferences.MenuPosition : Swift.Hashable {}
+extension MiVIPSdk.SideMenuSegue.ContentType : Swift.Equatable {}
+extension MiVIPSdk.SideMenuSegue.ContentType : Swift.Hashable {}
+extension MiVIPSdk.SideMenuSegue.ContentType : Swift.RawRepresentable {}
+extension MiVIPSdk.SearchBarPosition : Swift.Equatable {}
+extension MiVIPSdk.SearchBarPosition : Swift.Hashable {}

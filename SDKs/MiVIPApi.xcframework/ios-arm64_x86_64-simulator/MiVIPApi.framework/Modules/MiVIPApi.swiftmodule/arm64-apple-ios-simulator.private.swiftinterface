@@ -1,0 +1,837 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MiVIPApi
+import AVFoundation
+import AVKit
+import CommonCrypto
+import CoreMotion
+import CryptoKit
+import Foundation
+import SocketRocket
+import Swift
+import UIKit
+import Vision
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@objc @_inheritsConvenienceInitializers public class MiVIPApiSdk : ObjectiveC.NSObject {
+  public func createRequest(name: Swift.String, phone: Swift.String?, email: Swift.String?, scope: Swift.String?, language: Swift.String, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  public func getRequestDetails(referenceId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.HooyuRequest?) -> ())
+  public func getSocials(requestId: Swift.String, completion: @escaping (Swift.Int, [MiVIPApi.Network]?) -> ())
+  public func video(requestId: Swift.String, email: Swift.String, phone: Swift.String, phoneCountryCode: Swift.String, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, completion: @escaping (Swift.String?) -> ())
+  public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?) -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct HooyuRequest : Swift.Decodable {
+  public var id: Foundation.UUID?
+  public var idUser: Foundation.UUID?
+  public var idBillingHistory: Swift.Int?
+  public var requesterEmail: Swift.String?
+  public var requesterName: Swift.String?
+  public var email: Swift.String?
+  public var name: Swift.String?
+  public var phone: Swift.String?
+  public var note: Swift.String?
+  public var requestStatus: MiVIPApi.RequestStatus?
+  public var created: Foundation.Date?
+  public var updated: Foundation.Date?
+  public var scope: Swift.String?
+  public var mandatory: Swift.Array<Swift.String>?
+  public var minDocs: Swift.Int?
+  public var minIdDocs: Swift.Int?
+  public var minPoaDocs: Swift.Int?
+  public var minSocial: Swift.Int?
+  public var started: Foundation.Date?
+  public var completed: Foundation.Date?
+  public var result: MiVIPApi.RequestResult?
+  public var score: Swift.Double?
+  public var idRequestee: Foundation.UUID?
+  public var tabsOrder: Swift.String?
+  public var expiry: Foundation.Date?
+  public var key: Swift.String?
+  public var idClient: Foundation.UUID?
+  public var redirectUri: Swift.String?
+  public var callbackUri: Swift.String?
+  public var shortUrl: Swift.String?
+  public var reference: Swift.String?
+  public var reason: Swift.String?
+  public var checkIdLink: Swift.String?
+  public var threshold: Swift.Int?
+  public var idBusinessUser: Foundation.UUID?
+  public var businessUserName: Swift.String?
+  public var isRead: Swift.Bool?
+  public var isCitizen: Swift.Bool?
+  public var dateOfBirth: Foundation.Date?
+  public var environment: Swift.String?
+  public var isPreview: Swift.Bool?
+  public var lastReminderSent: Foundation.Date?
+  public var language: Swift.String?
+  public var isReviewed: Swift.Bool?
+  public var reviewedDate: Foundation.Date?
+  public var reviewedUser: Foundation.UUID?
+  public var assignedGroup: Foundation.UUID?
+  public var manualFaceMatch: Swift.Bool?
+  public var endDate: Foundation.Date?
+  public var idParent: Foundation.UUID?
+  public var gdpr: Swift.String?
+  public var nfcMandatory: Swift.Array<Swift.String>?
+  public var country: MiVIPApi.CountryCode?
+  public var address: MiVIPApi.Address?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum RequestStatus : Swift.String, Swift.Decodable {
+  case SENT
+  case CANCELLED
+  case CONFIRMATION
+  case EXPIRED
+  case COMPLETED
+  case ABANDONED
+  case BYPASSED
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum RequestResult : Swift.String, Swift.Decodable {
+  case FAIL
+  case PASS
+  case FRAUD
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CountryCode : Swift.Codable {
+  public var code1: Swift.String?
+  public var code2: Swift.String?
+  public var code3: Swift.String?
+  public var name: Swift.String?
+  public var isEu: Swift.Bool?
+  public var isSchengen: Swift.Bool?
+  public var locale: Swift.String?
+  public var lang: Swift.String?
+  public var isEea: Swift.Bool?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol MiVIPVideoDelegate {
+  func videoUrlError()
+  func videoError(localizedError: Swift.String)
+  func videoClosed()
+  func videoWillOpen()
+  func micPermissionDenied()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MiVIPVideoViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var videoDelegate: (any MiVIPApi.MiVIPVideoDelegate)?
+  @_Concurrency.MainActor(unsafe) public func videoSdk(requestId: Swift.String, email: Swift.String, phone: Swift.String, phoneCountryCode: Swift.String, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func video(requestId: Swift.String, businessId: Swift.String, email: Swift.String, phone: Swift.String, phoneCountryCode: Swift.String, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, useSdk: Swift.Bool = false, environment: Swift.String = "live")
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class HyBandwidthTest : ObjectiveC.NSObject, Foundation.URLSessionDelegate, Foundation.URLSessionDataDelegate {
+  public typealias speedTestCompletionHandler = (_ kbytesPerSecond: Swift.Double?, _ error: (any Swift.Error)?) -> Swift.Void
+  public func testDownloadSpeed(withCompletionBlock: @escaping MiVIPApi.HyBandwidthTest.speedTestCompletionHandler)
+  @objc public func urlSession(_ session: Foundation.URLSession, dataTask: Foundation.URLSessionDataTask, didReceive data: Foundation.Data)
+  @objc public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol DocumentDataDelegate {
+  func done(document: MiVIPApi.Document)
+  func error(description: Swift.String?, document: MiVIPApi.Document)
+}
+public class DocumentDataReceiver {
+  public var delegate: (any MiVIPApi.DocumentDataDelegate)?
+  public init(document: MiVIPApi.Document, maxReconnects: Swift.Int = 3)
+  public func start()
+  public func stop()
+  @objc deinit
+}
+public protocol RequestDataDelegate {
+  func callback(response: MiVIPApi.RequestCallbackResponse)
+  func error(description: Swift.String?)
+}
+public class RequestDataReceiver {
+  public var delegate: (any MiVIPApi.RequestDataDelegate)?
+  public init()
+  public func start(reference: Swift.String)
+  public func stop(completed: Swift.Bool)
+  public func isCompleted() -> Swift.Bool
+  @objc deinit
+}
+public protocol ScoreDataDelegate {
+  func callback(response: MiVIPApi.ScoreResponse)
+  func error(description: Swift.String?)
+}
+public class ScoreDataReceiver {
+  public var delegate: (any MiVIPApi.ScoreDataDelegate)?
+  public init(apiUrl: Swift.String? = nil)
+  public func start(requestId: Swift.String)
+  public func stop(completed: Swift.Bool)
+  public func isCompleted() -> Swift.Bool
+  @objc deinit
+}
+public enum SocialType : Swift.String, Swift.CaseIterable, Swift.Decodable {
+  case FACEBOOK
+  case GOOGLE
+  case LINKEDIN
+  case PAYPAL
+  case YAHOO
+  case AMAZON
+  case LIVE
+  case VK
+  case SKYPE
+  case INSTAGRAM
+  case HOOYU
+  public var getType: Swift.String {
+    get
+  }
+  public static func withLabel(_ label: Swift.String) -> MiVIPApi.SocialType?
+  public var order: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MiVIPApi.SocialType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MiVIPApi.SocialType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum DocumentType : Swift.String, Swift.CaseIterable, Swift.Decodable {
+  case PASSPORT
+  case ID
+  case RESIDENCE_PERMIT
+  case VISA
+  case DRIVING
+  case PASS_CARD
+  case UTILITY_BILL
+  case BANK_STATEMENT
+  case TAX
+  case INSURANCE
+  case PROOF_ADDRESS
+  case PAYMENT_CARD
+  case SIGNATURE
+  case BANK_ID
+  public var getType: Swift.String {
+    get
+  }
+  public static func withLabel(_ label: Swift.String) -> MiVIPApi.DocumentType?
+  public var sides: Swift.Int {
+    get
+  }
+  public var documentRatio: CoreFoundation.CGFloat {
+    get
+  }
+  public var isPoaDoc: Swift.Bool {
+    get
+  }
+  public var isIdDoc: Swift.Bool {
+    get
+  }
+  public var hasNfc: Swift.Bool {
+    get
+  }
+  public var isSpecialDoc: Swift.Bool {
+    get
+  }
+  public var hazMrz: Swift.Bool {
+    get
+  }
+  public var order: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MiVIPApi.DocumentType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MiVIPApi.DocumentType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ScoreResponse : Swift.Decodable {
+  public var acceptedMandatory: Swift.Bool?
+  public var completed: [Swift.String]?
+  public var documents: [MiVIPApi.ScoreDocument]?
+  public var face: Swift.String?
+  public var finish: Swift.Bool?
+  public var forceComplete: Swift.Bool?
+  public var inactive: Swift.Bool?
+  public var manualDisabled: Swift.Bool?
+  public var nbDocuments: MiVIPApi.NBDocuments?
+  public var nbSocial: Swift.Int?
+  public var networks: [Swift.String : MiVIPApi.ScoreSocial]?
+  public var score: Swift.Double?
+  public var submittedMandatory: Swift.Bool?
+  public var tip: MiVIPApi.Tip?
+  public var signatureInfo: MiVIPApi.SignatureInfo?
+  public var attachmentsCount: Swift.Int?
+  public var attachments: [Swift.String]?
+  public var attachmentsRejected: [Swift.String]?
+  public var attachmentsCompleted: Swift.Bool?
+  public var videoStatus: MiVIPApi.VideoStatus?
+  public var status: Swift.String?
+  public var oauthRedirectUri: Swift.String?
+  public var openBanking: Swift.Bool?
+  public var voice: Swift.Bool?
+  public var maxSelfieAttempts: Swift.Bool?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct VideoStatus : Swift.Decodable {
+  public var status: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ScoreDocument : Swift.Decodable {
+  public var acceptedRejected: Swift.Bool?
+  public var documentStatus: MiVIPApi.InfoStatus?
+  public var dossierId: Swift.String?
+  public var manual: Swift.Bool?
+  public var paymentCard: Swift.Bool?
+  public var poa: Swift.Bool?
+  public var referenceId: Swift.String?
+  public var service: Swift.String?
+  public var status: Swift.String?
+  public var tooManyAttempts: Swift.Bool?
+  public var type: MiVIPApi.DocumentType?
+  public var updated: Foundation.Date?
+  public var message: Swift.String?
+  public var front: MiVIPApi.DocumentStatus?
+  public var back: MiVIPApi.DocumentStatus?
+  public var fraud: Swift.Bool?
+  public var acceptAsPOA: Swift.Bool?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct NBDocuments : Swift.Decodable {
+  public var submittedDocs: Swift.Int?
+  public var submittedIdDocs: Swift.Int?
+  public var submittedPoaDocs: Swift.Int?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SignatureInfo : Swift.Decodable {
+  public var signature: Swift.Bool?
+  public var message: Swift.String?
+  public var rejectCode: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ScoreSocial : Swift.Decodable {
+  public var name: Swift.String?
+  public var rejectReason: MiVIPApi.RejectReason?
+  public var weak: Swift.Bool?
+  public var updated: Foundation.Date?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Tip : Swift.Decodable {
+  public var category: Swift.String?
+  public var description: Swift.String?
+  public var title: Swift.String?
+  public var type: Swift.String?
+  public var screen: Swift.String?
+  public var linear: Swift.Bool?
+  public var key: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum DocumentStatus : Swift.String, Swift.CaseIterable, Swift.Decodable {
+  case NOT_STARTED
+  case UPLOADED
+  case ANALYZING
+  case PROCESSING
+  case COMPLETED
+  case BAD_QUALITY
+  case OK_QUALITY
+  case ERROR_UPLOAD
+  case ERROR_PROCESSING
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MiVIPApi.DocumentStatus]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MiVIPApi.DocumentStatus] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum InfoStatus : Swift.String, Swift.CaseIterable, Swift.Decodable {
+  case UPLOADED
+  case COMPLETE
+  case WARNING
+  case INCOMPLETE
+  case DANGER
+  case ANALYZING
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MiVIPApi.InfoStatus]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MiVIPApi.InfoStatus] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum VideoRejectCode : Swift.String, Swift.CaseIterable, Swift.Decodable {
+  case BAD_QUALITY_STREAM
+  case BAD_QUALITY_AUDIO
+  case CANT_HEAR_SEE
+  case MISSING_DOCUMENT
+  case DOCUMENT_BAD_CONDITION
+  case IDENTIFICATION_PROCESS_FAILED
+  case USER_PHOTO_MISMATCH
+  case DOCUMENT_TYPE_MISMATCH
+  case DOCUMENT_NUMBER_MISMATCH
+  case USER_NAME_MISMATCH
+  case FIRST_NAME_MISMATCH
+  case SURNAME_MISMATCH
+  case DOCUMENT_INVALID
+  case DOCUMENT_NOT_LOOK_ORIGINAL
+  case MISSING_CAPTURE_USER_PHOTO
+  case MISSING_CAPTURE_DOCUMENT_FRONT
+  case MISSING_CAPTURE_DOCUMENT_BACK
+  case MISSING_DOCUMENT_PHOTO
+  case USER_ACCEPTED_VIDEO
+  case CONNECTIVITY_PROBLEMS
+  case MRZ_INVALID
+  case UNKNOWN
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [MiVIPApi.VideoRejectCode]
+  public typealias RawValue = Swift.String
+  public static var allCases: [MiVIPApi.VideoRejectCode] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class SingleDocumentApi : ObjectiveC.NSObject {
+  public func addDocument(name: Swift.String?, documentType: MiVIPApi.DocumentType, front: Swift.String, back: Swift.String?, nfc: [Swift.String : Swift.String]? = nil, imageData: [Swift.String : Swift.String]? = nil, selfies: [UIKit.UIImage?]? = nil, environment: Swift.String = "live", clientId: Swift.String, secret: Swift.String, apiUrl: Swift.String, callbackUri: Swift.String, reference: Swift.String?, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct NFCData : Swift.Codable {
+  public init()
+  public var documentType: Swift.String?
+  public var documentSubType: Swift.String?
+  public var personalNumber: Swift.String?
+  public var documentNumber: Swift.String?
+  public var issuingAuthority: Swift.String?
+  public var documentExpiryDate: Swift.String?
+  public var dateOfBirth: Swift.String?
+  public var gender: Swift.String?
+  public var nationality: Swift.String?
+  public var lastName: Swift.String?
+  public var firstName: Swift.String?
+  public var passportMRZ: Swift.String?
+  public var passportImage: Swift.String?
+  public var issuingCountry: Swift.String?
+  public func toMap() -> [Swift.String : Swift.String]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum DocumentSide {
+  case FRONT
+  case BACK
+  public static func == (a: MiVIPApi.DocumentSide, b: MiVIPApi.DocumentSide) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class HooyuCoreApi : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public init(apiUri: Swift.String? = nil)
+  public func getRequestDetailsWithDevice(idRequest: Swift.String, account: MiVIPApi.HooyuAccountData, lang: Swift.String, latitude: Swift.String?, longitude: Swift.String?, completion: @escaping (Swift.Int, MiVIPApi.HooyuRequest?) -> ())
+  public func getDataByType(businessId: Swift.String, idRequest: Swift.String, deviceId: Swift.String, type: Swift.String, subType: Swift.String?, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?) -> ())
+  public func reuse(businessId: Swift.String, idRequest: Swift.String, deviceId: Swift.String, dataMap: [Swift.String : Any], environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?) -> ())
+  public func share(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  public func auth(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?) -> ())
+  public func update(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?) -> ())
+  public func getSocials(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.Network]?) -> ())
+  public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String = "", environment: Swift.String = "live", useSdk: Swift.Bool = false, completion: @escaping (Swift.Int, Swift.String?) -> ())
+  public func getRequestStatus(requestId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.ScoreResponse?) -> ())
+  public func getSelfieImage(requestId: Swift.String, filename: Swift.String, completion: @escaping (UIKit.UIImage?) -> ())
+  public func removeSocial(social: Swift.String, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.Bool) -> ())
+  public func getGdprParams(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.String?) -> ())
+  public func gdprAccept(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.Bool) -> ())
+  public func gdprExit(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.Bool) -> ())
+  public func addSignature(image: UIKit.UIImage, requestId: Swift.String, businessId: Swift.String?, environment: Swift.String = "live", lang: Swift.String = "en", base64Image: Swift.String? = nil, useCoreApi: Swift.Bool, completion: @escaping (Swift.Int, Swift.String?) -> ())
+  public func getAttachmentsInfo(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.Attachment]?) -> ())
+  public func getUserAttachments(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.UserAttachment]?) -> ())
+  public func uploadAttachment(image: UIKit.UIImage, type: Swift.String, fileName: Swift.String?, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, MiVIPApi.Attachment?) -> ())
+  public func removeAttachment(type: Swift.String, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, MiVIPApi.Attachment?) -> ())
+  public func getPoaMaxAge(requestId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : Swift.Int]?) -> ())
+  public func hasCode(userAgent: Swift.String, completion: @escaping (Swift.Bool) -> ())
+  public func verifyCode(code: Swift.String, userAgent: Swift.String, completion: @escaping (Swift.String?) -> ())
+  public func getConfig(requestId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?) -> ())
+  public func verifyPhone(phone: Swift.String, deviceId: Swift.String, email: Swift.String, completion: @escaping (Swift.Bool?, Swift.Bool?) -> ())
+  public func confirmPhone(phone: Swift.String, deviceId: Swift.String, code: Swift.String, completion: @escaping (Swift.Bool?) -> ())
+  public func verifyEmail(email: Swift.String, deviceId: Swift.String, lang: Swift.String, completion: @escaping (Swift.Bool?) -> ())
+  public func confirmEmail(email: Swift.String, deviceId: Swift.String, code: Swift.String, completion: @escaping (Swift.Bool?) -> ())
+  public func sendAccountData(account: MiVIPApi.HooyuAccountData, completion: @escaping (Swift.Int) -> ())
+  public func abandon(idRequest: Swift.String, reason: Swift.String, completion: @escaping (Swift.Bool) -> ())
+  public func uploadVoice(voices: [[Swift.String : Swift.String]], requestId: Swift.String, mipassEnroll: Swift.Bool?, lang: Swift.String = "en", completion: @escaping (Swift.Int, Swift.Bool?) -> ())
+  public func getBusinessDetails(requestId: Swift.String, completion: @escaping (Swift.Int, Swift.String?, UIKit.UIImage?, [Swift.String : Swift.String?]?) -> ())
+  @objc deinit
+}
+public struct AnyCodable : Swift.Decodable {
+  public var value: Any
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension MiVIPApi.AnyCodable : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class DocumentResponseHandler : ObjectiveC.NSObject {
+  public class func toDocument(response: MiVIPApi.DocumentResponse, type: MiVIPApi.DocumentType) -> MiVIPApi.Document
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct RequestCallbackResponse : Swift.Decodable {
+  public var reference: Swift.String?
+  public var status: Swift.String?
+  public var score: Swift.Double?
+  public var confirmed: Swift.Bool?
+  public var results: MiVIPApi.Results?
+  public func isFinal() -> Swift.Bool
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Results : Swift.Decodable {
+  public var idRequest: Swift.String?
+  public var name: Swift.String?
+  public var score: Swift.Double?
+  public var picture: Swift.String?
+  public var scores: [Swift.String : Swift.Double]?
+  public var social: [Swift.String : MiVIPApi.Social]?
+  public var documents: [Swift.String : MiVIPApi.DocumentResponse]?
+  public var documentResults: [MiVIPApi.DocumentResponse]?
+  public var videoStatus: MiVIPApi.VideoStatus?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Social : Swift.Decodable {
+  public var name: Swift.String?
+  public var networkId: Swift.String?
+  public var score: Swift.Double?
+  public var rejectReason: MiVIPApi.RejectReason?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct RejectReason : Swift.Decodable {
+  public var rejectCode: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DocumentWrapper : Swift.Decodable {
+  public var document: MiVIPApi.DocumentResponse?
+  public var match: Swift.Bool?
+  public var score: Swift.Double?
+  public var faces: Swift.Double?
+  public var reference: Swift.String?
+  public var referenceId: Swift.String?
+  public var errors: [Swift.String : [Swift.String : Swift.String]]?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DocumentResponse : Swift.Decodable {
+  public var firstname: Swift.String?
+  public var middlenames: Swift.String?
+  public var surname: Swift.String?
+  public var documentNumber: Swift.String?
+  public var personalNumber: Swift.String?
+  public var dateOfBirth: Foundation.Date?
+  public var dateOfIssue: Foundation.Date?
+  public var dateOfExpiry: Foundation.Date?
+  public var age: Swift.Int?
+  public var gender: Swift.String?
+  public var country: Swift.String?
+  public var nationality: Swift.String?
+  public var issuingStateOrOrganization: Swift.String?
+  public var score: Swift.Double?
+  public var placeOfBirth: Swift.String?
+  public var documentId: Swift.String?
+  public var manual: Swift.Bool?
+  public var referenceId: Swift.String?
+  public var idRequest: Swift.String?
+  public var documentNumberValid: Swift.Bool?
+  public var personalNumberValid: Swift.Bool?
+  public var address: MiVIPApi.Address?
+  public var machineReadableZone: MiVIPApi.MachineReadableZone?
+  public var nfcData: MiVIPApi.NFCData?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MachineReadableZone : Swift.Decodable {
+  public var firstname: Swift.String?
+  public var middlenames: Swift.String?
+  public var surname: Swift.String?
+  public var name: Swift.String?
+  public var givenName: Swift.String?
+  public var gender: Swift.String?
+  public var nationality: Swift.String?
+  public var dateOfBirth: Foundation.Date?
+  public var dateOfExpiry: Foundation.Date?
+  public var issuingStateOrOrganization: Swift.String?
+  public var documentNumber: Swift.String?
+  public var personalNumber: Swift.String?
+  public var documentType: Swift.String?
+  public var documentSubType: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Document {
+  public var type: MiVIPApi.DocumentType?
+  public var documentStatus: MiVIPApi.DocumentStaus
+  public var reference: Swift.String?
+  public var callbackUrl: Swift.String?
+  public var frontImageB64: Swift.String?
+  public var backImageB64: Swift.String?
+  public var originalFrontImage: UIKit.UIImage?
+  public var originalBackImage: UIKit.UIImage?
+  public var frontImage: UIKit.UIImage?
+  public var backImage: UIKit.UIImage?
+  public var faceImage: UIKit.UIImage?
+  public var multiImage: UIKit.UIImage?
+  public var pdfBase64: Swift.String?
+  public var imageData: [Swift.String : Swift.String]?
+  public var captureData: [Swift.String : Swift.String]?
+  public var firstname: Swift.String?
+  public var middlenames: Swift.String?
+  public var surname: Swift.String?
+  public var documentNumber: Swift.String?
+  public var personalNumber: Swift.String?
+  public var dateOfBirth: Foundation.Date?
+  public var dateOfIssue: Foundation.Date?
+  public var dateOfExpiry: Foundation.Date?
+  public var age: Swift.Int?
+  public var gender: Swift.String?
+  public var country: Swift.String?
+  public var nationality: Swift.String?
+  public var issuingStateOrOrganization: Swift.String?
+  public var address: MiVIPApi.Address?
+  public var score: Swift.Double?
+  public var placeOfBirth: Swift.String?
+  public var documentId: Swift.String?
+  public var manual: Swift.Bool?
+  public var referenceId: Swift.String?
+  public var idRequest: Swift.String?
+  public var documentNumberValid: Swift.Bool?
+  public var personalNumberValid: Swift.Bool?
+  public var machineReadableZone: MiVIPApi.MachineReadableZone?
+  public var nfcData: MiVIPApi.NFCData?
+  public var nfcRaw: [Swift.String : Swift.String]?
+  public var errors: [Swift.String : [Swift.String : Swift.String]]?
+  public var ocr: MiVIPApi.OcrData?
+  public var ocrIdRequest: Swift.String?
+}
+public enum DocumentStaus {
+  case CREATED
+  case SUBMITED
+  case PROCESSED
+  public static func == (a: MiVIPApi.DocumentStaus, b: MiVIPApi.DocumentStaus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct OcrData {
+  public init()
+  public var documentNumber: Swift.String?
+  public var surname: Swift.String?
+  public var otherNames: Swift.String?
+  public var dateOfBirth: Swift.String?
+  public var dateOfExpiry: Swift.String?
+  public var mrzString: Swift.String?
+  public var issuingCountry: Swift.String?
+}
+public protocol DocumentDelegate {
+  func name() -> Swift.String?
+  func idRequest() -> Swift.String?
+  func needBack(documentType: MiVIPApi.DocumentType)
+  func postDocument(document: MiVIPApi.Document)
+  func done(statusCode: Swift.Int, document: MiVIPApi.Document)
+  func error(didFailWithError error: any Swift.Error, documentType: MiVIPApi.DocumentType?)
+  func willPreprocess(document: MiVIPApi.Document) -> Swift.Bool
+  func preprocess(document: MiVIPApi.Document)
+  func needMultiImage(documentType: MiVIPApi.DocumentType) -> Swift.Bool
+  func askForMultiImage()
+  func multiImageCancelled()
+  func confirmPersonalData(ocrData: MiVIPApi.OcrData, completion: @escaping (MiVIPApi.OcrData) -> ())
+  func getRequestScope() -> Swift.String
+  func getRequestLanguage() -> Swift.String
+  func getRequestEmail() -> Swift.String
+  func creatingRequest()
+  func requestCreated(idRequest: Swift.String?, referenceId: Swift.String?, error: Swift.String?)
+  func userMasking(documentType: MiVIPApi.DocumentType, front: UIKit.UIImage, back: UIKit.UIImage?)
+  func userCountry() -> Swift.String?
+}
+extension MiVIPApi.DocumentDelegate {
+  public func needMultiImage(documentType: MiVIPApi.DocumentType) -> Swift.Bool
+  public func askForMultiImage()
+  public func multiImageCancelled()
+  public func confirmPersonalData(ocrData: MiVIPApi.OcrData, completion: @escaping (MiVIPApi.OcrData) -> ())
+  public func getRequestScope() -> Swift.String
+  public func getRequestLanguage() -> Swift.String
+  public func getRequestEmail() -> Swift.String
+  public func creatingRequest()
+  public func requestCreated(idRequest: Swift.String?, referenceId: Swift.String?, error: Swift.String?)
+  public func userMasking(documentType: MiVIPApi.DocumentType, front: UIKit.UIImage, back: UIKit.UIImage?)
+  public func userCountry() -> Swift.String?
+}
+@objc public class DocumentHandler : ObjectiveC.NSObject {
+  public var transitionStyle: UIKit.UIModalTransitionStyle
+  public var fullscreen: Swift.Bool
+  public var delegate: (any MiVIPApi.DocumentDelegate)?
+  public init(view: UIKit.UIViewController, navigationColor: UIKit.UIColor = .black, useCoreApi: Swift.Bool = false, businessId: Swift.String? = nil, environment: Swift.String = "mobile", createRequest: Swift.Bool = false, apiUri: Swift.String? = nil, userMaskingEnabled: Swift.Bool = false)
+  public func scanFront(type: MiVIPApi.DocumentType)
+  public func scanBack()
+  public func scanMulti()
+  public func uploadDocumentFile()
+  public func getDocument() -> MiVIPApi.Document
+  public func reset(type: MiVIPApi.DocumentType)
+  public func frontDone() -> Swift.Bool
+  public func setFrontImage(image: UIKit.UIImage, resizeImage: Swift.Bool = true, imageB64: Swift.String? = nil)
+  public func setOcr(ocr: MiVIPApi.OcrData)
+  public func setImageData(imageData: [Swift.String : Swift.String])
+  public func setCaptureData(captureData: [Swift.String : Swift.String])
+  public func setPdfBase64(pdfBase64: Swift.String)
+  public func setDocumentCallbackUrl(callbackUrl: Swift.String)
+  public func setBackImage(image: UIKit.UIImage, resizeImage: Swift.Bool = true, imageB64: Swift.String? = nil)
+  public func setNFC(nfc: MiVIPApi.NFCData, rawData: [Swift.String : Swift.String])
+  public func postDocument(doPreporecess: Swift.Bool = true)
+  public func userMaskingDone()
+  @objc deinit
+}
+extension MiVIPApi.DocumentHandler {
+  @available(iOS 13, *)
+  public func ocr(document: MiVIPApi.Document, completion: @escaping (MiVIPApi.OcrData?) -> ())
+}
+public struct Quadrilateral {
+  public var topLeft: CoreFoundation.CGPoint
+  public var topRight: CoreFoundation.CGPoint
+  public var bottomRight: CoreFoundation.CGPoint
+  public var bottomLeft: CoreFoundation.CGPoint
+  public var description: Swift.String {
+    get
+  }
+}
+extension MiVIPApi.Quadrilateral : Swift.Equatable {
+  public static func == (lhs: MiVIPApi.Quadrilateral, rhs: MiVIPApi.Quadrilateral) -> Swift.Bool
+}
+public struct Address : Swift.Codable {
+  public var address1: Swift.String?
+  public var address2: Swift.String?
+  public var address3: Swift.String?
+  public var addressForDisplay: Swift.String?
+  public var country: Swift.String?
+  public var id: Swift.String?
+  public var latitude: Swift.String?
+  public var longitude: Swift.String?
+  public var postcode: Swift.String?
+  public var region: Swift.String?
+  public var state: Swift.String?
+  public var town: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DeviceDetails {
+  public var model: Swift.String?
+  public var modelName: Swift.String?
+  public var systemName: Swift.String?
+  public var systemVersion: Swift.String?
+  public var deviceName: Swift.String?
+}
+public struct Attachment : Swift.Codable {
+  public var key: Swift.String?
+  public var label: Swift.String?
+  public var description: Swift.String?
+  public var filesize: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UserAttachment : Swift.Codable {
+  public var key: Swift.String?
+  public var filename: Swift.String?
+  public var fileSize: Swift.String?
+  public var businessFileName: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Network : Swift.Decodable {
+  public var name: Swift.String?
+  public var key: Swift.String?
+  public var clientId: Swift.String?
+  public var url: Swift.String?
+  public var scope: Swift.String?
+  public var width: Swift.Int?
+  public var height: Swift.Int?
+  public var signOutUrl: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ImageScannerControllerError : Swift.Error {
+  case authorization
+  case inputDevice
+  case capture
+  case ciImageCreation
+  public static func == (a: MiVIPApi.ImageScannerControllerError, b: MiVIPApi.ImageScannerControllerError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MiVIPApi.ImageScannerControllerError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class DeviceIdentifier : ObjectiveC.NSObject {
+  public static func getDeviceData() -> MiVIPApi.DeviceDetails
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct HooyuAccountData {
+  public init(deviceId: Swift.String)
+  public var deviceId: Swift.String
+  public var pushToken: Swift.String?
+  public var email: Swift.String?
+  public var phone: Swift.String?
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DocumentMultiImageScanner2 : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MiVIPApi.DocumentMultiImageScanner2 : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+extension MiVIPApi.RequestStatus : Swift.Equatable {}
+extension MiVIPApi.RequestStatus : Swift.Hashable {}
+extension MiVIPApi.RequestStatus : Swift.RawRepresentable {}
+extension MiVIPApi.RequestResult : Swift.Equatable {}
+extension MiVIPApi.RequestResult : Swift.Hashable {}
+extension MiVIPApi.RequestResult : Swift.RawRepresentable {}
+extension MiVIPApi.SocialType : Swift.Equatable {}
+extension MiVIPApi.SocialType : Swift.Hashable {}
+extension MiVIPApi.SocialType : Swift.RawRepresentable {}
+extension MiVIPApi.DocumentType : Swift.Equatable {}
+extension MiVIPApi.DocumentType : Swift.Hashable {}
+extension MiVIPApi.DocumentType : Swift.RawRepresentable {}
+extension MiVIPApi.DocumentStatus : Swift.Equatable {}
+extension MiVIPApi.DocumentStatus : Swift.Hashable {}
+extension MiVIPApi.DocumentStatus : Swift.RawRepresentable {}
+extension MiVIPApi.InfoStatus : Swift.Equatable {}
+extension MiVIPApi.InfoStatus : Swift.Hashable {}
+extension MiVIPApi.InfoStatus : Swift.RawRepresentable {}
+extension MiVIPApi.VideoRejectCode : Swift.Equatable {}
+extension MiVIPApi.VideoRejectCode : Swift.Hashable {}
+extension MiVIPApi.VideoRejectCode : Swift.RawRepresentable {}
+extension MiVIPApi.DocumentSide : Swift.Equatable {}
+extension MiVIPApi.DocumentSide : Swift.Hashable {}
+extension MiVIPApi.DocumentStaus : Swift.Equatable {}
+extension MiVIPApi.DocumentStaus : Swift.Hashable {}
+extension MiVIPApi.ImageScannerControllerError : Swift.Equatable {}
+extension MiVIPApi.ImageScannerControllerError : Swift.Hashable {}

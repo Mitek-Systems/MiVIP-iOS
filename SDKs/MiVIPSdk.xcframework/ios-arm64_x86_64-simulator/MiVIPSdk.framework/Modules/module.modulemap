@@ -1,0 +1,4 @@
+framework module MiVIPSdk {
+  header "MiVIPSdk-Swift.h"
+  requires objc
+}
