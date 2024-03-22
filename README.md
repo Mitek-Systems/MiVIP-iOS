@@ -99,6 +99,6 @@ Refer to "Create the App Size Report" section of [this article](https://develope
 - - -
 
 # Third-Party Licensing Info
-* [MiVIPApi](Docs/3rd_party_licensing_info.md)
+* [MiVIPSdk](Docs/3rd_party_licensing_info.md)
 
 
