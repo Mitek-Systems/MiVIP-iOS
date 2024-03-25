@@ -1,9 +1,9 @@
 # MiVIP SDK v.3.3.4 for iOS
 
-<!-- ![Platform](https://img.shields.io/cocoapods/p/MiVIP.svg?color=darkgray)
+![Platform](https://img.shields.io/cocoapods/p/MiVIP.svg?color=darkgray)
 ![CocoaPods version](https://img.shields.io/cocoapods/v/MiVIP?color=success)
 ![SPM](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen)
-![Carthage](https://img.shields.io/badge/Carthage-incompatible-red) -->
+![Carthage](https://img.shields.io/badge/Carthage-incompatible-red)
 
 MiVIP’s Native SDK is a fully orchestrated user interface and user journey delivered as an SDK for seamless integration into any native application. The functionality is replicated from the existing Web journey where the same orchestration and white-label customisations are applied, as configured in one centralised location via the web portal. The SDK is packaged together with Mitek’s capture technology, MiSnap. Mitek’s customers can benefit from both Mitek’s market leading capture experience combined with a completely pre-built dynamic user journey, all delivered in a single packaged SDK with low code integration for minimum integration effort and accelerated time to live.
 
