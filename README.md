@@ -29,6 +29,20 @@ For MiSnap integration visit [MiSnap iOS repository](https://github.com/Mitek-Sy
 
 # Adding to your project
 
+## [Cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)
+* add MiVIP pod dependancy. It will download all needed dependancies including MiSnap 5.5.0
+```
+  pod 'MiVIP', '3.3.4'
+```
+* Obtain MiSnap [license key ](https://github.com/Mitek-Systems/MiSnap-iOS?tab=readme-ov-file#license-key)
+
+## [Swift Package Manager (SPM)](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app)
+* Add [MiSnap SDKs](https://github.com/Mitek-Systems/MiSnap-iOS) and obtain a license key
+* Add MiVIP package dependancies (https://github.com/Mitek-Systems/MiVIP-iOS) 
+* Add external dependancy [SocketRocket](https://github.com/facebookincubator/SocketRocket) version 0.7.0
+
+
+## Manual instalation
 * Add [MiSnap SDKs](https://github.com/Mitek-Systems/MiSnap-iOS) and obtain a license key
 * Add MiVIP SDKs to frameworks folder of your project (drag to XCode)
 * Choose option 'Embed & Sign' for your target(s)
