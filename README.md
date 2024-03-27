@@ -108,8 +108,6 @@ In most cases you should be interested in `compressed` size since this is the si
 
 Refer to "Create the App Size Report" section of [this article](https://developer.apple.com/documentation/xcode/reducing-your-app-s-size#Create-the-App-Size-Report) for more details.
 
-</center>
-
 - - -
 
 # Third-Party Licensing Info
