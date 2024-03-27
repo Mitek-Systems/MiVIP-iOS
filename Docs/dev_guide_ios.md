@@ -33,6 +33,7 @@ pod 'MiVIP', '3.3.4'
 3.  Manual installation - you need to install MiSnap SDKs first  - [https://github.com/Mitek-Systems/MiSnap-iOS](https://github.com/Mitek-Systems/MiSnap-iOS)
 
 * On top of MiSnap - drag additional MiVIP SDKs to Frameworks folder:
+
 <center>
 
 ![Add frameworks](images/frameworks.png)
@@ -72,6 +73,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 ```
 
 * SDKs must be embedded and signed in the main app:
+
 <center>
 
 ![Embed And Sign](images/embed_sign.png)
@@ -120,6 +122,7 @@ Application will ask user to grant permissions when needed (e.g. when start capt
 ## NFC config
 
 * Add app capability - _Near Field Communication Tag Reading_
+
 <center>
 
 ![NFC](images/NFC1.png)
@@ -237,6 +240,7 @@ Refer to "Create the App Size Report" section of [this article](https://develope
 
 
 ## System Requirements
+
 <center>
 
 | Technology | Version |
