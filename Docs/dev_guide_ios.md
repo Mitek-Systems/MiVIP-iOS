@@ -19,9 +19,9 @@ SDK also includes wallet/account/history functionality.
 ## Installation
 
 1. [Cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)
-* add MiVIP pod dependancy. It will download all needed dependancies including MiSnap 5.5.0
+* add MiVIP pod dependancy. It will download all needed dependancies including MiSnap 5.5.1
 
-pod 'MiVIP', '3.3.4'
+pod 'MiVIP', '3.3.5'
 
 * Obtain MiSnap [license key](https://github.com/Mitek-Systems/MiSnap-iOS?tab=readme-ov-file#license-key)
 
@@ -52,14 +52,14 @@ source 'https://github.com/CocoaPods/Specs.git'
         
           # Pods for whitelabel_demo
           pod 'SocketRocket', '0.7.0'
-          pod 'MiSnap', '5.5.0'
-          pod 'MiSnapUX', '5.5.0'
-          pod 'MiSnapFacialCapture', '5.5.0'
-          pod 'MiSnapFacialCaptureUX', '5.5.0'
-          pod 'MiSnapVoiceCapture', '5.5.0'
-          pod 'MiSnapVoiceCaptureUX', '5.5.0'
-          pod 'MiSnapNFC', '5.5.0'
-          pod 'MiSnapNFCUX', '5.5.0'
+          pod 'MiSnap', '5.5.1'
+          pod 'MiSnapUX', '5.5.1'
+          pod 'MiSnapFacialCapture', '5.5.1'
+          pod 'MiSnapFacialCaptureUX', '5.5.1'
+          pod 'MiSnapVoiceCapture', '5.5.1'
+          pod 'MiSnapVoiceCaptureUX', '5.5.1'
+          pod 'MiSnapNFC', '5.5.1'
+          pod 'MiSnapNFCUX', '5.5.1'
         
         end
         
@@ -245,7 +245,7 @@ Refer to "Create the App Size Report" section of [this article](https://develope
 
 | Technology | Version |
 | :--- | :---: |
-| MiSnap | 5.5.0 |
+| MiSnap | 5.5.1 |
 | Xcode | 14.0 |
 | iOS | 13.0 |
 | iPhone | 7 |

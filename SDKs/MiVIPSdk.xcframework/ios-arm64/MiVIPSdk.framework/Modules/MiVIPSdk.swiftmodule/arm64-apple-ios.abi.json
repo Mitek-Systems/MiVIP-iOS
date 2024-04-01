@@ -15834,6 +15834,13 @@
       },
       {
         "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -26731,7 +26738,7 @@
       "kind": "StringLiteral",
       "offset": 217,
       "length": 7,
-      "value": "\"3.3.4\""
+      "value": "\"3.3.5\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
@@ -28493,14 +28500,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/NewMainMenuViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6752,
+      "offset": 6751,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/NewMainMenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16798,
+      "offset": 16797,
       "length": 1,
       "value": "0"
     },
@@ -28549,14 +28556,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/attachments\/AttachmentsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 444,
+      "offset": 470,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/attachments\/AttachmentsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 732,
+      "offset": 758,
       "length": 3,
       "value": "150"
     },

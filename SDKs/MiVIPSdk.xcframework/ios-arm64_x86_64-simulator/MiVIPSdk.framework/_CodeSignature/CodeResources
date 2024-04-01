@@ -546,7 +546,7 @@
 		</data>
 		<key>CountryCodes.json</key>
 		<data>
-		/3u3PiFbflu9kkgSVcbCLzWUcV8=
+		LNVG3hG+ur1EA4kOZI2XotgNQLE=
 		</data>
 		<key>CountryPickerViewM.nib</key>
 		<data>
@@ -734,11 +734,7 @@
 		</data>
 		<key>Headers/MiVIPSdk-Swift.h</key>
 		<data>
-		BcZAgXGKCyZ53G6rqAUdJqXiI5k=
-		</data>
-		<key>ID.png</key>
-		<data>
-		sBWHppyrrIDnmLOKXWK5qL4tJZ8=
+		A0/cRQ53nmFb6i6jjmvGFZgLHu8=
 		</data>
 		<key>IE.png</key>
 		<data>
@@ -980,13 +976,9 @@
 		<data>
 		iztY/pXkzsWwIFxveU3UI2tiWUg=
 		</data>
-		<key>MitekAppPrivacyInfo.xcprivacy</key>
-		<data>
-		pmf0wirz62EHwDfXyglyv4CMbgg=
-		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gRDrbYxtR7l4n6zAIhBBz+7MNuc=
+		l+zwFtfUBs/d2mrJzoZnk5zikLM=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1002,11 +994,11 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l+YuLmi88IWMr2ytQ8+dinMAJN4=
+		0B//fOHIZa3FiaLNuisozFyCB/I=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gRDrbYxtR7l4n6zAIhBBz+7MNuc=
+		l+zwFtfUBs/d2mrJzoZnk5zikLM=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1022,7 +1014,7 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PRsqG3Om8qNlk1fTvcTDU6ixmkk=
+		wISmlFgr5TTrmEHjcjS+z0qYndA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1135,6 +1127,10 @@
 		<key>PY.png</key>
 		<data>
 		O2xMe3LNTwqPkemuCS7r8hLvqwU=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		TBE5UyFoU1AcG/ti/YYjbJMWT94=
 		</data>
 		<key>QA.png</key>
 		<data>
@@ -1409,7 +1405,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GGa/ENWyaTACZrgbNjAm9vDbvQ4=
+			idQl4dWRAn7cxPHaTDrxk4THACo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2366,7 +2362,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DBunAMwuy8pKM1FS22ef0q5ToUG+ADVxQx56vNNtsao=
+			ZVZKr4y1fkjfZLYSVpl+BMO/NiPFlGztAdnaYbn4L/o=
 			</data>
 		</dict>
 		<key>CountryPickerViewM.nib</key>
@@ -2695,14 +2691,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JQu94ju22YiKmP08KzY9Z5PjeTDgDZzIwduZuvfOfOg=
-			</data>
-		</dict>
-		<key>ID.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			usIDkiZMicTpEpLvFa5mPPs2mKwNNbCL9wEK92xiwGE=
+			zhlq7MRFSfN2FJ0e3BftFYZGyXgmlHdJxyM6RG59PpU=
 			</data>
 		</dict>
 		<key>IE.png</key>
@@ -3118,18 +3107,11 @@
 			iKhjyaZDJNDH4FILgrvuY361EraHD7jAcjk0ThBjb8M=
 			</data>
 		</dict>
-		<key>MitekAppPrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			igwTEw0mnGfeJV73k7XY6agl064v+S5T+vMtiPKHbVk=
-			</data>
-		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A4qS9IkJLrMHg/CHQaSoM1YJFrWJZIXh9I8tsEvsrj4=
+			XJMCkO7lxMlR0/7hpZFvgQTCq/BnnF2tCSOGcmIKIYg=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -3157,14 +3139,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zBuy9UxhkfIP+OOBWY/62a2EV//QbdLZGGFvfEOexqI=
+			LRMVAl8aXxWW2kV5qAP5hH0o4yb8voi/p17mYaqnTvQ=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A4qS9IkJLrMHg/CHQaSoM1YJFrWJZIXh9I8tsEvsrj4=
+			XJMCkO7lxMlR0/7hpZFvgQTCq/BnnF2tCSOGcmIKIYg=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -3192,7 +3174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i/uGqeLePZ7vwItmHw4ty752e5WrLFEWPQBjBFCG9T4=
+			5wDDqAzHvG8EYVZwsmcyaR9sAbtdVNdFYmEEkfSZj8A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -3389,6 +3371,13 @@
 			<key>hash2</key>
 			<data>
 			769KhtbOAUJUhdJcFf2/pnhkjA0Tynr4HOV7r6QPntc=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7kP8UWgXpWNgx3rImdZyuwCQh6Le+pS4CH2ObLH6mlE=
 			</data>
 		</dict>
 		<key>QA.png</key>
@@ -3859,7 +3848,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DBjI3Impzm88vFfdPgdROYexJkr+z0X9jyT4pdFijGY=
+			X57JAxJQyAfgza1o5jHg5PdoVWqUxxK6JPkyFtfo/fc=
 			</data>
 			<key>optional</key>
 			<true/>

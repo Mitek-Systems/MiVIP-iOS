@@ -1,4 +1,4 @@
-# MiVIP SDK v.3.3.4 for iOS
+# MiVIP SDK v.3.3.5 for iOS
 
 ![Platform](https://img.shields.io/cocoapods/p/MiVIP.svg?color=darkgray)
 ![CocoaPods version](https://img.shields.io/cocoapods/v/MiVIP?color=success)
@@ -16,7 +16,7 @@ MiVIP’s Native SDK is a fully orchestrated user interface and user journey del
 
 | Technology | Version |
 | :--- | :---: |
-| MiSnap | 5.5.0 |
+| MiSnap | 5.5.1 |
 | Xcode | 14.0 |
 | iOS | 13.0 |
 | iPhone | 7 |
@@ -30,9 +30,9 @@ For MiSnap integration visit [MiSnap iOS repository](https://github.com/Mitek-Sy
 # Adding to your project
 
 ## [Cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)
-* add MiVIP pod dependancy. It will download all needed dependancies including MiSnap 5.5.0
+* add MiVIP pod dependancy. It will download all needed dependancies including MiSnap 5.5.1
 ```
-  pod 'MiVIP', '3.3.4'
+  pod 'MiVIP', '3.3.5'
 ```
 * Obtain MiSnap [license key ](https://github.com/Mitek-Systems/MiSnap-iOS?tab=readme-ov-file#license-key)
 

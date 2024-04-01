@@ -397,12 +397,12 @@ SWIFT_CLASS("_TtC8MiVIPSdk25AccountMenuViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class UIScrollView;
 
 @interface AccountMenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
-
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk32AccountOpenBankingViewController")
@@ -540,9 +540,16 @@ SWIFT_CLASS("_TtC8MiVIPSdk25AttachmentsViewController")
 - (void)viewDidLoad;
 - (void)backWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
 - (void)removeAttachmentWithGesture:(AttachmentGesture * _Nonnull)gesture;
-- (void)addAttachmentWithGesture:(AttachmentGesture * _Nonnull)gesture;
+- (void)addAttachmentImageWithGesture:(AttachmentGesture * _Nonnull)gesture;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIDocumentPickerViewController;
+
+@interface AttachmentsViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIDocumentPickerDelegate>
+- (void)documentPicker:(UIDocumentPickerViewController * _Nonnull)controller didPickDocumentsAtURLs:(NSArray<NSURL *> * _Nonnull)urls;
+- (void)documentPickerWasCancelled:(UIDocumentPickerViewController * _Nonnull)controller;
 @end
 
 @class UIImagePickerController;
@@ -634,7 +641,6 @@ SWIFT_CLASS("_TtC8MiVIPSdk28CommonDocumentViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIDocumentPickerViewController;
 
 @interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIDocumentPickerDelegate>
 - (void)documentPicker:(UIDocumentPickerViewController * _Nonnull)controller didPickDocumentsAtURLs:(NSArray<NSURL *> * _Nonnull)urls;
@@ -648,17 +654,17 @@ SWIFT_CLASS("_TtC8MiVIPSdk28CommonDocumentViewController")
 @end
 
 
-@interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk))
-- (void)maskingDoneWithGesture:(MaskingGesture * _Nonnull)gesture;
-- (void)confirmMaskingWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
-@end
-
-
 @interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk)) <MiSnapNFCViewControllerDelegate>
 - (void)miSnapNfcLicenseStatus:(enum MiSnapLicenseStatus)status;
 - (void)miSnapNfcSuccess:(NSDictionary<NSString *, id> * _Nonnull)result;
 - (void)miSnapNfcCancelled:(NSDictionary<NSString *, id> * _Nonnull)result;
 - (void)miSnapNfcSkipped:(NSDictionary<NSString *, id> * _Nonnull)result;
+@end
+
+
+@interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk))
+- (void)maskingDoneWithGesture:(MaskingGesture * _Nonnull)gesture;
+- (void)confirmMaskingWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
 @end
 
 @class MiSnapResult;
@@ -1088,10 +1094,10 @@ SWIFT_CLASS("_TtC8MiVIPSdk18MenuViewController")
 @end
 
 
-
 @interface MenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
+
 
 
 
@@ -2025,12 +2031,12 @@ SWIFT_CLASS("_TtC8MiVIPSdk25AccountMenuViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class UIScrollView;
 
 @interface AccountMenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
-
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk32AccountOpenBankingViewController")
@@ -2168,9 +2174,16 @@ SWIFT_CLASS("_TtC8MiVIPSdk25AttachmentsViewController")
 - (void)viewDidLoad;
 - (void)backWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
 - (void)removeAttachmentWithGesture:(AttachmentGesture * _Nonnull)gesture;
-- (void)addAttachmentWithGesture:(AttachmentGesture * _Nonnull)gesture;
+- (void)addAttachmentImageWithGesture:(AttachmentGesture * _Nonnull)gesture;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIDocumentPickerViewController;
+
+@interface AttachmentsViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIDocumentPickerDelegate>
+- (void)documentPicker:(UIDocumentPickerViewController * _Nonnull)controller didPickDocumentsAtURLs:(NSArray<NSURL *> * _Nonnull)urls;
+- (void)documentPickerWasCancelled:(UIDocumentPickerViewController * _Nonnull)controller;
 @end
 
 @class UIImagePickerController;
@@ -2262,7 +2275,6 @@ SWIFT_CLASS("_TtC8MiVIPSdk28CommonDocumentViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIDocumentPickerViewController;
 
 @interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIDocumentPickerDelegate>
 - (void)documentPicker:(UIDocumentPickerViewController * _Nonnull)controller didPickDocumentsAtURLs:(NSArray<NSURL *> * _Nonnull)urls;
@@ -2276,17 +2288,17 @@ SWIFT_CLASS("_TtC8MiVIPSdk28CommonDocumentViewController")
 @end
 
 
-@interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk))
-- (void)maskingDoneWithGesture:(MaskingGesture * _Nonnull)gesture;
-- (void)confirmMaskingWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
-@end
-
-
 @interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk)) <MiSnapNFCViewControllerDelegate>
 - (void)miSnapNfcLicenseStatus:(enum MiSnapLicenseStatus)status;
 - (void)miSnapNfcSuccess:(NSDictionary<NSString *, id> * _Nonnull)result;
 - (void)miSnapNfcCancelled:(NSDictionary<NSString *, id> * _Nonnull)result;
 - (void)miSnapNfcSkipped:(NSDictionary<NSString *, id> * _Nonnull)result;
+@end
+
+
+@interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk))
+- (void)maskingDoneWithGesture:(MaskingGesture * _Nonnull)gesture;
+- (void)confirmMaskingWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
 @end
 
 @class MiSnapResult;
@@ -2716,10 +2728,10 @@ SWIFT_CLASS("_TtC8MiVIPSdk18MenuViewController")
 @end
 
 
-
 @interface MenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
+
 
 
 
