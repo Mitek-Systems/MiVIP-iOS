@@ -185,11 +185,11 @@ Application will ask user to grant permissions when needed (e.g. when start capt
     	…
     
     	// Start SDK with request QR code scan option
-    	mivip.qrCode(vc: self, requestStatusDelegate: self, documentCallbackUrl: documentCallbackUrl, selfieCallbackUrl: nil)
+    	mivip.qrCode(vc: self, requestStatusDelegate: self, documentCallbackUrl: documentCallbackUrl)
     
     	// Directly open ID request
     	let idRequest = "35cd1bf3-553b-485e-822f-bba55c9b03e3"
-    	mivip.request(vc: self, miVipRequestId: idRequest, requestStatusDelegate: self, documentCallbackUrl: documentCallbackUrl, selfieCallbackUrl: nil)
+    	mivip.request(vc: self, miVipRequestId: idRequest, requestStatusDelegate: self, documentCallbackUrl: documentCallbackUrl)
     
     	// See history of opened requests:
     	mivip.history(vc: self)
@@ -211,7 +211,6 @@ Application will ask user to grant permissions when needed (e.g. when start capt
 ```
 
 * _documentCallbackUrl_ - optional parameter when opening request. If set (and callback domain whitelisted at MiVIP) document API will notify with server to server callbacks for document status. Must start with https://
-* _selfieCallbackUrl_ - optional parameter when opening request. If set (and callback domain whitelisted at MiVIP) face API will notify with server to server callbacks for liveness/selfie status. Must start with https://
 
 # SDKs Files and Sizes
 

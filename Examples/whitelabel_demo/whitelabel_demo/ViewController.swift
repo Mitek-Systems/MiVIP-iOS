@@ -45,14 +45,14 @@ class ViewController: UIViewController {
         
         switch scope {
         case "QR":
-            mivip.qrCode(vc: self, requestStatusDelegate: self, documentCallbackUrl: documentCallbackTextField.text, selfieCallbackUrl: nil)
+            mivip.qrCode(vc: self, requestStatusDelegate: self, documentCallbackUrl: documentCallbackTextField.text)
         case "history":
             mivip.history(vc: self)
         case "account":
             mivip.account(vc: self)
         case "request":
             guard let idRequest = requestIdTextField.text else {return} // "35cd1bf3-553b-485e-822f-bba55c9b03e3"
-            mivip.request(vc: self, miVipRequestId: idRequest, requestStatusDelegate: self, documentCallbackUrl: documentCallbackTextField.text, selfieCallbackUrl: nil)
+            mivip.request(vc: self, miVipRequestId: idRequest, requestStatusDelegate: self, documentCallbackUrl: documentCallbackTextField.text)
         default:
             print("Unknown scope")
         }
