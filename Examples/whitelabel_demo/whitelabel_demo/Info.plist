@@ -2,8 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>WorkSans-Black.otf</string>
+		<string>WorkSans-Bold.otf</string>
+		<string>WorkSans-ExtraBold.otf</string>
+		<string>WorkSans-ExtraLight.otf</string>
+		<string>WorkSans-Light.otf</string>
+		<string>WorkSans-Medium.otf</string>
+		<string>WorkSans-Regular.otf</string>
+		<string>WorkSans-Thin.otf</string>
+		<string>WorkSans-SemiBold.otf</string>
+	</array>
 	<key>HOOYU_API_URL</key>
-	<string>https://mivip_instance.com</string>
+	<string>https://mivip-instance.com</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Your location may be requested as an anti-fraud control, as part of the identity verification process by the third party who is making the identity request.</string>
 	<key>UIApplicationSceneManifest</key>
@@ -53,11 +65,11 @@
 		<string>00000000000000</string>
 	</array>
 	<key>header_color</key>
-	<string>#002548</string>
+	<string>#E2001A</string>
 	<key>logo_image</key>
 	<string>my_logo</string>
 	<key>main_color</key>
-	<string>#e31836</string>
+	<string>#ffffff</string>
 	<key>menu_item_background</key>
 	<string>#ffffff</string>
 </dict>

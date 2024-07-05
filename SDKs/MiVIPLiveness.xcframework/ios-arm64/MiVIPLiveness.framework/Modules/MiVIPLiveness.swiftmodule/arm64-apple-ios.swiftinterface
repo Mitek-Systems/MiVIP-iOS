@@ -15,12 +15,12 @@ import os
 @objc @_inheritsConvenienceInitializers public class SelfieApi : ObjectiveC.NSObject {
   @objc override dynamic public init()
   public init(useCoreApi: Swift.Bool, environment: Swift.String, apiUri: Swift.String? = nil)
-  public func addSelfie(_ face: UIKit.UIImage, _ idRequest: Swift.String?, _ businessId: Swift.String?, _ mipassEnroll: Swift.Bool = false, callbackUrl: Swift.String? = nil, completion: @escaping (Swift.Int, UIKit.UIImage?, UIKit.UIImage?, UIKit.UIImage?, Swift.Bool?) -> ())
-  public func liveness(_ faces: [UIKit.UIImage?], _ reference: Swift.String?, _ idRequest: Swift.String?, _ businessId: Swift.String?, _ mipassEnroll: Swift.Bool = false, _ captureData: [Swift.String : Swift.String]? = nil, base64Image: Swift.String? = nil, callbackUrl: Swift.String? = nil, completion: @escaping (Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Bool?) -> ())
+  public func addSelfie(_ face: UIKit.UIImage, _ idRequest: Swift.String?, _ businessId: Swift.String?, _ mipassEnroll: Swift.Bool = false, callbackUrl: Swift.String? = nil, completion: @escaping (Swift.Int, UIKit.UIImage?, UIKit.UIImage?, UIKit.UIImage?, Swift.Bool?, Swift.String?) -> ())
+  public func liveness(_ faces: [UIKit.UIImage?], _ reference: Swift.String?, _ idRequest: Swift.String?, _ businessId: Swift.String?, _ mipassEnroll: Swift.Bool = false, _ captureData: [Swift.String : Swift.String]? = nil, base64Image: Swift.String? = nil, completion: @escaping (Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Bool?, Swift.String?) -> ())
   @objc deinit
 }
 public protocol LivenessDelegate : AnyObject {
-  func done(_ httpStatusCode: Swift.Int, _ faceDetected: Swift.Bool, _ face: UIKit.UIImage?, _ faceThumb: UIKit.UIImage?, _ livenessImages: [UIKit.UIImage?], _ maxAttemptsReached: Swift.Bool?)
+  func done(_ httpStatusCode: Swift.Int, _ faceDetected: Swift.Bool, _ face: UIKit.UIImage?, _ faceThumb: UIKit.UIImage?, _ livenessImages: [UIKit.UIImage?], _ maxAttemptsReached: Swift.Bool?, _ error: Swift.String?)
   func getReference() -> Swift.String?
   func getRequestid() -> Swift.String?
   func getBuisnessId() -> Swift.String?
@@ -29,7 +29,7 @@ public protocol LivenessDelegate : AnyObject {
 }
 @objc public class FaceDetector : ObjectiveC.NSObject, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
   public var delegate: (any MiVIPLiveness.LivenessDelegate)?
-  public init(view: UIKit.UIView, textBackgroundColor: UIKit.UIColor = UIColor.black, textBackgroundColorDone: UIKit.UIColor = UIColor.black, fullscreen: Swift.Bool, useCoreApi: Swift.Bool = false, environment: Swift.String = "mobile", miPassEnroll: Swift.Bool = false, apiUri: Swift.String? = nil, callbackUrl: Swift.String? = nil)
+  public init(view: UIKit.UIView, textBackgroundColor: UIKit.UIColor = UIColor.black, textBackgroundColorDone: UIKit.UIColor = UIColor.black, fullscreen: Swift.Bool, useCoreApi: Swift.Bool = false, environment: Swift.String = "mobile", miPassEnroll: Swift.Bool = false, apiUri: Swift.String? = nil)
   public func start()
   public func reset()
   @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)

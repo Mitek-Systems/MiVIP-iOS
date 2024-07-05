@@ -903,116 +903,6 @@
           },
           {
             "kind": "Var",
-            "name": "selfieCallbackUrl",
-            "printedName": "selfieCallbackUrl",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MiVIPSdk12RequestStateC17selfieCallbackUrlSSSgvp",
-            "mangledName": "$s8MiVIPSdk12RequestStateC17selfieCallbackUrlSSSgvp",
-            "moduleName": "MiVIPSdk",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MiVIPSdk12RequestStateC17selfieCallbackUrlSSSgvg",
-                "mangledName": "$s8MiVIPSdk12RequestStateC17selfieCallbackUrlSSSgvg",
-                "moduleName": "MiVIPSdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MiVIPSdk12RequestStateC17selfieCallbackUrlSSSgvs",
-                "mangledName": "$s8MiVIPSdk12RequestStateC17selfieCallbackUrlSSSgvs",
-                "moduleName": "MiVIPSdk",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8MiVIPSdk12RequestStateC17selfieCallbackUrlSSSgvM",
-                "mangledName": "$s8MiVIPSdk12RequestStateC17selfieCallbackUrlSSSgvM",
-                "moduleName": "MiVIPSdk",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "request",
             "printedName": "request",
             "children": [
@@ -8096,6 +7986,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MiVIPApi",
         "printedName": "MiVIPApi",
         "declKind": "Import",
@@ -8112,10 +8012,200 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "MiSnap",
+        "printedName": "MiSnap",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "MiVIPApi",
+        "printedName": "MiVIPApi",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
         "kind": "TypeDecl",
         "name": "MiVIPHub",
         "printedName": "MiVIPHub",
         "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "LicenseError",
+            "printedName": "LicenseError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "license",
+                "printedName": "license",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MiVIPSdk.MiVIPHub.LicenseError.Type) -> MiVIPSdk.MiVIPHub.LicenseError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LicenseError",
+                        "printedName": "MiVIPSdk.MiVIPHub.LicenseError",
+                        "usr": "s:8MiVIPSdk0A6VIPHubC12LicenseErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "MiVIPSdk.MiVIPHub.LicenseError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LicenseError",
+                            "printedName": "MiVIPSdk.MiVIPHub.LicenseError",
+                            "usr": "s:8MiVIPSdk0A6VIPHubC12LicenseErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8MiVIPSdk0A6VIPHubC12LicenseErrorO7licenseyA2EmF",
+                "mangledName": "$s8MiVIPSdk0A6VIPHubC12LicenseErrorO7licenseyA2EmF",
+                "moduleName": "MiVIPSdk"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MiVIPSdk.MiVIPHub.LicenseError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LicenseError",
+                        "printedName": "MiVIPSdk.MiVIPHub.LicenseError",
+                        "usr": "s:8MiVIPSdk0A6VIPHubC12LicenseErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8MiVIPSdk0A6VIPHubC12LicenseErrorO8rawValueAESgSS_tcfc",
+                "mangledName": "$s8MiVIPSdk0A6VIPHubC12LicenseErrorO8rawValueAESgSS_tcfc",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8MiVIPSdk0A6VIPHubC12LicenseErrorO8rawValueSSvp",
+                "mangledName": "$s8MiVIPSdk0A6VIPHubC12LicenseErrorO8rawValueSSvp",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8MiVIPSdk0A6VIPHubC12LicenseErrorO8rawValueSSvg",
+                    "mangledName": "$s8MiVIPSdk0A6VIPHubC12LicenseErrorO8rawValueSSvg",
+                    "moduleName": "MiVIPSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:8MiVIPSdk0A6VIPHubC12LicenseErrorO",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC12LicenseErrorO",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
           {
             "kind": "Var",
             "name": "version",
@@ -8180,12 +8270,13 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8MiVIPSdk0A6VIPHubCACycfc",
-            "mangledName": "$s8MiVIPSdk0A6VIPHubCACycfc",
+            "usr": "s:8MiVIPSdk0A6VIPHubCACyKcfc",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubCACyKcfc",
             "moduleName": "MiVIPSdk",
             "declAttributes": [
               "AccessControl"
             ],
+            "throwing": true,
             "init_kind": "Designated"
           },
           {
@@ -8234,6 +8325,32 @@
             "declKind": "Func",
             "usr": "s:8MiVIPSdk0A6VIPHubC17setSoundsDisabledyySbF",
             "mangledName": "$s8MiVIPSdk0A6VIPHubC17setSoundsDisabledyySbF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogDisabled",
+            "printedName": "setLogDisabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC14setLogDisabledyySbF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC14setLogDisabledyySbF",
             "moduleName": "MiVIPSdk",
             "declAttributes": [
               "AccessControl"
@@ -8364,7 +8481,7 @@
           {
             "kind": "Function",
             "name": "request",
-            "printedName": "request(vc:miVipRequestId:requestStatusDelegate:documentCallbackUrl:selfieCallbackUrl:animated:completion:)",
+            "printedName": "request(vc:miVipRequestId:requestStatusDelegate:documentCallbackUrl:animated:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8415,21 +8532,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
@@ -8463,8 +8565,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPSdk0A6VIPHubC7request2vc14miVipRequestId0D14StatusDelegate19documentCallbackUrl06selfiemN08animated10completionySo16UIViewControllerC_SSAA0hjK0_pSgSSSgAPSbyycSgtF",
-            "mangledName": "$s8MiVIPSdk0A6VIPHubC7request2vc14miVipRequestId0D14StatusDelegate19documentCallbackUrl06selfiemN08animated10completionySo16UIViewControllerC_SSAA0hjK0_pSgSSSgAPSbyycSgtF",
+            "usr": "s:8MiVIPSdk0A6VIPHubC7request2vc14miVipRequestId0D14StatusDelegate19documentCallbackUrl8animated10completionySo16UIViewControllerC_SSAA0hjK0_pSgSSSgSbyycSgtF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC7request2vc14miVipRequestId0D14StatusDelegate19documentCallbackUrl8animated10completionySo16UIViewControllerC_SSAA0hjK0_pSgSSSgSbyycSgtF",
             "moduleName": "MiVIPSdk",
             "declAttributes": [
               "AccessControl"
@@ -8474,7 +8576,7 @@
           {
             "kind": "Function",
             "name": "qrCode",
-            "printedName": "qrCode(vc:requestStatusDelegate:documentCallbackUrl:selfieCallbackUrl:animated:completion:)",
+            "printedName": "qrCode(vc:requestStatusDelegate:documentCallbackUrl:animated:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8519,21 +8621,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
@@ -8567,8 +8654,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPSdk0A6VIPHubC6qrCode2vc21requestStatusDelegate19documentCallbackUrl06selfiekL08animated10completionySo16UIViewControllerC_AA07RequesthI0_pSgSSSgAOSbyycSgtF",
-            "mangledName": "$s8MiVIPSdk0A6VIPHubC6qrCode2vc21requestStatusDelegate19documentCallbackUrl06selfiekL08animated10completionySo16UIViewControllerC_AA07RequesthI0_pSgSSSgAOSbyycSgtF",
+            "usr": "s:8MiVIPSdk0A6VIPHubC6qrCode2vc21requestStatusDelegate19documentCallbackUrl8animated10completionySo16UIViewControllerC_AA07RequesthI0_pSgSSSgSbyycSgtF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC6qrCode2vc21requestStatusDelegate19documentCallbackUrl8animated10completionySo16UIViewControllerC_AA07RequesthI0_pSgSSSgSbyycSgtF",
             "moduleName": "MiVIPSdk",
             "declAttributes": [
               "AccessControl"
@@ -8633,6 +8720,314 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRequestIdFromCode",
+            "printedName": "getRequestIdFromCode(code:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC20getRequestIdFromCode4code10completionySS_ySSSg_AGtctF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC20getRequestIdFromCode4code10completionySS_ySSSg_AGtctF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontNameUltraLight",
+            "printedName": "setFontNameUltraLight(fontName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC21setFontNameUltraLight04fontF0ySS_tF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC21setFontNameUltraLight04fontF0ySS_tF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontNameThin",
+            "printedName": "setFontNameThin(fontName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC15setFontNameThin04fontF0ySS_tF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC15setFontNameThin04fontF0ySS_tF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontNameLight",
+            "printedName": "setFontNameLight(fontName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC16setFontNameLight04fontF0ySS_tF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC16setFontNameLight04fontF0ySS_tF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontNameMedium",
+            "printedName": "setFontNameMedium(fontName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC17setFontNameMedium04fontF0ySS_tF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC17setFontNameMedium04fontF0ySS_tF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontNameRegular",
+            "printedName": "setFontNameRegular(fontName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC18setFontNameRegular04fontF0ySS_tF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC18setFontNameRegular04fontF0ySS_tF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontNameBold",
+            "printedName": "setFontNameBold(fontName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC15setFontNameBold04fontF0ySS_tF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC15setFontNameBold04fontF0ySS_tF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontNameBlack",
+            "printedName": "setFontNameBlack(fontName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC16setFontNameBlack04fontF0ySS_tF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC16setFontNameBlack04fontF0ySS_tF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontNameSemiBold",
+            "printedName": "setFontNameSemiBold(fontName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC19setFontNameSemiBold04fontF0ySS_tF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC19setFontNameSemiBold04fontF0ySS_tF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFontNamHeavy",
+            "printedName": "setFontNamHeavy(fontName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC15setFontNamHeavy8fontNameySS_tF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC15setFontNamHeavy8fontNameySS_tF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -8655,27 +9050,6 @@
       },
       {
         "kind": "Import",
-        "name": "LocalAuthentication",
-        "printedName": "LocalAuthentication",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "AVKit",
-        "printedName": "AVKit",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -8683,44 +9057,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "PDFKit",
-        "printedName": "PDFKit",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "MiSnapFacialCaptureUX",
-        "printedName": "MiSnapFacialCaptureUX",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "MiSnapFacialCapture",
-        "printedName": "MiSnapFacialCapture",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "MiSnapCore",
-        "printedName": "MiSnapCore",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
       },
       {
         "kind": "Import",
@@ -8746,6 +9082,30 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MiVIPApi",
+        "printedName": "MiVIPApi",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
         "declKind": "Import",
         "moduleName": "MiVIPSdk",
         "declAttributes": [
@@ -12980,16 +13340,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -15691,15 +16041,18 @@
       },
       {
         "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "MiVIPSdk"
+        "moduleName": "MiVIPSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
-        "name": "MiSnapCore",
-        "printedName": "MiSnapCore",
+        "name": "MiVIPApi",
+        "printedName": "MiVIPApi",
         "declKind": "Import",
         "moduleName": "MiVIPSdk"
       },
@@ -15715,13 +16068,10 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "MiVIPApi",
+        "printedName": "MiVIPApi",
         "declKind": "Import",
-        "moduleName": "MiVIPSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "MiVIPSdk"
       },
       {
         "kind": "Import",
@@ -15739,57 +16089,6 @@
         "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "MiVIPApi",
-        "printedName": "MiVIPApi",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MiVIPApi",
-        "printedName": "MiVIPApi",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -16285,23 +16584,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MiVIPApi",
-        "printedName": "MiVIPApi",
-        "declKind": "Import",
-        "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Import",
         "name": "MobileCoreServices",
         "printedName": "MobileCoreServices",
         "declKind": "Import",
@@ -16420,6 +16702,16 @@
         "printedName": "MiVIPLiveness",
         "declKind": "Import",
         "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -16954,6 +17246,37 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
         "declKind": "Import",
         "moduleName": "MiVIPSdk"
       },
@@ -24541,6 +24864,30 @@
       },
       {
         "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "MiSnapCore",
+        "printedName": "MiSnapCore",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -24625,6 +24972,61 @@
         "kind": "Import",
         "name": "PDFKit",
         "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MiVIPApi",
+        "printedName": "MiVIPApi",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PDFKit",
+        "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "MiSnapFacialCaptureUX",
+        "printedName": "MiSnapFacialCaptureUX",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "MiSnapFacialCapture",
+        "printedName": "MiSnapFacialCapture",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "MiSnapCore",
+        "printedName": "MiSnapCore",
         "declKind": "Import",
         "moduleName": "MiVIPSdk"
       },
@@ -26196,6 +26598,42 @@
             ],
             "isFromExtension": true,
             "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rgbString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC8MiVIPSdkE9rgbStringABSgSS_tcfc",
+            "mangledName": "$sSo7UIColorC8MiVIPSdkE9rgbStringABSgSS_tcfc",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
           }
         ],
         "declKind": "Class",
@@ -26456,147 +26894,147 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 933,
+      "offset": 891,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 980,
+      "offset": 938,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1033,
+      "offset": 991,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1593,
+      "offset": 1551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1689,
+      "offset": 1647,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1780,
+      "offset": 1738,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1966,
+      "offset": 1924,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2149,
+      "offset": 2107,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2294,
+      "offset": 2252,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2347,
+      "offset": 2305,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2495,
+      "offset": 2453,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2569,
+      "offset": 2527,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2651,
+      "offset": 2609,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2733,
+      "offset": 2691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2801,
+      "offset": 2759,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2878,
+      "offset": 2836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3123,
+      "offset": 3081,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3163,
+      "offset": 3121,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3374,
+      "offset": 3332,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3534,
+      "offset": 3492,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3568,
+      "offset": 3526,
       "length": 5,
       "value": "false"
     },
@@ -26734,114 +27172,72 @@
       "value": "\"MiVIPSdk.MBadgeHub\""
     },
     {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/HySideMenuViewController.swift",
+      "kind": "Array",
+      "offset": 314,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/HySideMenuViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 397,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/HySideMenuViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 15,
+      "value": "\"HOOYU_API_URL\""
+    },
+    {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "StringLiteral",
-      "offset": 217,
+      "offset": 282,
+      "length": 28,
+      "value": "\"Missing or expired license\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 28,
+      "value": "\"Missing or expired license\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
       "length": 7,
-      "value": "\"3.3.5\""
+      "value": "\"3.5.1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 1804,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2495,
+      "offset": 2212,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 3402,
+      "offset": 2869,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 4123,
+      "offset": 3691,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 317,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 349,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 385,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 799,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 866,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 558,
-      "length": 5,
-      "value": "\"new\""
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 968,
-      "length": 3,
-      "value": "150"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1985,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3041,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3061,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3112,
+      "offset": 4361,
       "length": 4,
       "value": "true"
     },
@@ -26851,6 +27247,27 @@
       "offset": 418,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/onboarding\/OnboardingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9909,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/onboarding\/OnboardingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15497,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ScopeUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 163,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/LockScreenUtils.swift",
@@ -26960,161 +27377,168 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 28370,
+      "offset": 27982,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 28402,
+      "offset": 29029,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29061,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 32081,
+      "offset": 32740,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "Array",
-      "offset": 44328,
+      "offset": 44987,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "Array",
-      "offset": 44490,
+      "offset": 45149,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "Array",
-      "offset": 44651,
+      "offset": 45310,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "Array",
-      "offset": 44819,
+      "offset": 45478,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 47263,
+      "offset": 47922,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 47272,
+      "offset": 47931,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 47284,
+      "offset": 47943,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 47294,
+      "offset": 47953,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 47816,
+      "offset": 49023,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 47866,
+      "offset": 49073,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 47914,
+      "offset": 49121,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 47963,
+      "offset": 49170,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 48972,
+      "offset": 50179,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 50133,
+      "offset": 51340,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 50183,
+      "offset": 51390,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 50231,
+      "offset": 51438,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 50280,
+      "offset": 51487,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 53271,
+      "offset": 54478,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 55899,
+      "offset": 57106,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 61696,
+      "offset": 62920,
       "length": 22,
       "value": "\"hooyuNotificationKey\""
     },
@@ -27688,7 +28112,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SettingsUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8170,
+      "offset": 8161,
+      "length": 38,
+      "value": "\"hooyu.identify.settings.log_disabled\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SettingsUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 8579,
       "length": 47,
       "value": "\"hooyu.identify.settings.last_request_instance\""
     },
@@ -27726,27 +28157,6 @@
       "offset": 25,
       "length": 14,
       "value": "\"MiVIPSdk.CodeInputBoxes\""
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/HySideMenuViewController.swift",
-      "kind": "Array",
-      "offset": 314,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/HySideMenuViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 397,
-      "length": 4,
-      "value": "0.95"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/HySideMenuViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 474,
-      "length": 15,
-      "value": "\"HOOYU_API_URL\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/sidemenu\/Preferences.swift",
@@ -28034,27 +28444,6 @@
       "offset": 563,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/AppDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 508,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/AppDelegate.swift",
-      "kind": "Dictionary",
-      "offset": 6721,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/SceneDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 350,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/Colors.swift",
@@ -28477,6 +28866,34 @@
       "value": "1.00"
     },
     {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/openbanking\/OpenBankingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/video\/VideoIntroViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 477,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/video\/VideoIntroViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1523,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/video\/VideoIntroViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1563,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/NewMainMenuViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 426,
@@ -28507,51 +28924,23 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/NewMainMenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16797,
+      "offset": 17781,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/onboarding\/OnboardingViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10470,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/notification\/NotificationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 18,
+      "value": "\"notificationCell\""
     },
     {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/onboarding\/OnboardingViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16058,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/openbanking\/OpenBankingViewController.swift",
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/notification\/NotificationsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 396,
+      "offset": 428,
       "length": 3,
-      "value": "150"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/video\/VideoIntroViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 477,
-      "length": 3,
-      "value": "150"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/video\/VideoIntroViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1476,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/video\/VideoIntroViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1516,
-      "length": 5,
-      "value": "false"
+      "value": "100"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/attachments\/AttachmentsViewController.swift",
@@ -28598,14 +28987,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 102858,
+      "offset": 107558,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 102883,
+      "offset": 107583,
       "length": 1,
       "value": "0"
     },
@@ -28654,35 +29043,35 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2042,
+      "offset": 2001,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2261,
+      "offset": 2220,
       "length": 4,
       "value": "18.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2332,
+      "offset": 2291,
       "length": 35,
       "value": "\"hooyu.identify.scan.button.cancel\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2426,
+      "offset": 2385,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2734,
+      "offset": 2693,
       "length": 5,
       "value": "false"
     },
@@ -28773,7 +29162,7 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/social\/SocialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24660,
+      "offset": 24936,
       "length": 5,
       "value": "false"
     },
@@ -28804,20 +29193,6 @@
       "offset": 395,
       "length": 3,
       "value": "150"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/notification\/NotificationsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 437,
-      "length": 18,
-      "value": "\"notificationCell\""
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/notification\/NotificationsViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 485,
-      "length": 3,
-      "value": "100"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/PoaViewController.swift",
@@ -29025,23 +29400,93 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38947,
+      "offset": 39336,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38969,
+      "offset": 39358,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39014,
+      "offset": 39403,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureCommon.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 5,
+      "value": "\"new\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyFont.swift",
+      "kind": "StringLiteral",
+      "offset": 1508,
+      "length": 20,
+      "value": "\"MIVIP_FONT_NAME_UL\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyFont.swift",
+      "kind": "StringLiteral",
+      "offset": 1902,
+      "length": 22,
+      "value": "\"MIVIP_FONT_NAME_THIN\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyFont.swift",
+      "kind": "StringLiteral",
+      "offset": 2296,
+      "length": 23,
+      "value": "\"MIVIP_FONT_NAME_LIGHT\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyFont.swift",
+      "kind": "StringLiteral",
+      "offset": 2697,
+      "length": 25,
+      "value": "\"MIVIP_FONT_NAME_REGULAR\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyFont.swift",
+      "kind": "StringLiteral",
+      "offset": 3107,
+      "length": 24,
+      "value": "\"MIVIP_FONT_NAME_MEDIUM\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyFont.swift",
+      "kind": "StringLiteral",
+      "offset": 3514,
+      "length": 26,
+      "value": "\"MIVIP_FONT_NAME_SEMIBOLD\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyFont.swift",
+      "kind": "StringLiteral",
+      "offset": 3927,
+      "length": 22,
+      "value": "\"MIVIP_FONT_NAME_BOLD\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyFont.swift",
+      "kind": "StringLiteral",
+      "offset": 4321,
+      "length": 23,
+      "value": "\"MIVIP_FONT_NAME_HEAVY\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyFont.swift",
+      "kind": "StringLiteral",
+      "offset": 4719,
+      "length": 23,
+      "value": "\"MIVIP_FONT_NAME_BLACK\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/sidemenu\/Segue.swift",
@@ -29105,6 +29550,41 @@
       "offset": 148,
       "length": 3,
       "value": "150"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 317,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 385,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 799,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 866,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/account\/AccountMenuViewController.swift",
@@ -29471,6 +29951,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/AppDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 508,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/AppDelegate.swift",
+      "kind": "Dictionary",
+      "offset": 7501,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/account\/AccountOpenBankingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 327,
@@ -29525,6 +30019,48 @@
       "offset": 548,
       "length": 3,
       "value": "150"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/BackendLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 861,
+      "length": 5,
+      "value": "\"…\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 568,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1585,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2641,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2661,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/dsignature\/DSignatureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2712,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",

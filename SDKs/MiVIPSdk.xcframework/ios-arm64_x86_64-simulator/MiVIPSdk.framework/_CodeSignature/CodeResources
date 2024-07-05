@@ -74,7 +74,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		iqlZDSp6pk7IewsrLxaKLVa5rqk=
+		64GEiP/olq2lqX6N4Lg2/HuDHZw=
 		</data>
 		<key>BA.png</key>
 		<data>
@@ -734,7 +734,7 @@
 		</data>
 		<key>Headers/MiVIPSdk-Swift.h</key>
 		<data>
-		A0/cRQ53nmFb6i6jjmvGFZgLHu8=
+		eUmPNzEVYusL3PMZOv29uaCUAKc=
 		</data>
 		<key>IE.png</key>
 		<data>
@@ -778,7 +778,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Gx9KOKZ/EoCblJDzDcPTU2jkHlg=
+		aqREYMvt3YajSA9fGeBymy0OhIc=
 		</data>
 		<key>JE.png</key>
 		<data>
@@ -978,11 +978,11 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		l+zwFtfUBs/d2mrJzoZnk5zikLM=
+		z5F0bxBl7dEWZqplIGbwc8MimNA=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Uc95bfiIUja0cglg29QydEekroE=
+		eKsiW/Kw9sTXPiroKkCMq5+0vTw=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -990,19 +990,19 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Uc95bfiIUja0cglg29QydEekroE=
+		eKsiW/Kw9sTXPiroKkCMq5+0vTw=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0B//fOHIZa3FiaLNuisozFyCB/I=
+		ZC+EdLAD4OZG8qn71g68+XcBASc=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		l+zwFtfUBs/d2mrJzoZnk5zikLM=
+		z5F0bxBl7dEWZqplIGbwc8MimNA=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hJwIvI7pvY3kqUnmxacMBayiHs0=
+		2tsMFOayNtuDksd3DD8/lmBYPS0=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1010,11 +1010,11 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hJwIvI7pvY3kqUnmxacMBayiHs0=
+		2tsMFOayNtuDksd3DD8/lmBYPS0=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wISmlFgr5TTrmEHjcjS+z0qYndA=
+		Lgf14/E7Ej8XKSCn5FoYiiI3kAU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1405,7 +1405,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			idQl4dWRAn7cxPHaTDrxk4THACo=
+			e2MYjWRb7bWmbhBy8C52qWrd4+4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1536,7 +1536,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZP5mbOuguPfUHJtZoFSgL+E0gDuFM4Eea8J/mfBvgH8=
+			sLJvqq19mCG8BgWAEiZpaeN9TvvsRBk/mNTWANPpxbM=
 			</data>
 		</dict>
 		<key>BA.png</key>
@@ -2691,7 +2691,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zhlq7MRFSfN2FJ0e3BftFYZGyXgmlHdJxyM6RG59PpU=
+			dKxSjr0CpTMMdtm0ab4W/OdtojL9fq+CZDEr2JrwFn8=
 			</data>
 		</dict>
 		<key>IE.png</key>
@@ -3111,14 +3111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XJMCkO7lxMlR0/7hpZFvgQTCq/BnnF2tCSOGcmIKIYg=
+			zsJZaHouozpOxJ9U9Zqkthbg3u8DmtiQ63S4dQbxmEo=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WQOe+gQRJvigdht9fTL2ZTsfUNNosXLKsd0vehfXnHs=
+			x/ZSg74HMcHaHEccJbPyT9fQZi5mehOMwXLYlkr2xpo=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -3132,28 +3132,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WQOe+gQRJvigdht9fTL2ZTsfUNNosXLKsd0vehfXnHs=
+			x/ZSg74HMcHaHEccJbPyT9fQZi5mehOMwXLYlkr2xpo=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LRMVAl8aXxWW2kV5qAP5hH0o4yb8voi/p17mYaqnTvQ=
+			gAZ5ywUvogz9oaPkJhC++Xg7c8vOi59+a47e6lyE0I4=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XJMCkO7lxMlR0/7hpZFvgQTCq/BnnF2tCSOGcmIKIYg=
+			zsJZaHouozpOxJ9U9Zqkthbg3u8DmtiQ63S4dQbxmEo=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8YlT6EpmxXpqRGg8To0Zq6PZWyo9TuslLsUNJyfyLZI=
+			B4kDvYqUlqBZULSdw4kjQPLGnDO/2SaW/+aW/GDsZBM=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -3167,14 +3167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8YlT6EpmxXpqRGg8To0Zq6PZWyo9TuslLsUNJyfyLZI=
+			B4kDvYqUlqBZULSdw4kjQPLGnDO/2SaW/+aW/GDsZBM=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5wDDqAzHvG8EYVZwsmcyaR9sAbtdVNdFYmEEkfSZj8A=
+			Aa37JR0XlVLU9TLRysBgZTOasFfda/TfdobBVBuSkHY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -3848,7 +3848,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X57JAxJQyAfgza1o5jHg5PdoVWqUxxK6JPkyFtfo/fc=
+			g5heJDezgOhMfnaX9Sh5elcwm9WEX+1ibMC8P8sV8Yc=
 			</data>
 			<key>optional</key>
 			<true/>

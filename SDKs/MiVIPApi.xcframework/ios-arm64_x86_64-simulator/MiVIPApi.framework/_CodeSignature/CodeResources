@@ -6,47 +6,47 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		B7NsOmg5jSjb/Pn9tQJZCafRNnk=
+		zcsNHBW+RuStjRB53AawOVHXb1E=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mQ43JiqUROnOBxcxGYj6v/Qo/8k=
+		zp7L72kCDfDoKxWV+hru3ArYwks=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Yc313GPPx2p8tY7AP1z1FZZbyCE=
+		H7JZWcY3qQhjYkb38QNSVeooHmE=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ALVabh1Fohajghim9vaPyCejVA8=
+		en4pGgJApwbWf5bECc8UbjJ6jqQ=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Yc313GPPx2p8tY7AP1z1FZZbyCE=
+		H7JZWcY3qQhjYkb38QNSVeooHmE=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TQ0tFE5ny3HnDcMol+FiBaxJddc=
+		M6pr8qARG1C9c7WBNjKUDleOs6w=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mQ43JiqUROnOBxcxGYj6v/Qo/8k=
+		zp7L72kCDfDoKxWV+hru3ArYwks=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EwwL7tJi9wMyslRp4tLhaL2f2Bo=
+		vyV+2B5wLNYEU+rd3wAdmUnpq3g=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YSDq55pufF4P5fVKN2XC5zN0pHg=
+		ncynguwpHA3rmtYmbOW4x8m7BP4=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EwwL7tJi9wMyslRp4tLhaL2f2Bo=
+		vyV+2B5wLNYEU+rd3wAdmUnpq3g=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		013JAPr19eEIILekmKoyk6nfmlE=
+		bYo68zVBPKBM/RvBWVWfDVQyV/I=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -205,70 +205,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WwaA7pAhQrj6wWtKZTtYI+skQO07HTwMWzD99xDUva8=
+			iuMnMbE2zNlyKZShQgeKn0fqgYeRYSMM0EjlhacbzOg=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JnLYmnAPtdaRcEodLgFFhuI3N9Il+Xcs7ZO5P4Zmunc=
+			jgWF4B2ZY4LasyplYcSLGBQKWTYj6nB577O/fcV1MOA=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ojz/BIGexA4Z+ziU4jTZWd4BgOumT3kjZr3qvikxGhI=
+			SYJx7iR59eFNskuNnCVK4K1+IkyEP8IXU3i0VU7Nzdg=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JnLYmnAPtdaRcEodLgFFhuI3N9Il+Xcs7ZO5P4Zmunc=
+			jgWF4B2ZY4LasyplYcSLGBQKWTYj6nB577O/fcV1MOA=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ZPs8VGlapzuMMDBEn7WEt2IiIObx5t27zfrDEPigiM=
+			AJge6PcWYME9W/c9DYV88VaEBWBJEyRNrihcRknU830=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WwaA7pAhQrj6wWtKZTtYI+skQO07HTwMWzD99xDUva8=
+			iuMnMbE2zNlyKZShQgeKn0fqgYeRYSMM0EjlhacbzOg=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FpNxpdO4mjitj27yA3y5mdzkw7kmsPaZNyo49W2QQDE=
+			MMIMRIzy/z5j4vjJYLg9dxAFkH28kZzE5oLnLsOa2AA=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j6V2A6jb6FJIhM6CQBq1XBeMAckXS/o3vNRD5V/Wrbk=
+			yEZpuz2Wagm5NMVtC4jct3o8HAextGZNu88zSBsJSNs=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FpNxpdO4mjitj27yA3y5mdzkw7kmsPaZNyo49W2QQDE=
+			MMIMRIzy/z5j4vjJYLg9dxAFkH28kZzE5oLnLsOa2AA=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DxakUojDWnZCgCtFxbRicHZ7CSnTZ4AZMS7JLR65Ysg=
+			8uBuPRAEVSM7dDCaz0zthsm8CcHgLlGvdGP7c48qiTk=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>

@@ -203,7 +203,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, UIKit.UIImage?, UIKit.UIImage?, UIKit.UIImage?, Swift.Bool?) -> ()",
+                "printedName": "(Swift.Int, UIKit.UIImage?, UIKit.UIImage?, UIKit.UIImage?, Swift.Bool?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -213,7 +213,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, UIKit.UIImage?, UIKit.UIImage?, UIKit.UIImage?, Swift.Bool?)",
+                    "printedName": "(Swift.Int, UIKit.UIImage?, UIKit.UIImage?, UIKit.UIImage?, Swift.Bool?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -276,6 +276,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -283,8 +297,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MiVIPLiveness9SelfieApiC03addC0____11callbackUrl10completionySo7UIImageC_SSSgAISbAIySi_AHSgA2JSbSgtctF",
-            "mangledName": "$s13MiVIPLiveness9SelfieApiC03addC0____11callbackUrl10completionySo7UIImageC_SSSgAISbAIySi_AHSgA2JSbSgtctF",
+            "usr": "s:13MiVIPLiveness9SelfieApiC03addC0____11callbackUrl10completionySo7UIImageC_SSSgAISbAIySi_AHSgA2JSbSgAItctF",
+            "mangledName": "$s13MiVIPLiveness9SelfieApiC03addC0____11callbackUrl10completionySo7UIImageC_SSSgAISbAIySi_AHSgA2JSbSgAItctF",
             "moduleName": "MiVIPLiveness",
             "declAttributes": [
               "AccessControl",
@@ -295,7 +309,7 @@
           {
             "kind": "Function",
             "name": "liveness",
-            "printedName": "liveness(_:_:_:_:_:_:base64Image:callbackUrl:completion:)",
+            "printedName": "liveness(_:_:_:_:_:_:base64Image:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -418,24 +432,9 @@
                 "usr": "s:Sq"
               },
               {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Bool?) -> ()",
+                "printedName": "(Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Bool?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -445,7 +444,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Bool?)",
+                    "printedName": "(Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Bool?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -486,6 +485,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -493,8 +506,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MiVIPLiveness9SelfieApiC8liveness______11base64Image11callbackUrl10completionySaySo7UIImageCSgG_SSSgA2LSbSDyS2SGSgA2LySi_SbAJSbSgtctF",
-            "mangledName": "$s13MiVIPLiveness9SelfieApiC8liveness______11base64Image11callbackUrl10completionySaySo7UIImageCSgG_SSSgA2LSbSDyS2SGSgA2LySi_SbAJSbSgtctF",
+            "usr": "s:13MiVIPLiveness9SelfieApiC8liveness______11base64Image10completionySaySo7UIImageCSgG_SSSgA2KSbSDyS2SGSgAKySi_SbAISbSgAKtctF",
+            "mangledName": "$s13MiVIPLiveness9SelfieApiC8liveness______11base64Image10completionySaySo7UIImageCSgG_SSSgA2KSbSDyS2SGSgAKySi_SbAISbSgAKtctF",
             "moduleName": "MiVIPLiveness",
             "declAttributes": [
               "AccessControl"
@@ -606,7 +619,7 @@
           {
             "kind": "Function",
             "name": "done",
-            "printedName": "done(_:_:_:_:_:_:)",
+            "printedName": "done(_:_:_:_:_:_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -688,11 +701,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13MiVIPLiveness16LivenessDelegateP4doneyySi_SbSo7UIImageCSgAGSayAGGSbSgtF",
-            "mangledName": "$s13MiVIPLiveness16LivenessDelegateP4doneyySi_SbSo7UIImageCSgAGSayAGGSbSgtF",
+            "usr": "s:13MiVIPLiveness16LivenessDelegateP4doneyySi_SbSo7UIImageCSgAGSayAGGSbSgSSSgtF",
+            "mangledName": "$s13MiVIPLiveness16LivenessDelegateP4doneyySi_SbSo7UIImageCSgAGSayAGGSbSgSSSgtF",
             "moduleName": "MiVIPLiveness",
             "genericSig": "<τ_0_0 where τ_0_0 : MiVIPLiveness.LivenessDelegate>",
             "sugared_genericSig": "<Self where Self : MiVIPLiveness.LivenessDelegate>",
@@ -979,7 +1006,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(view:textBackgroundColor:textBackgroundColorDone:fullscreen:useCoreApi:environment:miPassEnroll:apiUri:callbackUrl:)",
+            "printedName": "init(view:textBackgroundColor:textBackgroundColorDone:fullscreen:useCoreApi:environment:miPassEnroll:apiUri:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1048,26 +1075,11 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13MiVIPLiveness12FaceDetectorC4view19textBackgroundColor0fgH4Done10fullscreen10useCoreApi11environment12miPassEnroll6apiUri11callbackUrlACSo6UIViewC_So7UIColorCAPS2bSSSbSSSgAQtcfc",
-            "mangledName": "$s13MiVIPLiveness12FaceDetectorC4view19textBackgroundColor0fgH4Done10fullscreen10useCoreApi11environment12miPassEnroll6apiUri11callbackUrlACSo6UIViewC_So7UIColorCAPS2bSSSbSSSgAQtcfc",
+            "usr": "s:13MiVIPLiveness12FaceDetectorC4view19textBackgroundColor0fgH4Done10fullscreen10useCoreApi11environment12miPassEnroll6apiUriACSo6UIViewC_So7UIColorCAOS2bSSSbSSSgtcfc",
+            "mangledName": "$s13MiVIPLiveness12FaceDetectorC4view19textBackgroundColor0fgH4Done10fullscreen10useCoreApi11environment12miPassEnroll6apiUriACSo6UIViewC_So7UIColorCAOS2bSSSbSSSgtcfc",
             "moduleName": "MiVIPLiveness",
             "declAttributes": [
               "AccessControl",
@@ -1409,161 +1421,140 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/SelfieApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 6909,
+      "offset": 7291,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
+      "offset": 1455,
       "length": 26,
       "value": "\"com.mivip.liveness.match\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1474,
+      "offset": 1492,
       "length": 35,
       "value": "\"Match your nose to the yellow dot\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1560,
+      "offset": 1578,
       "length": 25,
       "value": "\"com.mivip.liveness.stay\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1596,
+      "offset": 1614,
       "length": 12,
       "value": "\"Stay still\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1660,
+      "offset": 1678,
       "length": 32,
       "value": "\"com.mivip.liveness.move_closer\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1703,
+      "offset": 1721,
       "length": 42,
       "value": "\"Move closer keeping your nose on the dot\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1798,
+      "offset": 1816,
       "length": 33,
       "value": "\"com.mivip.liveness.move_farther\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1842,
+      "offset": 1860,
       "length": 43,
       "value": "\"Move farther keeping your nose on the dot\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1939,
+      "offset": 1957,
       "length": 24,
       "value": "\"com.mivip.liveness.nod\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1974,
+      "offset": 1992,
       "length": 16,
       "value": "\"Nod when ready\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 2040,
+      "offset": 2058,
       "length": 30,
       "value": "\"com.mivip.liveness.thank_you\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 2081,
+      "offset": 2099,
       "length": 12,
       "value": "\"Thank you!\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 2149,
+      "offset": 2167,
       "length": 34,
       "value": "\"com.mivip.liveness.button.cancel\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 2194,
+      "offset": 2212,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 2334,
+      "offset": 2352,
       "length": 4,
       "value": "18.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2653,
+      "offset": 2671,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3556,
+      "offset": 3574,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3602,
+      "offset": 3620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3648,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3669,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3675,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3681,
+      "offset": 3666,
       "length": 1,
       "value": "0"
     },
@@ -1576,64 +1567,85 @@
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3717,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3783,
+      "offset": 3693,
       "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3812,
-      "length": 5,
-      "value": "false"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3851,
+      "offset": 3699,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3705,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 4296,
+      "offset": 3735,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3801,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3869,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4277,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4325,
+      "offset": 4306,
       "length": 8,
       "value": "\"mobile\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 4356,
+      "offset": 4337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1292,
+      "offset": 1310,
       "length": 12,
       "value": "\"MiVIPLiveness.FaceDetector\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 32260,
+      "offset": 32107,
       "length": 5,
       "value": "false"
     }

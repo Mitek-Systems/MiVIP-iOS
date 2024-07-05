@@ -397,12 +397,12 @@ SWIFT_CLASS("_TtC8MiVIPSdk25AccountMenuViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
 @class UIScrollView;
 
 @interface AccountMenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
+
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk32AccountOpenBankingViewController")
@@ -1094,10 +1094,10 @@ SWIFT_CLASS("_TtC8MiVIPSdk18MenuViewController")
 @end
 
 
+
 @interface MenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
-
 
 
 
@@ -1278,7 +1278,6 @@ SWIFT_CLASS("_TtC8MiVIPSdk20QRScanViewController")
 - (void)closeRequest;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
-- (void)viewDidAppear:(BOOL)animated;
 - (void)captureOutput:(AVCaptureMetadataOutput * _Nonnull)output didOutputMetadataObjects:(NSArray<AVMetadataObject *> * _Nonnull)metadataObjects fromConnection:(AVCaptureConnection * _Nonnull)connection;
 - (void)reuseSwitchChanged;
 - (void)reuseConfirmedWithGesture:(ReuseGesture * _Nonnull)gesture;
@@ -1308,25 +1307,6 @@ SWIFT_CLASS("_TtC8MiVIPSdk12ReuseGesture")
 
 SWIFT_CLASS("_TtC8MiVIPSdk10ReuseUtils")
 @interface ReuseUtils : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIScene;
-@class UIOpenURLContext;
-@class UIWindowScene;
-@class UIApplicationShortcutItem;
-
-SWIFT_CLASS("_TtC8MiVIPSdk13SceneDelegate")
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
-@property (nonatomic, strong) UIWindow * _Nullable window;
-- (void)scene:(UIScene * _Nonnull)scene willConnectToSession:(UISceneSession * _Nonnull)session options:(UISceneConnectionOptions * _Nonnull)connectionOptions SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)sceneDidDisconnect:(UIScene * _Nonnull)scene SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)sceneDidBecomeActive:(UIScene * _Nonnull)scene SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)sceneWillResignActive:(UIScene * _Nonnull)scene SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)sceneWillEnterForeground:(UIScene * _Nonnull)scene SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)scene:(UIScene * _Nonnull)scene openURLContexts:(NSSet<UIOpenURLContext *> * _Nonnull)URLContexts SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)windowScene:(UIWindowScene * _Nonnull)windowScene performActionForShortcutItem:(UIApplicationShortcutItem * _Nonnull)shortcutItem completionHandler:(void (^ _Nonnull)(BOOL))completionHandler SWIFT_AVAILABILITY(ios,introduced=13.0);
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1515,6 +1495,8 @@ SWIFT_CLASS("_TtC8MiVIPSdk9TextField")
 - (CGRect)textRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
 - (CGRect)placeholderRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
 - (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)leftViewRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)rightViewRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -1550,6 +1532,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk9TextField")
 @interface UIViewController (SWIFT_EXTENSION(MiVIPSdk))
 - (void)dismissKeyboard;
 @end
+
 
 
 
@@ -2031,12 +2014,12 @@ SWIFT_CLASS("_TtC8MiVIPSdk25AccountMenuViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
 @class UIScrollView;
 
 @interface AccountMenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
+
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk32AccountOpenBankingViewController")
@@ -2728,10 +2711,10 @@ SWIFT_CLASS("_TtC8MiVIPSdk18MenuViewController")
 @end
 
 
+
 @interface MenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
-
 
 
 
@@ -2912,7 +2895,6 @@ SWIFT_CLASS("_TtC8MiVIPSdk20QRScanViewController")
 - (void)closeRequest;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
-- (void)viewDidAppear:(BOOL)animated;
 - (void)captureOutput:(AVCaptureMetadataOutput * _Nonnull)output didOutputMetadataObjects:(NSArray<AVMetadataObject *> * _Nonnull)metadataObjects fromConnection:(AVCaptureConnection * _Nonnull)connection;
 - (void)reuseSwitchChanged;
 - (void)reuseConfirmedWithGesture:(ReuseGesture * _Nonnull)gesture;
@@ -2942,25 +2924,6 @@ SWIFT_CLASS("_TtC8MiVIPSdk12ReuseGesture")
 
 SWIFT_CLASS("_TtC8MiVIPSdk10ReuseUtils")
 @interface ReuseUtils : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIScene;
-@class UIOpenURLContext;
-@class UIWindowScene;
-@class UIApplicationShortcutItem;
-
-SWIFT_CLASS("_TtC8MiVIPSdk13SceneDelegate")
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
-@property (nonatomic, strong) UIWindow * _Nullable window;
-- (void)scene:(UIScene * _Nonnull)scene willConnectToSession:(UISceneSession * _Nonnull)session options:(UISceneConnectionOptions * _Nonnull)connectionOptions SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)sceneDidDisconnect:(UIScene * _Nonnull)scene SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)sceneDidBecomeActive:(UIScene * _Nonnull)scene SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)sceneWillResignActive:(UIScene * _Nonnull)scene SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)sceneWillEnterForeground:(UIScene * _Nonnull)scene SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)scene:(UIScene * _Nonnull)scene openURLContexts:(NSSet<UIOpenURLContext *> * _Nonnull)URLContexts SWIFT_AVAILABILITY(ios,introduced=13.0);
-- (void)windowScene:(UIWindowScene * _Nonnull)windowScene performActionForShortcutItem:(UIApplicationShortcutItem * _Nonnull)shortcutItem completionHandler:(void (^ _Nonnull)(BOOL))completionHandler SWIFT_AVAILABILITY(ios,introduced=13.0);
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -3149,6 +3112,8 @@ SWIFT_CLASS("_TtC8MiVIPSdk9TextField")
 - (CGRect)textRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
 - (CGRect)placeholderRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
 - (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)leftViewRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)rightViewRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -3184,6 +3149,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk9TextField")
 @interface UIViewController (SWIFT_EXTENSION(MiVIPSdk))
 - (void)dismissKeyboard;
 @end
+
 
 
 

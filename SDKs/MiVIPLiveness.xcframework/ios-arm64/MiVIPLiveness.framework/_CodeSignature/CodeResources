@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Drq6O829YDt1eIr3ufHj9/eN/Ag=
+		O3yug00AlMizaJRp96Vs5s71buc=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+535cNVp4BakulClNI5Cg/rH/0M=
+		FSZZUl0QFApoXY5CWanYDSqTfD8=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		QkSPlzaX+BnOIlyyM15vrllrNsw=
+		EQeaIcYYvYVRgmaxu0cOc3ZCW/s=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		bJcexAK9+S4RLKc9vd3Qv1P8Uns=
+		ND40yNWUj6SJu3riKbR3FaYsD/c=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		QkSPlzaX+BnOIlyyM15vrllrNsw=
+		EQeaIcYYvYVRgmaxu0cOc3ZCW/s=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5UviS+0IV5JvR3hFjpyvwyv6C0A=
+		yxyQ44ko959rTlLRs/Vo/zz+OEI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,35 +70,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M2d0ufBzVRB1uRbppc10buYo6AMiAAwDOCraSptDIao=
+			efPk5/0s6pVBhUJUa8VF0FCnG6ZDGxm6h0DMQp2wVaw=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			diMGPrHPrcwSm7+E7HnZjmc5mgfuVS8uH73f+tlydYM=
+			ujnQsSm5/M7Rb4T7y/woxT+L8jDoFDnU5rkIiv8MD88=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WSHep5nDby7SdVQqRFD1kMFaCt7kHuH21MjNygOF+vs=
+			OP6s/Qh8jdiHvZaO73wslandPfUsQ59TmdbibD7hezc=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			diMGPrHPrcwSm7+E7HnZjmc5mgfuVS8uH73f+tlydYM=
+			ujnQsSm5/M7Rb4T7y/woxT+L8jDoFDnU5rkIiv8MD88=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M7Yv/j+yXT9VHlKyHhBYj6BWnrsmJRLxREc15brzy7w=
+			y+ELXijkOBheBirVskyCX4Q/m216SXXma+C1nZtIBxA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

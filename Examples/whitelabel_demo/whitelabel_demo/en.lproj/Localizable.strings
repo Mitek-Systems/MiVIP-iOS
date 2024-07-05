@@ -3,6 +3,17 @@
 */
 
 // MiVIP SDK:
+"hooyu.identify.request.manual.face" = "We're doing final checks.\nCompleting our final manual checks can take a few minutes.";
+"hooyu.identify.camera.title"="Need Camera Access";
+"hooyu.identify.camera.message"="Camera access is required to make full use of this app.";
+"hooyu.identify.camera.allow"="Allow Camera";
+"hooyu.identify.camera.cancel"="Cancel";
+"hooyu.identify.video.details.language.it"="Italiano";
+"hooyu.identify.video.details.language.es"="Español";
+"hooyu.identify.video.mandatory" = "This field is mandatory";
+"hooyu.identify.video.missing.documents" = "There is no document type allowed for this issuing country and request. This field is required.";
+"hooyu.identify.attachments.add.pdf" = "Attach PDF";
+"hooyu.identify.attachments.add.image" = "Attach image";
 "hooyu.identify.selfie.hub.error.maxattempts"="Image error";
 "hooyu.identify.selfie.error.maxattempts"="Thank you for the Selfies! You can now move on to the next item.";
 "hooyu.identify.video.details.text_unassisted"="Before you continue with the video call, we need a few more details:";

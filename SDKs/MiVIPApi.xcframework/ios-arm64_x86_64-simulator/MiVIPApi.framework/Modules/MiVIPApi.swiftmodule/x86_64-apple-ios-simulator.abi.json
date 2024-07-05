@@ -410,7 +410,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String?) -> ()",
+                "printedName": "(Swift.String?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -419,24 +419,45 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
-                    ],
-                    "usr": "s:Sq"
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi0aB3SdkC5video9requestId5email5phone0H11CountryCode12documentType07issuingI00D8Language10completionySS_S6SySSSgctF",
-            "mangledName": "$s8MiVIPApi0aB3SdkC5video9requestId5email5phone0H11CountryCode12documentType07issuingI00D8Language10completionySS_S6SySSSgctF",
+            "usr": "s:8MiVIPApi0aB3SdkC5video9requestId5email5phone0H11CountryCode12documentType07issuingI00D8Language10completionySS_S6SySSSg_AMtctF",
+            "mangledName": "$s8MiVIPApi0aB3SdkC5video9requestId5email5phone0H11CountryCode12documentType07issuingI00D8Language10completionySS_S6SySSSg_AMtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -476,7 +497,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, Swift.String?) -> ()",
+                "printedName": "(Swift.Int, Swift.String?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -486,13 +507,27 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, Swift.String?)",
+                    "printedName": "(Swift.Int, Swift.String?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Int",
                         "printedName": "Swift.Int",
                         "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       },
                       {
                         "kind": "TypeNominal",
@@ -514,8 +549,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi0aB3SdkC17getOpenBankingUrl9requestId08businessI011environment10completionySS_S2SySi_SSSgtctF",
-            "mangledName": "$s8MiVIPApi0aB3SdkC17getOpenBankingUrl9requestId08businessI011environment10completionySS_S2SySi_SSSgtctF",
+            "usr": "s:8MiVIPApi0aB3SdkC17getOpenBankingUrl9requestId08businessI011environment10completionySS_S2SySi_SSSgAItctF",
+            "mangledName": "$s8MiVIPApi0aB3SdkC17getOpenBankingUrl9requestId08businessI011environment10completionySS_S2SySi_SSSgAItctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl"
@@ -8418,17 +8453,31 @@
           {
             "kind": "Function",
             "name": "videoUrlError",
-            "printedName": "videoUrlError()",
+            "printedName": "videoUrlError(error:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi0A16VIPVideoDelegateP13videoUrlErroryyF",
-            "mangledName": "$s8MiVIPApi0A16VIPVideoDelegateP13videoUrlErroryyF",
+            "usr": "s:8MiVIPApi0A16VIPVideoDelegateP13videoUrlError5errorySSSg_tF",
+            "mangledName": "$s8MiVIPApi0A16VIPVideoDelegateP13videoUrlError5errorySSSg_tF",
             "moduleName": "MiVIPApi",
             "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.MiVIPVideoDelegate>",
             "sugared_genericSig": "<Self where Self : MiVIPApi.MiVIPVideoDelegate>",
@@ -8690,15 +8739,31 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -8720,8 +8785,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi0A22VIPVideoViewControllerC8videoSdk9requestId5email5phone0K11CountryCode12documentType07issuingL00F8LanguageySS_S6StF",
-            "mangledName": "$s8MiVIPApi0A22VIPVideoViewControllerC8videoSdk9requestId5email5phone0K11CountryCode12documentType07issuingL00F8LanguageySS_S6StF",
+            "usr": "s:8MiVIPApi0A22VIPVideoViewControllerC8videoSdk9requestId5email5phone0K11CountryCode12documentType07issuingL00F8LanguageySS_S2SSgALS3StF",
+            "mangledName": "$s8MiVIPApi0A22VIPVideoViewControllerC8videoSdk9requestId5email5phone0K11CountryCode12documentType07issuingL00F8LanguageySS_S2SSgALS3StF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "Custom",
@@ -8760,15 +8825,31 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -8804,8 +8885,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi0A22VIPVideoViewControllerC5video9requestId08businessH05email5phone0K11CountryCode12documentType07issuingL00F8Language6useSdk11environmentySS_S7SSbSStF",
-            "mangledName": "$s8MiVIPApi0A22VIPVideoViewControllerC5video9requestId08businessH05email5phone0K11CountryCode12documentType07issuingL00F8Language6useSdk11environmentySS_S7SSbSStF",
+            "usr": "s:8MiVIPApi0A22VIPVideoViewControllerC5video9requestId08businessH05email5phone0K11CountryCode12documentType07issuingL00F8Language6useSdk11environmentySS_S3SSgAOS3SSbSStF",
+            "mangledName": "$s8MiVIPApi0A22VIPVideoViewControllerC5video9requestId08businessH05email5phone0K11CountryCode12documentType07issuingL00F8Language6useSdk11environmentySS_S3SSgAOS3SSbSStF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "Custom",
@@ -15209,6 +15290,117 @@
                 "declKind": "Accessor",
                 "usr": "s:8MiVIPApi13ScoreResponseV17maxSelfieAttemptsSbSgvM",
                 "mangledName": "$s8MiVIPApi13ScoreResponseV17maxSelfieAttemptsSbSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceManual",
+            "printedName": "faceManual",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi13ScoreResponseV10faceManualSbSgvp",
+            "mangledName": "$s8MiVIPApi13ScoreResponseV10faceManualSbSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi13ScoreResponseV10faceManualSbSgvg",
+                "mangledName": "$s8MiVIPApi13ScoreResponseV10faceManualSbSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi13ScoreResponseV10faceManualSbSgvs",
+                "mangledName": "$s8MiVIPApi13ScoreResponseV10faceManualSbSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi13ScoreResponseV10faceManualSbSgvM",
+                "mangledName": "$s8MiVIPApi13ScoreResponseV10faceManualSbSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -23931,7 +24123,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, MiVIPApi.HooyuRequest?) -> ()",
+                "printedName": "(Swift.Int, MiVIPApi.HooyuRequest?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -23941,7 +24133,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, MiVIPApi.HooyuRequest?)",
+                    "printedName": "(Swift.Int, MiVIPApi.HooyuRequest?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -23962,6 +24154,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -23969,8 +24175,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC27getRequestDetailsWithDevice02idG07account4lang8latitude9longitude10completionySS_AA0C11AccountDataVS2SSgAMySi_AA0cG0VSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC27getRequestDetailsWithDevice02idG07account4lang8latitude9longitude10completionySS_AA0C11AccountDataVS2SSgAMySi_AA0cG0VSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC27getRequestDetailsWithDevice02idG07account4lang8latitude9longitude10completionySS_AA0C11AccountDataVS2SSgAMySi_AA0cG0VSgAMtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC27getRequestDetailsWithDevice02idG07account4lang8latitude9longitude10completionySS_AA0C11AccountDataVS2SSgAMySi_AA0cG0VSgAMtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl"
@@ -24035,7 +24241,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, Swift.String?) -> ()",
+                "printedName": "(Swift.Int, Swift.String?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24045,13 +24251,27 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, Swift.String?)",
+                    "printedName": "(Swift.Int, Swift.String?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Int",
                         "printedName": "Swift.Int",
                         "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       },
                       {
                         "kind": "TypeNominal",
@@ -24073,8 +24293,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC13getDataByType10businessId9idRequest06deviceK04type03subI011environment10completionySS_S4SSgSSySi_ALtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC13getDataByType10businessId9idRequest06deviceK04type03subI011environment10completionySS_S4SSgSSySi_ALtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC13getDataByType10businessId9idRequest06deviceK04type03subI011environment10completionySS_S4SSgSSySi_A2LtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC13getDataByType10businessId9idRequest06deviceK04type03subI011environment10completionySS_S4SSgSSySi_A2LtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -24139,7 +24359,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?) -> ()",
+                "printedName": "(Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24149,7 +24369,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?)",
+                    "printedName": "(Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -24184,6 +24404,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -24191,8 +24425,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC5reuse10businessId9idRequest06deviceH07dataMap11environment10completionySS_S2SSDySSypGSSySi_SDySSAA10AnyCodableVGSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC5reuse10businessId9idRequest06deviceH07dataMap11environment10completionySS_S2SSDySSypGSSySi_SDySSAA10AnyCodableVGSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC5reuse10businessId9idRequest06deviceH07dataMap11environment10completionySS_S2SSDySSypGSSySi_SDySSAA10AnyCodableVGSgSSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC5reuse10businessId9idRequest06deviceH07dataMap11environment10completionySS_S2SSDySSypGSSySi_SDySSAA10AnyCodableVGSgSSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -24204,6 +24438,113 @@
             "kind": "Function",
             "name": "share",
             "printedName": "share(dataMap:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.String?, Swift.String?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.String?, Swift.String?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC5share7dataMap10completionySDySSypG_ySi_SSSgA2HtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC5share7dataMap10completionySDySSypG_ySi_SSSgA2HtctF",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "auth",
+            "printedName": "auth(dataMap:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -24284,87 +24625,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC5share7dataMap10completionySDySSypG_ySi_SSSgAHtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC5share7dataMap10completionySDySSypG_ySi_SSSgAHtctF",
-            "moduleName": "MiVIPApi",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "auth",
-            "printedName": "auth(dataMap:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Int, Swift.String?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.Int, Swift.String?)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC4auth7dataMap10completionySDySSypG_ySi_SSSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC4auth7dataMap10completionySDySSypG_ySi_SSSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC4auth7dataMap10completionySDySSypG_ySi_SSSgAHtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC4auth7dataMap10completionySDySSypG_ySi_SSSgAHtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -24404,7 +24666,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, Swift.String?) -> ()",
+                "printedName": "(Swift.Int, Swift.String?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24414,13 +24676,27 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, Swift.String?)",
+                    "printedName": "(Swift.Int, Swift.String?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Int",
                         "printedName": "Swift.Int",
                         "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       },
                       {
                         "kind": "TypeNominal",
@@ -24442,8 +24718,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC6update7dataMap10completionySDySSypG_ySi_SSSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC6update7dataMap10completionySDySSypG_ySi_SSSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC6update7dataMap10completionySDySSypG_ySi_SSSgAHtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC6update7dataMap10completionySDySSypG_ySi_SSSgAHtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -24483,7 +24759,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, [MiVIPApi.Network]?) -> ()",
+                "printedName": "(Swift.Int, [MiVIPApi.Network]?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24493,7 +24769,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, [MiVIPApi.Network]?)",
+                    "printedName": "(Swift.Int, [MiVIPApi.Network]?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -24522,6 +24798,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -24529,8 +24819,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC10getSocials9requestId08businessI011environment10completionySS_S2SySi_SayAA7NetworkVGSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC10getSocials9requestId08businessI011environment10completionySS_S2SySi_SayAA7NetworkVGSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC10getSocials9requestId08businessI011environment10completionySS_S2SySi_SayAA7NetworkVGSgSSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC10getSocials9requestId08businessI011environment10completionySS_S2SySi_SayAA7NetworkVGSgSSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -24578,7 +24868,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, Swift.String?) -> ()",
+                "printedName": "(Swift.Int, Swift.String?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24588,13 +24878,27 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, Swift.String?)",
+                    "printedName": "(Swift.Int, Swift.String?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Int",
                         "printedName": "Swift.Int",
                         "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       },
                       {
                         "kind": "TypeNominal",
@@ -24616,8 +24920,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC17getOpenBankingUrl9requestId08businessK011environment6useSdk10completionySS_S2SSbySi_SSSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC17getOpenBankingUrl9requestId08businessK011environment6useSdk10completionySS_S2SSbySi_SSSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC17getOpenBankingUrl9requestId08businessK011environment6useSdk10completionySS_S2SSbySi_SSSgAJtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC17getOpenBankingUrl9requestId08businessK011environment6useSdk10completionySS_S2SSbySi_SSSgAJtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl"
@@ -24643,7 +24947,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, MiVIPApi.ScoreResponse?) -> ()",
+                "printedName": "(Swift.Int, MiVIPApi.ScoreResponse?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24653,7 +24957,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, MiVIPApi.ScoreResponse?)",
+                    "printedName": "(Swift.Int, MiVIPApi.ScoreResponse?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -24674,6 +24978,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -24681,8 +24999,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC16getRequestStatus9requestId10completionySS_ySi_AA13ScoreResponseVSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC16getRequestStatus9requestId10completionySS_ySi_AA13ScoreResponseVSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC16getRequestStatus9requestId10completionySS_ySi_AA13ScoreResponseVSgSSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC16getRequestStatus9requestId10completionySS_ySi_AA13ScoreResponseVSgSSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl"
@@ -25092,7 +25410,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, Swift.String?) -> ()",
+                "printedName": "(Swift.Int, Swift.String?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25102,13 +25420,27 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, Swift.String?)",
+                    "printedName": "(Swift.Int, Swift.String?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Int",
                         "printedName": "Swift.Int",
                         "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       },
                       {
                         "kind": "TypeNominal",
@@ -25130,8 +25462,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC12addSignature5image9requestId08businessJ011environment4lang11base64Image03usedE010completionySo7UIImageC_S2SSgS2SAOSbySi_AOtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC12addSignature5image9requestId08businessJ011environment4lang11base64Image03usedE010completionySo7UIImageC_S2SSgS2SAOSbySi_AOtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC12addSignature5image9requestId08businessJ011environment4lang11base64Image03usedE010completionySo7UIImageC_S2SSgS2SAOSbySi_A2OtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC12addSignature5image9requestId08businessJ011environment4lang11base64Image03usedE010completionySo7UIImageC_S2SSgS2SAOSbySi_A2OtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -25171,7 +25503,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, [MiVIPApi.Attachment]?) -> ()",
+                "printedName": "(Swift.Int, [MiVIPApi.Attachment]?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25181,7 +25513,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, [MiVIPApi.Attachment]?)",
+                    "printedName": "(Swift.Int, [MiVIPApi.Attachment]?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -25210,6 +25542,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -25217,8 +25563,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC18getAttachmentsInfo9requestId08businessJ011environment10completionySS_S2SySi_SayAA10AttachmentVGSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC18getAttachmentsInfo9requestId08businessJ011environment10completionySS_S2SySi_SayAA10AttachmentVGSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC18getAttachmentsInfo9requestId08businessJ011environment10completionySS_S2SySi_SayAA10AttachmentVGSgSSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC18getAttachmentsInfo9requestId08businessJ011environment10completionySS_S2SySi_SayAA10AttachmentVGSgSSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -25258,7 +25604,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, [MiVIPApi.UserAttachment]?) -> ()",
+                "printedName": "(Swift.Int, [MiVIPApi.UserAttachment]?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25268,7 +25614,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, [MiVIPApi.UserAttachment]?)",
+                    "printedName": "(Swift.Int, [MiVIPApi.UserAttachment]?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -25297,6 +25643,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -25304,8 +25664,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC18getUserAttachments9requestId08businessJ011environment10completionySS_S2SySi_SayAA0G10AttachmentVGSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC18getUserAttachments9requestId08businessJ011environment10completionySS_S2SySi_SayAA0G10AttachmentVGSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC18getUserAttachments9requestId08businessJ011environment10completionySS_S2SySi_SayAA0G10AttachmentVGSgSSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC18getUserAttachments9requestId08businessJ011environment10completionySS_S2SySi_SayAA0G10AttachmentVGSgSSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -25316,7 +25676,7 @@
           {
             "kind": "Function",
             "name": "uploadAttachment",
-            "printedName": "uploadAttachment(image:type:fileName:requestId:businessId:environment:completion:)",
+            "printedName": "uploadAttachment(b64EncodedData:type:fileName:requestId:businessId:environment:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25325,9 +25685,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -25371,7 +25731,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, MiVIPApi.Attachment?) -> ()",
+                "printedName": "(Swift.Int, MiVIPApi.Attachment?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25381,7 +25741,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, MiVIPApi.Attachment?)",
+                    "printedName": "(Swift.Int, MiVIPApi.Attachment?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -25402,6 +25762,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -25409,8 +25783,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC16uploadAttachment5image4type8fileName9requestId08businessM011environment10completionySo7UIImageC_S2SSgS3SySi_AA0G0VSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC16uploadAttachment5image4type8fileName9requestId08businessM011environment10completionySo7UIImageC_S2SSgS3SySi_AA0G0VSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC16uploadAttachment14b64EncodedData4type8fileName9requestId08businessO011environment10completionySS_S2SSgS3SySi_AA0G0VSgALtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC16uploadAttachment14b64EncodedData4type8fileName9requestId08businessO011environment10completionySS_S2SSgS3SySi_AA0G0VSgALtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -25456,7 +25830,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, MiVIPApi.Attachment?) -> ()",
+                "printedName": "(Swift.Int, MiVIPApi.Attachment?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25466,7 +25840,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, MiVIPApi.Attachment?)",
+                    "printedName": "(Swift.Int, MiVIPApi.Attachment?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -25487,6 +25861,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -25494,8 +25882,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC16removeAttachment4type9requestId08businessJ011environment10completionySS_S3SySi_AA0G0VSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC16removeAttachment4type9requestId08businessJ011environment10completionySS_S3SySi_AA0G0VSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC16removeAttachment4type9requestId08businessJ011environment10completionySS_S3SySi_AA0G0VSgSSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC16removeAttachment4type9requestId08businessJ011environment10completionySS_S3SySi_AA0G0VSgSSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -25529,7 +25917,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, [Swift.String : Swift.Int]?) -> ()",
+                "printedName": "(Swift.Int, [Swift.String : Swift.Int]?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25539,7 +25927,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, [Swift.String : Swift.Int]?)",
+                    "printedName": "(Swift.Int, [Swift.String : Swift.Int]?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -25574,6 +25962,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -25581,53 +25983,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC12getPoaMaxAge9requestId11environment10completionySS_SSySi_SDySSSiGSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC12getPoaMaxAge9requestId11environment10completionySS_SSySi_SDySSSiGSgtctF",
-            "moduleName": "MiVIPApi",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hasCode",
-            "printedName": "hasCode(userAgent:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC7hasCode9userAgent10completionySS_ySbctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC7hasCode9userAgent10completionySS_ySbctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC12getPoaMaxAge9requestId11environment10completionySS_SSySi_SDySSSiGSgSSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC12getPoaMaxAge9requestId11environment10completionySS_SSySi_SDySSSiGSgSSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -25638,7 +25995,7 @@
           {
             "kind": "Function",
             "name": "verifyCode",
-            "printedName": "verifyCode(code:userAgent:completion:)",
+            "printedName": "verifyCode(code:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25652,15 +26009,9 @@
                 "usr": "s:SS"
               },
               {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String?) -> ()",
+                "printedName": "(Swift.String?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25669,27 +26020,49 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
-                    ],
-                    "usr": "s:Sq"
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC10verifyCode4code9userAgent10completionySS_SSySSSgctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC10verifyCode4code9userAgent10completionySS_SSySSSgctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC10verifyCode4code10completionySS_ySSSg_AGtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC10verifyCode4code10completionySS_ySSSg_AGtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -25719,7 +26092,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?) -> ()",
+                "printedName": "(Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25729,7 +26102,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?)",
+                    "printedName": "(Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -25764,6 +26137,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -25771,8 +26158,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC9getConfig9requestId11environment10completionySS_SSySi_SDySSAA10AnyCodableVGSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC9getConfig9requestId11environment10completionySS_SSySi_SDySSAA10AnyCodableVGSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC9getConfig9requestId11environment10completionySS_SSySi_SDySSAA10AnyCodableVGSgSSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC9getConfig9requestId11environment10completionySS_SSySi_SDySSAA10AnyCodableVGSgSSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -25811,7 +26198,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool?, Swift.Bool?) -> ()",
+                "printedName": "(Swift.Bool?, Swift.Bool?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25821,7 +26208,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Bool?, Swift.Bool?)",
+                    "printedName": "(Swift.Bool?, Swift.Bool?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -25850,6 +26237,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -25857,8 +26258,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC11verifyPhone5phone8deviceId5email10completionySS_S2SySbSg_AItctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC11verifyPhone5phone8deviceId5email10completionySS_S2SySbSg_AItctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC11verifyPhone5phone8deviceId5email10completionySS_S2SySbSg_AISSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC11verifyPhone5phone8deviceId5email10completionySS_S2SySbSg_AISSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl"
@@ -25896,7 +26297,112 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool?) -> ()",
+                "printedName": "(Swift.Bool?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC12confirmPhone5phone8deviceId4code10completionySS_S2SySbSg_SSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC12confirmPhone5phone8deviceId4code10completionySS_S2SySbSg_SSSgtctF",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(level:sdkVersion:deviceId:message:idRequest:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25906,13 +26412,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Bool?",
+                    "printedName": "Swift.Int?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
                       }
                     ],
                     "usr": "s:Sq"
@@ -25921,11 +26427,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC12confirmPhone5phone8deviceId4code10completionySS_S2SySbSgctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC12confirmPhone5phone8deviceId4code10completionySS_S2SySbSgctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC3log5level10sdkVersion8deviceId7message9idRequest10completionySS_S4SSgySiSgctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC3log5level10sdkVersion8deviceId7message9idRequest10completionySS_S4SSgySiSgctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -25960,7 +26467,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool?) -> ()",
+                "printedName": "(Swift.Bool?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25969,24 +26476,45 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
-                    ],
-                    "usr": "s:Sq"
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC11verifyEmail5email8deviceId4lang10completionySS_S2SySbSgctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC11verifyEmail5email8deviceId4lang10completionySS_S2SySbSgctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC11verifyEmail5email8deviceId4lang10completionySS_S2SySbSg_SSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC11verifyEmail5email8deviceId4lang10completionySS_S2SySbSg_SSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -26025,7 +26553,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool?) -> ()",
+                "printedName": "(Swift.Bool?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26034,24 +26562,45 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
-                    ],
-                    "usr": "s:Sq"
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC12confirmEmail5email8deviceId4code10completionySS_S2SySbSgctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC12confirmEmail5email8deviceId4code10completionySS_S2SySbSgctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC12confirmEmail5email8deviceId4code10completionySS_S2SySbSg_SSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC12confirmEmail5email8deviceId4code10completionySS_S2SySbSg_SSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl"
@@ -26077,7 +26626,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int) -> ()",
+                "printedName": "(Swift.Int, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26086,16 +26635,37 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC15sendAccountData7account10completionyAA0cgH0V_ySictF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC15sendAccountData7account10completionyAA0cgH0V_ySictF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC15sendAccountData7account10completionyAA0cgH0V_ySi_SSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC15sendAccountData7account10completionyAA0cgH0V_ySi_SSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -26128,7 +26698,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
+                "printedName": "(Swift.Bool, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26137,16 +26707,37 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC7abandon9idRequest6reason10completionySS_SSySbctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC7abandon9idRequest6reason10completionySS_SSySbctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC7abandon9idRequest6reason10completionySS_SSySb_SSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC7abandon9idRequest6reason10completionySS_SSySb_SSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -26222,7 +26813,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, Swift.Bool?) -> ()",
+                "printedName": "(Swift.Int, Swift.Bool?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26232,7 +26823,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, Swift.Bool?)",
+                    "printedName": "(Swift.Int, Swift.Bool?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -26253,6 +26844,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -26260,8 +26865,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC11uploadVoice6voices9requestId12mipassEnroll4lang10completionySaySDyS2SGG_SSSbSgSSySi_ALtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC11uploadVoice6voices9requestId12mipassEnroll4lang10completionySaySDyS2SGG_SSSbSgSSySi_ALtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC11uploadVoice6voices9requestId12mipassEnroll4lang10completionySaySDyS2SGG_SSSbSgSSySi_ALSSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC11uploadVoice6voices9requestId12mipassEnroll4lang10completionySaySDyS2SGG_SSSbSgSSySi_ALSSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -26288,7 +26893,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, Swift.String?, UIKit.UIImage?, [Swift.String : Swift.String?]?) -> ()",
+                "printedName": "(Swift.Int, Swift.String?, UIKit.UIImage?, [Swift.String : Swift.String?]?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -26298,7 +26903,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, Swift.String?, UIKit.UIImage?, [Swift.String : Swift.String?]?)",
+                    "printedName": "(Swift.Int, Swift.String?, UIKit.UIImage?, [Swift.String : Swift.String?]?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -26369,6 +26974,20 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -26376,8 +26995,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC18getBusinessDetails9requestId10completionySS_ySi_SSSgSo7UIImageCSgSDySSAGGSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC18getBusinessDetails9requestId10completionySS_ySi_SSSgSo7UIImageCSgSDySSAGGSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC18getBusinessDetails9requestId10completionySS_ySi_SSSgSo7UIImageCSgSDySSAGGSgAGtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC18getBusinessDetails9requestId10completionySS_ySi_SSSgSo7UIImageCSgSDySSAGGSgAGtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -40638,7 +41257,7 @@
           {
             "kind": "Function",
             "name": "done",
-            "printedName": "done(statusCode:document:)",
+            "printedName": "done(statusCode:document:error:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -40656,11 +41275,25 @@
                 "name": "Document",
                 "printedName": "MiVIPApi.Document",
                 "usr": "s:8MiVIPApi8DocumentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi16DocumentDelegateP4done10statusCode8documentySi_AA0C0VtF",
-            "mangledName": "$s8MiVIPApi16DocumentDelegateP4done10statusCode8documentySi_AA0C0VtF",
+            "usr": "s:8MiVIPApi16DocumentDelegateP4done10statusCode8document5errorySi_AA0C0VSSSgtF",
+            "mangledName": "$s8MiVIPApi16DocumentDelegateP4done10statusCode8document5errorySi_AA0C0VSSSgtF",
             "moduleName": "MiVIPApi",
             "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.DocumentDelegate>",
             "sugared_genericSig": "<Self where Self : MiVIPApi.DocumentDelegate>",
@@ -48656,7 +49289,7 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/MiVIPApiSdk.swift",
       "kind": "StringLiteral",
-      "offset": 10083,
+      "offset": 10092,
       "length": 6,
       "value": "\"live\""
     },
@@ -48894,28 +49527,28 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/video\/HooyuVideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2400,
+      "offset": 2418,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/video\/HooyuVideoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2451,
+      "offset": 2469,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/video\/HooyuVideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3634,
+      "offset": 3654,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/video\/HooyuVideoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3689,
+      "offset": 3709,
       "length": 6,
       "value": "\"live\""
     },
@@ -49657,518 +50290,518 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3441,
+      "offset": 3507,
       "length": 13,
       "value": "\"NOT_STARTED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3475,
+      "offset": 3541,
       "length": 10,
       "value": "\"UPLOADED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3507,
+      "offset": 3573,
       "length": 11,
       "value": "\"ANALYZING\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3541,
+      "offset": 3607,
       "length": 12,
       "value": "\"PROCESSING\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3575,
+      "offset": 3641,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3610,
+      "offset": 3676,
       "length": 13,
       "value": "\"BAD_QUALITY\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3646,
+      "offset": 3712,
       "length": 12,
       "value": "\"OK_QUALITY\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3683,
+      "offset": 3749,
       "length": 14,
       "value": "\"ERROR_UPLOAD\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3726,
+      "offset": 3792,
       "length": 18,
       "value": "\"ERROR_PROCESSING\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3441,
+      "offset": 3507,
       "length": 13,
       "value": "\"NOT_STARTED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3475,
+      "offset": 3541,
       "length": 10,
       "value": "\"UPLOADED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3507,
+      "offset": 3573,
       "length": 11,
       "value": "\"ANALYZING\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3541,
+      "offset": 3607,
       "length": 12,
       "value": "\"PROCESSING\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3575,
+      "offset": 3641,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3610,
+      "offset": 3676,
       "length": 13,
       "value": "\"BAD_QUALITY\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3646,
+      "offset": 3712,
       "length": 12,
       "value": "\"OK_QUALITY\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3683,
+      "offset": 3749,
       "length": 14,
       "value": "\"ERROR_UPLOAD\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3726,
+      "offset": 3792,
       "length": 18,
       "value": "\"ERROR_PROCESSING\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3826,
+      "offset": 3892,
       "length": 10,
       "value": "\"UPLOADED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3857,
+      "offset": 3923,
       "length": 10,
       "value": "\"COMPLETE\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3887,
+      "offset": 3953,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3919,
+      "offset": 3985,
       "length": 12,
       "value": "\"INCOMPLETE\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3950,
+      "offset": 4016,
       "length": 8,
       "value": "\"DANGER\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3980,
+      "offset": 4046,
       "length": 11,
       "value": "\"ANALYZING\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3826,
+      "offset": 3892,
       "length": 10,
       "value": "\"UPLOADED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3857,
+      "offset": 3923,
       "length": 10,
       "value": "\"COMPLETE\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3887,
+      "offset": 3953,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3919,
+      "offset": 3985,
       "length": 12,
       "value": "\"INCOMPLETE\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3950,
+      "offset": 4016,
       "length": 8,
       "value": "\"DANGER\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3980,
+      "offset": 4046,
       "length": 11,
       "value": "\"ANALYZING\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4088,
+      "offset": 4154,
       "length": 20,
       "value": "\"BAD_QUALITY_STREAM\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4138,
+      "offset": 4204,
       "length": 19,
       "value": "\"BAD_QUALITY_AUDIO\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4183,
+      "offset": 4249,
       "length": 15,
       "value": "\"CANT_HEAR_SEE\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4227,
+      "offset": 4293,
       "length": 18,
       "value": "\"MISSING_DOCUMENT\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4280,
+      "offset": 4346,
       "length": 24,
       "value": "\"DOCUMENT_BAD_CONDITION\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4346,
+      "offset": 4412,
       "length": 31,
       "value": "\"IDENTIFICATION_PROCESS_FAILED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4409,
+      "offset": 4475,
       "length": 21,
       "value": "\"USER_PHOTO_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4465,
+      "offset": 4531,
       "length": 24,
       "value": "\"DOCUMENT_TYPE_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4526,
+      "offset": 4592,
       "length": 26,
       "value": "\"DOCUMENT_NUMBER_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4583,
+      "offset": 4649,
       "length": 20,
       "value": "\"USER_NAME_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4635,
+      "offset": 4701,
       "length": 21,
       "value": "\"FIRST_NAME_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4685,
+      "offset": 4751,
       "length": 18,
       "value": "\"SURNAME_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4732,
+      "offset": 4798,
       "length": 18,
       "value": "\"DOCUMENT_INVALID\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4789,
+      "offset": 4855,
       "length": 28,
       "value": "\"DOCUMENT_NOT_LOOK_ORIGINAL\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4856,
+      "offset": 4922,
       "length": 28,
       "value": "\"MISSING_CAPTURE_USER_PHOTO\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4927,
+      "offset": 4993,
       "length": 32,
       "value": "\"MISSING_CAPTURE_DOCUMENT_FRONT\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5001,
+      "offset": 5067,
       "length": 31,
       "value": "\"MISSING_CAPTURE_DOCUMENT_BACK\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5067,
+      "offset": 5133,
       "length": 24,
       "value": "\"MISSING_DOCUMENT_PHOTO\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5123,
+      "offset": 5189,
       "length": 21,
       "value": "\"USER_ACCEPTED_VIDEO\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5178,
+      "offset": 5244,
       "length": 23,
       "value": "\"CONNECTIVITY_PROBLEMS\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5225,
+      "offset": 5291,
       "length": 13,
       "value": "\"MRZ_INVALID\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5258,
+      "offset": 5324,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4088,
+      "offset": 4154,
       "length": 20,
       "value": "\"BAD_QUALITY_STREAM\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4138,
+      "offset": 4204,
       "length": 19,
       "value": "\"BAD_QUALITY_AUDIO\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4183,
+      "offset": 4249,
       "length": 15,
       "value": "\"CANT_HEAR_SEE\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4227,
+      "offset": 4293,
       "length": 18,
       "value": "\"MISSING_DOCUMENT\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4280,
+      "offset": 4346,
       "length": 24,
       "value": "\"DOCUMENT_BAD_CONDITION\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4346,
+      "offset": 4412,
       "length": 31,
       "value": "\"IDENTIFICATION_PROCESS_FAILED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4409,
+      "offset": 4475,
       "length": 21,
       "value": "\"USER_PHOTO_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4465,
+      "offset": 4531,
       "length": 24,
       "value": "\"DOCUMENT_TYPE_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4526,
+      "offset": 4592,
       "length": 26,
       "value": "\"DOCUMENT_NUMBER_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4583,
+      "offset": 4649,
       "length": 20,
       "value": "\"USER_NAME_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4635,
+      "offset": 4701,
       "length": 21,
       "value": "\"FIRST_NAME_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4685,
+      "offset": 4751,
       "length": 18,
       "value": "\"SURNAME_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4732,
+      "offset": 4798,
       "length": 18,
       "value": "\"DOCUMENT_INVALID\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4789,
+      "offset": 4855,
       "length": 28,
       "value": "\"DOCUMENT_NOT_LOOK_ORIGINAL\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4856,
+      "offset": 4922,
       "length": 28,
       "value": "\"MISSING_CAPTURE_USER_PHOTO\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4927,
+      "offset": 4993,
       "length": 32,
       "value": "\"MISSING_CAPTURE_DOCUMENT_FRONT\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5001,
+      "offset": 5067,
       "length": 31,
       "value": "\"MISSING_CAPTURE_DOCUMENT_BACK\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5067,
+      "offset": 5133,
       "length": 24,
       "value": "\"MISSING_DOCUMENT_PHOTO\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5123,
+      "offset": 5189,
       "length": 21,
       "value": "\"USER_ACCEPTED_VIDEO\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5178,
+      "offset": 5244,
       "length": 23,
       "value": "\"CONNECTIVITY_PROBLEMS\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5225,
+      "offset": 5291,
       "length": 13,
       "value": "\"MRZ_INVALID\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/entities\/ScoreResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5258,
+      "offset": 5324,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
@@ -50308,196 +50941,196 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 5402,
+      "offset": 5520,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 8215,
+      "offset": 8451,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 19170,
+      "offset": 19883,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 21543,
+      "offset": 22374,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 21569,
+      "offset": 22400,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 21592,
+      "offset": 22423,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 26986,
+      "offset": 28073,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 27009,
+      "offset": 28096,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 28138,
+      "offset": 29225,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 28161,
+      "offset": 29248,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 29355,
+      "offset": 30442,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 29378,
+      "offset": 30465,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 30504,
+      "offset": 31591,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 30527,
+      "offset": 31614,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 31687,
+      "offset": 32774,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 31710,
+      "offset": 32797,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 34902,
+      "offset": 36107,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 37275,
+      "offset": 38618,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 39709,
+      "offset": 41204,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 43012,
+      "offset": 44615,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 46027,
+      "offset": 47776,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 50297,
+      "offset": 51116,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 52354,
+      "offset": 53298,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 52659,
+      "offset": 53605,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 52704,
+      "offset": 53650,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 55208,
+      "offset": 56388,
       "length": 24,
       "value": "\"com.hooyu.ios.Identify\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 55267,
+      "offset": 56447,
       "length": 89,
       "value": "\"vj7ttXTwYxJ0IfpnkKVFoAOBWd5cTpH1alet5FhShKyAyvzwI9TW0GjGjGg4LHVb90Yv9LfY3yQcsx8hHTppbcv\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 69350,
+      "offset": 74290,
       "length": 4,
       "value": "\"en\""
     },
@@ -50819,91 +51452,91 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3615,
+      "offset": 3631,
       "length": 19,
       "value": "\"com.wai.documents\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3646,
+      "offset": 3662,
       "length": 4,
       "value": "\"HL\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 3708,
+      "offset": 3724,
       "length": 6,
       "value": "2200.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 3771,
+      "offset": 3787,
       "length": 6,
       "value": "1800.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4006,
+      "offset": 4022,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4750,
+      "offset": 4766,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4806,
+      "offset": 4822,
       "length": 8,
       "value": "\"mobile\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4838,
+      "offset": 4854,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4895,
+      "offset": 4911,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7475,
+      "offset": 7491,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9199,
+      "offset": 9215,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11674,
+      "offset": 11732,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3537,
+      "offset": 3553,
       "length": 15,
       "value": "\"MiVIPApi.DocumentHandler\""
     },

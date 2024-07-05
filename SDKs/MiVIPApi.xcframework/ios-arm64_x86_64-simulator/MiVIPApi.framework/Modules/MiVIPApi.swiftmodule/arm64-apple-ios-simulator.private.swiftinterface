@@ -21,8 +21,8 @@ import os
   public func createRequest(name: Swift.String, phone: Swift.String?, email: Swift.String?, scope: Swift.String?, language: Swift.String, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
   public func getRequestDetails(referenceId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.HooyuRequest?) -> ())
   public func getSocials(requestId: Swift.String, completion: @escaping (Swift.Int, [MiVIPApi.Network]?) -> ())
-  public func video(requestId: Swift.String, email: Swift.String, phone: Swift.String, phoneCountryCode: Swift.String, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, completion: @escaping (Swift.String?) -> ())
-  public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?) -> ())
+  public func video(requestId: Swift.String, email: Swift.String, phone: Swift.String, phoneCountryCode: Swift.String, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> ())
+  public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
   @objc override dynamic public init()
   @objc deinit
 }
@@ -121,7 +121,7 @@ public struct CountryCode : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol MiVIPVideoDelegate {
-  func videoUrlError()
+  func videoUrlError(error: Swift.String?)
   func videoError(localizedError: Swift.String)
   func videoClosed()
   func videoWillOpen()
@@ -129,8 +129,8 @@ public protocol MiVIPVideoDelegate {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MiVIPVideoViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public var videoDelegate: (any MiVIPApi.MiVIPVideoDelegate)?
-  @_Concurrency.MainActor(unsafe) public func videoSdk(requestId: Swift.String, email: Swift.String, phone: Swift.String, phoneCountryCode: Swift.String, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func video(requestId: Swift.String, businessId: Swift.String, email: Swift.String, phone: Swift.String, phoneCountryCode: Swift.String, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, useSdk: Swift.Bool = false, environment: Swift.String = "live")
+  @_Concurrency.MainActor(unsafe) public func videoSdk(requestId: Swift.String, email: Swift.String, phone: Swift.String?, phoneCountryCode: Swift.String?, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func video(requestId: Swift.String, businessId: Swift.String, email: Swift.String, phone: Swift.String?, phoneCountryCode: Swift.String?, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, useSdk: Swift.Bool = false, environment: Swift.String = "live")
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -286,6 +286,7 @@ public struct ScoreResponse : Swift.Decodable {
   public var openBanking: Swift.Bool?
   public var voice: Swift.Bool?
   public var maxSelfieAttempts: Swift.Bool?
+  public var faceManual: Swift.Bool?
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct VideoStatus : Swift.Decodable {
@@ -448,37 +449,37 @@ public enum DocumentSide {
 @objc @_inheritsConvenienceInitializers public class HooyuCoreApi : ObjectiveC.NSObject {
   @objc override dynamic public init()
   public init(apiUri: Swift.String? = nil)
-  public func getRequestDetailsWithDevice(idRequest: Swift.String, account: MiVIPApi.HooyuAccountData, lang: Swift.String, latitude: Swift.String?, longitude: Swift.String?, completion: @escaping (Swift.Int, MiVIPApi.HooyuRequest?) -> ())
-  public func getDataByType(businessId: Swift.String, idRequest: Swift.String, deviceId: Swift.String, type: Swift.String, subType: Swift.String?, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?) -> ())
-  public func reuse(businessId: Swift.String, idRequest: Swift.String, deviceId: Swift.String, dataMap: [Swift.String : Any], environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?) -> ())
-  public func share(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
-  public func auth(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?) -> ())
-  public func update(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?) -> ())
-  public func getSocials(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.Network]?) -> ())
-  public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String = "", environment: Swift.String = "live", useSdk: Swift.Bool = false, completion: @escaping (Swift.Int, Swift.String?) -> ())
-  public func getRequestStatus(requestId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.ScoreResponse?) -> ())
+  public func getRequestDetailsWithDevice(idRequest: Swift.String, account: MiVIPApi.HooyuAccountData, lang: Swift.String, latitude: Swift.String?, longitude: Swift.String?, completion: @escaping (Swift.Int, MiVIPApi.HooyuRequest?, Swift.String?) -> ())
+  public func getDataByType(businessId: Swift.String, idRequest: Swift.String, deviceId: Swift.String, type: Swift.String, subType: Swift.String?, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  public func reuse(businessId: Swift.String, idRequest: Swift.String, deviceId: Swift.String, dataMap: [Swift.String : Any], environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?, Swift.String?) -> ())
+  public func share(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?, Swift.String?) -> ())
+  public func auth(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  public func update(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  public func getSocials(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.Network]?, Swift.String?) -> ())
+  public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String = "", environment: Swift.String = "live", useSdk: Swift.Bool = false, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  public func getRequestStatus(requestId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.ScoreResponse?, Swift.String?) -> ())
   public func getSelfieImage(requestId: Swift.String, filename: Swift.String, completion: @escaping (UIKit.UIImage?) -> ())
   public func removeSocial(social: Swift.String, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.Bool) -> ())
   public func getGdprParams(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.String?) -> ())
   public func gdprAccept(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.Bool) -> ())
   public func gdprExit(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.Bool) -> ())
-  public func addSignature(image: UIKit.UIImage, requestId: Swift.String, businessId: Swift.String?, environment: Swift.String = "live", lang: Swift.String = "en", base64Image: Swift.String? = nil, useCoreApi: Swift.Bool, completion: @escaping (Swift.Int, Swift.String?) -> ())
-  public func getAttachmentsInfo(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.Attachment]?) -> ())
-  public func getUserAttachments(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.UserAttachment]?) -> ())
-  public func uploadAttachment(image: UIKit.UIImage, type: Swift.String, fileName: Swift.String?, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, MiVIPApi.Attachment?) -> ())
-  public func removeAttachment(type: Swift.String, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, MiVIPApi.Attachment?) -> ())
-  public func getPoaMaxAge(requestId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : Swift.Int]?) -> ())
-  public func hasCode(userAgent: Swift.String, completion: @escaping (Swift.Bool) -> ())
-  public func verifyCode(code: Swift.String, userAgent: Swift.String, completion: @escaping (Swift.String?) -> ())
-  public func getConfig(requestId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?) -> ())
-  public func verifyPhone(phone: Swift.String, deviceId: Swift.String, email: Swift.String, completion: @escaping (Swift.Bool?, Swift.Bool?) -> ())
-  public func confirmPhone(phone: Swift.String, deviceId: Swift.String, code: Swift.String, completion: @escaping (Swift.Bool?) -> ())
-  public func verifyEmail(email: Swift.String, deviceId: Swift.String, lang: Swift.String, completion: @escaping (Swift.Bool?) -> ())
-  public func confirmEmail(email: Swift.String, deviceId: Swift.String, code: Swift.String, completion: @escaping (Swift.Bool?) -> ())
-  public func sendAccountData(account: MiVIPApi.HooyuAccountData, completion: @escaping (Swift.Int) -> ())
-  public func abandon(idRequest: Swift.String, reason: Swift.String, completion: @escaping (Swift.Bool) -> ())
-  public func uploadVoice(voices: [[Swift.String : Swift.String]], requestId: Swift.String, mipassEnroll: Swift.Bool?, lang: Swift.String = "en", completion: @escaping (Swift.Int, Swift.Bool?) -> ())
-  public func getBusinessDetails(requestId: Swift.String, completion: @escaping (Swift.Int, Swift.String?, UIKit.UIImage?, [Swift.String : Swift.String?]?) -> ())
+  public func addSignature(image: UIKit.UIImage, requestId: Swift.String, businessId: Swift.String?, environment: Swift.String = "live", lang: Swift.String = "en", base64Image: Swift.String? = nil, useCoreApi: Swift.Bool, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  public func getAttachmentsInfo(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.Attachment]?, Swift.String?) -> ())
+  public func getUserAttachments(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.UserAttachment]?, Swift.String?) -> ())
+  public func uploadAttachment(b64EncodedData: Swift.String, type: Swift.String, fileName: Swift.String?, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, MiVIPApi.Attachment?, Swift.String?) -> ())
+  public func removeAttachment(type: Swift.String, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, MiVIPApi.Attachment?, Swift.String?) -> ())
+  public func getPoaMaxAge(requestId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : Swift.Int]?, Swift.String?) -> ())
+  public func verifyCode(code: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> ())
+  public func getConfig(requestId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?, Swift.String?) -> ())
+  public func verifyPhone(phone: Swift.String, deviceId: Swift.String, email: Swift.String, completion: @escaping (Swift.Bool?, Swift.Bool?, Swift.String?) -> ())
+  public func confirmPhone(phone: Swift.String, deviceId: Swift.String, code: Swift.String, completion: @escaping (Swift.Bool?, Swift.String?) -> ())
+  public func log(level: Swift.String, sdkVersion: Swift.String, deviceId: Swift.String, message: Swift.String, idRequest: Swift.String?, completion: @escaping (Swift.Int?) -> ())
+  public func verifyEmail(email: Swift.String, deviceId: Swift.String, lang: Swift.String, completion: @escaping (Swift.Bool?, Swift.String?) -> ())
+  public func confirmEmail(email: Swift.String, deviceId: Swift.String, code: Swift.String, completion: @escaping (Swift.Bool?, Swift.String?) -> ())
+  public func sendAccountData(account: MiVIPApi.HooyuAccountData, completion: @escaping (Swift.Int, Swift.String?) -> ())
+  public func abandon(idRequest: Swift.String, reason: Swift.String, completion: @escaping (Swift.Bool, Swift.String?) -> ())
+  public func uploadVoice(voices: [[Swift.String : Swift.String]], requestId: Swift.String, mipassEnroll: Swift.Bool?, lang: Swift.String = "en", completion: @escaping (Swift.Int, Swift.Bool?, Swift.String?) -> ())
+  public func getBusinessDetails(requestId: Swift.String, completion: @escaping (Swift.Int, Swift.String?, UIKit.UIImage?, [Swift.String : Swift.String?]?, Swift.String?) -> ())
   @objc deinit
 }
 public struct AnyCodable : Swift.Decodable {
@@ -649,7 +650,7 @@ public protocol DocumentDelegate {
   func idRequest() -> Swift.String?
   func needBack(documentType: MiVIPApi.DocumentType)
   func postDocument(document: MiVIPApi.Document)
-  func done(statusCode: Swift.Int, document: MiVIPApi.Document)
+  func done(statusCode: Swift.Int, document: MiVIPApi.Document, error: Swift.String?)
   func error(didFailWithError error: any Swift.Error, documentType: MiVIPApi.DocumentType?)
   func willPreprocess(document: MiVIPApi.Document) -> Swift.Bool
   func preprocess(document: MiVIPApi.Document)

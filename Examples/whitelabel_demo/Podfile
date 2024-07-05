@@ -6,15 +6,16 @@ target 'whitelabel_demo' do
   use_frameworks!
 
   # Pods for whitelabel_demo
-  pod 'SocketRocket', '0.7.0'
-  pod 'MiSnap', '5.5.0'
-  pod 'MiSnapUX', '5.5.0'
-  pod 'MiSnapFacialCapture', '5.5.0'
-  pod 'MiSnapFacialCaptureUX', '5.5.0'
-  pod 'MiSnapVoiceCapture', '5.5.0'
-  pod 'MiSnapVoiceCaptureUX', '5.5.0'
-  pod 'MiSnapNFC', '5.5.0'
-  pod 'MiSnapNFCUX', '5.5.0'
+#  pod 'MiVIP', '3.5.1'
+   pod 'SocketRocket', '0.6.1'
+   pod 'MiSnap', '5.5.2'
+   pod 'MiSnapUX', '5.5.2'
+   pod 'MiSnapFacialCapture', '5.5.2'
+   pod 'MiSnapFacialCaptureUX', '5.5.2'
+   pod 'MiSnapVoiceCapture', '5.5.2'
+   pod 'MiSnapVoiceCaptureUX', '5.5.2'
+   pod 'MiSnapNFC', '5.5.2'
+   pod 'MiSnapNFCUX', '5.5.2'
 
 end
 

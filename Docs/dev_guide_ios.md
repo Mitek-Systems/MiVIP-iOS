@@ -19,16 +19,16 @@ SDK also includes wallet/account/history functionality.
 ## Installation
 
 1. [Cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)
-* add MiVIP pod dependancy. It will download all needed dependancies including MiSnap 5.5.1
+* add MiVIP pod dependancy. It will download all needed dependancies including MiSnap
 
-pod 'MiVIP', '3.3.5'
+pod 'MiVIP', '3.5.1'
 
 * Obtain MiSnap [license key](https://github.com/Mitek-Systems/MiSnap-iOS?tab=readme-ov-file#license-key)
 
 2.  [Swift Package Manager (SPM)](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app)
 * Add [MiSnap SDKs](https://github.com/Mitek-Systems/MiSnap-iOS) and obtain a license key
 * Add MiVIP package dependancies ([https://github.com/Mitek-Systems/MiVIP-iOS](https://github.com/Mitek-Systems/MiVIP-iOS))
-* Add external dependancy [SocketRocket](https://github.com/facebookincubator/SocketRocket) version 0.7.0
+* Add external dependancy [SocketRocket](https://github.com/facebookincubator/SocketRocket) version 0.6.1
 
 3.  Manual installation - you need to install MiSnap SDKs first  - [https://github.com/Mitek-Systems/MiSnap-iOS](https://github.com/Mitek-Systems/MiSnap-iOS)
 
@@ -51,25 +51,18 @@ source 'https://github.com/CocoaPods/Specs.git'
           use_frameworks!
         
           # Pods for whitelabel_demo
-          pod 'SocketRocket', '0.7.0'
-          pod 'MiSnap', '5.5.1'
-          pod 'MiSnapUX', '5.5.1'
-          pod 'MiSnapFacialCapture', '5.5.1'
-          pod 'MiSnapFacialCaptureUX', '5.5.1'
-          pod 'MiSnapVoiceCapture', '5.5.1'
-          pod 'MiSnapVoiceCaptureUX', '5.5.1'
-          pod 'MiSnapNFC', '5.5.1'
-          pod 'MiSnapNFCUX', '5.5.1'
+          pod 'SocketRocket', '0.6.1'
+          pod 'MiSnap', '5.5.2'
+          pod 'MiSnapUX', '5.5.2'
+          pod 'MiSnapFacialCapture', '5.5.2'
+          pod 'MiSnapFacialCaptureUX', '5.5.2'
+          pod 'MiSnapVoiceCapture', '5.5.2'
+          pod 'MiSnapVoiceCaptureUX', '5.5.2'
+          pod 'MiSnapNFC', '5.5.2'
+          pod 'MiSnapNFCUX', '5.5.2'
         
         end
-        
-        post_install do |installer|
-          installer.pods_project.targets.each do |target|
-            target.build_configurations.each do |config|
-              config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-            end
-          end
-        end
+
 ```
 
 * SDKs must be embedded and signed in the main app:
@@ -112,6 +105,22 @@ source 'https://github.com/CocoaPods/Specs.git'
 ```
 
 * Texts / Localisations - all texts + keys used by the SDK are exposed in example app’s Localizable.strings file. Changing value for given key will change the text in the UI. Main app can add different translations using defined keys.
+
+* Custom fonts
+    - Import your font into the project
+	- Add new key "Fonts provided by application" on application's info.plist file and add your font names
+    - Set MiVIP SDK font names. If given font size not set MiVIP will use system font
+	``` swift
+		mivip.setFontNameUltraLight(fontName: "WorkSans-ExtraLight")
+		mivip.setFontNameLight(fontName: "WorkSans-Light")
+		mivip.setFontNameThin(fontName: "WorkSans-Thin")
+		mivip.setFontNameBlack(fontName: "WorkSans-Black")
+		mivip.setFontNameMedium(fontName: "WorkSans-Medium")
+		mivip.setFontNameRegular(fontName: "WorkSans-Regular")
+		mivip.setFontNameSemiBold(fontName: "WorkSans-SemiBold")
+		mivip.setFontNameBold(fontName: "WorkSans-Bold")
+		mivip.setFontNamHeavy(fontName: "WorkSans-ExtraBold")
+	```
 
 ## Permissions for the main app
 Application will ask user to grant permissions when needed (e.g. when start capture or voice session). Main app should define that may require such permissions:
@@ -199,18 +208,29 @@ Application will ask user to grant permissions when needed (e.g. when start capt
 ```
 * _requestStatusDelegate_ - optional parameter when opening request. If set SDK will send callbacks to main application at request status change.
 
-``` swift
-        extension ViewController: MiVIPSdk.RequestStatusDelegate {
-            
-            func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?) {
-                // "RequestStatus = Optional(MiVIPApi.RequestStatus.COMPLETED), RequestResult Optional(MiVIPApi.RequestResult.PASS)"
-                debugPrint( "RequestStatus = \(status), RequestResult \(result), ScoreResponse \(scoreResponse)")
-            }
-            
-        }
-```
+	``` swift
+	extension ViewController: MiVIPSdk.RequestStatusDelegate {
+		
+		func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?) {
+			// "RequestStatus = Optional(MiVIPApi.RequestStatus.COMPLETED), RequestResult Optional(MiVIPApi.RequestResult.PASS)"
+			debugPrint( "RequestStatus = \(status), RequestResult \(result), ScoreResponse \(scoreResponse)")
+		}
+		
+	}
+	```
 
 * _documentCallbackUrl_ - optional parameter when opening request. If set (and callback domain whitelisted at MiVIP) document API will notify with server to server callbacks for document status. Must start with https://
+
+* Initialisation of MiVIPHub may throw error if no valid MiSnap license set
+	``` swift
+	do {
+		let mivip = try MiVIPHub()
+		...
+		
+	} catch let error as MiVIPHub.LicenseError {
+		print(error.rawValue)
+	}
+	```
 
 # SDKs Files and Sizes
 
@@ -244,7 +264,7 @@ Refer to "Create the App Size Report" section of [this article](https://develope
 
 | Technology | Version |
 | :--- | :---: |
-| MiSnap | 5.5.1 |
+| MiSnap | 5.5.2 |
 | Xcode | 14.0 |
 | iOS | 13.0 |
 | iPhone | 7 |

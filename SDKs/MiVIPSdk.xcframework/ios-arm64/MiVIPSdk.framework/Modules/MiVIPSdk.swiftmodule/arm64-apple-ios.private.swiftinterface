@@ -51,7 +51,6 @@ import os
   public var environment: Swift.String?
   public var dpk: Swift.String?
   public var documentCallbackUrl: Swift.String?
-  public var selfieCallbackUrl: Swift.String?
   public var request: MiVIPApi.HooyuRequest?
   public var selfieImage: UIKit.UIImage?
   public var scoreResponse: MiVIPApi.ScoreResponse?
@@ -147,15 +146,34 @@ import os
   @objc deinit
 }
 public class MiVIPHub {
+  public enum LicenseError : Swift.String, Swift.Error {
+    case license
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
   public static let version: Swift.String
-  public init()
+  public init() throws
   public func setReusableEnabled(_ reuseEnabled: Swift.Bool)
   public func setSoundsDisabled(_ disabled: Swift.Bool)
+  public func setLogDisabled(_ disabled: Swift.Bool)
   public func setAccountDetails(email: Swift.String?, phone: Swift.String?, name: Swift.String?)
   public func history(vc: UIKit.UIViewController, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
-  public func request(vc: UIKit.UIViewController, miVipRequestId: Swift.String, requestStatusDelegate: (any MiVIPSdk.RequestStatusDelegate)? = nil, documentCallbackUrl: Swift.String? = nil, selfieCallbackUrl: Swift.String? = nil, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
-  public func qrCode(vc: UIKit.UIViewController, requestStatusDelegate: (any MiVIPSdk.RequestStatusDelegate)? = nil, documentCallbackUrl: Swift.String? = nil, selfieCallbackUrl: Swift.String? = nil, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  public func request(vc: UIKit.UIViewController, miVipRequestId: Swift.String, requestStatusDelegate: (any MiVIPSdk.RequestStatusDelegate)? = nil, documentCallbackUrl: Swift.String? = nil, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  public func qrCode(vc: UIKit.UIViewController, requestStatusDelegate: (any MiVIPSdk.RequestStatusDelegate)? = nil, documentCallbackUrl: Swift.String? = nil, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
   public func account(vc: UIKit.UIViewController, animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  public func getRequestIdFromCode(code: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> ())
+  public func setFontNameUltraLight(fontName: Swift.String)
+  public func setFontNameThin(fontName: Swift.String)
+  public func setFontNameLight(fontName: Swift.String)
+  public func setFontNameMedium(fontName: Swift.String)
+  public func setFontNameRegular(fontName: Swift.String)
+  public func setFontNameBold(fontName: Swift.String)
+  public func setFontNameBlack(fontName: Swift.String)
+  public func setFontNameSemiBold(fontName: Swift.String)
+  public func setFontNamHeavy(fontName: Swift.String)
   @objc deinit
 }
 extension UIKit.UIViewController {
@@ -456,6 +474,7 @@ extension MiVIPSdk.MDropDown : UIKit.UITableViewDelegate {
 }
 extension UIKit.UIColor {
   convenience public init(hex: Swift.String)
+  convenience public init?(rgbString: Swift.String)
 }
 public protocol RequestStatusDelegate {
   func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?)
@@ -663,6 +682,9 @@ extension MiVIPSdk.CountryPickerViewDelegate {
   public func countryPickerView(_ countryPickerView: MiVIPSdk.CountryPickerViewM, willShow viewController: MiVIPSdk.CountryPickerViewController)
   public func countryPickerView(_ countryPickerView: MiVIPSdk.CountryPickerViewM, didShow viewController: MiVIPSdk.CountryPickerViewController)
 }
+extension MiVIPSdk.MiVIPHub.LicenseError : Swift.Equatable {}
+extension MiVIPSdk.MiVIPHub.LicenseError : Swift.Hashable {}
+extension MiVIPSdk.MiVIPHub.LicenseError : Swift.RawRepresentable {}
 extension MiVIPSdk.KeychainItemAccessibility : Swift.Equatable {}
 extension MiVIPSdk.KeychainItemAccessibility : Swift.Hashable {}
 @available(iOS, deprecated: 13.0, message: "Status bar animation no longer work after iOS 13")
