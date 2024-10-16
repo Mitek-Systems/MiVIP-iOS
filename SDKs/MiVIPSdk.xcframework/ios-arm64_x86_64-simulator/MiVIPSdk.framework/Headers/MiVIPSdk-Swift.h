@@ -397,12 +397,12 @@ SWIFT_CLASS("_TtC8MiVIPSdk25AccountMenuViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class UIScrollView;
 
 @interface AccountMenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
-
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk32AccountOpenBankingViewController")
@@ -1077,6 +1077,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk14MaskingGesture")
 - (nonnull instancetype)initWithTarget:(id _Nullable)target action:(SEL _Nullable)action OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIRefreshControl;
 
 SWIFT_CLASS("_TtC8MiVIPSdk18MenuViewController")
 @interface MenuViewController : UIViewController
@@ -1084,6 +1085,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk18MenuViewController")
 @property (nonatomic, readonly) BOOL shouldAutorotate;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
+- (void)reloadScoreWithRefreshControl:(UIRefreshControl * _Nonnull)refreshControl;
 - (void)toggleTip;
 - (void)tipLinearAction;
 - (void)back;
@@ -1094,13 +1096,40 @@ SWIFT_CLASS("_TtC8MiVIPSdk18MenuViewController")
 @end
 
 
-
 @interface MenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
 
 
 
+
+
+
+SWIFT_CLASS("_TtC8MiVIPSdk20MiPassViewController")
+@interface MiPassViewController : UIViewController
+- (void)viewDidLoad;
+- (void)startWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
+- (void)cancelWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface MiPassViewController (SWIFT_EXTENSION(MiVIPSdk)) <MiSnapFacialCaptureViewControllerDelegate>
+- (void)miSnapFacialCaptureLicenseStatus:(enum MiSnapLicenseStatus)status;
+- (void)miSnapFacialCaptureSuccess:(MiSnapFacialCaptureResult * _Nonnull)result;
+- (void)miSnapFacialCaptureCancelled:(MiSnapFacialCaptureResult * _Nonnull)result;
+@end
+
+@class MiSnapVoiceCaptureResult;
+
+@interface MiPassViewController (SWIFT_EXTENSION(MiVIPSdk)) <MiSnapVoiceCaptureViewControllerDelegate>
+- (void)miSnapVoiceCaptureLicenseStatus:(enum MiSnapLicenseStatus)status;
+- (void)miSnapVoiceCaptureDidSelectPhrase:(NSString * _Nonnull)phrase;
+- (void)miSnapVoiceCaptureSuccess:(NSArray<MiSnapVoiceCaptureResult *> * _Nonnull)results for:(enum MiSnapVoiceCaptureFlow)flow;
+- (void)miSnapVoiceCaptureCancelled:(MiSnapVoiceCaptureResult * _Nonnull)result;
+- (void)miSnapVoiceCaptureError:(MiSnapVoiceCaptureResult * _Nonnull)result;
+@end
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk23MyBetterAlertController")
@@ -1286,6 +1315,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk20QRScanViewController")
 - (void)gdprContinueWithGesture:(GdprGesture * _Nonnull)gesture;
 - (void)gdprExitWithGesture:(GdprGesture * _Nonnull)gesture;
 - (void)openRequestWithGesture:(GdprGesture * _Nonnull)gesture;
+- (void)welcomeContinue;
 - (void)oauthConfirmedWithGesture:(OauthGesture * _Nonnull)gesture;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -1297,6 +1327,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk20QRScanViewController")
 @interface QRScanViewController (SWIFT_EXTENSION(MiVIPSdk)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk12ReuseGesture")
@@ -1528,7 +1559,6 @@ SWIFT_CLASS("_TtC8MiVIPSdk9TextField")
 
 
 
-
 @interface UIViewController (SWIFT_EXTENSION(MiVIPSdk))
 - (void)dismissKeyboard;
 @end
@@ -1536,6 +1566,13 @@ SWIFT_CLASS("_TtC8MiVIPSdk9TextField")
 
 
 
+
+
+
+SWIFT_CLASS("_TtC8MiVIPSdk20UnassistedDocGesture")
+@interface UnassistedDocGesture : UITapGestureRecognizer
+- (nonnull instancetype)initWithTarget:(id _Nullable)target action:(SEL _Nullable)action OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk22UpdateIdViewController")
@@ -1549,12 +1586,22 @@ SWIFT_CLASS("_TtC8MiVIPSdk22UpdateIdViewController")
 @end
 
 
+SWIFT_CLASS("_TtC8MiVIPSdk35VerifiableCredentialsViewController")
+@interface VerifiableCredentialsViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_RESILIENT_CLASS("_TtC8MiVIPSdk24VideoIntroViewController")
 @interface VideoIntroViewController : MiVIPVideoViewController
 - (void)viewDidLoad;
 - (void)keyboardWillShowWithNotification:(NSNotification * _Nonnull)notification;
 - (void)keyboardWillHideWithNotification:(NSNotification * _Nonnull)notification;
+- (void)startUnassistedVideoActionWithGesture:(UnassistedDocGesture * _Nonnull)gesture;
 - (void)showDetailsWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
+- (void)startUnassistedActionWithGesture:(UIGestureRecognizer * _Nonnull)gesture;
 - (void)selectCountryWithGesture:(UIGestureRecognizer * _Nonnull)gesture;
 - (void)backWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
 - (void)closeWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
@@ -1596,7 +1643,6 @@ SWIFT_CLASS("_TtC8MiVIPSdk19VoiceViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class MiSnapVoiceCaptureResult;
 
 @interface VoiceViewController (SWIFT_EXTENSION(MiVIPSdk)) <MiSnapVoiceCaptureViewControllerDelegate>
 - (void)miSnapVoiceCaptureLicenseStatus:(enum MiSnapLicenseStatus)status;
@@ -2014,12 +2060,12 @@ SWIFT_CLASS("_TtC8MiVIPSdk25AccountMenuViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class UIScrollView;
 
 @interface AccountMenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
-
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk32AccountOpenBankingViewController")
@@ -2694,6 +2740,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk14MaskingGesture")
 - (nonnull instancetype)initWithTarget:(id _Nullable)target action:(SEL _Nullable)action OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIRefreshControl;
 
 SWIFT_CLASS("_TtC8MiVIPSdk18MenuViewController")
 @interface MenuViewController : UIViewController
@@ -2701,6 +2748,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk18MenuViewController")
 @property (nonatomic, readonly) BOOL shouldAutorotate;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
+- (void)reloadScoreWithRefreshControl:(UIRefreshControl * _Nonnull)refreshControl;
 - (void)toggleTip;
 - (void)tipLinearAction;
 - (void)back;
@@ -2711,13 +2759,40 @@ SWIFT_CLASS("_TtC8MiVIPSdk18MenuViewController")
 @end
 
 
-
 @interface MenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
 
 
 
+
+
+
+SWIFT_CLASS("_TtC8MiVIPSdk20MiPassViewController")
+@interface MiPassViewController : UIViewController
+- (void)viewDidLoad;
+- (void)startWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
+- (void)cancelWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface MiPassViewController (SWIFT_EXTENSION(MiVIPSdk)) <MiSnapFacialCaptureViewControllerDelegate>
+- (void)miSnapFacialCaptureLicenseStatus:(enum MiSnapLicenseStatus)status;
+- (void)miSnapFacialCaptureSuccess:(MiSnapFacialCaptureResult * _Nonnull)result;
+- (void)miSnapFacialCaptureCancelled:(MiSnapFacialCaptureResult * _Nonnull)result;
+@end
+
+@class MiSnapVoiceCaptureResult;
+
+@interface MiPassViewController (SWIFT_EXTENSION(MiVIPSdk)) <MiSnapVoiceCaptureViewControllerDelegate>
+- (void)miSnapVoiceCaptureLicenseStatus:(enum MiSnapLicenseStatus)status;
+- (void)miSnapVoiceCaptureDidSelectPhrase:(NSString * _Nonnull)phrase;
+- (void)miSnapVoiceCaptureSuccess:(NSArray<MiSnapVoiceCaptureResult *> * _Nonnull)results for:(enum MiSnapVoiceCaptureFlow)flow;
+- (void)miSnapVoiceCaptureCancelled:(MiSnapVoiceCaptureResult * _Nonnull)result;
+- (void)miSnapVoiceCaptureError:(MiSnapVoiceCaptureResult * _Nonnull)result;
+@end
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk23MyBetterAlertController")
@@ -2903,6 +2978,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk20QRScanViewController")
 - (void)gdprContinueWithGesture:(GdprGesture * _Nonnull)gesture;
 - (void)gdprExitWithGesture:(GdprGesture * _Nonnull)gesture;
 - (void)openRequestWithGesture:(GdprGesture * _Nonnull)gesture;
+- (void)welcomeContinue;
 - (void)oauthConfirmedWithGesture:(OauthGesture * _Nonnull)gesture;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -2914,6 +2990,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk20QRScanViewController")
 @interface QRScanViewController (SWIFT_EXTENSION(MiVIPSdk)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk12ReuseGesture")
@@ -3145,7 +3222,6 @@ SWIFT_CLASS("_TtC8MiVIPSdk9TextField")
 
 
 
-
 @interface UIViewController (SWIFT_EXTENSION(MiVIPSdk))
 - (void)dismissKeyboard;
 @end
@@ -3153,6 +3229,13 @@ SWIFT_CLASS("_TtC8MiVIPSdk9TextField")
 
 
 
+
+
+
+SWIFT_CLASS("_TtC8MiVIPSdk20UnassistedDocGesture")
+@interface UnassistedDocGesture : UITapGestureRecognizer
+- (nonnull instancetype)initWithTarget:(id _Nullable)target action:(SEL _Nullable)action OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk22UpdateIdViewController")
@@ -3166,12 +3249,22 @@ SWIFT_CLASS("_TtC8MiVIPSdk22UpdateIdViewController")
 @end
 
 
+SWIFT_CLASS("_TtC8MiVIPSdk35VerifiableCredentialsViewController")
+@interface VerifiableCredentialsViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_RESILIENT_CLASS("_TtC8MiVIPSdk24VideoIntroViewController")
 @interface VideoIntroViewController : MiVIPVideoViewController
 - (void)viewDidLoad;
 - (void)keyboardWillShowWithNotification:(NSNotification * _Nonnull)notification;
 - (void)keyboardWillHideWithNotification:(NSNotification * _Nonnull)notification;
+- (void)startUnassistedVideoActionWithGesture:(UnassistedDocGesture * _Nonnull)gesture;
 - (void)showDetailsWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
+- (void)startUnassistedActionWithGesture:(UIGestureRecognizer * _Nonnull)gesture;
 - (void)selectCountryWithGesture:(UIGestureRecognizer * _Nonnull)gesture;
 - (void)backWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
 - (void)closeWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
@@ -3213,7 +3306,6 @@ SWIFT_CLASS("_TtC8MiVIPSdk19VoiceViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class MiSnapVoiceCaptureResult;
 
 @interface VoiceViewController (SWIFT_EXTENSION(MiVIPSdk)) <MiSnapVoiceCaptureViewControllerDelegate>
 - (void)miSnapVoiceCaptureLicenseStatus:(enum MiSnapLicenseStatus)status;

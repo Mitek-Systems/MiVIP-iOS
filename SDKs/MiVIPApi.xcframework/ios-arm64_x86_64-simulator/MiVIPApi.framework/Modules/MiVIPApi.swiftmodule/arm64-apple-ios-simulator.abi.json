@@ -26876,6 +26876,148 @@
           },
           {
             "kind": "Function",
+            "name": "mipassVerify",
+            "printedName": "mipassVerify(enrollmentId:requestId:environment:selfieB64:voices:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[[Swift.String : Swift.String]]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.String : Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String?, MiVIPApi.MiPassEnrollVerifyResponse?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String?, MiVIPApi.MiPassEnrollVerifyResponse?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MiVIPApi.MiPassEnrollVerifyResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MiPassEnrollVerifyResponse",
+                            "printedName": "MiVIPApi.MiPassEnrollVerifyResponse",
+                            "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC12mipassVerify12enrollmentId07requestI011environment9selfieB646voices10completionySS_S3SSgSaySDyS2SGGSgySb_AkA0a10PassEnrollG8ResponseVSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC12mipassVerify12enrollmentId07requestI011environment9selfieB646voices10completionySS_S3SSgSaySDyS2SGGSgySb_AkA0a10PassEnrollG8ResponseVSgtctF",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getBusinessDetails",
             "printedName": "getBusinessDetails(requestId:completion:)",
             "children": [
@@ -27395,6 +27537,1216 @@
         "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MiPassEnrollVerifyResponse",
+        "printedName": "MiPassEnrollVerifyResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enrollmentId",
+            "printedName": "enrollmentId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV12enrollmentIdSSSgvp",
+            "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV12enrollmentIdSSSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV12enrollmentIdSSSgvg",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV12enrollmentIdSSSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV12enrollmentIdSSSgvs",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV12enrollmentIdSSSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV12enrollmentIdSSSgvM",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV12enrollmentIdSSSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV6statusSSSgvp",
+            "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV6statusSSSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV6statusSSSgvg",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV6statusSSSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV6statusSSSgvs",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV6statusSSSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV6statusSSSgvM",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV6statusSSSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reference",
+            "printedName": "reference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV9referenceSSSgvp",
+            "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV9referenceSSSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV9referenceSSSgvg",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV9referenceSSSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV9referenceSSSgvs",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV9referenceSSSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV9referenceSSSgvM",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV9referenceSSSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transactionId",
+            "printedName": "transactionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV13transactionIdSSSgvp",
+            "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV13transactionIdSSSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV13transactionIdSSSgvg",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV13transactionIdSSSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV13transactionIdSSSgvs",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV13transactionIdSSSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV13transactionIdSSSgvM",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV13transactionIdSSSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "face",
+            "printedName": "face",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MiVIPApi.MiPassResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MiPassResult",
+                    "printedName": "MiVIPApi.MiPassResult",
+                    "usr": "s:8MiVIPApi0A10PassResultV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV4faceAA0aC6ResultVSgvp",
+            "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV4faceAA0aC6ResultVSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MiVIPApi.MiPassResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MiPassResult",
+                        "printedName": "MiVIPApi.MiPassResult",
+                        "usr": "s:8MiVIPApi0A10PassResultV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV4faceAA0aC6ResultVSgvg",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV4faceAA0aC6ResultVSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MiVIPApi.MiPassResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MiPassResult",
+                        "printedName": "MiVIPApi.MiPassResult",
+                        "usr": "s:8MiVIPApi0A10PassResultV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV4faceAA0aC6ResultVSgvs",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV4faceAA0aC6ResultVSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV4faceAA0aC6ResultVSgvM",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV4faceAA0aC6ResultVSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "voice",
+            "printedName": "voice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MiVIPApi.MiPassResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MiPassResult",
+                    "printedName": "MiVIPApi.MiPassResult",
+                    "usr": "s:8MiVIPApi0A10PassResultV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV5voiceAA0aC6ResultVSgvp",
+            "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV5voiceAA0aC6ResultVSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MiVIPApi.MiPassResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MiPassResult",
+                        "printedName": "MiVIPApi.MiPassResult",
+                        "usr": "s:8MiVIPApi0A10PassResultV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV5voiceAA0aC6ResultVSgvg",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV5voiceAA0aC6ResultVSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MiVIPApi.MiPassResult?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MiPassResult",
+                        "printedName": "MiVIPApi.MiPassResult",
+                        "usr": "s:8MiVIPApi0A10PassResultV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV5voiceAA0aC6ResultVSgvs",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV5voiceAA0aC6ResultVSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV5voiceAA0aC6ResultVSgvM",
+                "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV5voiceAA0aC6ResultVSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MiPassEnrollVerifyResponse",
+                "printedName": "MiVIPApi.MiPassEnrollVerifyResponse",
+                "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MiVIPApi",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "MiVIPApi",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8MiVIPApi0A24PassEnrollVerifyResponseV",
+        "mangledName": "$s8MiVIPApi0A24PassEnrollVerifyResponseV",
+        "moduleName": "MiVIPApi",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MiPassResult",
+        "printedName": "MiPassResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi0A10PassResultV6statusSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10PassResultV6statusSSSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A10PassResultV6statusSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10PassResultV6statusSSSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A10PassResultV6statusSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10PassResultV6statusSSSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A10PassResultV6statusSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10PassResultV6statusSSSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiration",
+            "printedName": "expiration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi0A10PassResultV10expirationSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10PassResultV10expirationSSSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A10PassResultV10expirationSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10PassResultV10expirationSSSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A10PassResultV10expirationSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10PassResultV10expirationSSSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A10PassResultV10expirationSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10PassResultV10expirationSSSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reasons",
+            "printedName": "reasons",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String?]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi0A10PassResultV7reasonsSaySSSgGSgvp",
+            "mangledName": "$s8MiVIPApi0A10PassResultV7reasonsSaySSSgGSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String?]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String?]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A10PassResultV7reasonsSaySSSgGSgvg",
+                "mangledName": "$s8MiVIPApi0A10PassResultV7reasonsSaySSSgGSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String?]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String?]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A10PassResultV7reasonsSaySSSgGSgvs",
+                "mangledName": "$s8MiVIPApi0A10PassResultV7reasonsSaySSSgGSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi0A10PassResultV7reasonsSaySSSgGSgvM",
+                "mangledName": "$s8MiVIPApi0A10PassResultV7reasonsSaySSSgGSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MiPassResult",
+                "printedName": "MiVIPApi.MiPassResult",
+                "usr": "s:8MiVIPApi0A10PassResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8MiVIPApi0A10PassResultV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8MiVIPApi0A10PassResultV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MiVIPApi",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi0A10PassResultV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8MiVIPApi0A10PassResultV6encode2toys7Encoder_p_tKF",
+            "moduleName": "MiVIPApi",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8MiVIPApi0A10PassResultV",
+        "mangledName": "$s8MiVIPApi0A10PassResultV",
+        "moduleName": "MiVIPApi",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -43082,6 +44434,57 @@
             "declAttributes": [
               "Available"
             ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cropImage",
+            "printedName": "cropImage(image:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImage?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15DocumentHandlerC9cropImage5image10completionySo7UIImageC_yAHSgctFZ",
+            "mangledName": "$s8MiVIPApi15DocumentHandlerC9cropImage5image10completionySo7UIImageC_yAHSgctFZ",
+            "moduleName": "MiVIPApi",
+            "static": true,
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }

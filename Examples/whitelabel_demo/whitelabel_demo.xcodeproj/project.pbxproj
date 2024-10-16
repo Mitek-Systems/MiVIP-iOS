@@ -14,12 +14,6 @@
 		6B4B295927C5320C000D371A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4B295727C5320C000D371A /* Main.storyboard */; };
 		6B4B295B27C5320F000D371A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4B295A27C5320F000D371A /* Assets.xcassets */; };
 		6B4B295E27C5320F000D371A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4B295C27C5320F000D371A /* LaunchScreen.storyboard */; };
-		6B4C59C52C3574040062EA89 /* MiVIPApi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C59C12C3573F70062EA89 /* MiVIPApi.xcframework */; };
-		6B4C59C62C3574040062EA89 /* MiVIPApi.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C59C12C3573F70062EA89 /* MiVIPApi.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6B4C59C72C3574050062EA89 /* MiVIPLiveness.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C59C02C3573F70062EA89 /* MiVIPLiveness.xcframework */; };
-		6B4C59C82C3574050062EA89 /* MiVIPLiveness.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C59C02C3573F70062EA89 /* MiVIPLiveness.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6B4C59C92C3574060062EA89 /* MiVIPSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C59BF2C3573F70062EA89 /* MiVIPSdk.xcframework */; };
-		6B4C59CA2C3574060062EA89 /* MiVIPSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C59BF2C3573F70062EA89 /* MiVIPSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B4C59D52C3574BF0062EA89 /* WorkSans-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C59CC2C3574BF0062EA89 /* WorkSans-ExtraBold.otf */; };
 		6B4C59D62C3574BF0062EA89 /* WorkSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C59CD2C3574BF0062EA89 /* WorkSans-Medium.otf */; };
 		6B4C59D72C3574BF0062EA89 /* WorkSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C59CE2C3574BF0062EA89 /* WorkSans-Bold.otf */; };
@@ -29,6 +23,12 @@
 		6B4C59DB2C3574BF0062EA89 /* WorkSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C59D22C3574BF0062EA89 /* WorkSans-Thin.otf */; };
 		6B4C59DC2C3574BF0062EA89 /* WorkSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C59D32C3574BF0062EA89 /* WorkSans-Regular.otf */; };
 		6B4C59DD2C3574BF0062EA89 /* WorkSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C59D42C3574BF0062EA89 /* WorkSans-Black.otf */; };
+		6B5896EB2CBFCC12007BE47E /* MiVIPApi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5896E72CBFCC09007BE47E /* MiVIPApi.xcframework */; };
+		6B5896EC2CBFCC12007BE47E /* MiVIPApi.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5896E72CBFCC09007BE47E /* MiVIPApi.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B5896ED2CBFCC13007BE47E /* MiVIPLiveness.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5896E52CBFCC09007BE47E /* MiVIPLiveness.xcframework */; };
+		6B5896EE2CBFCC13007BE47E /* MiVIPLiveness.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5896E52CBFCC09007BE47E /* MiVIPLiveness.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6B5896EF2CBFCC14007BE47E /* MiVIPSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5896E62CBFCC09007BE47E /* MiVIPSdk.xcframework */; };
+		6B5896F02CBFCC14007BE47E /* MiVIPSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5896E62CBFCC09007BE47E /* MiVIPSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B9DAE4827F34D6E00BD3D67 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B9DAE4A27F34D6E00BD3D67 /* Localizable.strings */; };
 		6BA7EF2F298AC2070001800E /* MiSnapLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF08298AC2070001800E /* MiSnapLocalizable.strings */; };
 		6BA7EF30298AC2070001800E /* misnap_tutorial_passport_qr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7EF0B298AC2070001800E /* misnap_tutorial_passport_qr.jpg */; };
@@ -67,9 +67,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6B4C59C82C3574050062EA89 /* MiVIPLiveness.xcframework in Embed Frameworks */,
-				6B4C59C62C3574040062EA89 /* MiVIPApi.xcframework in Embed Frameworks */,
-				6B4C59CA2C3574060062EA89 /* MiVIPSdk.xcframework in Embed Frameworks */,
+				6B5896EE2CBFCC13007BE47E /* MiVIPLiveness.xcframework in Embed Frameworks */,
+				6B5896EC2CBFCC12007BE47E /* MiVIPApi.xcframework in Embed Frameworks */,
+				6B5896F02CBFCC14007BE47E /* MiVIPSdk.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,9 +84,6 @@
 		6B4B295527C5320C000D371A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B4B295A27C5320F000D371A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B4B295F27C5320F000D371A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B4C59BF2C3573F70062EA89 /* MiVIPSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiVIPSdk.xcframework; sourceTree = "<group>"; };
-		6B4C59C02C3573F70062EA89 /* MiVIPLiveness.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiVIPLiveness.xcframework; sourceTree = "<group>"; };
-		6B4C59C12C3573F70062EA89 /* MiVIPApi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MiVIPApi.xcframework; sourceTree = "<group>"; };
 		6B4C59CC2C3574BF0062EA89 /* WorkSans-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraBold.otf"; sourceTree = "<group>"; };
 		6B4C59CD2C3574BF0062EA89 /* WorkSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Medium.otf"; sourceTree = "<group>"; };
 		6B4C59CE2C3574BF0062EA89 /* WorkSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.otf"; sourceTree = "<group>"; };
@@ -97,6 +94,9 @@
 		6B4C59D32C3574BF0062EA89 /* WorkSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.otf"; sourceTree = "<group>"; };
 		6B4C59D42C3574BF0062EA89 /* WorkSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Black.otf"; sourceTree = "<group>"; };
 		6B4EBC0127CFAF86001285AE /* whitelabel_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = whitelabel_demo.entitlements; sourceTree = "<group>"; };
+		6B5896E52CBFCC09007BE47E /* MiVIPLiveness.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MiVIPLiveness.xcframework; path = ../../../Desktop/xcframework_hooyu/MiVIP/3.6.0/MiVIPLiveness.xcframework; sourceTree = "<group>"; };
+		6B5896E62CBFCC09007BE47E /* MiVIPSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MiVIPSdk.xcframework; path = ../../../Desktop/xcframework_hooyu/MiVIP/3.6.0/MiVIPSdk.xcframework; sourceTree = "<group>"; };
+		6B5896E72CBFCC09007BE47E /* MiVIPApi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MiVIPApi.xcframework; path = ../../../Desktop/xcframework_hooyu/MiVIP/3.6.0/MiVIPApi.xcframework; sourceTree = "<group>"; };
 		6B5C9A482B5FFDC1007A092E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B5C9A492B5FFDC1007A092E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B9DAE4927F34D6E00BD3D67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -142,11 +142,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B4C59C72C3574050062EA89 /* MiVIPLiveness.xcframework in Frameworks */,
+				6B5896ED2CBFCC13007BE47E /* MiVIPLiveness.xcframework in Frameworks */,
 				6B3E9B6D27CCC6E8006983A3 /* CoreNFC.framework in Frameworks */,
 				BCAA170F45E25861327E91DF /* Pods_whitelabel_demo.framework in Frameworks */,
-				6B4C59C52C3574040062EA89 /* MiVIPApi.xcframework in Frameworks */,
-				6B4C59C92C3574060062EA89 /* MiVIPSdk.xcframework in Frameworks */,
+				6B5896EB2CBFCC12007BE47E /* MiVIPApi.xcframework in Frameworks */,
+				6B5896EF2CBFCC14007BE47E /* MiVIPSdk.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,9 +192,9 @@
 		6B4B296527C532C9000D371A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6B4C59C12C3573F70062EA89 /* MiVIPApi.xcframework */,
-				6B4C59C02C3573F70062EA89 /* MiVIPLiveness.xcframework */,
-				6B4C59BF2C3573F70062EA89 /* MiVIPSdk.xcframework */,
+				6B5896E72CBFCC09007BE47E /* MiVIPApi.xcframework */,
+				6B5896E52CBFCC09007BE47E /* MiVIPLiveness.xcframework */,
+				6B5896E62CBFCC09007BE47E /* MiVIPSdk.xcframework */,
 				6B3E9B6C27CCC6E8006983A3 /* CoreNFC.framework */,
 				DA68339B2D44DFBE5B454092 /* Pods_whitelabel_demo.framework */,
 			);

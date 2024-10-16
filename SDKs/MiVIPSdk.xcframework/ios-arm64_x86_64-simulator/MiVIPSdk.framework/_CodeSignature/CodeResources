@@ -74,7 +74,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		64GEiP/olq2lqX6N4Lg2/HuDHZw=
+		lhcYm/NUU9iWIXuXy9Hj5AAuP8k=
 		</data>
 		<key>BA.png</key>
 		<data>
@@ -546,7 +546,7 @@
 		</data>
 		<key>CountryCodes.json</key>
 		<data>
-		LNVG3hG+ur1EA4kOZI2XotgNQLE=
+		KawFBWpn5aSgDgWEz+Qp6HPuv7U=
 		</data>
 		<key>CountryPickerViewM.nib</key>
 		<data>
@@ -734,7 +734,7 @@
 		</data>
 		<key>Headers/MiVIPSdk-Swift.h</key>
 		<data>
-		eUmPNzEVYusL3PMZOv29uaCUAKc=
+		iDNRhabvXeFJiGbwgFAE7/hjIwI=
 		</data>
 		<key>IE.png</key>
 		<data>
@@ -978,11 +978,11 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		z5F0bxBl7dEWZqplIGbwc8MimNA=
+		OP8476fBeXb+L8hVmgVSM+S/qOM=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eKsiW/Kw9sTXPiroKkCMq5+0vTw=
+		sqsPzaYGn5PLLGJlrzGNzyWR4UI=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -990,19 +990,19 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eKsiW/Kw9sTXPiroKkCMq5+0vTw=
+		sqsPzaYGn5PLLGJlrzGNzyWR4UI=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZC+EdLAD4OZG8qn71g68+XcBASc=
+		2Kl4Z1bC3m4w1ngVLvuBldlr9dk=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		z5F0bxBl7dEWZqplIGbwc8MimNA=
+		OP8476fBeXb+L8hVmgVSM+S/qOM=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2tsMFOayNtuDksd3DD8/lmBYPS0=
+		mng1wF1smljz+85nPcnSB/LY8Bw=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -1010,11 +1010,11 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2tsMFOayNtuDksd3DD8/lmBYPS0=
+		mng1wF1smljz+85nPcnSB/LY8Bw=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Lgf14/E7Ej8XKSCn5FoYiiI3kAU=
+		yAAiLHjEe9uE4acrr562FOhqRAE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1392,20 +1392,20 @@
 		<data>
 		3LgssTHP4p9DK+7vCWtgJgvgR7Y=
 		</data>
-		<key>de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UhEnjfcS1YSCFZ1Sra6DPixslfs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e2MYjWRb7bWmbhBy8C52qWrd4+4=
+			4tWzKzl9r/f2yvzR7FuLIFuY0CI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZiwQT7erjZtxCjLxI4wnd34fYfo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1536,7 +1536,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sLJvqq19mCG8BgWAEiZpaeN9TvvsRBk/mNTWANPpxbM=
+			jihiiVhcWBdJSP+bK5RW8lrmkVkLY5SB0rFzc93tDhM=
 			</data>
 		</dict>
 		<key>BA.png</key>
@@ -2362,7 +2362,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZVZKr4y1fkjfZLYSVpl+BMO/NiPFlGztAdnaYbn4L/o=
+			hHUzoqHJUV68uEva6tfNc0HWf0QUD5l4Z9FdYPU8RBE=
 			</data>
 		</dict>
 		<key>CountryPickerViewM.nib</key>
@@ -2691,7 +2691,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dKxSjr0CpTMMdtm0ab4W/OdtojL9fq+CZDEr2JrwFn8=
+			1DqVPV9xl1ZmRZJz6stvqNLLnzHorIQIdMwwVEvtFs8=
 			</data>
 		</dict>
 		<key>IE.png</key>
@@ -3111,14 +3111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zsJZaHouozpOxJ9U9Zqkthbg3u8DmtiQ63S4dQbxmEo=
+			n3L1IWc3VXLZIhDuqjvrzzdXyQAnXbz/W/64IN+7OA4=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x/ZSg74HMcHaHEccJbPyT9fQZi5mehOMwXLYlkr2xpo=
+			TZz7vj/qbcwolnfWsiC8QTf6hHofYwX1VL0LG9Jxw2w=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -3132,28 +3132,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x/ZSg74HMcHaHEccJbPyT9fQZi5mehOMwXLYlkr2xpo=
+			TZz7vj/qbcwolnfWsiC8QTf6hHofYwX1VL0LG9Jxw2w=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gAZ5ywUvogz9oaPkJhC++Xg7c8vOi59+a47e6lyE0I4=
+			QFyR/e5zjltlJ0CT04/SGmjwe/YIR/AREj5pwzDx82s=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zsJZaHouozpOxJ9U9Zqkthbg3u8DmtiQ63S4dQbxmEo=
+			n3L1IWc3VXLZIhDuqjvrzzdXyQAnXbz/W/64IN+7OA4=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B4kDvYqUlqBZULSdw4kjQPLGnDO/2SaW/+aW/GDsZBM=
+			sqXlJ6uqLS9PZWshXIuIpn5Kv+FSQZlxJcsND6Orm0s=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -3167,14 +3167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B4kDvYqUlqBZULSdw4kjQPLGnDO/2SaW/+aW/GDsZBM=
+			sqXlJ6uqLS9PZWshXIuIpn5Kv+FSQZlxJcsND6Orm0s=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Aa37JR0XlVLU9TLRysBgZTOasFfda/TfdobBVBuSkHY=
+			RNoNJvBBYuuUe/sTD8oTFwgZd6UtGpXNGVoxljo4mhY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -3835,20 +3835,20 @@
 			1DtxGdE7blzjZOfi75cKV8B0+Z69B0sVXb1S9z3EsSc=
 			</data>
 		</dict>
-		<key>de.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2n32RBvtlCdbpLCHFwbdlEzdEmrE6o6ceTGhBbxmga0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g5heJDezgOhMfnaX9Sh5elcwm9WEX+1ibMC8P8sV8Yc=
+			3E9jtMeNwR3/puJGWFZ4xwQA7P/uFpkL3RCJuG7GLPA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cYEjB85ptkaa4Y9rhsxT3WTADjQUH+lFohis7bGPrQ4=
 			</data>
 			<key>optional</key>
 			<true/>

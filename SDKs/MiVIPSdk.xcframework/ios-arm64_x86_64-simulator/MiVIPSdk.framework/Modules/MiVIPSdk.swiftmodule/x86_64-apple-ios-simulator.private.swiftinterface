@@ -73,9 +73,13 @@ import os
   public var reuseGetDisabled: Swift.Bool
   public var reuseUseDisabled: Swift.Bool
   public var disableGdpr: Swift.Bool
+  public var welcomeSkipScope: Swift.Bool
   public var hideProgressBar: Swift.Bool
   public var liveCaptureOnly: Swift.Set<Swift.String>
   public var nfcDocumentSetting: Swift.Set<Swift.String>
+  public var reuseMipassRequired: Swift.Bool
+  public var verifiableCredentialsEnabled: Swift.Bool
+  public var customMessages: [Swift.String : Swift.String]?
   public var oauthRequest: Swift.Bool
   public var oauthQrCode: Swift.Bool
   public var redirectDone: Swift.Bool
@@ -83,6 +87,10 @@ import os
   public var voiceError: Swift.Bool
   public func mipassEnrollFace() -> Swift.Bool
   public func mipassEnrollVoice() -> Swift.Bool
+  public var miPassFaceB46: Swift.String?
+  public var miPassFaceDone: Swift.Bool
+  public var miPassVoices: [[Swift.String : Swift.String]]?
+  public var miPassVoiceDone: Swift.Bool
   public var businessLogo: UIKit.UIImage?
   public var primaryColor: UIKit.UIColor?
   public var secondaryColor: UIKit.UIColor?
@@ -393,6 +401,11 @@ extension MiVIPSdk.SideMenuController {
     public var animation: MiVIPSdk.SideMenuController.Preferences.Animation
   }
 }
+public protocol MiPassMivipDelegate {
+  func fail(error: Swift.String?)
+  func success(result: MiVIPApi.MiPassEnrollVerifyResponse)
+  func cancel()
+}
 @_inheritsConvenienceInitializers @objc(JRDropDown) @_Concurrency.MainActor(unsafe) open class MDropDown : UIKit.UITextField {
   @_Concurrency.MainActor(unsafe) public var selectedIndex: Swift.Int?
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var rowHeight: CoreFoundation.CGFloat
@@ -512,6 +525,7 @@ public struct Country : Swift.Equatable {
   public let name: Swift.String
   public let code: Swift.String
   public let phoneCode: Swift.String
+  public let a3code: Swift.String
   public func localizedName(_ locale: Foundation.Locale = Locale.current) -> Swift.String?
   public var flag: UIKit.UIImage {
     get

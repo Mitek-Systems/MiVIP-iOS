@@ -479,6 +479,7 @@ public enum DocumentSide {
   public func sendAccountData(account: MiVIPApi.HooyuAccountData, completion: @escaping (Swift.Int, Swift.String?) -> ())
   public func abandon(idRequest: Swift.String, reason: Swift.String, completion: @escaping (Swift.Bool, Swift.String?) -> ())
   public func uploadVoice(voices: [[Swift.String : Swift.String]], requestId: Swift.String, mipassEnroll: Swift.Bool?, lang: Swift.String = "en", completion: @escaping (Swift.Int, Swift.Bool?, Swift.String?) -> ())
+  public func mipassVerify(enrollmentId: Swift.String, requestId: Swift.String, environment: Swift.String, selfieB64: Swift.String?, voices: [[Swift.String : Swift.String]]?, completion: @escaping (Swift.Bool, Swift.String?, MiVIPApi.MiPassEnrollVerifyResponse?) -> ())
   public func getBusinessDetails(requestId: Swift.String, completion: @escaping (Swift.Int, Swift.String?, UIKit.UIImage?, [Swift.String : Swift.String?]?, Swift.String?) -> ())
   @objc deinit
 }
@@ -493,6 +494,23 @@ extension MiVIPApi.AnyCodable : Swift.Encodable {
   public class func toDocument(response: MiVIPApi.DocumentResponse, type: MiVIPApi.DocumentType) -> MiVIPApi.Document
   @objc override dynamic public init()
   @objc deinit
+}
+public struct MiPassEnrollVerifyResponse : Swift.Codable {
+  public var enrollmentId: Swift.String?
+  public var status: Swift.String?
+  public var reference: Swift.String?
+  public var transactionId: Swift.String?
+  public var face: MiVIPApi.MiPassResult?
+  public var voice: MiVIPApi.MiPassResult?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MiPassResult : Swift.Codable {
+  public var status: Swift.String?
+  public var expiration: Swift.String?
+  public var reasons: [Swift.String?]?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct RequestCallbackResponse : Swift.Decodable {
   public var reference: Swift.String?
@@ -706,6 +724,9 @@ extension MiVIPApi.DocumentDelegate {
 extension MiVIPApi.DocumentHandler {
   @available(iOS 13, *)
   public func ocr(document: MiVIPApi.Document, completion: @escaping (MiVIPApi.OcrData?) -> ())
+}
+extension MiVIPApi.DocumentHandler {
+  public class func cropImage(image: UIKit.UIImage, completion: @escaping (UIKit.UIImage?) -> ())
 }
 public struct Quadrilateral {
   public var topLeft: CoreFoundation.CGPoint
