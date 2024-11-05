@@ -613,7 +613,7 @@ public struct Document {
   public var multiImage: UIKit.UIImage?
   public var pdfBase64: Swift.String?
   public var imageData: [Swift.String : Swift.String]?
-  public var captureData: [Swift.String : Swift.String]?
+  public var captureData: [Swift.String : [Swift.String : Swift.String]]?
   public var firstname: Swift.String?
   public var middlenames: Swift.String?
   public var surname: Swift.String?

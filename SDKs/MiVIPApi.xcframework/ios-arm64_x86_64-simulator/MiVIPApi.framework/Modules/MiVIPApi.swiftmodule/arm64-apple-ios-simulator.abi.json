@@ -38030,12 +38030,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
+                "printedName": "[Swift.String : [Swift.String : Swift.String]]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
+                    "printedName": "[Swift.String : [Swift.String : Swift.String]]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -38043,40 +38043,6 @@
                         "printedName": "Swift.String",
                         "usr": "s:SS"
                       },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8MiVIPApi8DocumentV11captureDataSDyS2SGSgvp",
-            "mangledName": "$s8MiVIPApi8DocumentV11captureDataSDyS2SGSgvp",
-            "moduleName": "MiVIPApi",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
-                    "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Dictionary",
@@ -38098,12 +38064,74 @@
                         "usr": "s:SD"
                       }
                     ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi8DocumentV11captureDataSDySSSDyS2SGGSgvp",
+            "mangledName": "$s8MiVIPApi8DocumentV11captureDataSDySSSDyS2SGGSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : [Swift.String : Swift.String]]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : [Swift.String : Swift.String]]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi8DocumentV11captureDataSDyS2SGSgvg",
-                "mangledName": "$s8MiVIPApi8DocumentV11captureDataSDyS2SGSgvg",
+                "usr": "s:8MiVIPApi8DocumentV11captureDataSDySSSDyS2SGGSgvg",
+                "mangledName": "$s8MiVIPApi8DocumentV11captureDataSDySSSDyS2SGGSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -38121,12 +38149,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
+                    "printedName": "[Swift.String : [Swift.String : Swift.String]]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
+                        "printedName": "[Swift.String : [Swift.String : Swift.String]]",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -38136,9 +38164,23 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
                           }
                         ],
                         "usr": "s:SD"
@@ -38148,8 +38190,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi8DocumentV11captureDataSDyS2SGSgvs",
-                "mangledName": "$s8MiVIPApi8DocumentV11captureDataSDyS2SGSgvs",
+                "usr": "s:8MiVIPApi8DocumentV11captureDataSDySSSDyS2SGGSgvs",
+                "mangledName": "$s8MiVIPApi8DocumentV11captureDataSDySSSDyS2SGGSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -38166,8 +38208,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi8DocumentV11captureDataSDyS2SGSgvM",
-                "mangledName": "$s8MiVIPApi8DocumentV11captureDataSDyS2SGSgvM",
+                "usr": "s:8MiVIPApi8DocumentV11captureDataSDySSSDyS2SGGSgvM",
+                "mangledName": "$s8MiVIPApi8DocumentV11captureDataSDySSSDyS2SGGSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -52925,14 +52967,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9215,
+      "offset": 9474,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11732,
+      "offset": 11991,
       "length": 4,
       "value": "true"
     },

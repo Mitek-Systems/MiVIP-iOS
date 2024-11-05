@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		KcPwgM1RxsynkU0i81LGY20eDSg=
+		um2X5hteIt6jFGOBkf4QVyWy5zA=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Ra6fYsrjrMfd6UQoUKG9GAiS6hQ=
+		JSTxcU9Ebe/jGnjW/0GHYa+r4u4=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Ra6fYsrjrMfd6UQoUKG9GAiS6hQ=
+		JSTxcU9Ebe/jGnjW/0GHYa+r4u4=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ncgXdicAi7ZC08Ssb4ZXCD+8mBg=
+		2kUGDtjIaNOWU8X3rckuyRCjZJU=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -185,14 +185,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iRuMG2noNwxolKq/1qAOdtlhWk1kqP+UgnuTVjdovTU=
+			X4sQn2XE3aD1PRHq82b8ZJNUi+uTMBZ78nVsi5RFj0o=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QbzunY6HDchu/sagLbYfQ7OZOd4siJwrRay8cR82rC0=
+			yq/u1qCx4BPsQfET97WoqFQKz7RdLWkjJC+z3LLMlt0=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -206,14 +206,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QbzunY6HDchu/sagLbYfQ7OZOd4siJwrRay8cR82rC0=
+			yq/u1qCx4BPsQfET97WoqFQKz7RdLWkjJC+z3LLMlt0=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0PM5YNNIy1gEoaEYbOXGK9VTGyD8Re74/CvHSjvZP+8=
+			uClsKeZ9BcAVo6V0t5fK+ozL1EPeesTWT5YdyJCvuEg=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>
