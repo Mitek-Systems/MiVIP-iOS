@@ -21,7 +21,7 @@ SDK also includes wallet/account/history functionality.
 1. [Cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)
 * add MiVIP pod dependancy. It will download all needed dependancies including MiSnap
 
-pod 'MiVIP', '3.6.1'
+pod 'MiVIP', '3.6.3'
 
 * Obtain MiSnap [license key](https://github.com/Mitek-Systems/MiSnap-iOS?tab=readme-ov-file#license-key)
 
@@ -211,10 +211,14 @@ Application will ask user to grant permissions when needed (e.g. when start capt
 	``` swift
 	extension ViewController: MiVIPSdk.RequestStatusDelegate {
 		
-		func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?) {
+		func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?, request: MiVIPApi.MiVIPRequest?) {
 			// "RequestStatus = Optional(MiVIPApi.RequestStatus.COMPLETED), RequestResult Optional(MiVIPApi.RequestResult.PASS)"
 			debugPrint( "RequestStatus = \(status), RequestResult \(result), ScoreResponse \(scoreResponse)")
 		}
+
+		func error(err: String) {
+        	...
+    	}
 		
 	}
 	```

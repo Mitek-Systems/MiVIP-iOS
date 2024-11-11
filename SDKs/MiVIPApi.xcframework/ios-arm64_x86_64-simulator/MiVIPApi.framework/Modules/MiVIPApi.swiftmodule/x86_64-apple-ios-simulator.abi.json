@@ -234,7 +234,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, MiVIPApi.HooyuRequest?) -> ()",
+                "printedName": "(Swift.Int, MiVIPApi.MiVIPRequest?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -244,7 +244,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, MiVIPApi.HooyuRequest?)",
+                    "printedName": "(Swift.Int, MiVIPApi.MiVIPRequest?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -255,13 +255,13 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "MiVIPApi.HooyuRequest?",
+                        "printedName": "MiVIPApi.MiVIPRequest?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "HooyuRequest",
-                            "printedName": "MiVIPApi.HooyuRequest",
-                            "usr": "s:8MiVIPApi12HooyuRequestV"
+                            "name": "MiVIPRequest",
+                            "printedName": "MiVIPApi.MiVIPRequest",
+                            "usr": "s:8MiVIPApi0A10VIPRequestV"
                           }
                         ],
                         "usr": "s:Sq"
@@ -272,8 +272,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi0aB3SdkC17getRequestDetails11referenceId10completionySS_ySi_AA05HooyuE0VSgtctF",
-            "mangledName": "$s8MiVIPApi0aB3SdkC17getRequestDetails11referenceId10completionySS_ySi_AA05HooyuE0VSgtctF",
+            "usr": "s:8MiVIPApi0aB3SdkC17getRequestDetails11referenceId10completionySS_ySi_AA0A10VIPRequestVSgtctF",
+            "mangledName": "$s8MiVIPApi0aB3SdkC17getRequestDetails11referenceId10completionySS_ySi_AA0A10VIPRequestVSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -661,8 +661,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "HooyuRequest",
-        "printedName": "HooyuRequest",
+        "name": "MiVIPRequest",
+        "printedName": "MiVIPRequest",
         "children": [
           {
             "kind": "Var",
@@ -685,8 +685,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV2id10Foundation4UUIDVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV2id10Foundation4UUIDVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV2id10Foundation4UUIDVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV2id10Foundation4UUIDVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -716,8 +716,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV2id10Foundation4UUIDVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV2id10Foundation4UUIDVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV2id10Foundation4UUIDVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV2id10Foundation4UUIDVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -748,8 +748,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV2id10Foundation4UUIDVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV2id10Foundation4UUIDVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV2id10Foundation4UUIDVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV2id10Foundation4UUIDVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -766,8 +766,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV2id10Foundation4UUIDVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV2id10Foundation4UUIDVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV2id10Foundation4UUIDVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV2id10Foundation4UUIDVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -795,8 +795,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV6idUser10Foundation4UUIDVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV6idUser10Foundation4UUIDVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV6idUser10Foundation4UUIDVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV6idUser10Foundation4UUIDVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -826,8 +826,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6idUser10Foundation4UUIDVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6idUser10Foundation4UUIDVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6idUser10Foundation4UUIDVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6idUser10Foundation4UUIDVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -858,8 +858,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6idUser10Foundation4UUIDVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6idUser10Foundation4UUIDVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6idUser10Foundation4UUIDVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6idUser10Foundation4UUIDVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -876,8 +876,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6idUser10Foundation4UUIDVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6idUser10Foundation4UUIDVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6idUser10Foundation4UUIDVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6idUser10Foundation4UUIDVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -905,8 +905,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV16idBillingHistorySiSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV16idBillingHistorySiSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV16idBillingHistorySiSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV16idBillingHistorySiSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -936,8 +936,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV16idBillingHistorySiSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV16idBillingHistorySiSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV16idBillingHistorySiSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV16idBillingHistorySiSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -968,8 +968,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV16idBillingHistorySiSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV16idBillingHistorySiSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV16idBillingHistorySiSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV16idBillingHistorySiSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -986,8 +986,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV16idBillingHistorySiSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV16idBillingHistorySiSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV16idBillingHistorySiSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV16idBillingHistorySiSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1015,8 +1015,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV14requesterEmailSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV14requesterEmailSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV14requesterEmailSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV14requesterEmailSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -1046,8 +1046,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV14requesterEmailSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV14requesterEmailSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV14requesterEmailSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV14requesterEmailSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1078,8 +1078,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV14requesterEmailSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV14requesterEmailSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV14requesterEmailSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV14requesterEmailSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1096,8 +1096,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV14requesterEmailSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV14requesterEmailSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV14requesterEmailSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV14requesterEmailSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1125,8 +1125,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV13requesterNameSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV13requesterNameSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV13requesterNameSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV13requesterNameSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -1156,8 +1156,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV13requesterNameSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV13requesterNameSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV13requesterNameSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV13requesterNameSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1188,8 +1188,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV13requesterNameSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV13requesterNameSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV13requesterNameSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV13requesterNameSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1206,8 +1206,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV13requesterNameSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV13requesterNameSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV13requesterNameSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV13requesterNameSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1235,8 +1235,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV5emailSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV5emailSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV5emailSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV5emailSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -1266,8 +1266,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5emailSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5emailSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5emailSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5emailSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1298,8 +1298,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5emailSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5emailSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5emailSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5emailSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1316,8 +1316,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5emailSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5emailSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5emailSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5emailSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1345,8 +1345,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV4nameSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV4nameSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV4nameSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV4nameSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -1376,8 +1376,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV4nameSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV4nameSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV4nameSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV4nameSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1408,8 +1408,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV4nameSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV4nameSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV4nameSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV4nameSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1426,8 +1426,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV4nameSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV4nameSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV4nameSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV4nameSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1455,8 +1455,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV5phoneSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV5phoneSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV5phoneSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV5phoneSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -1486,8 +1486,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5phoneSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5phoneSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5phoneSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5phoneSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1518,8 +1518,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5phoneSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5phoneSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5phoneSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5phoneSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1536,8 +1536,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5phoneSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5phoneSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5phoneSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5phoneSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1565,8 +1565,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV4noteSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV4noteSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV4noteSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV4noteSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -1596,8 +1596,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV4noteSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV4noteSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV4noteSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV4noteSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1628,8 +1628,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV4noteSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV4noteSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV4noteSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV4noteSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1646,8 +1646,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV4noteSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV4noteSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV4noteSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV4noteSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1675,8 +1675,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV13requestStatusAA0dF0OSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV13requestStatusAA0dF0OSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV13requestStatusAA07RequestE0OSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV13requestStatusAA07RequestE0OSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -1706,8 +1706,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV13requestStatusAA0dF0OSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV13requestStatusAA0dF0OSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV13requestStatusAA07RequestE0OSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV13requestStatusAA07RequestE0OSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1738,8 +1738,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV13requestStatusAA0dF0OSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV13requestStatusAA0dF0OSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV13requestStatusAA07RequestE0OSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV13requestStatusAA07RequestE0OSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1756,8 +1756,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV13requestStatusAA0dF0OSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV13requestStatusAA0dF0OSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV13requestStatusAA07RequestE0OSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV13requestStatusAA07RequestE0OSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1785,8 +1785,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV7created10Foundation4DateVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV7created10Foundation4DateVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV7created10Foundation4DateVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV7created10Foundation4DateVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -1816,8 +1816,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7created10Foundation4DateVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7created10Foundation4DateVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7created10Foundation4DateVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7created10Foundation4DateVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1848,8 +1848,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7created10Foundation4DateVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7created10Foundation4DateVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7created10Foundation4DateVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7created10Foundation4DateVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1866,8 +1866,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7created10Foundation4DateVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7created10Foundation4DateVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7created10Foundation4DateVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7created10Foundation4DateVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1895,8 +1895,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV7updated10Foundation4DateVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV7updated10Foundation4DateVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV7updated10Foundation4DateVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV7updated10Foundation4DateVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -1926,8 +1926,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7updated10Foundation4DateVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7updated10Foundation4DateVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7updated10Foundation4DateVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7updated10Foundation4DateVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1958,8 +1958,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7updated10Foundation4DateVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7updated10Foundation4DateVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7updated10Foundation4DateVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7updated10Foundation4DateVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1976,8 +1976,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7updated10Foundation4DateVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7updated10Foundation4DateVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7updated10Foundation4DateVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7updated10Foundation4DateVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2005,8 +2005,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV5scopeSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV5scopeSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV5scopeSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV5scopeSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -2036,8 +2036,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5scopeSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5scopeSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5scopeSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5scopeSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2068,8 +2068,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5scopeSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5scopeSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5scopeSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5scopeSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2086,8 +2086,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5scopeSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5scopeSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5scopeSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5scopeSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2123,8 +2123,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV9mandatorySaySSGSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV9mandatorySaySSGSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV9mandatorySaySSGSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV9mandatorySaySSGSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -2162,8 +2162,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9mandatorySaySSGSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9mandatorySaySSGSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9mandatorySaySSGSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9mandatorySaySSGSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2202,8 +2202,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9mandatorySaySSGSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9mandatorySaySSGSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9mandatorySaySSGSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9mandatorySaySSGSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2220,8 +2220,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9mandatorySaySSGSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9mandatorySaySSGSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9mandatorySaySSGSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9mandatorySaySSGSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2249,8 +2249,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV7minDocsSiSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV7minDocsSiSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV7minDocsSiSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV7minDocsSiSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -2280,8 +2280,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7minDocsSiSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7minDocsSiSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7minDocsSiSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7minDocsSiSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2312,8 +2312,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7minDocsSiSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7minDocsSiSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7minDocsSiSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7minDocsSiSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2330,8 +2330,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7minDocsSiSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7minDocsSiSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7minDocsSiSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7minDocsSiSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2359,8 +2359,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV9minIdDocsSiSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV9minIdDocsSiSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV9minIdDocsSiSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV9minIdDocsSiSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -2390,8 +2390,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9minIdDocsSiSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9minIdDocsSiSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9minIdDocsSiSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9minIdDocsSiSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2422,8 +2422,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9minIdDocsSiSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9minIdDocsSiSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9minIdDocsSiSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9minIdDocsSiSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2440,8 +2440,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9minIdDocsSiSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9minIdDocsSiSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9minIdDocsSiSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9minIdDocsSiSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2469,8 +2469,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV10minPoaDocsSiSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV10minPoaDocsSiSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV10minPoaDocsSiSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV10minPoaDocsSiSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -2500,8 +2500,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV10minPoaDocsSiSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV10minPoaDocsSiSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV10minPoaDocsSiSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV10minPoaDocsSiSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2532,8 +2532,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV10minPoaDocsSiSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV10minPoaDocsSiSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV10minPoaDocsSiSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV10minPoaDocsSiSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2550,8 +2550,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV10minPoaDocsSiSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV10minPoaDocsSiSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV10minPoaDocsSiSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV10minPoaDocsSiSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2579,8 +2579,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV9minSocialSiSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV9minSocialSiSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV9minSocialSiSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV9minSocialSiSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -2610,8 +2610,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9minSocialSiSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9minSocialSiSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9minSocialSiSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9minSocialSiSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2642,8 +2642,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9minSocialSiSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9minSocialSiSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9minSocialSiSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9minSocialSiSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2660,8 +2660,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9minSocialSiSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9minSocialSiSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9minSocialSiSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9minSocialSiSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2689,8 +2689,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV7started10Foundation4DateVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV7started10Foundation4DateVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV7started10Foundation4DateVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV7started10Foundation4DateVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -2720,8 +2720,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7started10Foundation4DateVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7started10Foundation4DateVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7started10Foundation4DateVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7started10Foundation4DateVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2752,8 +2752,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7started10Foundation4DateVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7started10Foundation4DateVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7started10Foundation4DateVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7started10Foundation4DateVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2770,8 +2770,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7started10Foundation4DateVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7started10Foundation4DateVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7started10Foundation4DateVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7started10Foundation4DateVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2799,8 +2799,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV9completed10Foundation4DateVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV9completed10Foundation4DateVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV9completed10Foundation4DateVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV9completed10Foundation4DateVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -2830,8 +2830,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9completed10Foundation4DateVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9completed10Foundation4DateVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9completed10Foundation4DateVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9completed10Foundation4DateVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2862,8 +2862,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9completed10Foundation4DateVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9completed10Foundation4DateVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9completed10Foundation4DateVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9completed10Foundation4DateVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2880,8 +2880,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9completed10Foundation4DateVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9completed10Foundation4DateVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9completed10Foundation4DateVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9completed10Foundation4DateVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2909,8 +2909,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV6resultAA0D6ResultOSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV6resultAA0D6ResultOSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV6resultAA13RequestResultOSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV6resultAA13RequestResultOSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -2940,8 +2940,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6resultAA0D6ResultOSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6resultAA0D6ResultOSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6resultAA13RequestResultOSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6resultAA13RequestResultOSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2972,8 +2972,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6resultAA0D6ResultOSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6resultAA0D6ResultOSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6resultAA13RequestResultOSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6resultAA13RequestResultOSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2990,8 +2990,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6resultAA0D6ResultOSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6resultAA0D6ResultOSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6resultAA13RequestResultOSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6resultAA13RequestResultOSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3019,8 +3019,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV5scoreSdSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV5scoreSdSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV5scoreSdSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV5scoreSdSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -3050,8 +3050,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5scoreSdSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5scoreSdSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5scoreSdSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5scoreSdSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3082,8 +3082,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5scoreSdSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5scoreSdSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5scoreSdSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5scoreSdSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3100,8 +3100,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV5scoreSdSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV5scoreSdSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV5scoreSdSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV5scoreSdSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3129,8 +3129,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV11idRequestee10Foundation4UUIDVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV11idRequestee10Foundation4UUIDVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV11idRequestee10Foundation4UUIDVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV11idRequestee10Foundation4UUIDVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -3160,8 +3160,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11idRequestee10Foundation4UUIDVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11idRequestee10Foundation4UUIDVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11idRequestee10Foundation4UUIDVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11idRequestee10Foundation4UUIDVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3192,8 +3192,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11idRequestee10Foundation4UUIDVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11idRequestee10Foundation4UUIDVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11idRequestee10Foundation4UUIDVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11idRequestee10Foundation4UUIDVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3210,8 +3210,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11idRequestee10Foundation4UUIDVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11idRequestee10Foundation4UUIDVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11idRequestee10Foundation4UUIDVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11idRequestee10Foundation4UUIDVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3239,8 +3239,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV9tabsOrderSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV9tabsOrderSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV9tabsOrderSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV9tabsOrderSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -3270,8 +3270,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9tabsOrderSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9tabsOrderSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9tabsOrderSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9tabsOrderSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3302,8 +3302,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9tabsOrderSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9tabsOrderSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9tabsOrderSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9tabsOrderSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3320,8 +3320,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9tabsOrderSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9tabsOrderSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9tabsOrderSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9tabsOrderSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3349,8 +3349,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV6expiry10Foundation4DateVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV6expiry10Foundation4DateVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV6expiry10Foundation4DateVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV6expiry10Foundation4DateVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -3380,8 +3380,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6expiry10Foundation4DateVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6expiry10Foundation4DateVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6expiry10Foundation4DateVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6expiry10Foundation4DateVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3412,8 +3412,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6expiry10Foundation4DateVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6expiry10Foundation4DateVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6expiry10Foundation4DateVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6expiry10Foundation4DateVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3430,8 +3430,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6expiry10Foundation4DateVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6expiry10Foundation4DateVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6expiry10Foundation4DateVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6expiry10Foundation4DateVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3459,8 +3459,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV3keySSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV3keySSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV3keySSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV3keySSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -3490,8 +3490,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV3keySSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV3keySSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV3keySSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV3keySSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3522,8 +3522,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV3keySSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV3keySSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV3keySSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV3keySSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3540,8 +3540,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV3keySSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV3keySSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV3keySSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV3keySSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3569,8 +3569,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV8idClient10Foundation4UUIDVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV8idClient10Foundation4UUIDVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV8idClient10Foundation4UUIDVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV8idClient10Foundation4UUIDVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -3600,8 +3600,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8idClient10Foundation4UUIDVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8idClient10Foundation4UUIDVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8idClient10Foundation4UUIDVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8idClient10Foundation4UUIDVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3632,8 +3632,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8idClient10Foundation4UUIDVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8idClient10Foundation4UUIDVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8idClient10Foundation4UUIDVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8idClient10Foundation4UUIDVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3650,8 +3650,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8idClient10Foundation4UUIDVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8idClient10Foundation4UUIDVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8idClient10Foundation4UUIDVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8idClient10Foundation4UUIDVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3679,8 +3679,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV11redirectUriSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV11redirectUriSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV11redirectUriSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV11redirectUriSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -3710,8 +3710,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11redirectUriSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11redirectUriSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11redirectUriSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11redirectUriSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3742,8 +3742,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11redirectUriSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11redirectUriSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11redirectUriSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11redirectUriSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3760,8 +3760,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11redirectUriSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11redirectUriSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11redirectUriSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11redirectUriSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3789,8 +3789,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV11callbackUriSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV11callbackUriSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV11callbackUriSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV11callbackUriSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -3820,8 +3820,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11callbackUriSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11callbackUriSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11callbackUriSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11callbackUriSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3852,8 +3852,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11callbackUriSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11callbackUriSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11callbackUriSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11callbackUriSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3870,8 +3870,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11callbackUriSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11callbackUriSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11callbackUriSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11callbackUriSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3899,8 +3899,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV8shortUrlSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV8shortUrlSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV8shortUrlSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV8shortUrlSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -3930,8 +3930,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8shortUrlSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8shortUrlSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8shortUrlSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8shortUrlSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3962,8 +3962,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8shortUrlSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8shortUrlSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8shortUrlSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8shortUrlSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3980,8 +3980,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8shortUrlSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8shortUrlSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8shortUrlSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8shortUrlSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4009,8 +4009,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV9referenceSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV9referenceSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV9referenceSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV9referenceSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -4040,8 +4040,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9referenceSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9referenceSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9referenceSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9referenceSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4072,8 +4072,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9referenceSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9referenceSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9referenceSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9referenceSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4090,8 +4090,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9referenceSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9referenceSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9referenceSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9referenceSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4119,8 +4119,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV6reasonSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV6reasonSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV6reasonSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV6reasonSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -4150,8 +4150,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6reasonSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6reasonSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6reasonSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6reasonSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4182,8 +4182,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6reasonSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6reasonSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6reasonSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6reasonSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4200,8 +4200,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6reasonSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6reasonSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6reasonSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6reasonSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4229,8 +4229,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV11checkIdLinkSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV11checkIdLinkSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV11checkIdLinkSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV11checkIdLinkSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -4260,8 +4260,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11checkIdLinkSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11checkIdLinkSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11checkIdLinkSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11checkIdLinkSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4292,8 +4292,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11checkIdLinkSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11checkIdLinkSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11checkIdLinkSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11checkIdLinkSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4310,8 +4310,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11checkIdLinkSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11checkIdLinkSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11checkIdLinkSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11checkIdLinkSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4339,8 +4339,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV9thresholdSiSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV9thresholdSiSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV9thresholdSiSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV9thresholdSiSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -4370,8 +4370,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9thresholdSiSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9thresholdSiSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9thresholdSiSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9thresholdSiSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4402,8 +4402,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9thresholdSiSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9thresholdSiSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9thresholdSiSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9thresholdSiSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4420,8 +4420,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9thresholdSiSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9thresholdSiSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9thresholdSiSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9thresholdSiSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4449,8 +4449,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV14idBusinessUser10Foundation4UUIDVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV14idBusinessUser10Foundation4UUIDVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV14idBusinessUser10Foundation4UUIDVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV14idBusinessUser10Foundation4UUIDVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -4480,8 +4480,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV14idBusinessUser10Foundation4UUIDVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV14idBusinessUser10Foundation4UUIDVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV14idBusinessUser10Foundation4UUIDVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV14idBusinessUser10Foundation4UUIDVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4512,8 +4512,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV14idBusinessUser10Foundation4UUIDVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV14idBusinessUser10Foundation4UUIDVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV14idBusinessUser10Foundation4UUIDVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV14idBusinessUser10Foundation4UUIDVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4530,8 +4530,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV14idBusinessUser10Foundation4UUIDVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV14idBusinessUser10Foundation4UUIDVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV14idBusinessUser10Foundation4UUIDVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV14idBusinessUser10Foundation4UUIDVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4559,8 +4559,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV16businessUserNameSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV16businessUserNameSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV16businessUserNameSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV16businessUserNameSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -4590,8 +4590,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV16businessUserNameSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV16businessUserNameSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV16businessUserNameSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV16businessUserNameSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4622,8 +4622,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV16businessUserNameSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV16businessUserNameSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV16businessUserNameSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV16businessUserNameSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4640,8 +4640,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV16businessUserNameSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV16businessUserNameSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV16businessUserNameSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV16businessUserNameSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4669,8 +4669,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV6isReadSbSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV6isReadSbSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV6isReadSbSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV6isReadSbSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -4700,8 +4700,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6isReadSbSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6isReadSbSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6isReadSbSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6isReadSbSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4732,8 +4732,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6isReadSbSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6isReadSbSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6isReadSbSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6isReadSbSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4750,8 +4750,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV6isReadSbSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV6isReadSbSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV6isReadSbSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV6isReadSbSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4779,8 +4779,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV9isCitizenSbSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV9isCitizenSbSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV9isCitizenSbSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV9isCitizenSbSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -4810,8 +4810,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9isCitizenSbSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9isCitizenSbSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9isCitizenSbSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9isCitizenSbSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4842,8 +4842,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9isCitizenSbSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9isCitizenSbSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9isCitizenSbSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9isCitizenSbSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4860,8 +4860,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9isCitizenSbSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9isCitizenSbSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9isCitizenSbSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9isCitizenSbSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4889,8 +4889,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV11dateOfBirth10Foundation4DateVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV11dateOfBirth10Foundation4DateVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV11dateOfBirth10Foundation4DateVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV11dateOfBirth10Foundation4DateVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -4920,8 +4920,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11dateOfBirth10Foundation4DateVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11dateOfBirth10Foundation4DateVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11dateOfBirth10Foundation4DateVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11dateOfBirth10Foundation4DateVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4952,8 +4952,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11dateOfBirth10Foundation4DateVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11dateOfBirth10Foundation4DateVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11dateOfBirth10Foundation4DateVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11dateOfBirth10Foundation4DateVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4970,8 +4970,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11dateOfBirth10Foundation4DateVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11dateOfBirth10Foundation4DateVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11dateOfBirth10Foundation4DateVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11dateOfBirth10Foundation4DateVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4999,8 +4999,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV11environmentSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV11environmentSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV11environmentSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV11environmentSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -5030,8 +5030,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11environmentSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11environmentSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11environmentSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11environmentSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5062,8 +5062,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11environmentSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11environmentSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11environmentSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11environmentSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5080,8 +5080,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV11environmentSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV11environmentSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV11environmentSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV11environmentSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5109,8 +5109,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV9isPreviewSbSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV9isPreviewSbSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV9isPreviewSbSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV9isPreviewSbSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -5140,8 +5140,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9isPreviewSbSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9isPreviewSbSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9isPreviewSbSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9isPreviewSbSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5172,8 +5172,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9isPreviewSbSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9isPreviewSbSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9isPreviewSbSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9isPreviewSbSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5190,8 +5190,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV9isPreviewSbSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV9isPreviewSbSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV9isPreviewSbSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV9isPreviewSbSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5219,8 +5219,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV16lastReminderSent10Foundation4DateVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV16lastReminderSent10Foundation4DateVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV16lastReminderSent10Foundation4DateVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV16lastReminderSent10Foundation4DateVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -5250,8 +5250,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV16lastReminderSent10Foundation4DateVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV16lastReminderSent10Foundation4DateVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV16lastReminderSent10Foundation4DateVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV16lastReminderSent10Foundation4DateVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5282,8 +5282,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV16lastReminderSent10Foundation4DateVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV16lastReminderSent10Foundation4DateVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV16lastReminderSent10Foundation4DateVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV16lastReminderSent10Foundation4DateVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5300,8 +5300,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV16lastReminderSent10Foundation4DateVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV16lastReminderSent10Foundation4DateVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV16lastReminderSent10Foundation4DateVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV16lastReminderSent10Foundation4DateVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5329,8 +5329,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV8languageSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV8languageSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV8languageSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV8languageSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -5360,8 +5360,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8languageSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8languageSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8languageSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8languageSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5392,8 +5392,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8languageSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8languageSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8languageSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8languageSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5410,8 +5410,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8languageSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8languageSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8languageSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8languageSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5439,8 +5439,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV10isReviewedSbSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV10isReviewedSbSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV10isReviewedSbSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV10isReviewedSbSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -5470,8 +5470,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV10isReviewedSbSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV10isReviewedSbSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV10isReviewedSbSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV10isReviewedSbSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5502,8 +5502,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV10isReviewedSbSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV10isReviewedSbSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV10isReviewedSbSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV10isReviewedSbSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5520,8 +5520,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV10isReviewedSbSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV10isReviewedSbSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV10isReviewedSbSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV10isReviewedSbSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5549,8 +5549,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV12reviewedDate10Foundation0F0VSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV12reviewedDate10Foundation0F0VSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV12reviewedDate10Foundation0E0VSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV12reviewedDate10Foundation0E0VSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -5580,8 +5580,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV12reviewedDate10Foundation0F0VSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV12reviewedDate10Foundation0F0VSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV12reviewedDate10Foundation0E0VSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV12reviewedDate10Foundation0E0VSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5612,8 +5612,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV12reviewedDate10Foundation0F0VSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV12reviewedDate10Foundation0F0VSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV12reviewedDate10Foundation0E0VSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV12reviewedDate10Foundation0E0VSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5630,8 +5630,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV12reviewedDate10Foundation0F0VSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV12reviewedDate10Foundation0F0VSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV12reviewedDate10Foundation0E0VSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV12reviewedDate10Foundation0E0VSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5659,8 +5659,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV12reviewedUser10Foundation4UUIDVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV12reviewedUser10Foundation4UUIDVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV12reviewedUser10Foundation4UUIDVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV12reviewedUser10Foundation4UUIDVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -5690,8 +5690,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV12reviewedUser10Foundation4UUIDVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV12reviewedUser10Foundation4UUIDVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV12reviewedUser10Foundation4UUIDVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV12reviewedUser10Foundation4UUIDVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5722,8 +5722,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV12reviewedUser10Foundation4UUIDVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV12reviewedUser10Foundation4UUIDVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV12reviewedUser10Foundation4UUIDVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV12reviewedUser10Foundation4UUIDVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5740,8 +5740,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV12reviewedUser10Foundation4UUIDVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV12reviewedUser10Foundation4UUIDVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV12reviewedUser10Foundation4UUIDVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV12reviewedUser10Foundation4UUIDVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5769,8 +5769,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV13assignedGroup10Foundation4UUIDVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV13assignedGroup10Foundation4UUIDVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV13assignedGroup10Foundation4UUIDVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV13assignedGroup10Foundation4UUIDVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -5800,8 +5800,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV13assignedGroup10Foundation4UUIDVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV13assignedGroup10Foundation4UUIDVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV13assignedGroup10Foundation4UUIDVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV13assignedGroup10Foundation4UUIDVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5832,8 +5832,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV13assignedGroup10Foundation4UUIDVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV13assignedGroup10Foundation4UUIDVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV13assignedGroup10Foundation4UUIDVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV13assignedGroup10Foundation4UUIDVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5850,8 +5850,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV13assignedGroup10Foundation4UUIDVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV13assignedGroup10Foundation4UUIDVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV13assignedGroup10Foundation4UUIDVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV13assignedGroup10Foundation4UUIDVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5879,8 +5879,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV15manualFaceMatchSbSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV15manualFaceMatchSbSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV15manualFaceMatchSbSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV15manualFaceMatchSbSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -5910,8 +5910,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV15manualFaceMatchSbSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV15manualFaceMatchSbSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV15manualFaceMatchSbSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV15manualFaceMatchSbSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5942,8 +5942,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV15manualFaceMatchSbSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV15manualFaceMatchSbSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV15manualFaceMatchSbSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV15manualFaceMatchSbSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5960,8 +5960,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV15manualFaceMatchSbSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV15manualFaceMatchSbSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV15manualFaceMatchSbSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV15manualFaceMatchSbSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5989,8 +5989,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV7endDate10Foundation0F0VSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV7endDate10Foundation0F0VSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV7endDate10Foundation0E0VSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV7endDate10Foundation0E0VSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -6020,8 +6020,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7endDate10Foundation0F0VSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7endDate10Foundation0F0VSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7endDate10Foundation0E0VSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7endDate10Foundation0E0VSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6052,8 +6052,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7endDate10Foundation0F0VSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7endDate10Foundation0F0VSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7endDate10Foundation0E0VSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7endDate10Foundation0E0VSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6070,8 +6070,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7endDate10Foundation0F0VSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7endDate10Foundation0F0VSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7endDate10Foundation0E0VSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7endDate10Foundation0E0VSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6099,8 +6099,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV8idParent10Foundation4UUIDVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV8idParent10Foundation4UUIDVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV8idParent10Foundation4UUIDVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV8idParent10Foundation4UUIDVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -6130,8 +6130,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8idParent10Foundation4UUIDVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8idParent10Foundation4UUIDVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8idParent10Foundation4UUIDVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8idParent10Foundation4UUIDVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6162,8 +6162,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8idParent10Foundation4UUIDVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8idParent10Foundation4UUIDVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8idParent10Foundation4UUIDVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8idParent10Foundation4UUIDVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6180,8 +6180,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV8idParent10Foundation4UUIDVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV8idParent10Foundation4UUIDVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV8idParent10Foundation4UUIDVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV8idParent10Foundation4UUIDVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6209,8 +6209,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV4gdprSSSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV4gdprSSSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV4gdprSSSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV4gdprSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -6240,8 +6240,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV4gdprSSSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV4gdprSSSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV4gdprSSSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV4gdprSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6272,8 +6272,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV4gdprSSSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV4gdprSSSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV4gdprSSSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV4gdprSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6290,8 +6290,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV4gdprSSSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV4gdprSSSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV4gdprSSSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV4gdprSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6327,8 +6327,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV12nfcMandatorySaySSGSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV12nfcMandatorySaySSGSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV12nfcMandatorySaySSGSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV12nfcMandatorySaySSGSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -6366,8 +6366,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV12nfcMandatorySaySSGSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV12nfcMandatorySaySSGSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV12nfcMandatorySaySSGSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV12nfcMandatorySaySSGSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6406,8 +6406,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV12nfcMandatorySaySSGSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV12nfcMandatorySaySSGSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV12nfcMandatorySaySSGSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV12nfcMandatorySaySSGSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6424,8 +6424,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV12nfcMandatorySaySSGSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV12nfcMandatorySaySSGSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV12nfcMandatorySaySSGSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV12nfcMandatorySaySSGSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6453,8 +6453,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV7countryAA11CountryCodeVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV7countryAA11CountryCodeVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV7countryAA11CountryCodeVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV7countryAA11CountryCodeVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -6484,8 +6484,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7countryAA11CountryCodeVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7countryAA11CountryCodeVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7countryAA11CountryCodeVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7countryAA11CountryCodeVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6516,8 +6516,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7countryAA11CountryCodeVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7countryAA11CountryCodeVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7countryAA11CountryCodeVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7countryAA11CountryCodeVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6534,8 +6534,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7countryAA11CountryCodeVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7countryAA11CountryCodeVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7countryAA11CountryCodeVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7countryAA11CountryCodeVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6563,8 +6563,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi12HooyuRequestV7addressAA7AddressVSgvp",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV7addressAA7AddressVSgvp",
+            "usr": "s:8MiVIPApi0A10VIPRequestV7addressAA7AddressVSgvp",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV7addressAA7AddressVSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -6594,8 +6594,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7addressAA7AddressVSgvg",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7addressAA7AddressVSgvg",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7addressAA7AddressVSgvg",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7addressAA7AddressVSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6626,8 +6626,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7addressAA7AddressVSgvs",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7addressAA7AddressVSgvs",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7addressAA7AddressVSgvs",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7addressAA7AddressVSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6644,8 +6644,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi12HooyuRequestV7addressAA7AddressVSgvM",
-                "mangledName": "$s8MiVIPApi12HooyuRequestV7addressAA7AddressVSgvM",
+                "usr": "s:8MiVIPApi0A10VIPRequestV7addressAA7AddressVSgvM",
+                "mangledName": "$s8MiVIPApi0A10VIPRequestV7addressAA7AddressVSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6659,9 +6659,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "HooyuRequest",
-                "printedName": "MiVIPApi.HooyuRequest",
-                "usr": "s:8MiVIPApi12HooyuRequestV"
+                "name": "MiVIPRequest",
+                "printedName": "MiVIPApi.MiVIPRequest",
+                "usr": "s:8MiVIPApi0A10VIPRequestV"
               },
               {
                 "kind": "TypeNominal",
@@ -6671,8 +6671,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8MiVIPApi12HooyuRequestV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s8MiVIPApi12HooyuRequestV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:8MiVIPApi0A10VIPRequestV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8MiVIPApi0A10VIPRequestV4fromACs7Decoder_p_tKcfc",
             "moduleName": "MiVIPApi",
             "implicit": true,
             "throwing": true,
@@ -6680,8 +6680,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:8MiVIPApi12HooyuRequestV",
-        "mangledName": "$s8MiVIPApi12HooyuRequestV",
+        "usr": "s:8MiVIPApi0A10VIPRequestV",
+        "mangledName": "$s8MiVIPApi0A10VIPRequestV",
         "moduleName": "MiVIPApi",
         "declAttributes": [
           "AccessControl"
@@ -24123,7 +24123,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, MiVIPApi.HooyuRequest?, Swift.String?) -> ()",
+                "printedName": "(Swift.Int, MiVIPApi.MiVIPRequest?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -24133,7 +24133,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, MiVIPApi.HooyuRequest?, Swift.String?)",
+                    "printedName": "(Swift.Int, MiVIPApi.MiVIPRequest?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -24144,13 +24144,13 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "MiVIPApi.HooyuRequest?",
+                        "printedName": "MiVIPApi.MiVIPRequest?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "HooyuRequest",
-                            "printedName": "MiVIPApi.HooyuRequest",
-                            "usr": "s:8MiVIPApi12HooyuRequestV"
+                            "name": "MiVIPRequest",
+                            "printedName": "MiVIPApi.MiVIPRequest",
+                            "usr": "s:8MiVIPApi0A10VIPRequestV"
                           }
                         ],
                         "usr": "s:Sq"
@@ -24175,8 +24175,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC27getRequestDetailsWithDevice02idG07account4lang8latitude9longitude10completionySS_AA0C11AccountDataVS2SSgAMySi_AA0cG0VSgAMtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC27getRequestDetailsWithDevice02idG07account4lang8latitude9longitude10completionySS_AA0C11AccountDataVS2SSgAMySi_AA0cG0VSgAMtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC27getRequestDetailsWithDevice02idG07account4lang8latitude9longitude10completionySS_AA0C11AccountDataVS2SSgAMySi_AA0A10VIPRequestVSgAMtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC27getRequestDetailsWithDevice02idG07account4lang8latitude9longitude10completionySS_AA0C11AccountDataVS2SSgAMySi_AA0A10VIPRequestVSgAMtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl"

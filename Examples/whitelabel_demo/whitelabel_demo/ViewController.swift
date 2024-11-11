@@ -103,11 +103,14 @@ class ViewController: UIViewController {
 // detegate to get SDK notifications for request status and changes
 extension ViewController: MiVIPSdk.RequestStatusDelegate {
     
-    func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?) {
+    func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?, request: MiVIPApi.MiVIPRequest?) {
         // "RequestStatus = Optional(HooyuApi.RequestStatus.COMPLETED), RequestResult Optional(HooyuApi.RequestResult.PASS)"
-        debugPrint( "RequestStatus = \(status), RequestResult \(result), ScoreResponse \(scoreResponse)")
+        debugPrint("MiVIP: RequestStatus = \(status), RequestResult \(result), ScoreResponse \(scoreResponse), MiVIPRequest \(request)")
     }
     
+    func error(err: String) {
+        debugPrint("MiVIP: \(err)")
+    }
 }
 
 // UI

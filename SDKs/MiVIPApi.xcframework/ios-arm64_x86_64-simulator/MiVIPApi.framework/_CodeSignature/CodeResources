@@ -10,43 +10,43 @@
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		um2X5hteIt6jFGOBkf4QVyWy5zA=
+		j8OUtIBF8gLRvAAiefbLOfRBu7w=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eueT/QlHrmN2aINZuRDxAI1G5xY=
+		uwMcvar7X7FED3HwPLmzNkhUeEw=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		en4pGgJApwbWf5bECc8UbjJ6jqQ=
+		GpQC8DLDq5mu1vhb0QSI+knayog=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eueT/QlHrmN2aINZuRDxAI1G5xY=
+		uwMcvar7X7FED3HwPLmzNkhUeEw=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eYZnmRjV5czQUa++p4eAa84F4Yk=
+		B7ShVrynmFpkA6//JqoUVl0weH4=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		um2X5hteIt6jFGOBkf4QVyWy5zA=
+		j8OUtIBF8gLRvAAiefbLOfRBu7w=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vl+7EhSQuL7N8lvHHs6AhKJXh+8=
+		IysbLVZYtXmBbJ4+muPRITNGXzQ=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ncynguwpHA3rmtYmbOW4x8m7BP4=
+		VJ3OeY1jvukTMyj08r0tUPywgj4=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vl+7EhSQuL7N8lvHHs6AhKJXh+8=
+		IysbLVZYtXmBbJ4+muPRITNGXzQ=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wKnEfv51lylg2FTWrP+IcSJHls0=
+		gAnyOiSjJXFwkk43Z42G9cggxf4=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -205,70 +205,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X4sQn2XE3aD1PRHq82b8ZJNUi+uTMBZ78nVsi5RFj0o=
+			dDaUdKoTzDgiORihsQAjb10Mslm9JIpeZXzWkrST6Ts=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1wEGJ4oNKbqMSNli8Wd9U7xuz4OlNyLFnfAkEFjIqdw=
+			mi7f1im6QGK2xZKTxjkog4HNjzLELYCPQEv7jtU+EmY=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SYJx7iR59eFNskuNnCVK4K1+IkyEP8IXU3i0VU7Nzdg=
+			4xXOzgi9EMRLXYl/qpU3FS+mShU3tQZPw1wECa3xn60=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1wEGJ4oNKbqMSNli8Wd9U7xuz4OlNyLFnfAkEFjIqdw=
+			mi7f1im6QGK2xZKTxjkog4HNjzLELYCPQEv7jtU+EmY=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GP842JVLilxNlTj6Nq/8ctfl4KlKV9hciH23MB1uwrk=
+			T898tjNaRLPCWPtdMOOIS1HRqHTF1wfU8z9on6JSs7Q=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X4sQn2XE3aD1PRHq82b8ZJNUi+uTMBZ78nVsi5RFj0o=
+			dDaUdKoTzDgiORihsQAjb10Mslm9JIpeZXzWkrST6Ts=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XW+xX/fMyqRT6LMPeTgKILimv6Q6VPAB2PWbWQB8+xY=
+			Gjlp78q6AT2Ub/akMXZKp9pJ8m0F+0SDTTbA5D1K7O8=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yEZpuz2Wagm5NMVtC4jct3o8HAextGZNu88zSBsJSNs=
+			5DMTNzeVrte71FjsiteC+weLduXU+s76gOMJxfQcyC8=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XW+xX/fMyqRT6LMPeTgKILimv6Q6VPAB2PWbWQB8+xY=
+			Gjlp78q6AT2Ub/akMXZKp9pJ8m0F+0SDTTbA5D1K7O8=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qz1hv8WoV6nDmERsoMVDXH6RPWIP2wsifsX5lRsBJM4=
+			UrAM/IZyC7NeQuikkLJdF1/jtEqX8KMshXtiA13dRkQ=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>

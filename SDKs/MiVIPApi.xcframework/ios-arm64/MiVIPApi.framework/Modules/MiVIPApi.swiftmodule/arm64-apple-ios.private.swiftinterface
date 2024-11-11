@@ -19,14 +19,14 @@ import os.log
 import os
 @objc @_inheritsConvenienceInitializers public class MiVIPApiSdk : ObjectiveC.NSObject {
   public func createRequest(name: Swift.String, phone: Swift.String?, email: Swift.String?, scope: Swift.String?, language: Swift.String, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
-  public func getRequestDetails(referenceId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.HooyuRequest?) -> ())
+  public func getRequestDetails(referenceId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.MiVIPRequest?) -> ())
   public func getSocials(requestId: Swift.String, completion: @escaping (Swift.Int, [MiVIPApi.Network]?) -> ())
   public func video(requestId: Swift.String, email: Swift.String, phone: Swift.String, phoneCountryCode: Swift.String, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> ())
   public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
   @objc override dynamic public init()
   @objc deinit
 }
-public struct HooyuRequest : Swift.Decodable {
+public struct MiVIPRequest : Swift.Decodable {
   public var id: Foundation.UUID?
   public var idUser: Foundation.UUID?
   public var idBillingHistory: Swift.Int?
@@ -449,7 +449,7 @@ public enum DocumentSide {
 @objc @_inheritsConvenienceInitializers public class HooyuCoreApi : ObjectiveC.NSObject {
   @objc override dynamic public init()
   public init(apiUri: Swift.String? = nil)
-  public func getRequestDetailsWithDevice(idRequest: Swift.String, account: MiVIPApi.HooyuAccountData, lang: Swift.String, latitude: Swift.String?, longitude: Swift.String?, completion: @escaping (Swift.Int, MiVIPApi.HooyuRequest?, Swift.String?) -> ())
+  public func getRequestDetailsWithDevice(idRequest: Swift.String, account: MiVIPApi.HooyuAccountData, lang: Swift.String, latitude: Swift.String?, longitude: Swift.String?, completion: @escaping (Swift.Int, MiVIPApi.MiVIPRequest?, Swift.String?) -> ())
   public func getDataByType(businessId: Swift.String, idRequest: Swift.String, deviceId: Swift.String, type: Swift.String, subType: Swift.String?, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
   public func reuse(businessId: Swift.String, idRequest: Swift.String, deviceId: Swift.String, dataMap: [Swift.String : Any], environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?, Swift.String?) -> ())
   public func share(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?, Swift.String?) -> ())

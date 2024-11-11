@@ -1,4 +1,4 @@
-# MiVIP SDK v.3.6.2 for iOS
+# MiVIP SDK v.3.6.3 for iOS
 
 ![Platform](https://img.shields.io/cocoapods/p/MiVIP.svg?color=darkgray)
 ![CocoaPods version](https://img.shields.io/cocoapods/v/MiVIP?color=success)
@@ -75,7 +75,11 @@ to get notification from SDK on request status changes, implement the RequestSta
 ```swift
 extension ViewController: MiVIPSdk.RequestStatusDelegate {
 
-    func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?) {
+    func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?, request: MiVIPApi.MiVIPRequest?) {
+        ...
+    }
+
+    func error(err: String) {
         ...
     }
     

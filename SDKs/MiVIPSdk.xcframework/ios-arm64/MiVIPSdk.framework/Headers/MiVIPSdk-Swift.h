@@ -397,12 +397,12 @@ SWIFT_CLASS("_TtC8MiVIPSdk25AccountMenuViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
 @class UIScrollView;
 
 @interface AccountMenuViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
+
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk32AccountOpenBankingViewController")
@@ -654,17 +654,17 @@ SWIFT_CLASS("_TtC8MiVIPSdk28CommonDocumentViewController")
 @end
 
 
+@interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk))
+- (void)maskingDoneWithGesture:(MaskingGesture * _Nonnull)gesture;
+- (void)confirmMaskingWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
+@end
+
+
 @interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk)) <MiSnapNFCViewControllerDelegate>
 - (void)miSnapNfcLicenseStatus:(enum MiSnapLicenseStatus)status;
 - (void)miSnapNfcSuccess:(NSDictionary<NSString *, id> * _Nonnull)result;
 - (void)miSnapNfcCancelled:(NSDictionary<NSString *, id> * _Nonnull)result;
 - (void)miSnapNfcSkipped:(NSDictionary<NSString *, id> * _Nonnull)result;
-@end
-
-
-@interface CommonDocumentViewController (SWIFT_EXTENSION(MiVIPSdk))
-- (void)maskingDoneWithGesture:(MaskingGesture * _Nonnull)gesture;
-- (void)confirmMaskingWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
 @end
 
 @class MiSnapResult;
@@ -1018,6 +1018,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk19LoginViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 /// A way to quickly add a notification badge icon to any view.
@@ -1472,9 +1473,9 @@ SWIFT_CLASS("_TtC8MiVIPSdk18SideMenuController")
 @end
 
 
+
 @interface SideMenuController (SWIFT_EXTENSION(MiVIPSdk))
 @end
-
 
 @class UIGestureRecognizer;
 
@@ -1515,10 +1516,10 @@ SWIFT_CLASS("_TtC8MiVIPSdk20SocialViewController")
 @end
 
 
-
 @interface SocialViewController (SWIFT_EXTENSION(MiVIPSdk)) <UIScrollViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
+
 
 
 SWIFT_CLASS("_TtC8MiVIPSdk9TextField")
@@ -1559,10 +1560,10 @@ SWIFT_CLASS("_TtC8MiVIPSdk9TextField")
 
 
 
+
 @interface UIViewController (SWIFT_EXTENSION(MiVIPSdk))
 - (void)dismissKeyboard;
 @end
-
 
 
 

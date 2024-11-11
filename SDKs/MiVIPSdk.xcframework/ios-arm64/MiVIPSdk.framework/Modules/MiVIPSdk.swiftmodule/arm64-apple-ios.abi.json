@@ -909,21 +909,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "MiVIPApi.HooyuRequest?",
+                "printedName": "MiVIPApi.MiVIPRequest?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "HooyuRequest",
-                    "printedName": "MiVIPApi.HooyuRequest",
-                    "usr": "s:8MiVIPApi12HooyuRequestV"
+                    "name": "MiVIPRequest",
+                    "printedName": "MiVIPApi.MiVIPRequest",
+                    "usr": "s:8MiVIPApi0A10VIPRequestV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPSdk12RequestStateC7request0A6VIPApi05HooyuC0VSgvp",
-            "mangledName": "$s8MiVIPSdk12RequestStateC7request0A6VIPApi05HooyuC0VSgvp",
+            "usr": "s:8MiVIPSdk12RequestStateC7request0A6VIPApi0A10VIPRequestVSgvp",
+            "mangledName": "$s8MiVIPSdk12RequestStateC7request0A6VIPApi0A10VIPRequestVSgvp",
             "moduleName": "MiVIPSdk",
             "declAttributes": [
               "HasInitialValue",
@@ -941,21 +941,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MiVIPApi.HooyuRequest?",
+                    "printedName": "MiVIPApi.MiVIPRequest?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "HooyuRequest",
-                        "printedName": "MiVIPApi.HooyuRequest",
-                        "usr": "s:8MiVIPApi12HooyuRequestV"
+                        "name": "MiVIPRequest",
+                        "printedName": "MiVIPApi.MiVIPRequest",
+                        "usr": "s:8MiVIPApi0A10VIPRequestV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPSdk12RequestStateC7request0A6VIPApi05HooyuC0VSgvg",
-                "mangledName": "$s8MiVIPSdk12RequestStateC7request0A6VIPApi05HooyuC0VSgvg",
+                "usr": "s:8MiVIPSdk12RequestStateC7request0A6VIPApi0A10VIPRequestVSgvg",
+                "mangledName": "$s8MiVIPSdk12RequestStateC7request0A6VIPApi0A10VIPRequestVSgvg",
                 "moduleName": "MiVIPSdk",
                 "implicit": true,
                 "accessorKind": "get"
@@ -973,21 +973,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MiVIPApi.HooyuRequest?",
+                    "printedName": "MiVIPApi.MiVIPRequest?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "HooyuRequest",
-                        "printedName": "MiVIPApi.HooyuRequest",
-                        "usr": "s:8MiVIPApi12HooyuRequestV"
+                        "name": "MiVIPRequest",
+                        "printedName": "MiVIPApi.MiVIPRequest",
+                        "usr": "s:8MiVIPApi0A10VIPRequestV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPSdk12RequestStateC7request0A6VIPApi05HooyuC0VSgvs",
-                "mangledName": "$s8MiVIPSdk12RequestStateC7request0A6VIPApi05HooyuC0VSgvs",
+                "usr": "s:8MiVIPSdk12RequestStateC7request0A6VIPApi0A10VIPRequestVSgvs",
+                "mangledName": "$s8MiVIPSdk12RequestStateC7request0A6VIPApi0A10VIPRequestVSgvs",
                 "moduleName": "MiVIPSdk",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1004,8 +1004,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPSdk12RequestStateC7request0A6VIPApi05HooyuC0VSgvM",
-                "mangledName": "$s8MiVIPSdk12RequestStateC7request0A6VIPApi05HooyuC0VSgvM",
+                "usr": "s:8MiVIPSdk12RequestStateC7request0A6VIPApi0A10VIPRequestVSgvM",
+                "mangledName": "$s8MiVIPSdk12RequestStateC7request0A6VIPApi0A10VIPRequestVSgvM",
                 "moduleName": "MiVIPSdk",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -17213,7 +17213,7 @@
           {
             "kind": "Function",
             "name": "status",
-            "printedName": "status(status:result:scoreResponse:)",
+            "printedName": "status(status:result:scoreResponse:request:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -17261,11 +17261,52 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MiVIPApi.MiVIPRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MiVIPRequest",
+                    "printedName": "MiVIPApi.MiVIPRequest",
+                    "usr": "s:8MiVIPApi0A10VIPRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPSdk21RequestStatusDelegateP6statusAD6result13scoreResponsey0A6VIPApi0cD0OSg_AG0C6ResultOSgAG05ScoreI0VSgtF",
-            "mangledName": "$s8MiVIPSdk21RequestStatusDelegateP6statusAD6result13scoreResponsey0A6VIPApi0cD0OSg_AG0C6ResultOSgAG05ScoreI0VSgtF",
+            "usr": "s:8MiVIPSdk21RequestStatusDelegateP6statusAD6result13scoreResponse7requesty0A6VIPApi0cD0OSg_AH0C6ResultOSgAH05ScoreI0VSgAH0A10VIPRequestVSgtF",
+            "mangledName": "$s8MiVIPSdk21RequestStatusDelegateP6statusAD6result13scoreResponse7requesty0A6VIPApi0cD0OSg_AH0C6ResultOSgAH05ScoreI0VSgAH0A10VIPRequestVSgtF",
+            "moduleName": "MiVIPSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPSdk.RequestStatusDelegate>",
+            "sugared_genericSig": "<Self where Self : MiVIPSdk.RequestStatusDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(err:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk21RequestStatusDelegateP5error3errySS_tF",
+            "mangledName": "$s8MiVIPSdk21RequestStatusDelegateP5error3errySS_tF",
             "moduleName": "MiVIPSdk",
             "genericSig": "<τ_0_0 where τ_0_0 : MiVIPSdk.RequestStatusDelegate>",
             "sugared_genericSig": "<Self where Self : MiVIPSdk.RequestStatusDelegate>",
@@ -18389,6 +18430,13 @@
         "kind": "Import",
         "name": "AVKit",
         "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "MiVIPApi",
+        "printedName": "MiVIPApi",
         "declKind": "Import",
         "moduleName": "MiVIPSdk"
       },
@@ -28402,33 +28450,33 @@
       "kind": "StringLiteral",
       "offset": 354,
       "length": 7,
-      "value": "\"3.6.2\""
+      "value": "\"3.6.3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 2212,
+      "offset": 2253,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 2869,
+      "offset": 2910,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 3691,
+      "offset": 3732,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 4361,
+      "offset": 4402,
       "length": 4,
       "value": "true"
     },
@@ -29149,7 +29197,7 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SecureStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 19706,
+      "offset": 20809,
       "length": 5,
       "value": "false"
     },
@@ -30199,14 +30247,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/NewMainMenuViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6751,
+      "offset": 6496,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/NewMainMenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17772,
+      "offset": 17517,
       "length": 1,
       "value": "0"
     },
@@ -30241,42 +30289,42 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 700,
+      "offset": 752,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 781,
+      "offset": 833,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 823,
+      "offset": 875,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1128,
+      "offset": 1180,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 112815,
+      "offset": 112929,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 112840,
+      "offset": 112954,
       "length": 1,
       "value": "0"
     },
@@ -30850,35 +30898,35 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 317,
+      "offset": 333,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
       "kind": "StringLiteral",
-      "offset": 349,
+      "offset": 365,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 385,
+      "offset": 401,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 799,
+      "offset": 815,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/LoginViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 866,
+      "offset": 882,
       "length": 5,
       "value": "false"
     },

@@ -51,7 +51,7 @@ import os
   public var environment: Swift.String?
   public var dpk: Swift.String?
   public var documentCallbackUrl: Swift.String?
-  public var request: MiVIPApi.HooyuRequest?
+  public var request: MiVIPApi.MiVIPRequest?
   public var selfieImage: UIKit.UIImage?
   public var scoreResponse: MiVIPApi.ScoreResponse?
   public var submitedDocumentTypes: Swift.Set<MiVIPApi.DocumentType>
@@ -490,7 +490,8 @@ extension UIKit.UIColor {
   convenience public init?(rgbString: Swift.String)
 }
 public protocol RequestStatusDelegate {
-  func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?)
+  func status(status: MiVIPApi.RequestStatus?, result: MiVIPApi.RequestResult?, scoreResponse: MiVIPApi.ScoreResponse?, request: MiVIPApi.MiVIPRequest?)
+  func error(err: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class NibView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
