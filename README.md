@@ -1,4 +1,4 @@
-# MiVIP SDK v.3.6.3 for iOS
+# MiVIP SDK v.3.6.4 for iOS
 
 ![Platform](https://img.shields.io/cocoapods/p/MiVIP.svg?color=darkgray)
 ![CocoaPods version](https://img.shields.io/cocoapods/v/MiVIP?color=success)

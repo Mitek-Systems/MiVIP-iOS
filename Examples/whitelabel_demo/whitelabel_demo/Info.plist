@@ -15,7 +15,7 @@
 		<string>WorkSans-SemiBold.otf</string>
 	</array>
 	<key>HOOYU_API_URL</key>
-	<string>https://mivip-instance.com</string>
+	<string>https://MIVIP_URL</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Your location may be requested as an anti-fraud control, as part of the identity verification process by the third party who is making the identity request.</string>
 	<key>UIApplicationSceneManifest</key>

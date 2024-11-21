@@ -122,6 +122,14 @@ source 'https://github.com/CocoaPods/Specs.git'
 		mivip.setFontNamHeavy(fontName: "WorkSans-ExtraBold")
 	```
 
+* Custom icons - SDK icons can be customised by the main application. Adding image assets with same names will overwrite the icons in SDK: 
+
+<center>
+
+![Embed And Sign](images/custom_icons.png)
+
+</center>
+
 ## Permissions for the main app
 Application will ask user to grant permissions when needed (e.g. when start capture or voice session). Main app should define that may require such permissions:
 

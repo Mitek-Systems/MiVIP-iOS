@@ -121,6 +121,9 @@ import os
   public var selectBorderColor: UIKit.UIColor?
   public var selectTextColor: UIKit.UIColor?
   public var selectBackgroundColor: UIKit.UIColor?
+  public var tipRadius: CoreFoundation.CGFloat
+  public var hubButtonRadius: CoreFoundation.CGFloat
+  public var buttonRadius: CoreFoundation.CGFloat
   @objc deinit
 }
 @objc public class MBadgeHub : ObjectiveC.NSObject {
@@ -189,7 +192,6 @@ extension UIKit.UIViewController {
     get
   }
 }
-public func NSLocalizedString(_ key: Swift.String, tableName: Swift.String? = nil, bundle: Foundation.Bundle = Bundle.main, value: Swift.String = "", comment: Swift.String) -> Swift.String
 extension Foundation.NSNotification.Name {
   public static let hooyuNotificationKey: Foundation.NSNotification.Name
 }

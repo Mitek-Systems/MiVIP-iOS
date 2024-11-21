@@ -7983,6 +7983,267 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "tipRadius",
+            "printedName": "tipRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPSdk12RequestStateC9tipRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s8MiVIPSdk12RequestStateC9tipRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC9tipRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s8MiVIPSdk12RequestStateC9tipRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC9tipRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s8MiVIPSdk12RequestStateC9tipRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC9tipRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s8MiVIPSdk12RequestStateC9tipRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hubButtonRadius",
+            "printedName": "hubButtonRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPSdk12RequestStateC15hubButtonRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s8MiVIPSdk12RequestStateC15hubButtonRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC15hubButtonRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s8MiVIPSdk12RequestStateC15hubButtonRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC15hubButtonRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s8MiVIPSdk12RequestStateC15hubButtonRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC15hubButtonRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s8MiVIPSdk12RequestStateC15hubButtonRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonRadius",
+            "printedName": "buttonRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPSdk12RequestStateC12buttonRadius14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s8MiVIPSdk12RequestStateC12buttonRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC12buttonRadius14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s8MiVIPSdk12RequestStateC12buttonRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC12buttonRadius14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s8MiVIPSdk12RequestStateC12buttonRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC12buttonRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s8MiVIPSdk12RequestStateC12buttonRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -10062,69 +10323,6 @@
         "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "MiVIPSdk"
-      },
-      {
-        "kind": "Function",
-        "name": "NSLocalizedString",
-        "printedName": "NSLocalizedString(_:tableName:bundle:value:comment:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Optional",
-            "printedName": "Swift.String?",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "hasDefaultArg": true,
-            "usr": "s:Sq"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Bundle",
-            "printedName": "Foundation.Bundle",
-            "hasDefaultArg": true,
-            "usr": "c:objc(cs)NSBundle"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "hasDefaultArg": true,
-            "usr": "s:SS"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:8MiVIPSdk17NSLocalizedString_9tableName6bundle5value7commentS2S_SSSgSo8NSBundleCS2StF",
-        "mangledName": "$s8MiVIPSdk17NSLocalizedString_9tableName6bundle5value7commentS2S_SSSgSo8NSBundleCS2StF",
-        "moduleName": "MiVIPSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
       },
       {
         "kind": "Import",
@@ -28278,6 +28476,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6077,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6146,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6215,
+      "length": 2,
+      "value": "30"
+    },
+    {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/MBadgeHub.swift",
       "kind": "StringLiteral",
       "offset": 476,
@@ -28450,7 +28669,7 @@
       "kind": "StringLiteral",
       "offset": 354,
       "length": 7,
-      "value": "\"3.6.3\""
+      "value": "\"3.6.4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
@@ -28490,14 +28709,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/onboarding\/OnboardingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9909,
+      "offset": 9951,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/onboarding\/OnboardingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15497,
+      "offset": 15539,
       "length": 4,
       "value": "true"
     },
@@ -28539,245 +28758,245 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 340,
+      "offset": 333,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 930,
+      "offset": 1209,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 955,
+      "offset": 1234,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 9071,
+      "offset": 9440,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 9123,
+      "offset": 9492,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 15115,
+      "offset": 15510,
       "length": 10,
       "value": "\"•\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 15175,
+      "offset": 15570,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 15227,
+      "offset": 15622,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 15283,
+      "offset": 15678,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 18330,
+      "offset": 18725,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 28580,
+      "offset": 28996,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 29278,
+      "offset": 29694,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 30325,
+      "offset": 30741,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 30357,
+      "offset": 30773,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 34036,
+      "offset": 34452,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "Array",
-      "offset": 46283,
+      "offset": 46699,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "Array",
-      "offset": 46445,
+      "offset": 46861,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "Array",
-      "offset": 46606,
+      "offset": 47022,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "Array",
-      "offset": 46774,
+      "offset": 47190,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 49218,
+      "offset": 49634,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 49227,
+      "offset": 49643,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 49239,
+      "offset": 49655,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 49249,
+      "offset": 49665,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 50319,
+      "offset": 50735,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 50369,
+      "offset": 50785,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 50417,
+      "offset": 50833,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 50466,
+      "offset": 50882,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 51475,
+      "offset": 51891,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 52636,
+      "offset": 53052,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 52686,
+      "offset": 53102,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 52734,
+      "offset": 53150,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 52783,
+      "offset": 53199,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 55774,
+      "offset": 56190,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 58402,
+      "offset": 58818,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 64216,
+      "offset": 64632,
       "length": 22,
       "value": "\"hooyuNotificationKey\""
     },
@@ -29165,6 +29384,27 @@
       "offset": 3531,
       "length": 25,
       "value": "\"COLOR_SELECT_BACKGROUND\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyStrings.swift",
+      "kind": "StringLiteral",
+      "offset": 3609,
+      "length": 26,
+      "value": "\"HUB_BUTTON_BORDER_RADIUS\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyStrings.swift",
+      "kind": "StringLiteral",
+      "offset": 3692,
+      "length": 30,
+      "value": "\"PRIMARY_BUTTON_BORDER_RADIUS\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/HyStrings.swift",
+      "kind": "StringLiteral",
+      "offset": 3772,
+      "length": 23,
+      "value": "\"TIP_BOX_BORDER_RADIUS\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/KeychainWrapper.swift",
@@ -29560,24 +29800,24 @@
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/mipass\/MiPassViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1446,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/mipass\/MiPassViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1627,
+      "offset": 1639,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/mipass\/MiPassViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1633,
+      "offset": 1645,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/mipass\/MiPassViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1643,
-      "length": 2,
-      "value": "50"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/mipass\/MiPassViewController.swift",
@@ -29588,10 +29828,24 @@
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/mipass\/MiPassViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1667,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/mipass\/MiPassViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1731,
+      "offset": 1743,
       "length": 9,
       "value": "\"warning\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/mipass\/MiPassViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1816,
+      "length": 3,
+      "value": "0.8"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ImageUtils.swift",
@@ -30317,14 +30571,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 112929,
+      "offset": 113359,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 112954,
+      "offset": 113384,
       "length": 1,
       "value": "0"
     },
@@ -30506,7 +30760,7 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/social\/SocialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24936,
+      "offset": 25131,
       "length": 5,
       "value": "false"
     },
@@ -30744,21 +30998,21 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39336,
+      "offset": 39777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39358,
+      "offset": 39799,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39403,
+      "offset": 39844,
       "length": 5,
       "value": "false"
     },
@@ -31374,7 +31628,7 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/history\/HistoryViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31476,
+      "offset": 31528,
       "length": 4,
       "value": "true"
     },
@@ -31577,903 +31831,910 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3348,
+      "offset": 3353,
+      "length": 11,
+      "value": "\"btn_voice\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3486,
       "length": 8,
       "value": "\"camera\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3497,
+      "offset": 3635,
       "length": 18,
       "value": "\"checkbox_checked\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3660,
+      "offset": 3798,
       "length": 20,
       "value": "\"checkbox_unchecked\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3800,
+      "offset": 3938,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3953,
+      "offset": 4091,
       "length": 21,
       "value": "\"doc_address_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4114,
+      "offset": 4252,
       "length": 18,
       "value": "\"doc_bank_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4277,
+      "offset": 4415,
       "length": 21,
       "value": "\"doc_bank_id_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4452,
+      "offset": 4590,
       "length": 26,
       "value": "\"doc_bank_id_correct_back\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4618,
+      "offset": 4756,
       "length": 18,
       "value": "\"doc_bill_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4782,
+      "offset": 4920,
       "length": 21,
       "value": "\"doc_driving_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4958,
+      "offset": 5096,
       "length": 26,
       "value": "\"doc_driving_correct_back\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5124,
+      "offset": 5262,
       "length": 19,
       "value": "\"doc_err_bank_id_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5283,
+      "offset": 5421,
       "length": 19,
       "value": "\"doc_err_bank_id_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5442,
+      "offset": 5580,
       "length": 19,
       "value": "\"doc_err_bank_id_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5601,
+      "offset": 5739,
       "length": 19,
       "value": "\"doc_err_bank_id_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5761,
+      "offset": 5899,
       "length": 19,
       "value": "\"doc_err_driving_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5921,
+      "offset": 6059,
       "length": 19,
       "value": "\"doc_err_driving_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6081,
+      "offset": 6219,
       "length": 19,
       "value": "\"doc_err_driving_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6241,
+      "offset": 6379,
       "length": 19,
       "value": "\"doc_err_driving_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6391,
+      "offset": 6529,
       "length": 14,
       "value": "\"doc_err_id_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6536,
+      "offset": 6674,
       "length": 14,
       "value": "\"doc_err_id_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6681,
+      "offset": 6819,
       "length": 14,
       "value": "\"doc_err_id_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6826,
+      "offset": 6964,
       "length": 14,
       "value": "\"doc_err_id_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6983,
+      "offset": 7121,
       "length": 20,
       "value": "\"doc_err_passcard_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7146,
+      "offset": 7284,
       "length": 20,
       "value": "\"doc_err_passcard_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7309,
+      "offset": 7447,
       "length": 20,
       "value": "\"doc_err_passcard_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7472,
+      "offset": 7610,
       "length": 20,
       "value": "\"doc_err_passcard_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7635,
+      "offset": 7773,
       "length": 20,
       "value": "\"doc_err_passport_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7798,
+      "offset": 7936,
       "length": 20,
       "value": "\"doc_err_passport_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7961,
+      "offset": 8099,
       "length": 20,
       "value": "\"doc_err_passport_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8124,
+      "offset": 8262,
       "length": 20,
       "value": "\"doc_err_passport_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8294,
+      "offset": 8432,
       "length": 24,
       "value": "\"doc_err_payment_card_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8468,
+      "offset": 8606,
       "length": 24,
       "value": "\"doc_err_payment_card_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8642,
+      "offset": 8780,
       "length": 24,
       "value": "\"doc_err_payment_card_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8816,
+      "offset": 8954,
       "length": 24,
       "value": "\"doc_err_payment_card_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8973,
+      "offset": 9111,
       "length": 15,
       "value": "\"doc_err_poa_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9121,
+      "offset": 9259,
       "length": 15,
       "value": "\"doc_err_poa_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9269,
+      "offset": 9407,
       "length": 15,
       "value": "\"doc_err_poa_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9417,
+      "offset": 9555,
       "length": 15,
       "value": "\"doc_err_poa_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9577,
+      "offset": 9715,
       "length": 21,
       "value": "\"doc_err_residence_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9743,
+      "offset": 9881,
       "length": 21,
       "value": "\"doc_err_residence_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9909,
+      "offset": 10047,
       "length": 21,
       "value": "\"doc_err_residence_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10075,
+      "offset": 10213,
       "length": 21,
       "value": "\"doc_err_residence_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10241,
+      "offset": 10379,
       "length": 21,
       "value": "\"doc_err_signature_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10407,
+      "offset": 10545,
       "length": 21,
       "value": "\"doc_err_signature_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10573,
+      "offset": 10711,
       "length": 21,
       "value": "\"doc_err_signature_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10739,
+      "offset": 10877,
       "length": 21,
       "value": "\"doc_err_signature_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10895,
+      "offset": 11033,
       "length": 16,
       "value": "\"doc_err_visa_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11046,
+      "offset": 11184,
       "length": 16,
       "value": "\"doc_err_visa_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11197,
+      "offset": 11335,
       "length": 16,
       "value": "\"doc_err_visa_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11348,
+      "offset": 11486,
       "length": 16,
       "value": "\"doc_err_visa_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11500,
+      "offset": 11638,
       "length": 16,
       "value": "\"doc_id_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11661,
+      "offset": 11799,
       "length": 21,
       "value": "\"doc_id_correct_back\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11832,
+      "offset": 11970,
       "length": 23,
       "value": "\"doc_insurance_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12003,
+      "offset": 12141,
       "length": 22,
       "value": "\"doc_passcard_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12182,
+      "offset": 12320,
       "length": 27,
       "value": "\"doc_passcard_correct_back\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12357,
+      "offset": 12495,
       "length": 22,
       "value": "\"doc_passport_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12534,
+      "offset": 12672,
       "length": 26,
       "value": "\"doc_payment_card_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12724,
+      "offset": 12862,
       "length": 31,
       "value": "\"doc_payment_card_correct_back\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12905,
+      "offset": 13043,
       "length": 23,
       "value": "\"doc_residence_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13087,
+      "offset": 13225,
       "length": 28,
       "value": "\"doc_residence_correct_back\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13265,
+      "offset": 13403,
       "length": 23,
       "value": "\"doc_signature_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13426,
+      "offset": 13564,
       "length": 17,
       "value": "\"doc_tax_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13583,
+      "offset": 13721,
       "length": 18,
       "value": "\"doc_visa_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13737,
+      "offset": 13875,
       "length": 16,
       "value": "\"dsign_bio_sign\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13886,
+      "offset": 14024,
       "length": 14,
       "value": "\"dsign_secure\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14042,
+      "offset": 14180,
       "length": 19,
       "value": "\"dsign_take_selfie\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14189,
+      "offset": 14327,
       "length": 11,
       "value": "\"epassport\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14335,
+      "offset": 14473,
       "length": 15,
       "value": "\"hamburger_bar\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14476,
+      "offset": 14614,
       "length": 10,
       "value": "\"hologram\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14619,
+      "offset": 14757,
       "length": 14,
       "value": "\"hologram_bck\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14767,
+      "offset": 14905,
       "length": 15,
       "value": "\"home_menu_age\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14914,
+      "offset": 15052,
       "length": 14,
       "value": "\"home_menu_qr\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15066,
+      "offset": 15204,
       "length": 17,
       "value": "\"home_menu_share\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15208,
+      "offset": 15346,
       "length": 10,
       "value": "\"icon_dob\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15345,
+      "offset": 15483,
       "length": 11,
       "value": "\"icon_edit\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15479,
+      "offset": 15617,
       "length": 9,
       "value": "\"icon_id\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15623,
+      "offset": 15761,
       "length": 15,
       "value": "\"icon_language\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15765,
+      "offset": 15903,
       "length": 11,
       "value": "\"icon_name\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15911,
+      "offset": 16049,
       "length": 15,
       "value": "\"icon_passport\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16055,
+      "offset": 16193,
       "length": 12,
       "value": "\"icon_phone\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16197,
+      "offset": 16335,
       "length": 13,
       "value": "\"is_this_you\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16350,
+      "offset": 16488,
       "length": 18,
       "value": "\"lock_screen_back\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16512,
+      "offset": 16650,
       "length": 20,
       "value": "\"lock_screen_faceid\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16680,
+      "offset": 16818,
       "length": 22,
       "value": "\"lock_screen_fingerid\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16843,
+      "offset": 16981,
       "length": 18,
       "value": "\"logo_transparent\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16990,
+      "offset": 17128,
       "length": 12,
       "value": "\"logo_white\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17148,
+      "offset": 17286,
       "length": 21,
       "value": "\"main_menu_myaccount\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17305,
+      "offset": 17443,
       "length": 16,
       "value": "\"main_menu_myid\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17463,
+      "offset": 17601,
       "length": 19,
       "value": "\"main_menu_provide\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17622,
+      "offset": 17760,
       "length": 18,
       "value": "\"main_menu_update\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17767,
+      "offset": 17905,
       "length": 11,
       "value": "\"mini_logo\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17892,
+      "offset": 18030,
       "length": 4,
       "value": "\"ok\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18047,
+      "offset": 18185,
       "length": 23,
       "value": "\"onboarding_background\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18212,
+      "offset": 18350,
       "length": 19,
       "value": "\"open_banking_page\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18370,
+      "offset": 18508,
       "length": 17,
       "value": "\"passport_masked\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18511,
+      "offset": 18649,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18642,
+      "offset": 18780,
       "length": 8,
       "value": "\"retake\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18787,
+      "offset": 18925,
       "length": 16,
       "value": "\"selfie_correct\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18935,
+      "offset": 19073,
       "length": 14,
       "value": "\"selfie_err_1\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19081,
+      "offset": 19219,
       "length": 14,
       "value": "\"selfie_err_2\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19227,
+      "offset": 19365,
       "length": 14,
       "value": "\"selfie_err_3\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19373,
+      "offset": 19511,
       "length": 14,
       "value": "\"selfie_err_4\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19516,
+      "offset": 19654,
       "length": 12,
       "value": "\"share_icon\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19666,
+      "offset": 19804,
       "length": 17,
       "value": "\"side_menu_about\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19825,
+      "offset": 19963,
       "length": 19,
       "value": "\"side_menu_contact\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19986,
+      "offset": 20124,
       "length": 19,
       "value": "\"side_menu_history\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20147,
+      "offset": 20285,
       "length": 19,
       "value": "\"side_menu_privacy\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20310,
+      "offset": 20448,
       "length": 20,
       "value": "\"side_menu_settings\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20468,
+      "offset": 20606,
       "length": 17,
       "value": "\"side_menu_terms\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20620,
+      "offset": 20758,
       "length": 15,
       "value": "\"social_amazon\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20774,
+      "offset": 20912,
       "length": 17,
       "value": "\"social_facebook\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20926,
+      "offset": 21064,
       "length": 15,
       "value": "\"social_google\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21074,
+      "offset": 21212,
       "length": 14,
       "value": "\"social_hooyu\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21229,
+      "offset": 21367,
       "length": 18,
       "value": "\"social_instagram\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21386,
+      "offset": 21524,
       "length": 17,
       "value": "\"social_linkedin\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21534,
+      "offset": 21672,
       "length": 13,
       "value": "\"social_live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21682,
+      "offset": 21820,
       "length": 15,
       "value": "\"social_paypal\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21830,
+      "offset": 21968,
       "length": 14,
       "value": "\"social_skype\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21971,
+      "offset": 22109,
       "length": 11,
       "value": "\"social_vk\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22115,
+      "offset": 22253,
       "length": 14,
       "value": "\"social_yahoo\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22265,
+      "offset": 22403,
       "length": 16,
       "value": "\"tab_menu_about\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22421,
+      "offset": 22559,
       "length": 18,
       "value": "\"tab_menu_history\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22573,
+      "offset": 22711,
       "length": 15,
       "value": "\"tab_menu_home\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22730,
+      "offset": 22868,
       "length": 19,
       "value": "\"tab_menu_settings\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22869,
+      "offset": 23007,
       "length": 7,
       "value": "\"trash\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23005,
+      "offset": 23143,
       "length": 12,
       "value": "\"video_info\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23167,
+      "offset": 23305,
       "length": 23,
       "value": "\"video_info_unassisted\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Library\/Developer\/Xcode\/DerivedData\/Mitek-ediuzszpnpywuffrchpmcyunorxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MiVIPSdk\/IntermediateBuildFilesPath\/Mitek.build\/Release-iphoneos\/MiVIPSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23314,
+      "offset": 23452,
       "length": 9,
       "value": "\"warning\""
     }
