@@ -10,31 +10,31 @@
 		</data>
 		<key>Headers/MiVIPLiveness-Swift.h</key>
 		<data>
-		5l9rGEte7EVdoLqfQOJ0xoaQHNc=
+		XPUdB+ikzth3wff5AdCqauQ9bk0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		O3yug00AlMizaJRp96Vs5s71buc=
+		E1fYBiulsPA1ozchTnL0D36vGU8=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		FSZZUl0QFApoXY5CWanYDSqTfD8=
+		4PKnHbFNBty6woVlF/d79igcaMk=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		EQeaIcYYvYVRgmaxu0cOc3ZCW/s=
+		LfXodyaqRCVs1EUkMOVntDa4yAE=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ND40yNWUj6SJu3riKbR3FaYsD/c=
+		ck3bCtrX9drgTmjWVBQ902YEvcc=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		EQeaIcYYvYVRgmaxu0cOc3ZCW/s=
+		LfXodyaqRCVs1EUkMOVntDa4yAE=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yxyQ44ko959rTlLRs/Vo/zz+OEI=
+		i+V8bzRpFdSpulTyMZWannMacLk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,42 +63,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sM76p4Yt0T1wFDCMa5jPYEOd6maD0E2sjS1GkxBNB2I=
+			XSGO50v0VLRzw3YID7XxmirDEILUnN2zUg+dIqOO6gw=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			efPk5/0s6pVBhUJUa8VF0FCnG6ZDGxm6h0DMQp2wVaw=
+			iVeiRpGugO9oGlU5rwBi8zZyZosWutmcILqxsvQ+xog=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ujnQsSm5/M7Rb4T7y/woxT+L8jDoFDnU5rkIiv8MD88=
+			9yO1Wydo668ttuEq3svcI876/0CBzlY0agAOsYbCYxM=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OP6s/Qh8jdiHvZaO73wslandPfUsQ59TmdbibD7hezc=
+			x5vRNxlPDEfd+eRYtyEli4mT9fujcwmT8THhmTeRYKk=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ujnQsSm5/M7Rb4T7y/woxT+L8jDoFDnU5rkIiv8MD88=
+			9yO1Wydo668ttuEq3svcI876/0CBzlY0agAOsYbCYxM=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y+ELXijkOBheBirVskyCX4Q/m216SXXma+C1nZtIBxA=
+			6qQPFYa30QVIO8GRGwGYd3ldVYOvQVNobG5CouCqmzk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

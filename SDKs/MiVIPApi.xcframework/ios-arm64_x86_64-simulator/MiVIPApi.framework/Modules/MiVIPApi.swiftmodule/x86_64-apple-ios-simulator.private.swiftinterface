@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MiVIPApi
 import AVFoundation
 import AVKit
@@ -127,12 +127,12 @@ public protocol MiVIPVideoDelegate {
   func videoWillOpen()
   func micPermissionDenied()
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MiVIPVideoViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public var videoDelegate: (any MiVIPApi.MiVIPVideoDelegate)?
-  @_Concurrency.MainActor(unsafe) public func videoSdk(requestId: Swift.String, email: Swift.String, phone: Swift.String?, phoneCountryCode: Swift.String?, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func video(requestId: Swift.String, businessId: Swift.String, email: Swift.String, phone: Swift.String?, phoneCountryCode: Swift.String?, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, useSdk: Swift.Bool = false, environment: Swift.String = "live")
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MiVIPVideoViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var videoDelegate: (any MiVIPApi.MiVIPVideoDelegate)?
+  @_Concurrency.MainActor @preconcurrency public func videoSdk(requestId: Swift.String, email: Swift.String, phone: Swift.String?, phoneCountryCode: Swift.String?, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func video(requestId: Swift.String, businessId: Swift.String, email: Swift.String, phone: Swift.String?, phoneCountryCode: Swift.String?, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, useSdk: Swift.Bool = false, environment: Swift.String = "live")
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class HyBandwidthTest : ObjectiveC.NSObject, Foundation.URLSessionDelegate, Foundation.URLSessionDataDelegate {
@@ -200,7 +200,7 @@ public enum SocialType : Swift.String, Swift.CaseIterable, Swift.Decodable {
   public init?(rawValue: Swift.String)
   public typealias AllCases = [MiVIPApi.SocialType]
   public typealias RawValue = Swift.String
-  public static var allCases: [MiVIPApi.SocialType] {
+  nonisolated public static var allCases: [MiVIPApi.SocialType] {
     get
   }
   public var rawValue: Swift.String {
@@ -253,7 +253,7 @@ public enum DocumentType : Swift.String, Swift.CaseIterable, Swift.Decodable {
   public init?(rawValue: Swift.String)
   public typealias AllCases = [MiVIPApi.DocumentType]
   public typealias RawValue = Swift.String
-  public static var allCases: [MiVIPApi.DocumentType] {
+  nonisolated public static var allCases: [MiVIPApi.DocumentType] {
     get
   }
   public var rawValue: Swift.String {
@@ -355,7 +355,7 @@ public enum DocumentStatus : Swift.String, Swift.CaseIterable, Swift.Decodable {
   public init?(rawValue: Swift.String)
   public typealias AllCases = [MiVIPApi.DocumentStatus]
   public typealias RawValue = Swift.String
-  public static var allCases: [MiVIPApi.DocumentStatus] {
+  nonisolated public static var allCases: [MiVIPApi.DocumentStatus] {
     get
   }
   public var rawValue: Swift.String {
@@ -372,7 +372,7 @@ public enum InfoStatus : Swift.String, Swift.CaseIterable, Swift.Decodable {
   public init?(rawValue: Swift.String)
   public typealias AllCases = [MiVIPApi.InfoStatus]
   public typealias RawValue = Swift.String
-  public static var allCases: [MiVIPApi.InfoStatus] {
+  nonisolated public static var allCases: [MiVIPApi.InfoStatus] {
     get
   }
   public var rawValue: Swift.String {
@@ -405,7 +405,7 @@ public enum VideoRejectCode : Swift.String, Swift.CaseIterable, Swift.Decodable 
   public init?(rawValue: Swift.String)
   public typealias AllCases = [MiVIPApi.VideoRejectCode]
   public typealias RawValue = Swift.String
-  public static var allCases: [MiVIPApi.VideoRejectCode] {
+  nonisolated public static var allCases: [MiVIPApi.VideoRejectCode] {
     get
   }
   public var rawValue: Swift.String {
@@ -818,17 +818,17 @@ public struct HooyuAccountData {
   public var email: Swift.String?
   public var phone: Swift.String?
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class DocumentMultiImageScanner2 : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class DocumentMultiImageScanner2 : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension MiVIPApi.DocumentMultiImageScanner2 : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
 }
 extension MiVIPApi.RequestStatus : Swift.Equatable {}
 extension MiVIPApi.RequestStatus : Swift.Hashable {}

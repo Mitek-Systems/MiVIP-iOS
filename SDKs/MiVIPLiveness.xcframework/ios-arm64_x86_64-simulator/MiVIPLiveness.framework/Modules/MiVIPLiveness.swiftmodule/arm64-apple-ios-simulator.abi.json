@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MiVIPLiveness",
+    "printedName": "MiVIPLiveness",
     "children": [
       {
         "kind": "Import",
@@ -531,6 +531,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -886,6 +900,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1211,6 +1241,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1279,6 +1323,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1344,6 +1402,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_CFObject",
             "printedName": "_CFObject",
             "usr": "s:14CoreFoundation9_CFObjectP",
@@ -1376,6 +1448,41 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/ImageDetect.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1384,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/ImageDetect.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1535,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/ImageDetect.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1556,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/ImageDetect.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1725,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/ImageDetect.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1749,
+      "length": 1,
+      "value": "2"
+    },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/SelfieApi.swift",
       "kind": "StringLiteral",
@@ -1637,10 +1744,59 @@
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10767,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10827,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10855,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11038,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
-      "length": 12,
-      "value": "\"MiVIPLiveness.FaceDetector\""
+      "offset": 11145,
+      "length": 6,
+      "value": "\"path\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 11288,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11328,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 11381,
+      "length": 18,
+      "value": "\"NoseDotAnimation\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
@@ -1648,6 +1804,41 @@
       "offset": 32107,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32803,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33033,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33217,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33226,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuLiveness\/MiVIPLiveness\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33298,
+      "length": 1,
+      "value": "0"
     }
   ]
 }
