@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MiVIPApi
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MiVIPApi
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
 import AVFoundation
 import AVKit
 import CommonCrypto
@@ -413,7 +414,7 @@ public enum VideoRejectCode : Swift.String, Swift.CaseIterable, Swift.Decodable 
   }
 }
 @objc @_inheritsConvenienceInitializers public class SingleDocumentApi : ObjectiveC.NSObject {
-  public func addDocument(name: Swift.String?, documentType: MiVIPApi.DocumentType, front: Swift.String, back: Swift.String?, nfc: [Swift.String : Swift.String]? = nil, imageData: [Swift.String : Swift.String]? = nil, selfies: [UIKit.UIImage?]? = nil, environment: Swift.String = "live", clientId: Swift.String, secret: Swift.String, apiUrl: Swift.String, callbackUri: Swift.String, reference: Swift.String?, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  public func addDocument(name: Swift.String?, documentType: MiVIPApi.DocumentType, front: Swift.String, back: Swift.String?, nfc: [Swift.String : Swift.String]? = nil, imageData: [Swift.String : Swift.String]? = nil, selfies: [UIKit.UIImage?]? = nil, environment: Swift.String = "live", clientId: Swift.String, secret: Swift.String, apiUrl: Swift.String, callbackUri: Swift.String, reference: Swift.String?, captureData: [Swift.String : [Swift.String : Swift.String]]?, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
   @objc override dynamic public init()
   @objc deinit
 }
@@ -466,6 +467,7 @@ public enum DocumentSide {
   public func addSignature(image: UIKit.UIImage, requestId: Swift.String, businessId: Swift.String?, environment: Swift.String = "live", lang: Swift.String = "en", base64Image: Swift.String? = nil, useCoreApi: Swift.Bool, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
   public func getAttachmentsInfo(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.Attachment]?, Swift.String?) -> ())
   public func getUserAttachments(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.UserAttachment]?, Swift.String?) -> ())
+  public func stopSms(requestId: Swift.String, businessId: Swift.String)
   public func uploadAttachment(b64EncodedData: Swift.String, type: Swift.String, fileName: Swift.String?, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, MiVIPApi.Attachment?, Swift.String?) -> ())
   public func removeAttachment(type: Swift.String, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, MiVIPApi.Attachment?, Swift.String?) -> ())
   public func getPoaMaxAge(requestId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : Swift.Int]?, Swift.String?) -> ())

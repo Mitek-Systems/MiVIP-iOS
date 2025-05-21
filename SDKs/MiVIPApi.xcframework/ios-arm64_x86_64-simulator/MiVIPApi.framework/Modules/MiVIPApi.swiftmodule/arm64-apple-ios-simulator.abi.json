@@ -22095,7 +22095,7 @@
           {
             "kind": "Function",
             "name": "addDocument",
-            "printedName": "addDocument(name:documentType:front:back:nfc:imageData:selfies:environment:clientId:secret:apiUrl:callbackUri:reference:completion:)",
+            "printedName": "addDocument(name:documentType:front:back:nfc:imageData:selfies:environment:clientId:secret:apiUrl:callbackUri:reference:captureData:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -22277,6 +22277,48 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : [Swift.String : Swift.String]]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : [Swift.String : Swift.String]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(Swift.Int, Swift.String?, Swift.String?) -> ()",
@@ -22331,8 +22373,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi17SingleDocumentApiC03addD04name12documentType5front4back3nfc9imageData7selfies11environment8clientId6secret6apiUrl11callbackUri9reference10completionySSSg_AA0dI0OSSASSDyS2SGSgAWSaySo7UIImageCSgGSgS5SASySi_A2StctF",
-            "mangledName": "$s8MiVIPApi17SingleDocumentApiC03addD04name12documentType5front4back3nfc9imageData7selfies11environment8clientId6secret6apiUrl11callbackUri9reference10completionySSSg_AA0dI0OSSASSDyS2SGSgAWSaySo7UIImageCSgGSgS5SASySi_A2StctF",
+            "usr": "s:8MiVIPApi17SingleDocumentApiC03addD04name12documentType5front4back3nfc9imageData7selfies11environment8clientId6secret6apiUrl11callbackUri9reference07captureN010completionySSSg_AA0dI0OSSATSDyS2SGSgAXSaySo7UIImageCSgGSgS5SATSDySSAWGSgySi_A2TtctF",
+            "mangledName": "$s8MiVIPApi17SingleDocumentApiC03addD04name12documentType5front4back3nfc9imageData7selfies11environment8clientId6secret6apiUrl11callbackUri9reference07captureN010completionySSSg_AA0dI0OSSATSDyS2SGSgAXSaySo7UIImageCSgGSgS5SATSDySSAWGSgySi_A2TtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl"
@@ -26114,6 +26156,39 @@
             "declKind": "Func",
             "usr": "s:8MiVIPApi12HooyuCoreApiC18getUserAttachments9requestId08businessJ011environment10completionySS_S2SySi_SayAA0G10AttachmentVGSgSSSgtctF",
             "mangledName": "$s8MiVIPApi12HooyuCoreApiC18getUserAttachments9requestId08businessJ011environment10completionySS_S2SySi_SayAA0G10AttachmentVGSgSSSgtctF",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopSms",
+            "printedName": "stopSms(requestId:businessId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC7stopSms9requestId08businessI0ySS_SStF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC7stopSms9requestId08businessI0ySS_SStF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -52936,70 +53011,70 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 41204,
+      "offset": 42766,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 44615,
+      "offset": 46177,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 47776,
+      "offset": 49338,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 51116,
+      "offset": 52678,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 53298,
+      "offset": 54860,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 53605,
+      "offset": 55167,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 53650,
+      "offset": 55212,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 56388,
+      "offset": 57950,
       "length": 24,
       "value": "\"com.hooyu.ios.Identify\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 56447,
+      "offset": 58009,
       "length": 89,
       "value": "\"vj7ttXTwYxJ0IfpnkKVFoAOBWd5cTpH1alet5FhShKyAyvzwI9TW0GjGjGg4LHVb90Yv9LfY3yQcsx8hHTppbcv\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 74290,
+      "offset": 75852,
       "length": 4,
       "value": "\"en\""
     },

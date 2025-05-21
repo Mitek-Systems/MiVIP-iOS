@@ -6,27 +6,27 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		3f+/S4rl1Tv7v1AW+XvHqBfFS2I=
+		VcosgG6yAMTduSOa6xUO0KI47+I=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Sx6QqZ1hlzC4WVONPXaY8xeOyJo=
+		Du/n6mTq4hga1C8M8W1C5xpS6I4=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		YePm0lq8B6h3zqgCQuAUPHolpdw=
+		yPd3GSvyCA/O+u3kt/7vu+oX1U0=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ARBNvCNy5QBJiLOb6Vc13y1+ghc=
+		S33H/SNsw91J50mbkrvxUIgyQos=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		YePm0lq8B6h3zqgCQuAUPHolpdw=
+		yPd3GSvyCA/O+u3kt/7vu+oX1U0=
 		</data>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zfE17KI8cNF8uTozlq80irEbah4=
+		Qo9u4b/+IXLY0Y+RCvSHxD9gjrE=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -185,35 +185,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R7phoEsHcZ7H8gSDamzx43M/PRfcLc+u0fQvEAvHm4I=
+			8aHusWzz1SDXHWcZXMXnhgZroHbM5TvVNzMS7et8paE=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W2RR9TTV8nB9NGm5kydoqXsxWCnQajwyRZNGlhdSsuE=
+			0dw0bNTFCl24ueNXVNWKA9YqCQdBrOa2eCAaFawEq8E=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bWuIYkiwMhjjphzATGBrI3QCKMD7Rbh+7Ic+iDmNUpY=
+			dRebkm7yLedckZGSSbVwpW8Ksi56JpG0sjibBAFPwJM=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W2RR9TTV8nB9NGm5kydoqXsxWCnQajwyRZNGlhdSsuE=
+			0dw0bNTFCl24ueNXVNWKA9YqCQdBrOa2eCAaFawEq8E=
 			</data>
 		</dict>
 		<key>Modules/MiVIPApi.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FnGLIop8FmwC8KcoTGegpIph5KSs2fkmZTbj3EVZOjc=
+			ZBP9+i3fqyngDxpgOhEz9XryDMjmI7w4oN9YIIbhmZg=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>

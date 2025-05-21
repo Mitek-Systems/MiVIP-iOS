@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-bare-slash-regex -module-name MiVIPSdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MiVIPSdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVFoundation
 import AVKit
 import AppTrackingTransparency
@@ -60,6 +60,7 @@ import os
   public var videoPending: Swift.Bool
   public var openBankingPending: Swift.Bool
   public var maxSelfieAttemptsReached: Swift.Bool
+  public var smsDisabledSend: Swift.Bool
   public var compltedSocials: Swift.Set<Swift.String>
   public var attachments: [Swift.String : MiVIPApi.Attachment]
   public var poMaxAgeConfig: [MiVIPApi.DocumentType : Swift.Int]
@@ -72,6 +73,7 @@ import os
   public var mipassAskEnrollUserChoiceFace: Swift.Bool
   public var mipassAskEnrollUserChoiceVoice: Swift.Bool
   public var maskUserFields: Swift.Bool
+  public var nfcMaxFailLimit: Swift.Int?
   public var reuseGetDisabled: Swift.Bool
   public var reuseUseDisabled: Swift.Bool
   public var disableGdpr: Swift.Bool
