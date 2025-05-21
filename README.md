@@ -32,7 +32,7 @@ For MiSnap integration visit [MiSnap iOS repository](https://github.com/Mitek-Sy
 ## [Cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)
 * add MiVIP pod dependancy. It will download all needed dependancies including MiSnap
 ```
-  pod 'MiVIP', '3.6.1'
+  pod 'MiVIP', '3.6.10'
 ```
 * Obtain MiSnap [license key ](https://github.com/Mitek-Systems/MiSnap-iOS?tab=readme-ov-file#license-key)
 
