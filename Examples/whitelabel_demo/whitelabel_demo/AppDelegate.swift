@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // misnap license - see https://github.com/Mitek-Systems/MiSnap-iOS
-//        MiSnapLicenseManager.shared.setLicenseKey("YOUR MISNAP LICENSE HERE")
+        MiSnapLicenseManager.shared.setLicenseKey("YOUR MISNAP LICENSE HERE")
         
         return true
     }

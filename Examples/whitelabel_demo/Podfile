@@ -1,25 +1,25 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '13.0'
 
-$misnapVersion = '5.7.0'
+$misnapVersion = '5.8.0'
 
 target 'whitelabel_demo' do
   use_frameworks!
 
   
   # MiVIP - will grab nested dependancies
-  # pod 'MiVIP', '3.6.5'
+  pod 'MiVIP', '3.6.10'
 
-  # or requred + local SDK
-   pod 'SocketRocket', '0.6.1'
-   pod 'MiSnap', $misnapVersion
-   pod 'MiSnapUX', $misnapVersion
-   pod 'MiSnapFacialCapture', $misnapVersion
-   pod 'MiSnapFacialCaptureUX', $misnapVersion
-   pod 'MiSnapVoiceCapture', $misnapVersion
-   pod 'MiSnapVoiceCaptureUX', $misnapVersion
-   pod 'MiSnapNFC', $misnapVersion
-   pod 'MiSnapNFCUX', $misnapVersion
+  # or requred dependancies if using local framework
+#   pod 'SocketRocket', '0.6.1'
+#   pod 'MiSnap', $misnapVersion
+#   pod 'MiSnapUX', $misnapVersion
+#   pod 'MiSnapFacialCapture', $misnapVersion
+#   pod 'MiSnapFacialCaptureUX', $misnapVersion
+#   pod 'MiSnapVoiceCapture', $misnapVersion
+#   pod 'MiSnapVoiceCaptureUX', $misnapVersion
+#   pod 'MiSnapNFC', $misnapVersion
+#   pod 'MiSnapNFCUX', $misnapVersion
 
 end
 
