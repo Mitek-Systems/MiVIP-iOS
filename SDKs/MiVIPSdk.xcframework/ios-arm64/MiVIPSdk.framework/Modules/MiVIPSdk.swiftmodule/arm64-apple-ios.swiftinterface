@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MiVIPSdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import AVKit
 import AppTrackingTransparency
@@ -201,52 +201,6 @@ extension UIKit.UIViewController {
 extension Foundation.NSNotification.Name {
   public static let hooyuNotificationKey: Foundation.NSNotification.Name
 }
-open class KeychainWrapper {
-  @available(*, deprecated, message: "KeychainWrapper.defaultKeychainWrapper is deprecated since version 2.2.1, use KeychainWrapper.standard instead")
-  public static let defaultKeychainWrapper: MiVIPSdk.KeychainWrapper
-  public static let standard: MiVIPSdk.KeychainWrapper
-  public var serviceName: Swift.String {
-    get
-  }
-  public var accessGroup: Swift.String? {
-    get
-  }
-  public init(serviceName: Swift.String, accessGroup: Swift.String? = nil)
-  open func hasValue(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
-  open func accessibilityOfKey(_ key: Swift.String) -> MiVIPSdk.KeychainItemAccessibility?
-  open func allKeys() -> Swift.Set<Swift.String>
-  open func integer(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Int?
-  open func float(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Float?
-  open func double(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Double?
-  open func bool(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool?
-  open func string(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.String?
-  open func object(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> (any Foundation.NSCoding)?
-  open func data(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Foundation.Data?
-  open func dataRef(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Foundation.Data?
-  @discardableResult
-  open func set(_ value: Swift.Int, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
-  @discardableResult
-  open func set(_ value: Swift.Float, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
-  @discardableResult
-  open func set(_ value: Swift.Double, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
-  @discardableResult
-  open func set(_ value: Swift.Bool, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
-  @discardableResult
-  open func set(_ value: Swift.String, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
-  @discardableResult
-  open func set(_ value: any Foundation.NSCoding, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
-  @discardableResult
-  open func set(_ value: Foundation.Data, forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
-  @available(*, deprecated, message: "remove is deprecated since version 2.2.1, use removeObject instead")
-  @discardableResult
-  open func remove(key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
-  @discardableResult
-  open func removeObject(forKey key: Swift.String, withAccessibility accessibility: MiVIPSdk.KeychainItemAccessibility? = nil) -> Swift.Bool
-  @discardableResult
-  open func removeAllKeys() -> Swift.Bool
-  open class func wipeKeychain()
-  @objc deinit
-}
 public enum KeychainItemAccessibility {
   @available(iOS 4, *)
   case afterFirstUnlock
@@ -346,7 +300,6 @@ public protocol CodeInputBoxesDelegate {
 }
 extension MiVIPSdk.SideMenuController {
   public struct Preferences {
-    @available(iOS, deprecated: 13.0, message: "Status bar animation no longer work after iOS 13")
     public enum StatusBarBehavior {
       case none
       case slide
@@ -394,7 +347,6 @@ extension MiVIPSdk.SideMenuController {
       public var shouldRespectLanguageDirection: Swift.Bool
       public var forceRightToLeft: Swift.Bool
       public var direction: MiVIPSdk.SideMenuController.Preferences.MenuDirection
-      @available(iOS, deprecated: 13.0, message: "Status bar animation no longer work after iOS 13")
       public var statusBarBehavior: MiVIPSdk.SideMenuController.Preferences.StatusBarBehavior
       public var enablePanGesture: Swift.Bool
       public var enableRubberEffectWhenPanning: Swift.Bool
@@ -711,9 +663,7 @@ extension MiVIPSdk.MiVIPHub.LicenseError : Swift.Hashable {}
 extension MiVIPSdk.MiVIPHub.LicenseError : Swift.RawRepresentable {}
 extension MiVIPSdk.KeychainItemAccessibility : Swift.Equatable {}
 extension MiVIPSdk.KeychainItemAccessibility : Swift.Hashable {}
-@available(iOS, deprecated: 13.0, message: "Status bar animation no longer work after iOS 13")
 extension MiVIPSdk.SideMenuController.Preferences.StatusBarBehavior : Swift.Equatable {}
-@available(iOS, deprecated: 13.0, message: "Status bar animation no longer work after iOS 13")
 extension MiVIPSdk.SideMenuController.Preferences.StatusBarBehavior : Swift.Hashable {}
 extension MiVIPSdk.SideMenuController.Preferences.MenuDirection : Swift.Equatable {}
 extension MiVIPSdk.SideMenuController.Preferences.MenuDirection : Swift.Hashable {}

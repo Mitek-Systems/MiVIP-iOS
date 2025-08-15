@@ -1,4 +1,4 @@
-# MiVIP SDK v.3.6.10 for iOS
+# MiVIP SDK v.3.6.11 for iOS
 
 ![Platform](https://img.shields.io/cocoapods/p/MiVIP.svg?color=darkgray)
 ![CocoaPods version](https://img.shields.io/cocoapods/v/MiVIP?color=success)
@@ -16,7 +16,7 @@ MiVIP’s Native SDK is a fully orchestrated user interface and user journey del
 
 | Technology | Version |
 | :--- | :---: |
-| MiSnap | 5.8.0 |
+| MiSnap | 5.8.1 |
 | Xcode | 14.0 |
 | iOS | 13.0 |
 | iPhone | 7 |

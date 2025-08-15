@@ -21,14 +21,14 @@ SDK also includes wallet/account/history functionality.
 1. [Cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)
 * add MiVIP pod dependancy. It will download all needed dependancies including MiSnap
 
-pod 'MiVIP', '3.6.5'
+pod 'MiVIP', '3.6.11'
 
 * Obtain MiSnap [license key](https://github.com/Mitek-Systems/MiSnap-iOS?tab=readme-ov-file#license-key)
 
 2.  [Swift Package Manager (SPM)](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app)
 * Add [MiSnap SDKs](https://github.com/Mitek-Systems/MiSnap-iOS) and obtain a license key
 * Add MiVIP package dependancies ([https://github.com/Mitek-Systems/MiVIP-iOS](https://github.com/Mitek-Systems/MiVIP-iOS))
-* Add external dependancy [SocketRocket](https://github.com/facebookincubator/SocketRocket) version 0.6.1
+* Add external dependancy [Starscream](https://github.com/daltoniam/Starscream) version 4.0.8
 
 3.  Manual installation - you need to install MiSnap SDKs first  - [https://github.com/Mitek-Systems/MiSnap-iOS](https://github.com/Mitek-Systems/MiSnap-iOS)
 
@@ -45,22 +45,23 @@ pod 'MiVIP', '3.6.5'
 ```
 source 'https://github.com/CocoaPods/Specs.git'
         platform :ios, '13.0'
+
+		$misnapVersion = '5.8.1'
         
         target 'whitelabel_demo' do
-          # Comment the next line if you don't want to use dynamic frameworks
-          use_frameworks!
-        
-          # Pods for whitelabel_demo
-          pod 'SocketRocket', '0.6.1'
-          pod 'MiSnap', '5.7.0'
-          pod 'MiSnapUX', '5.7.0'
-          pod 'MiSnapFacialCapture', '5.7.0'
-          pod 'MiSnapFacialCaptureUX', '5.7.0'
-          pod 'MiSnapVoiceCapture', '5.7.0'
-          pod 'MiSnapVoiceCaptureUX', '5.7.0'
-          pod 'MiSnapNFC', '5.7.0'
-          pod 'MiSnapNFCUX', '5.7.0'
-        
+			# Comment the next line if you don't want to use dynamic frameworks
+			use_frameworks!
+			
+			# Pods for whitelabel_demo
+			pod 'Starscream', '~> 4.0.8'
+			pod 'MiSnap', $misnapVersion
+			pod 'MiSnapUX', $misnapVersion
+			pod 'MiSnapFacialCapture', $misnapVersion
+			pod 'MiSnapFacialCaptureUX', $misnapVersion
+			pod 'MiSnapVoiceCapture', $misnapVersion
+			pod 'MiSnapVoiceCaptureUX', $misnapVersion
+			pod 'MiSnapNFC', $misnapVersion
+			pod 'MiSnapNFCUX', $misnapVersion
         end
 
 ```
