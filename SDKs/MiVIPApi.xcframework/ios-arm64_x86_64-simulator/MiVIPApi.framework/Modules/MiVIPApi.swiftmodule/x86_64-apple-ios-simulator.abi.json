@@ -50,6 +50,27 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -300,7 +321,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, [MiVIPApi.Network]?) -> ()",
+                "printedName": "(Swift.Int, [MiVIPApi.MivipNetwork]?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -310,7 +331,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, [MiVIPApi.Network]?)",
+                    "printedName": "(Swift.Int, [MiVIPApi.MivipNetwork]?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -321,18 +342,18 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "[MiVIPApi.Network]?",
+                        "printedName": "[MiVIPApi.MivipNetwork]?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Array",
-                            "printedName": "[MiVIPApi.Network]",
+                            "printedName": "[MiVIPApi.MivipNetwork]",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "Network",
-                                "printedName": "MiVIPApi.Network",
-                                "usr": "s:8MiVIPApi7NetworkV"
+                                "name": "MivipNetwork",
+                                "printedName": "MiVIPApi.MivipNetwork",
+                                "usr": "s:8MiVIPApi12MivipNetworkV"
                               }
                             ],
                             "usr": "s:Sa"
@@ -346,8 +367,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi0aB3SdkC10getSocials9requestId10completionySS_ySi_SayAA7NetworkVGSgtctF",
-            "mangledName": "$s8MiVIPApi0aB3SdkC10getSocials9requestId10completionySS_ySi_SayAA7NetworkVGSgtctF",
+            "usr": "s:8MiVIPApi0aB3SdkC10getSocials9requestId10completionySS_ySi_SayAA12MivipNetworkVGSgtctF",
+            "mangledName": "$s8MiVIPApi0aB3SdkC10getSocials9requestId10completionySS_ySi_SayAA12MivipNetworkVGSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -8497,6 +8518,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
       },
       {
         "kind": "Import",
@@ -22044,6 +22072,27 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "MiVIPApi",
         "declAttributes": [
           "RawDocComment"
@@ -22552,6 +22601,27 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "zlib",
+        "printedName": "zlib",
         "declKind": "Import",
         "moduleName": "MiVIPApi"
       },
@@ -25249,7 +25319,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Int, [MiVIPApi.Network]?, Swift.String?) -> ()",
+                "printedName": "(Swift.Int, [MiVIPApi.MivipNetwork]?, Swift.String?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -25259,7 +25329,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Int, [MiVIPApi.Network]?, Swift.String?)",
+                    "printedName": "(Swift.Int, [MiVIPApi.MivipNetwork]?, Swift.String?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -25270,18 +25340,18 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "[MiVIPApi.Network]?",
+                        "printedName": "[MiVIPApi.MivipNetwork]?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Array",
-                            "printedName": "[MiVIPApi.Network]",
+                            "printedName": "[MiVIPApi.MivipNetwork]",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "Network",
-                                "printedName": "MiVIPApi.Network",
-                                "usr": "s:8MiVIPApi7NetworkV"
+                                "name": "MivipNetwork",
+                                "printedName": "MiVIPApi.MivipNetwork",
+                                "usr": "s:8MiVIPApi12MivipNetworkV"
                               }
                             ],
                             "usr": "s:Sa"
@@ -25309,8 +25379,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8MiVIPApi12HooyuCoreApiC10getSocials9requestId08businessI011environment10completionySS_S2SySi_SayAA7NetworkVGSgSSSgtctF",
-            "mangledName": "$s8MiVIPApi12HooyuCoreApiC10getSocials9requestId08businessI011environment10completionySS_S2SySi_SayAA7NetworkVGSgSSSgtctF",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC10getSocials9requestId08businessI011environment10completionySS_S2SySi_SayAA12MivipNetworkVGSgSSSgtctF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC10getSocials9requestId08businessI011environment10completionySS_S2SySi_SayAA12MivipNetworkVGSgSSSgtctF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -29362,6 +29432,48 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "MiVIPApi"
       },
@@ -43232,13 +43344,6 @@
       },
       {
         "kind": "Import",
-        "name": "Starscream",
-        "printedName": "Starscream",
-        "declKind": "Import",
-        "moduleName": "MiVIPApi"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -45883,6 +45988,1012 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorType",
+        "printedName": "ErrorType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "compressionError",
+            "printedName": "compressionError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiVIPApi.ErrorType.Type) -> MiVIPApi.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "MiVIPApi.ErrorType",
+                    "usr": "s:8MiVIPApi9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiVIPApi.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "MiVIPApi.ErrorType",
+                        "usr": "s:8MiVIPApi9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8MiVIPApi9ErrorTypeO011compressionC0yA2CmF",
+            "mangledName": "$s8MiVIPApi9ErrorTypeO011compressionC0yA2CmF",
+            "moduleName": "MiVIPApi"
+          },
+          {
+            "kind": "Var",
+            "name": "securityError",
+            "printedName": "securityError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiVIPApi.ErrorType.Type) -> MiVIPApi.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "MiVIPApi.ErrorType",
+                    "usr": "s:8MiVIPApi9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiVIPApi.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "MiVIPApi.ErrorType",
+                        "usr": "s:8MiVIPApi9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8MiVIPApi9ErrorTypeO08securityC0yA2CmF",
+            "mangledName": "$s8MiVIPApi9ErrorTypeO08securityC0yA2CmF",
+            "moduleName": "MiVIPApi"
+          },
+          {
+            "kind": "Var",
+            "name": "protocolError",
+            "printedName": "protocolError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiVIPApi.ErrorType.Type) -> MiVIPApi.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "MiVIPApi.ErrorType",
+                    "usr": "s:8MiVIPApi9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiVIPApi.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "MiVIPApi.ErrorType",
+                        "usr": "s:8MiVIPApi9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8MiVIPApi9ErrorTypeO08protocolC0yA2CmF",
+            "mangledName": "$s8MiVIPApi9ErrorTypeO08protocolC0yA2CmF",
+            "moduleName": "MiVIPApi"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MiVIPApi.ErrorType.Type) -> MiVIPApi.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "MiVIPApi.ErrorType",
+                    "usr": "s:8MiVIPApi9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MiVIPApi.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "MiVIPApi.ErrorType",
+                        "usr": "s:8MiVIPApi9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8MiVIPApi9ErrorTypeO06serverC0yA2CmF",
+            "mangledName": "$s8MiVIPApi9ErrorTypeO06serverC0yA2CmF",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorType",
+                "printedName": "MiVIPApi.ErrorType",
+                "usr": "s:8MiVIPApi9ErrorTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorType",
+                "printedName": "MiVIPApi.ErrorType",
+                "usr": "s:8MiVIPApi9ErrorTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi9ErrorTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8MiVIPApi9ErrorTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "MiVIPApi",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi9ErrorTypeO9hashValueSivp",
+            "mangledName": "$s8MiVIPApi9ErrorTypeO9hashValueSivp",
+            "moduleName": "MiVIPApi",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi9ErrorTypeO9hashValueSivg",
+                "mangledName": "$s8MiVIPApi9ErrorTypeO9hashValueSivg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi9ErrorTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8MiVIPApi9ErrorTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "MiVIPApi",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8MiVIPApi9ErrorTypeO",
+        "mangledName": "$s8MiVIPApi9ErrorTypeO",
+        "moduleName": "MiVIPApi",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WSError",
+        "printedName": "WSError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorType",
+                "printedName": "MiVIPApi.ErrorType",
+                "usr": "s:8MiVIPApi9ErrorTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi7WSErrorV4typeAA9ErrorTypeOvp",
+            "mangledName": "$s8MiVIPApi7WSErrorV4typeAA9ErrorTypeOvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "MiVIPApi.ErrorType",
+                    "usr": "s:8MiVIPApi9ErrorTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7WSErrorV4typeAA9ErrorTypeOvg",
+                "mangledName": "$s8MiVIPApi7WSErrorV4typeAA9ErrorTypeOvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi7WSErrorV7messageSSvp",
+            "mangledName": "$s8MiVIPApi7WSErrorV7messageSSvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7WSErrorV7messageSSvg",
+                "mangledName": "$s8MiVIPApi7WSErrorV7messageSSvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi7WSErrorV4codes6UInt16Vvp",
+            "mangledName": "$s8MiVIPApi7WSErrorV4codes6UInt16Vvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7WSErrorV4codes6UInt16Vvg",
+                "mangledName": "$s8MiVIPApi7WSErrorV4codes6UInt16Vvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:message:code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WSError",
+                "printedName": "MiVIPApi.WSError",
+                "usr": "s:8MiVIPApi7WSErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorType",
+                "printedName": "MiVIPApi.ErrorType",
+                "usr": "s:8MiVIPApi9ErrorTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8MiVIPApi7WSErrorV4type7message4codeAcA9ErrorTypeO_SSs6UInt16Vtcfc",
+            "mangledName": "$s8MiVIPApi7WSErrorV4type7message4codeAcA9ErrorTypeO_SSs6UInt16Vtcfc",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8MiVIPApi7WSErrorV",
+        "mangledName": "$s8MiVIPApi7WSErrorV",
+        "moduleName": "MiVIPApi",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebSocketClient",
+        "printedName": "WebSocketClient",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientP7connectyyF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientP7connectyyF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(closeCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientP10disconnect9closeCodeys6UInt16V_tF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientP10disconnect9closeCodeys6UInt16V_tF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(string:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientP5write6string10completionySS_yycSgtF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientP5write6string10completionySS_yycSgtF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(stringData:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientP5write10stringData10completiony10Foundation0H0V_yycSgtF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientP5write10stringData10completiony10Foundation0H0V_yycSgtF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(data:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientP5write4data10completiony10Foundation4DataV_yycSgtF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientP5write4data10completiony10Foundation4DataV_yycSgtF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(ping:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientP5write4ping10completiony10Foundation4DataV_yycSgtF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientP5write4ping10completiony10Foundation4DataV_yycSgtF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(pong:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientP5write4pong10completiony10Foundation4DataV_yycSgtF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientP5write4pong10completiony10Foundation4DataV_yycSgtF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientPAAE5write6stringySS_tF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientPAAE5write6stringySS_tF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientPAAE5write4datay10Foundation4DataV_tF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientPAAE5write4datay10Foundation4DataV_tF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(ping:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientPAAE5write4pingy10Foundation4DataV_tF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientPAAE5write4pingy10Foundation4DataV_tF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(pong:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientPAAE5write4pongy10Foundation4DataV_tF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientPAAE5write4pongy10Foundation4DataV_tF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15WebSocketClientPAAE10disconnectyyF",
+            "mangledName": "$s8MiVIPApi15WebSocketClientPAAE10disconnectyyF",
+            "moduleName": "MiVIPApi",
+            "genericSig": "<τ_0_0 where τ_0_0 : MiVIPApi.WebSocketClient>",
+            "sugared_genericSig": "<Self where Self : MiVIPApi.WebSocketClient>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8MiVIPApi15WebSocketClientP",
+        "mangledName": "$s8MiVIPApi15WebSocketClientP",
+        "moduleName": "MiVIPApi",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -48991,8 +50102,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Network",
-        "printedName": "Network",
+        "name": "MivipNetwork",
+        "printedName": "MivipNetwork",
         "children": [
           {
             "kind": "Var",
@@ -49015,8 +50126,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi7NetworkV4nameSSSgvp",
-            "mangledName": "$s8MiVIPApi7NetworkV4nameSSSgvp",
+            "usr": "s:8MiVIPApi12MivipNetworkV4nameSSSgvp",
+            "mangledName": "$s8MiVIPApi12MivipNetworkV4nameSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -49046,8 +50157,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV4nameSSSgvg",
-                "mangledName": "$s8MiVIPApi7NetworkV4nameSSSgvg",
+                "usr": "s:8MiVIPApi12MivipNetworkV4nameSSSgvg",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV4nameSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -49078,8 +50189,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV4nameSSSgvs",
-                "mangledName": "$s8MiVIPApi7NetworkV4nameSSSgvs",
+                "usr": "s:8MiVIPApi12MivipNetworkV4nameSSSgvs",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV4nameSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -49096,8 +50207,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV4nameSSSgvM",
-                "mangledName": "$s8MiVIPApi7NetworkV4nameSSSgvM",
+                "usr": "s:8MiVIPApi12MivipNetworkV4nameSSSgvM",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV4nameSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -49125,8 +50236,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi7NetworkV3keySSSgvp",
-            "mangledName": "$s8MiVIPApi7NetworkV3keySSSgvp",
+            "usr": "s:8MiVIPApi12MivipNetworkV3keySSSgvp",
+            "mangledName": "$s8MiVIPApi12MivipNetworkV3keySSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -49156,8 +50267,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV3keySSSgvg",
-                "mangledName": "$s8MiVIPApi7NetworkV3keySSSgvg",
+                "usr": "s:8MiVIPApi12MivipNetworkV3keySSSgvg",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV3keySSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -49188,8 +50299,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV3keySSSgvs",
-                "mangledName": "$s8MiVIPApi7NetworkV3keySSSgvs",
+                "usr": "s:8MiVIPApi12MivipNetworkV3keySSSgvs",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV3keySSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -49206,8 +50317,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV3keySSSgvM",
-                "mangledName": "$s8MiVIPApi7NetworkV3keySSSgvM",
+                "usr": "s:8MiVIPApi12MivipNetworkV3keySSSgvM",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV3keySSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -49235,8 +50346,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi7NetworkV8clientIdSSSgvp",
-            "mangledName": "$s8MiVIPApi7NetworkV8clientIdSSSgvp",
+            "usr": "s:8MiVIPApi12MivipNetworkV8clientIdSSSgvp",
+            "mangledName": "$s8MiVIPApi12MivipNetworkV8clientIdSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -49266,8 +50377,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV8clientIdSSSgvg",
-                "mangledName": "$s8MiVIPApi7NetworkV8clientIdSSSgvg",
+                "usr": "s:8MiVIPApi12MivipNetworkV8clientIdSSSgvg",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV8clientIdSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -49298,8 +50409,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV8clientIdSSSgvs",
-                "mangledName": "$s8MiVIPApi7NetworkV8clientIdSSSgvs",
+                "usr": "s:8MiVIPApi12MivipNetworkV8clientIdSSSgvs",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV8clientIdSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -49316,8 +50427,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV8clientIdSSSgvM",
-                "mangledName": "$s8MiVIPApi7NetworkV8clientIdSSSgvM",
+                "usr": "s:8MiVIPApi12MivipNetworkV8clientIdSSSgvM",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV8clientIdSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -49345,8 +50456,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi7NetworkV3urlSSSgvp",
-            "mangledName": "$s8MiVIPApi7NetworkV3urlSSSgvp",
+            "usr": "s:8MiVIPApi12MivipNetworkV3urlSSSgvp",
+            "mangledName": "$s8MiVIPApi12MivipNetworkV3urlSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -49376,8 +50487,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV3urlSSSgvg",
-                "mangledName": "$s8MiVIPApi7NetworkV3urlSSSgvg",
+                "usr": "s:8MiVIPApi12MivipNetworkV3urlSSSgvg",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV3urlSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -49408,8 +50519,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV3urlSSSgvs",
-                "mangledName": "$s8MiVIPApi7NetworkV3urlSSSgvs",
+                "usr": "s:8MiVIPApi12MivipNetworkV3urlSSSgvs",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV3urlSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -49426,8 +50537,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV3urlSSSgvM",
-                "mangledName": "$s8MiVIPApi7NetworkV3urlSSSgvM",
+                "usr": "s:8MiVIPApi12MivipNetworkV3urlSSSgvM",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV3urlSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -49455,8 +50566,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi7NetworkV5scopeSSSgvp",
-            "mangledName": "$s8MiVIPApi7NetworkV5scopeSSSgvp",
+            "usr": "s:8MiVIPApi12MivipNetworkV5scopeSSSgvp",
+            "mangledName": "$s8MiVIPApi12MivipNetworkV5scopeSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -49486,8 +50597,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV5scopeSSSgvg",
-                "mangledName": "$s8MiVIPApi7NetworkV5scopeSSSgvg",
+                "usr": "s:8MiVIPApi12MivipNetworkV5scopeSSSgvg",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV5scopeSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -49518,8 +50629,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV5scopeSSSgvs",
-                "mangledName": "$s8MiVIPApi7NetworkV5scopeSSSgvs",
+                "usr": "s:8MiVIPApi12MivipNetworkV5scopeSSSgvs",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV5scopeSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -49536,8 +50647,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV5scopeSSSgvM",
-                "mangledName": "$s8MiVIPApi7NetworkV5scopeSSSgvM",
+                "usr": "s:8MiVIPApi12MivipNetworkV5scopeSSSgvM",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV5scopeSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -49565,8 +50676,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi7NetworkV5widthSiSgvp",
-            "mangledName": "$s8MiVIPApi7NetworkV5widthSiSgvp",
+            "usr": "s:8MiVIPApi12MivipNetworkV5widthSiSgvp",
+            "mangledName": "$s8MiVIPApi12MivipNetworkV5widthSiSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -49596,8 +50707,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV5widthSiSgvg",
-                "mangledName": "$s8MiVIPApi7NetworkV5widthSiSgvg",
+                "usr": "s:8MiVIPApi12MivipNetworkV5widthSiSgvg",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV5widthSiSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -49628,8 +50739,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV5widthSiSgvs",
-                "mangledName": "$s8MiVIPApi7NetworkV5widthSiSgvs",
+                "usr": "s:8MiVIPApi12MivipNetworkV5widthSiSgvs",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV5widthSiSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -49646,8 +50757,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV5widthSiSgvM",
-                "mangledName": "$s8MiVIPApi7NetworkV5widthSiSgvM",
+                "usr": "s:8MiVIPApi12MivipNetworkV5widthSiSgvM",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV5widthSiSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -49675,8 +50786,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi7NetworkV6heightSiSgvp",
-            "mangledName": "$s8MiVIPApi7NetworkV6heightSiSgvp",
+            "usr": "s:8MiVIPApi12MivipNetworkV6heightSiSgvp",
+            "mangledName": "$s8MiVIPApi12MivipNetworkV6heightSiSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -49706,8 +50817,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV6heightSiSgvg",
-                "mangledName": "$s8MiVIPApi7NetworkV6heightSiSgvg",
+                "usr": "s:8MiVIPApi12MivipNetworkV6heightSiSgvg",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV6heightSiSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -49738,8 +50849,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV6heightSiSgvs",
-                "mangledName": "$s8MiVIPApi7NetworkV6heightSiSgvs",
+                "usr": "s:8MiVIPApi12MivipNetworkV6heightSiSgvs",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV6heightSiSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -49756,8 +50867,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV6heightSiSgvM",
-                "mangledName": "$s8MiVIPApi7NetworkV6heightSiSgvM",
+                "usr": "s:8MiVIPApi12MivipNetworkV6heightSiSgvM",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV6heightSiSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -49785,8 +50896,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8MiVIPApi7NetworkV10signOutUrlSSSgvp",
-            "mangledName": "$s8MiVIPApi7NetworkV10signOutUrlSSSgvp",
+            "usr": "s:8MiVIPApi12MivipNetworkV10signOutUrlSSSgvp",
+            "mangledName": "$s8MiVIPApi12MivipNetworkV10signOutUrlSSSgvp",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "HasInitialValue",
@@ -49816,8 +50927,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV10signOutUrlSSSgvg",
-                "mangledName": "$s8MiVIPApi7NetworkV10signOutUrlSSSgvg",
+                "usr": "s:8MiVIPApi12MivipNetworkV10signOutUrlSSSgvg",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV10signOutUrlSSSgvg",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "get"
@@ -49848,8 +50959,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV10signOutUrlSSSgvs",
-                "mangledName": "$s8MiVIPApi7NetworkV10signOutUrlSSSgvs",
+                "usr": "s:8MiVIPApi12MivipNetworkV10signOutUrlSSSgvs",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV10signOutUrlSSSgvs",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "set"
@@ -49866,8 +50977,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8MiVIPApi7NetworkV10signOutUrlSSSgvM",
-                "mangledName": "$s8MiVIPApi7NetworkV10signOutUrlSSSgvM",
+                "usr": "s:8MiVIPApi12MivipNetworkV10signOutUrlSSSgvM",
+                "mangledName": "$s8MiVIPApi12MivipNetworkV10signOutUrlSSSgvM",
                 "moduleName": "MiVIPApi",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -49881,9 +50992,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Network",
-                "printedName": "MiVIPApi.Network",
-                "usr": "s:8MiVIPApi7NetworkV"
+                "name": "MivipNetwork",
+                "printedName": "MiVIPApi.MivipNetwork",
+                "usr": "s:8MiVIPApi12MivipNetworkV"
               },
               {
                 "kind": "TypeNominal",
@@ -49893,8 +51004,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8MiVIPApi7NetworkV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s8MiVIPApi7NetworkV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:8MiVIPApi12MivipNetworkV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8MiVIPApi12MivipNetworkV4fromACs7Decoder_p_tKcfc",
             "moduleName": "MiVIPApi",
             "implicit": true,
             "throwing": true,
@@ -49902,8 +51013,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:8MiVIPApi7NetworkV",
-        "mangledName": "$s8MiVIPApi7NetworkV",
+        "usr": "s:8MiVIPApi12MivipNetworkV",
+        "mangledName": "$s8MiVIPApi12MivipNetworkV",
         "moduleName": "MiVIPApi",
         "declAttributes": [
           "AccessControl"
@@ -49931,6 +51042,48 @@
             "mangledName": "$sSe"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiVIPApi"
       },
       {
         "kind": "Import",
@@ -51624,11 +52777,469 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UInt8",
+        "printedName": "UInt8",
+        "declKind": "Struct",
+        "usr": "s:s5UInt8V",
+        "mangledName": "$ss5UInt8V",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FixedWidthInteger",
+            "printedName": "FixedWidthInteger",
+            "usr": "s:s17FixedWidthIntegerP",
+            "mangledName": "$ss17FixedWidthIntegerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UnsignedInteger",
+            "printedName": "UnsignedInteger",
+            "usr": "s:SU",
+            "mangledName": "$sSU"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryInteger",
+            "printedName": "BinaryInteger",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Words",
+                "printedName": "Words",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Words",
+                    "printedName": "Swift.UInt8.Words",
+                    "usr": "s:s5UInt8V5WordsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sz",
+            "mangledName": "$sSz"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_StringElement",
+            "printedName": "_StringElement",
+            "usr": "s:s14_StringElementP",
+            "mangledName": "$ss14_StringElementP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.UInt8.SIMD2Storage",
+                    "usr": "s:s5UInt8V12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.UInt8.SIMD4Storage",
+                    "usr": "s:s5UInt8V12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.UInt8.SIMD8Storage",
+                    "usr": "s:s5UInt8V12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.UInt8.SIMD16Storage",
+                    "usr": "s:s5UInt8V13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.UInt8.SIMD32Storage",
+                    "usr": "s:s5UInt8V13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.UInt8.SIMD64Storage",
+                    "usr": "s:s5UInt8V13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MLTensorScalar",
+            "printedName": "MLTensorScalar",
+            "usr": "s:6CoreML14MLTensorScalarP",
+            "mangledName": "$s6CoreML14MLTensorScalarP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FoundationSecurity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 158,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FoundationSecurity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 209,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 76,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 103,
+      "length": 1,
+      "value": "2"
+    },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/HooyuStompClient.swift",
       "kind": "StringLiteral",
@@ -51702,7 +53313,7 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/MiVIPApiSdk.swift",
       "kind": "StringLiteral",
-      "offset": 10092,
+      "offset": 10107,
       "length": 6,
       "value": "\"live\""
     },
@@ -52750,6 +54361,55 @@
       "value": "\"UNKNOWN\""
     },
     {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 511,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 547,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 33,
+      "value": "\"com.vluxe.starscream.writequeue\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 684,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 713,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 750,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 845,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/scan\/Scan\/CaptureSessionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2877,
@@ -52869,6 +54529,69 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSCompression.swift",
+      "kind": "StringLiteral",
+      "offset": 105,
+      "length": 26,
+      "value": "\"Sec-WebSocket-Extensions\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSCompression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 231,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSCompression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 266,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2661,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2671,
+      "length": 6,
+      "value": "0x2000"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSCompression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5234,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5244,
+      "length": 6,
+      "value": "0x2000"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WSCompression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5289,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
       "offset": 288,
@@ -52913,175 +54636,175 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 22374,
+      "offset": 22389,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 22400,
+      "offset": 22415,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 22423,
+      "offset": 22438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 28073,
+      "offset": 28088,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 28096,
+      "offset": 28111,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 29225,
+      "offset": 29240,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 29248,
+      "offset": 29263,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 30442,
+      "offset": 30457,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 30465,
+      "offset": 30480,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 31591,
+      "offset": 31606,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 31614,
+      "offset": 31629,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 32774,
+      "offset": 32789,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 32797,
+      "offset": 32812,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 36107,
+      "offset": 36122,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 38618,
+      "offset": 38633,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 42766,
+      "offset": 42781,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 46177,
+      "offset": 46192,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 49338,
+      "offset": 49353,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 52678,
+      "offset": 52693,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 54860,
+      "offset": 54875,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 55167,
+      "offset": 55182,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 55212,
+      "offset": 55227,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 57950,
+      "offset": 57965,
       "length": 24,
       "value": "\"com.hooyu.ios.Identify\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 58009,
+      "offset": 58024,
       "length": 89,
       "value": "\"vj7ttXTwYxJ0IfpnkKVFoAOBWd5cTpH1alet5FhShKyAyvzwI9TW0GjGjGg4LHVb90Yv9LfY3yQcsx8hHTppbcv\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 75852,
+      "offset": 75867,
       "length": 4,
       "value": "\"en\""
     },
@@ -53114,6 +54837,76 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/TCPTransport.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 34,
+      "value": "\"com.mivip.mivipapi.networkstream\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/TCPTransport.swift",
+      "kind": "Array",
+      "offset": 346,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/TCPTransport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 431,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/TCPTransport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/TCPTransport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 838,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FoundationTransport.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 32,
+      "value": "\"com.vluxe.starscream.websocket\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FoundationTransport.swift",
+      "kind": "Array",
+      "offset": 344,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FoundationTransport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 459,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FoundationTransport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 555,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FoundationTransport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 989,
+      "length": 2,
+      "value": "10"
+    },
+    {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/scan\/Session\/CaptureSession.swift",
       "kind": "BooleanLiteral",
       "offset": 894,
@@ -53123,280 +54916,280 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 123,
+      "offset": 105,
       "length": 9,
       "value": "\"CONNECT\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 162,
+      "offset": 144,
       "length": 6,
       "value": "\"SEND\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 203,
+      "offset": 185,
       "length": 11,
       "value": "\"SUBSCRIBE\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 251,
+      "offset": 233,
       "length": 13,
       "value": "\"UNSUBSCRIBE\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 295,
+      "offset": 277,
       "length": 7,
       "value": "\"BEGIN\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 334,
+      "offset": 316,
       "length": 8,
       "value": "\"COMMIT\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 373,
+      "offset": 355,
       "length": 7,
       "value": "\"ABORT\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 409,
+      "offset": 391,
       "length": 5,
       "value": "\"ACK\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 450,
+      "offset": 432,
       "length": 12,
       "value": "\"DISCONNECT\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 474,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 546,
+      "offset": 528,
       "length": 4,
       "value": "\"%C\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "IntegerLiteral",
-      "offset": 564,
+      "offset": 546,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 611,
       "length": 19,
       "value": "\"client-individual\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 676,
+      "offset": 658,
       "length": 8,
       "value": "\"client\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 710,
+      "offset": 692,
       "length": 6,
       "value": "\"auto\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 760,
       "length": 9,
       "value": "\"receipt\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 830,
+      "offset": 812,
       "length": 13,
       "value": "\"destination\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 888,
+      "offset": 870,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 937,
+      "offset": 919,
       "length": 16,
       "value": "\"content-length\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 996,
+      "offset": 978,
       "length": 14,
       "value": "\"content-type\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 1027,
       "length": 5,
       "value": "\"ack\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1093,
+      "offset": 1075,
       "length": 13,
       "value": "\"transaction\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1147,
+      "offset": 1129,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1195,
+      "offset": 1177,
       "length": 14,
       "value": "\"subscription\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1253,
+      "offset": 1235,
       "length": 14,
       "value": "\"disconnected\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1308,
+      "offset": 1290,
       "length": 12,
       "value": "\"heart-beat\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1365,
+      "offset": 1347,
       "length": 16,
       "value": "\"accept-version\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1449,
+      "offset": 1431,
       "length": 9,
       "value": "\"session\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1500,
+      "offset": 1482,
       "length": 12,
       "value": "\"receipt-id\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1557,
+      "offset": 1539,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1634,
+      "offset": 1616,
       "length": 11,
       "value": "\"CONNECTED\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1684,
+      "offset": 1666,
       "length": 9,
       "value": "\"MESSAGE\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1732,
+      "offset": 1714,
       "length": 9,
       "value": "\"RECEIPT\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 1778,
+      "offset": 1760,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 2643,
+      "offset": 2625,
       "length": 20,
       "value": "\"com.wai.connection\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "StringLiteral",
-      "offset": 2675,
+      "offset": 2657,
       "length": 4,
       "value": "\"WS\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 2866,
+      "offset": 2848,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 2913,
+      "offset": 2895,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "FloatLiteral",
-      "offset": 17833,
+      "offset": 17793,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/stomp\/StompClientLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 17865,
+      "offset": 17825,
       "length": 4,
       "value": "true"
     },
@@ -53504,6 +55297,321 @@
       "offset": 678,
       "length": 3,
       "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/WebSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2791,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FoundationHTTPServerHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FrameCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 478,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FrameCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 497,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/FrameCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 586,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 9,
+      "value": "\"Upgrade\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 11,
+      "value": "\"websocket\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 6,
+      "value": "\"Host\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 12,
+      "value": "\"Connection\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 9,
+      "value": "\"Upgrade\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 24,
+      "value": "\"Sec-WebSocket-Protocol\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 23,
+      "value": "\"Sec-WebSocket-Version\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 4,
+      "value": "\"13\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 26,
+      "value": "\"Sec-WebSocket-Extensions\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 19,
+      "value": "\"Sec-WebSocket-Key\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 690,
+      "length": 8,
+      "value": "\"Origin\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 22,
+      "value": "\"Sec-WebSocket-Accept\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 794,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/HTTPHandler.swift",
+      "kind": "Array",
+      "offset": 834,
+      "length": 16,
+      "value": "[\"wss\", \"https\"]"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49,
+      "length": 4,
+      "value": "0x80"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 84,
+      "length": 4,
+      "value": "0x0F"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 119,
+      "length": 4,
+      "value": "0x70"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 154,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 189,
+      "length": 4,
+      "value": "0x80"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 4,
+      "value": "0x7F"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 356,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 434,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 473,
+      "length": 4,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 534,
+      "length": 4,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 594,
+      "length": 4,
+      "value": "1007"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 633,
+      "length": 4,
+      "value": "1008"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 672,
+      "length": 4,
+      "value": "1009"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 731,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 756,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 783,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 839,
+      "length": 3,
+      "value": "0x8"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 859,
+      "length": 3,
+      "value": "0x9"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 879,
+      "length": 3,
+      "value": "0xA"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 923,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "StringLiteral",
+      "offset": 1654,
+      "length": 31,
+      "value": "\"com.vluxe.starscream.wsframer\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "Array",
+      "offset": 1699,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1821,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/socket\/Framer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1896,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/scan\/Scan\/ScannerViewController.swift",

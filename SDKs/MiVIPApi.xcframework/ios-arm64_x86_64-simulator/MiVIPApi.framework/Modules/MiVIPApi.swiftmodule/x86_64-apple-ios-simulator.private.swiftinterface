@@ -8,7 +8,8 @@ import CommonCrypto
 import CoreMotion
 import CryptoKit
 import Foundation
-import Starscream
+import Network
+import Network/*.NWConnection*/
 import Swift
 import UIKit
 import Vision
@@ -18,10 +19,11 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+import zlib
 @objc @_inheritsConvenienceInitializers public class MiVIPApiSdk : ObjectiveC.NSObject {
   public func createRequest(name: Swift.String, phone: Swift.String?, email: Swift.String?, scope: Swift.String?, language: Swift.String, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
   public func getRequestDetails(referenceId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.MiVIPRequest?) -> ())
-  public func getSocials(requestId: Swift.String, completion: @escaping (Swift.Int, [MiVIPApi.Network]?) -> ())
+  public func getSocials(requestId: Swift.String, completion: @escaping (Swift.Int, [MiVIPApi.MivipNetwork]?) -> ())
   public func video(requestId: Swift.String, email: Swift.String, phone: Swift.String, phoneCountryCode: Swift.String, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> ())
   public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
   @objc override dynamic public init()
@@ -456,7 +458,7 @@ public enum DocumentSide {
   public func share(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?, Swift.String?) -> ())
   public func auth(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
   public func update(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
-  public func getSocials(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.Network]?, Swift.String?) -> ())
+  public func getSocials(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.MivipNetwork]?, Swift.String?) -> ())
   public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String = "", environment: Swift.String = "live", useSdk: Swift.Bool = false, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
   public func getRequestStatus(requestId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.ScoreResponse?, Swift.String?) -> ())
   public func getSelfieImage(requestId: Swift.String, filename: Swift.String, completion: @escaping (UIKit.UIImage?) -> ())
@@ -742,6 +744,39 @@ public struct Quadrilateral {
 extension MiVIPApi.Quadrilateral : Swift.Equatable {
   public static func == (lhs: MiVIPApi.Quadrilateral, rhs: MiVIPApi.Quadrilateral) -> Swift.Bool
 }
+public enum ErrorType : Swift.Error {
+  case compressionError
+  case securityError
+  case protocolError
+  case serverError
+  public static func == (a: MiVIPApi.ErrorType, b: MiVIPApi.ErrorType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct WSError : Swift.Error {
+  public let type: MiVIPApi.ErrorType
+  public let message: Swift.String
+  public let code: Swift.UInt16
+  public init(type: MiVIPApi.ErrorType, message: Swift.String, code: Swift.UInt16)
+}
+public protocol WebSocketClient : AnyObject {
+  func connect()
+  func disconnect(closeCode: Swift.UInt16)
+  func write(string: Swift.String, completion: (() -> ())?)
+  func write(stringData: Foundation.Data, completion: (() -> ())?)
+  func write(data: Foundation.Data, completion: (() -> ())?)
+  func write(ping: Foundation.Data, completion: (() -> ())?)
+  func write(pong: Foundation.Data, completion: (() -> ())?)
+}
+extension MiVIPApi.WebSocketClient {
+  public func write(string: Swift.String)
+  public func write(data: Foundation.Data)
+  public func write(ping: Foundation.Data)
+  public func write(pong: Foundation.Data)
+  public func disconnect()
+}
 public struct Address : Swift.Codable {
   public var address1: Swift.String?
   public var address2: Swift.String?
@@ -781,7 +816,7 @@ public struct UserAttachment : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct Network : Swift.Decodable {
+public struct MivipNetwork : Swift.Decodable {
   public var name: Swift.String?
   public var key: Swift.String?
   public var clientId: Swift.String?
@@ -857,5 +892,7 @@ extension MiVIPApi.DocumentSide : Swift.Equatable {}
 extension MiVIPApi.DocumentSide : Swift.Hashable {}
 extension MiVIPApi.DocumentStaus : Swift.Equatable {}
 extension MiVIPApi.DocumentStaus : Swift.Hashable {}
+extension MiVIPApi.ErrorType : Swift.Equatable {}
+extension MiVIPApi.ErrorType : Swift.Hashable {}
 extension MiVIPApi.ImageScannerControllerError : Swift.Equatable {}
 extension MiVIPApi.ImageScannerControllerError : Swift.Hashable {}

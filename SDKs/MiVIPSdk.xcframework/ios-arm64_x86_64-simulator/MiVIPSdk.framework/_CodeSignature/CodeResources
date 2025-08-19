@@ -978,7 +978,7 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UfCVmiR6TQWXItkYtPcIIhpuGTc=
+		abj2yAZvJLWsZjFCffun3UwNh8M=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -994,11 +994,11 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Yaj4R4i9dEOLP/BzziSST2EP5EU=
+		boH/yb+4UNef+U8YRTawgRc8+ls=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UfCVmiR6TQWXItkYtPcIIhpuGTc=
+		abj2yAZvJLWsZjFCffun3UwNh8M=
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1014,7 +1014,7 @@
 		</data>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9uUYozvODwR/A8WTGkqxnTjJKzU=
+		0ZOt1YZnNwukMrvaRaBftRJv06w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -3111,7 +3111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGpWt4wX1n62ifonj7hqtWXVwBpSYInKS8pQNDFWEWU=
+			HZi8h/o7md9sa3HsVO9PTyOi5bp7ncb7aILIsgrDQOM=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -3139,14 +3139,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GQDQTRCFH5cE7WFZTVVInPpvd/7MtcwRcP6yocHr6CY=
+			wfQTO0VYFV8eTCbrYzwEN6wltWFdQUjyWNSpugBeYx4=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGpWt4wX1n62ifonj7hqtWXVwBpSYInKS8pQNDFWEWU=
+			HZi8h/o7md9sa3HsVO9PTyOi5bp7ncb7aILIsgrDQOM=
 			</data>
 		</dict>
 		<key>Modules/MiVIPSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -3174,7 +3174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jAcUlbeh542Ia4M39icnUYQS/LwekfZQFJPmTwnUDhc=
+			4oqtz6HMSxF8O8Vg4OShwnMS6upyqtbWYeJZvSUCwpE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

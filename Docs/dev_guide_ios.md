@@ -21,14 +21,13 @@ SDK also includes wallet/account/history functionality.
 1. [Cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)
 * add MiVIP pod dependancy. It will download all needed dependancies including MiSnap
 
-pod 'MiVIP', '3.6.11'
+pod 'MiVIP', '3.6.14'
 
 * Obtain MiSnap [license key](https://github.com/Mitek-Systems/MiSnap-iOS?tab=readme-ov-file#license-key)
 
 2.  [Swift Package Manager (SPM)](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app)
 * Add [MiSnap SDKs](https://github.com/Mitek-Systems/MiSnap-iOS) and obtain a license key
 * Add MiVIP package dependancies ([https://github.com/Mitek-Systems/MiVIP-iOS](https://github.com/Mitek-Systems/MiVIP-iOS))
-* Add external dependancy [Starscream](https://github.com/daltoniam/Starscream) version 4.0.8
 
 3.  Manual installation - you need to install MiSnap SDKs first  - [https://github.com/Mitek-Systems/MiSnap-iOS](https://github.com/Mitek-Systems/MiSnap-iOS)
 
@@ -53,7 +52,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 			use_frameworks!
 			
 			# Pods for whitelabel_demo
-			pod 'Starscream', '~> 4.0.8'
 			pod 'MiSnap', $misnapVersion
 			pod 'MiSnapUX', $misnapVersion
 			pod 'MiSnapFacialCapture', $misnapVersion
@@ -277,7 +275,7 @@ Refer to "Create the App Size Report" section of [this article](https://develope
 
 | Technology | Version |
 | :--- | :---: |
-| MiSnap | 5.8.0 |
+| MiSnap | 5.8.1 |
 | Xcode | 14.0 |
 | iOS | 13.0 |
 | iPhone | 7 |

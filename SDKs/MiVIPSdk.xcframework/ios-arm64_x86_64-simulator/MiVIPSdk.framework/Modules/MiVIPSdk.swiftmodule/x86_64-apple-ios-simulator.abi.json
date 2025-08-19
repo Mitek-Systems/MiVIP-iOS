@@ -28414,7 +28414,7 @@
       "kind": "StringLiteral",
       "offset": 354,
       "length": 8,
-      "value": "\"3.6.11\""
+      "value": "\"3.6.13\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
@@ -35937,28 +35937,28 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/social\/SocialViewController.swift",
       "kind": "Array",
-      "offset": 636,
+      "offset": 646,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/social\/SocialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 678,
+      "offset": 688,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/social\/SocialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 716,
+      "offset": 726,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/social\/SocialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25269,
+      "offset": 25299,
       "length": 5,
       "value": "false"
     },
