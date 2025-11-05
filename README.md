@@ -17,7 +17,7 @@ MiVIP’s Native SDK is a fully orchestrated user interface and user journey del
 | Technology | Version |
 | :--- | :---: |
 | MiSnap | 5.8.1 |
-| Xcode | 14.0 |
+| Xcode | 15.0 |
 | iOS | 13.0 |
 | iPhone | 7 |
 

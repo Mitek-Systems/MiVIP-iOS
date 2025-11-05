@@ -276,7 +276,7 @@ Refer to "Create the App Size Report" section of [this article](https://develope
 | Technology | Version |
 | :--- | :---: |
 | MiSnap | 5.8.1 |
-| Xcode | 14.0 |
+| Xcode | 15.0 |
 | iOS | 13.0 |
 | iPhone | 7 |
 
