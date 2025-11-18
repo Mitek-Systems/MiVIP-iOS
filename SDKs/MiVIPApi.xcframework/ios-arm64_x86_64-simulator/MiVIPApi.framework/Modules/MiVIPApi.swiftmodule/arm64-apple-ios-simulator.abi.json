@@ -9206,6 +9206,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -9489,6 +9496,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -26259,6 +26273,39 @@
             "declKind": "Func",
             "usr": "s:8MiVIPApi12HooyuCoreApiC7stopSms9requestId08businessI0ySS_SStF",
             "mangledName": "$s8MiVIPApi12HooyuCoreApiC7stopSms9requestId08businessI0ySS_SStF",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopEmail",
+            "printedName": "stopEmail(requestId:businessId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi12HooyuCoreApiC9stopEmail9requestId08businessI0ySS_SStF",
+            "mangledName": "$s8MiVIPApi12HooyuCoreApiC9stopEmail9requestId08businessI0ySS_SStF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl",
@@ -46298,6 +46345,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -46513,6 +46567,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -51485,6 +51546,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "LocalizedError",
             "printedName": "LocalizedError",
             "usr": "s:10Foundation14LocalizedErrorP",
@@ -52524,6 +52592,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -52775,6 +52850,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -53014,6 +53096,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SIMDScalar",
             "printedName": "SIMDScalar",
             "children": [
@@ -53184,6 +53273,35 @@
             ],
             "usr": "s:7SwiftUI18_FormatSpecifiableP",
             "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NetworkFixedWidthInteger",
+            "printedName": "NetworkFixedWidthInteger",
+            "usr": "s:7Network0A17FixedWidthIntegerP",
+            "mangledName": "$s7Network0A17FixedWidthIntegerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AtomicRepresentable",
+            "printedName": "AtomicRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AtomicRepresentation",
+                "printedName": "AtomicRepresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_Atomic8BitStorage",
+                    "printedName": "Synchronization._Atomic8BitStorage",
+                    "usr": "s:15Synchronization18_Atomic8BitStorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15Synchronization19AtomicRepresentableP",
+            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           },
           {
             "kind": "Conformance",
@@ -54615,196 +54733,196 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 5520,
+      "offset": 5522,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 8451,
+      "offset": 8453,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 19883,
+      "offset": 19935,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 22389,
+      "offset": 22441,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 22415,
+      "offset": 22467,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 22438,
+      "offset": 22490,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 28088,
+      "offset": 28140,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 28111,
+      "offset": 28163,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 29240,
+      "offset": 29292,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 29263,
+      "offset": 29315,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 30457,
+      "offset": 30509,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 30480,
+      "offset": 30532,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 31606,
+      "offset": 31658,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 31629,
+      "offset": 31681,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 32789,
+      "offset": 32841,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 32812,
+      "offset": 32864,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 36122,
+      "offset": 36174,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 38633,
+      "offset": 38685,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 42781,
+      "offset": 44403,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 46192,
+      "offset": 47814,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 49353,
+      "offset": 50975,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 52693,
+      "offset": 54315,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 54875,
+      "offset": 56497,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 55182,
+      "offset": 56804,
       "length": 6,
       "value": "\"live\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 55227,
+      "offset": 56849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 57965,
+      "offset": 59587,
       "length": 24,
       "value": "\"com.hooyu.ios.Identify\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 58024,
+      "offset": 59646,
       "length": 89,
       "value": "\"vj7ttXTwYxJ0IfpnkKVFoAOBWd5cTpH1alet5FhShKyAyvzwI9TW0GjGjGg4LHVb90Yv9LfY3yQcsx8hHTppbcv\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/wai\/HooyuCoreApi.swift",
       "kind": "StringLiteral",
-      "offset": 75867,
+      "offset": 77489,
       "length": 4,
       "value": "\"en\""
     },

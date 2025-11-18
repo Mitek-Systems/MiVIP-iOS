@@ -1716,6 +1716,92 @@
           },
           {
             "kind": "Var",
+            "name": "emailDisabledSend",
+            "printedName": "emailDisabledSend",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPSdk12RequestStateC17emailDisabledSendSbvp",
+            "mangledName": "$s8MiVIPSdk12RequestStateC17emailDisabledSendSbvp",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC17emailDisabledSendSbvg",
+                "mangledName": "$s8MiVIPSdk12RequestStateC17emailDisabledSendSbvg",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC17emailDisabledSendSbvs",
+                "mangledName": "$s8MiVIPSdk12RequestStateC17emailDisabledSendSbvs",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC17emailDisabledSendSbvM",
+                "mangledName": "$s8MiVIPSdk12RequestStateC17emailDisabledSendSbvM",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "compltedSocials",
             "printedName": "compltedSocials",
             "children": [
@@ -3801,6 +3887,93 @@
                 "declKind": "Accessor",
                 "usr": "s:8MiVIPSdk12RequestStateC28verifiableCredentialsEnabledSbvM",
                 "mangledName": "$s8MiVIPSdk12RequestStateC28verifiableCredentialsEnabledSbvM",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "emailOptoutEnabled",
+            "printedName": "emailOptoutEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPSdk12RequestStateC18emailOptoutEnabledSbvp",
+            "mangledName": "$s8MiVIPSdk12RequestStateC18emailOptoutEnabledSbvp",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC18emailOptoutEnabledSbvg",
+                "mangledName": "$s8MiVIPSdk12RequestStateC18emailOptoutEnabledSbvg",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC18emailOptoutEnabledSbvs",
+                "mangledName": "$s8MiVIPSdk12RequestStateC18emailOptoutEnabledSbvs",
+                "moduleName": "MiVIPSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPSdk12RequestStateC18emailOptoutEnabledSbvM",
+                "mangledName": "$s8MiVIPSdk12RequestStateC18emailOptoutEnabledSbvM",
                 "moduleName": "MiVIPSdk",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -9824,6 +9997,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -12227,6 +12407,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
@@ -12934,6 +13121,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -13672,6 +13866,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -16670,6 +16871,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -17230,6 +17438,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -20376,6 +20591,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -25265,6 +25487,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
@@ -27691,6 +27920,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
@@ -27859,6 +28095,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -28031,6 +28274,13 @@
             "printedName": "_HasCustomAnyHashableRepresentation",
             "usr": "s:s35_HasCustomAnyHashableRepresentationP",
             "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -28076,182 +28326,196 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1601,
+      "offset": 1088,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1697,
+      "offset": 1648,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1788,
+      "offset": 1744,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1835,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1974,
+      "offset": 2021,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2157,
+      "offset": 2204,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2302,
+      "offset": 2349,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2355,
+      "offset": 2402,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2503,
+      "offset": 2550,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2577,
+      "offset": 2624,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2745,
+      "offset": 2792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2827,
+      "offset": 2874,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2895,
+      "offset": 2942,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2974,
+      "offset": 3021,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3051,
+      "offset": 3098,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3323,
+      "offset": 3370,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3426,
+      "offset": 3473,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3597,
+      "offset": 3557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3637,
+      "offset": 3728,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3848,
+      "offset": 3768,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 4008,
+      "offset": 3979,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 4042,
+      "offset": 4139,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 4414,
+      "offset": 4173,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "BooleanLiteral",
-      "offset": 4520,
+      "offset": 4545,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4651,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "IntegerLiteral",
-      "offset": 6319,
+      "offset": 6450,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "IntegerLiteral",
-      "offset": 6388,
+      "offset": 6519,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/entities\/RequestState.swift",
       "kind": "IntegerLiteral",
-      "offset": 6457,
+      "offset": 6588,
       "length": 2,
       "value": "30"
     },
@@ -28414,7 +28678,7 @@
       "kind": "StringLiteral",
       "offset": 354,
       "length": 8,
-      "value": "\"3.6.13\""
+      "value": "\"3.6.15\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
@@ -31338,28 +31602,35 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SettingsUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8054,
+      "offset": 8053,
+      "length": 39,
+      "value": "\"hooyu.identify.settings.disable_email\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SettingsUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 8601,
       "length": 41,
       "value": "\"hooyu.identify.settings.sounds_disabled\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SettingsUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8486,
+      "offset": 9033,
       "length": 34,
       "value": "\"hooyu.identify.settings.sdk_mode\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SettingsUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8867,
+      "offset": 9414,
       "length": 38,
       "value": "\"hooyu.identify.settings.log_disabled\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SettingsUtils.swift",
       "kind": "StringLiteral",
-      "offset": 9285,
+      "offset": 9832,
       "length": 47,
       "value": "\"hooyu.identify.settings.last_request_instance\""
     },
@@ -35405,14 +35676,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 113827,
+      "offset": 114201,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/MenuViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 113852,
+      "offset": 114226,
       "length": 1,
       "value": "0"
     },
@@ -35615,259 +35886,259 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51498,
+      "offset": 51784,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 95320,
+      "offset": 95606,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 95374,
+      "offset": 95660,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 95403,
+      "offset": 95689,
       "length": 3,
       "value": "3.5"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 95416,
+      "offset": 95702,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 95571,
+      "offset": 95857,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 95660,
+      "offset": 95946,
       "length": 32,
       "value": "\"hooyu.identify.onboarding.pin.\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 95722,
+      "offset": 96008,
       "length": 5,
       "value": "\"Pin\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 95820,
+      "offset": 96106,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 95875,
+      "offset": 96161,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 95923,
+      "offset": 96209,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 95967,
+      "offset": 96253,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96038,
+      "offset": 96324,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96168,
+      "offset": 96454,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96197,
+      "offset": 96483,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96209,
+      "offset": 96495,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96267,
+      "offset": 96553,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 96359,
+      "offset": 96645,
       "length": 37,
       "value": "\"hooyu.identify.onboarding.pin.text.\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 96427,
+      "offset": 96713,
       "length": 10,
       "value": "\"Pin text\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96604,
+      "offset": 96890,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96724,
+      "offset": 97010,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 96771,
+      "offset": 97057,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 96814,
+      "offset": 97100,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96853,
+      "offset": 97139,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96882,
+      "offset": 97168,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96894,
+      "offset": 97180,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96952,
+      "offset": 97238,
       "length": 3,
       "value": "140"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 96993,
+      "offset": 97279,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 97027,
+      "offset": 97313,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 97091,
+      "offset": 97377,
       "length": 3,
       "value": "310"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 97096,
+      "offset": 97382,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 97112,
+      "offset": 97398,
       "length": 3,
       "value": "310"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 97125,
+      "offset": 97411,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 97226,
+      "offset": 97512,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 97238,
+      "offset": 97524,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 97257,
+      "offset": 97543,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/journey\/QRScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 97289,
+      "offset": 97575,
       "length": 3,
       "value": "999"
     },
@@ -48082,672 +48353,672 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17754,
+      "offset": 20158,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18175,
+      "offset": 20579,
       "length": 40,
       "value": "\"hooyu.identify.settings.passcode.title\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18226,
+      "offset": 20630,
       "length": 17,
       "value": "\"Change passcode\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18415,
+      "offset": 20819,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18558,
+      "offset": 20962,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18675,
+      "offset": 21079,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18714,
+      "offset": 21118,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18726,
+      "offset": 21130,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18780,
+      "offset": 21184,
       "length": 46,
       "value": "\"hooyu.identify.settings.passcode.description\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18837,
+      "offset": 21241,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18959,
+      "offset": 21363,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19034,
+      "offset": 21438,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19085,
+      "offset": 21489,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19267,
+      "offset": 21671,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19306,
+      "offset": 21710,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19465,
+      "offset": 21869,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19556,
+      "offset": 21960,
       "length": 42,
       "value": "\"hooyu.identify.settings.passcode.current\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19609,
+      "offset": 22013,
       "length": 9,
       "value": "\"Current\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19714,
+      "offset": 22118,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19781,
+      "offset": 22185,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19826,
+      "offset": 22230,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19921,
+      "offset": 22325,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19941,
+      "offset": 22345,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19964,
+      "offset": 22368,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19975,
+      "offset": 22379,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20071,
+      "offset": 22475,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20073,
+      "offset": 22477,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20094,
+      "offset": 22498,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20117,
+      "offset": 22521,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20119,
+      "offset": 22523,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20131,
+      "offset": 22535,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20271,
+      "offset": 22675,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20397,
+      "offset": 22801,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 20512,
+      "offset": 22916,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20602,
+      "offset": 23006,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20686,
+      "offset": 23090,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20769,
+      "offset": 23173,
       "length": 38,
       "value": "\"hooyu.identify.settings.passcode.new\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20818,
+      "offset": 23222,
       "length": 5,
       "value": "\"new\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20911,
+      "offset": 23315,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20974,
+      "offset": 23378,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 21015,
+      "offset": 23419,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21102,
+      "offset": 23506,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21122,
+      "offset": 23526,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21145,
+      "offset": 23549,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21156,
+      "offset": 23560,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21245,
+      "offset": 23649,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21247,
+      "offset": 23651,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21268,
+      "offset": 23672,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21291,
+      "offset": 23695,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21293,
+      "offset": 23697,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21305,
+      "offset": 23709,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21433,
+      "offset": 23837,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21551,
+      "offset": 23955,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 21658,
+      "offset": 24062,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21740,
+      "offset": 24144,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21820,
+      "offset": 24224,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21911,
+      "offset": 24315,
       "length": 42,
       "value": "\"hooyu.identify.settings.passcode.confirm\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21964,
+      "offset": 24368,
       "length": 9,
       "value": "\"confirm\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22069,
+      "offset": 24473,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22136,
+      "offset": 24540,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22181,
+      "offset": 24585,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22276,
+      "offset": 24680,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22296,
+      "offset": 24700,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22319,
+      "offset": 24723,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22330,
+      "offset": 24734,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22427,
+      "offset": 24831,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22429,
+      "offset": 24833,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22450,
+      "offset": 24854,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22473,
+      "offset": 24877,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22475,
+      "offset": 24879,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22487,
+      "offset": 24891,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22627,
+      "offset": 25031,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22753,
+      "offset": 25157,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22868,
+      "offset": 25272,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22958,
+      "offset": 25362,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23042,
+      "offset": 25446,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23149,
+      "offset": 25553,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23204,
+      "offset": 25608,
       "length": 41,
       "value": "\"hooyu.identify.settings.passcode.change\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23256,
+      "offset": 25660,
       "length": 8,
       "value": "\"change\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 23275,
+      "offset": 25679,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23416,
+      "offset": 25820,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23686,
+      "offset": 26090,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23781,
+      "offset": 26185,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23980,
+      "offset": 26384,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24098,
+      "offset": 26502,
       "length": 20,
       "value": "\"lock_screen_faceid\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24138,
+      "offset": 26542,
       "length": 22,
       "value": "\"lock_screen_fingerid\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24245,
+      "offset": 26649,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24301,
+      "offset": 26705,
       "length": 41,
       "value": "\"hooyu.identify.settings.passcode.reveal\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24353,
+      "offset": 26757,
       "length": 8,
       "value": "\"reveal\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 24422,
+      "offset": 26826,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24704,
+      "offset": 27108,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24839,
+      "offset": 27243,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24895,
+      "offset": 27299,
       "length": 41,
       "value": "\"hooyu.identify.settings.passcode.cancel\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24947,
+      "offset": 27351,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 24978,
+      "offset": 27382,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/settings\/SettingsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25250,
+      "offset": 27654,
       "length": 3,
       "value": "180"
     },

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MiVIPApi
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFoundation
 import AVKit
 import CommonCrypto
@@ -21,11 +21,21 @@ import os.log
 import os
 import zlib
 @objc @_inheritsConvenienceInitializers public class MiVIPApiSdk : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func createRequest(name: Swift.String, phone: Swift.String?, email: Swift.String?, scope: Swift.String?, language: Swift.String, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getRequestDetails(referenceId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.MiVIPRequest?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSocials(requestId: Swift.String, completion: @escaping (Swift.Int, [MiVIPApi.MivipNetwork]?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func video(requestId: Swift.String, email: Swift.String, phone: Swift.String, phoneCountryCode: Swift.String, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -94,7 +104,9 @@ public enum RequestStatus : Swift.String, Swift.Decodable {
   case COMPLETED
   case ABANDONED
   case BYPASSED
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -104,7 +116,9 @@ public enum RequestResult : Swift.String, Swift.Decodable {
   case FAIL
   case PASS
   case FRAUD
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -124,7 +138,9 @@ public struct CountryCode : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol MiVIPVideoDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   func videoUrlError(error: Swift.String?)
+  #endif
   func videoError(localizedError: Swift.String)
   func videoClosed()
   func videoWillOpen()
@@ -132,23 +148,35 @@ public protocol MiVIPVideoDelegate {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MiVIPVideoViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public var videoDelegate: (any MiVIPApi.MiVIPVideoDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func videoSdk(requestId: Swift.String, email: Swift.String, phone: Swift.String?, phoneCountryCode: Swift.String?, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func video(requestId: Swift.String, businessId: Swift.String, email: Swift.String, phone: Swift.String?, phoneCountryCode: Swift.String?, documentType: Swift.String, issuingCountry: Swift.String, videoLanguage: Swift.String, useSdk: Swift.Bool = false, environment: Swift.String = "live")
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class HyBandwidthTest : ObjectiveC.NSObject, Foundation.URLSessionDelegate, Foundation.URLSessionDataDelegate {
   public typealias speedTestCompletionHandler = (_ kbytesPerSecond: Swift.Double?, _ error: (any Swift.Error)?) -> Swift.Void
   public func testDownloadSpeed(withCompletionBlock: @escaping MiVIPApi.HyBandwidthTest.speedTestCompletionHandler)
   @objc public func urlSession(_ session: Foundation.URLSession, dataTask: Foundation.URLSessionDataTask, didReceive data: Foundation.Data)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
 public protocol DocumentDataDelegate {
   func done(document: MiVIPApi.Document)
+  #if compiler(>=5.3) && $NonescapableTypes
   func error(description: Swift.String?, document: MiVIPApi.Document)
+  #endif
 }
 public class DocumentDataReceiver {
   public var delegate: (any MiVIPApi.DocumentDataDelegate)?
@@ -159,7 +187,9 @@ public class DocumentDataReceiver {
 }
 public protocol RequestDataDelegate {
   func callback(response: MiVIPApi.RequestCallbackResponse)
+  #if compiler(>=5.3) && $NonescapableTypes
   func error(description: Swift.String?)
+  #endif
 }
 public class RequestDataReceiver {
   public var delegate: (any MiVIPApi.RequestDataDelegate)?
@@ -171,11 +201,15 @@ public class RequestDataReceiver {
 }
 public protocol ScoreDataDelegate {
   func callback(response: MiVIPApi.ScoreResponse)
+  #if compiler(>=5.3) && $NonescapableTypes
   func error(description: Swift.String?)
+  #endif
 }
 public class ScoreDataReceiver {
   public var delegate: (any MiVIPApi.ScoreDataDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiUrl: Swift.String? = nil)
+  #endif
   public func start(requestId: Swift.String)
   public func stop(completed: Swift.Bool)
   public func isCompleted() -> Swift.Bool
@@ -196,11 +230,15 @@ public enum SocialType : Swift.String, Swift.CaseIterable, Swift.Decodable {
   public var getType: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func withLabel(_ label: Swift.String) -> MiVIPApi.SocialType?
+  #endif
   public var order: Swift.Int {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [MiVIPApi.SocialType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [MiVIPApi.SocialType] {
@@ -228,7 +266,9 @@ public enum DocumentType : Swift.String, Swift.CaseIterable, Swift.Decodable {
   public var getType: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func withLabel(_ label: Swift.String) -> MiVIPApi.DocumentType?
+  #endif
   public var sides: Swift.Int {
     get
   }
@@ -253,7 +293,9 @@ public enum DocumentType : Swift.String, Swift.CaseIterable, Swift.Decodable {
   public var order: Swift.Int {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [MiVIPApi.DocumentType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [MiVIPApi.DocumentType] {
@@ -355,7 +397,9 @@ public enum DocumentStatus : Swift.String, Swift.CaseIterable, Swift.Decodable {
   case OK_QUALITY
   case ERROR_UPLOAD
   case ERROR_PROCESSING
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [MiVIPApi.DocumentStatus]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [MiVIPApi.DocumentStatus] {
@@ -372,7 +416,9 @@ public enum InfoStatus : Swift.String, Swift.CaseIterable, Swift.Decodable {
   case INCOMPLETE
   case DANGER
   case ANALYZING
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [MiVIPApi.InfoStatus]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [MiVIPApi.InfoStatus] {
@@ -405,7 +451,9 @@ public enum VideoRejectCode : Swift.String, Swift.CaseIterable, Swift.Decodable 
   case CONNECTIVITY_PROBLEMS
   case MRZ_INVALID
   case UNKNOWN
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [MiVIPApi.VideoRejectCode]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [MiVIPApi.VideoRejectCode] {
@@ -416,7 +464,9 @@ public enum VideoRejectCode : Swift.String, Swift.CaseIterable, Swift.Decodable 
   }
 }
 @objc @_inheritsConvenienceInitializers public class SingleDocumentApi : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func addDocument(name: Swift.String?, documentType: MiVIPApi.DocumentType, front: Swift.String, back: Swift.String?, nfc: [Swift.String : Swift.String]? = nil, imageData: [Swift.String : Swift.String]? = nil, selfies: [UIKit.UIImage?]? = nil, environment: Swift.String = "live", clientId: Swift.String, secret: Swift.String, apiUrl: Swift.String, callbackUri: Swift.String, reference: Swift.String?, captureData: [Swift.String : [Swift.String : Swift.String]]?, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -451,40 +501,101 @@ public enum DocumentSide {
 }
 @objc @_inheritsConvenienceInitializers public class HooyuCoreApi : ObjectiveC.NSObject {
   @objc override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiUri: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getRequestDetailsWithDevice(idRequest: Swift.String, account: MiVIPApi.HooyuAccountData, lang: Swift.String, latitude: Swift.String?, longitude: Swift.String?, completion: @escaping (Swift.Int, MiVIPApi.MiVIPRequest?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getDataByType(businessId: Swift.String, idRequest: Swift.String, deviceId: Swift.String, type: Swift.String, subType: Swift.String?, environment: Swift.String = "live", completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func reuse(businessId: Swift.String, idRequest: Swift.String, deviceId: Swift.String, dataMap: [Swift.String : Any], environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func share(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func auth(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func update(dataMap: [Swift.String : Any], completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSocials(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.MivipNetwork]?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getOpenBankingUrl(requestId: Swift.String, businessId: Swift.String = "", environment: Swift.String = "live", useSdk: Swift.Bool = false, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getRequestStatus(requestId: Swift.String, completion: @escaping (Swift.Int, MiVIPApi.ScoreResponse?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getSelfieImage(requestId: Swift.String, filename: Swift.String, completion: @escaping (UIKit.UIImage?) -> ())
+  #endif
   public func removeSocial(social: Swift.String, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.Bool) -> ())
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getGdprParams(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.String?) -> ())
+  #endif
   public func gdprAccept(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.Bool) -> ())
   public func gdprExit(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", lang: Swift.String = "en", completion: @escaping (Swift.Bool) -> ())
+  #if compiler(>=5.3) && $NonescapableTypes
   public func addSignature(image: UIKit.UIImage, requestId: Swift.String, businessId: Swift.String?, environment: Swift.String = "live", lang: Swift.String = "en", base64Image: Swift.String? = nil, useCoreApi: Swift.Bool, completion: @escaping (Swift.Int, Swift.String?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getAttachmentsInfo(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.Attachment]?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getUserAttachments(requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [MiVIPApi.UserAttachment]?, Swift.String?) -> ())
+  #endif
   public func stopSms(requestId: Swift.String, businessId: Swift.String)
+  public func stopEmail(requestId: Swift.String, businessId: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func uploadAttachment(b64EncodedData: Swift.String, type: Swift.String, fileName: Swift.String?, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, MiVIPApi.Attachment?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func removeAttachment(type: Swift.String, requestId: Swift.String, businessId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, MiVIPApi.Attachment?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getPoaMaxAge(requestId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : Swift.Int]?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func verifyCode(code: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getConfig(requestId: Swift.String, environment: Swift.String = "live", completion: @escaping (Swift.Int, [Swift.String : MiVIPApi.AnyCodable]?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func verifyPhone(phone: Swift.String, deviceId: Swift.String, email: Swift.String, completion: @escaping (Swift.Bool?, Swift.Bool?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func confirmPhone(phone: Swift.String, deviceId: Swift.String, code: Swift.String, completion: @escaping (Swift.Bool?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func log(level: Swift.String, sdkVersion: Swift.String, deviceId: Swift.String, message: Swift.String, idRequest: Swift.String?, completion: @escaping (Swift.Int?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func verifyEmail(email: Swift.String, deviceId: Swift.String, lang: Swift.String, completion: @escaping (Swift.Bool?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func confirmEmail(email: Swift.String, deviceId: Swift.String, code: Swift.String, completion: @escaping (Swift.Bool?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendAccountData(account: MiVIPApi.HooyuAccountData, completion: @escaping (Swift.Int, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func abandon(idRequest: Swift.String, reason: Swift.String, completion: @escaping (Swift.Bool, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func uploadVoice(voices: [[Swift.String : Swift.String]], requestId: Swift.String, mipassEnroll: Swift.Bool?, lang: Swift.String = "en", completion: @escaping (Swift.Int, Swift.Bool?, Swift.String?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func mipassVerify(enrollmentId: Swift.String, requestId: Swift.String, environment: Swift.String, selfieB64: Swift.String?, voices: [[Swift.String : Swift.String]]?, completion: @escaping (Swift.Bool, Swift.String?, MiVIPApi.MiPassEnrollVerifyResponse?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getBusinessDetails(requestId: Swift.String, completion: @escaping (Swift.Int, Swift.String?, UIKit.UIImage?, [Swift.String : Swift.String?]?, Swift.String?) -> ())
+  #endif
   @objc deinit
 }
 public struct AnyCodable : Swift.Decodable {
@@ -668,12 +779,20 @@ public struct OcrData {
   public var issuingCountry: Swift.String?
 }
 public protocol DocumentDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   func name() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func idRequest() -> Swift.String?
+  #endif
   func needBack(documentType: MiVIPApi.DocumentType)
   func postDocument(document: MiVIPApi.Document)
+  #if compiler(>=5.3) && $NonescapableTypes
   func done(statusCode: Swift.Int, document: MiVIPApi.Document, error: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func error(didFailWithError error: any Swift.Error, documentType: MiVIPApi.DocumentType?)
+  #endif
   func willPreprocess(document: MiVIPApi.Document) -> Swift.Bool
   func preprocess(document: MiVIPApi.Document)
   func needMultiImage(documentType: MiVIPApi.DocumentType) -> Swift.Bool
@@ -684,9 +803,15 @@ public protocol DocumentDelegate {
   func getRequestLanguage() -> Swift.String
   func getRequestEmail() -> Swift.String
   func creatingRequest()
+  #if compiler(>=5.3) && $NonescapableTypes
   func requestCreated(idRequest: Swift.String?, referenceId: Swift.String?, error: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func userMasking(documentType: MiVIPApi.DocumentType, front: UIKit.UIImage, back: UIKit.UIImage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func userCountry() -> Swift.String?
+  #endif
 }
 extension MiVIPApi.DocumentDelegate {
   public func needMultiImage(documentType: MiVIPApi.DocumentType) -> Swift.Bool
@@ -697,15 +822,23 @@ extension MiVIPApi.DocumentDelegate {
   public func getRequestLanguage() -> Swift.String
   public func getRequestEmail() -> Swift.String
   public func creatingRequest()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func requestCreated(idRequest: Swift.String?, referenceId: Swift.String?, error: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func userMasking(documentType: MiVIPApi.DocumentType, front: UIKit.UIImage, back: UIKit.UIImage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func userCountry() -> Swift.String?
+  #endif
 }
 @objc public class DocumentHandler : ObjectiveC.NSObject {
   public var transitionStyle: UIKit.UIModalTransitionStyle
   public var fullscreen: Swift.Bool
   public var delegate: (any MiVIPApi.DocumentDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(view: UIKit.UIViewController, navigationColor: UIKit.UIColor = .black, useCoreApi: Swift.Bool = false, businessId: Swift.String? = nil, environment: Swift.String = "mobile", createRequest: Swift.Bool = false, apiUri: Swift.String? = nil, userMaskingEnabled: Swift.Bool = false)
+  #endif
   public func scanFront(type: MiVIPApi.DocumentType)
   public func scanBack()
   public func scanMulti()
@@ -713,24 +846,32 @@ extension MiVIPApi.DocumentDelegate {
   public func getDocument() -> MiVIPApi.Document
   public func reset(type: MiVIPApi.DocumentType)
   public func frontDone() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setFrontImage(image: UIKit.UIImage, resizeImage: Swift.Bool = true, imageB64: Swift.String? = nil)
+  #endif
   public func setOcr(ocr: MiVIPApi.OcrData)
   public func setImageData(imageData: [Swift.String : Swift.String])
   public func setCaptureData(captureData: [Swift.String : Swift.String])
   public func setPdfBase64(pdfBase64: Swift.String)
   public func setDocumentCallbackUrl(callbackUrl: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setBackImage(image: UIKit.UIImage, resizeImage: Swift.Bool = true, imageB64: Swift.String? = nil)
+  #endif
   public func setNFC(nfc: MiVIPApi.NFCData, rawData: [Swift.String : Swift.String])
   public func postDocument(doPreporecess: Swift.Bool = true)
   public func userMaskingDone()
   @objc deinit
 }
 extension MiVIPApi.DocumentHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, *)
   public func ocr(document: MiVIPApi.Document, completion: @escaping (MiVIPApi.OcrData?) -> ())
+  #endif
 }
 extension MiVIPApi.DocumentHandler {
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func cropImage(image: UIKit.UIImage, completion: @escaping (UIKit.UIImage?) -> ())
+  #endif
 }
 public struct Quadrilateral {
   public var topLeft: CoreFoundation.CGPoint
@@ -764,11 +905,21 @@ public struct WSError : Swift.Error {
 public protocol WebSocketClient : AnyObject {
   func connect()
   func disconnect(closeCode: Swift.UInt16)
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(string: Swift.String, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(stringData: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(data: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(ping: Foundation.Data, completion: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(pong: Foundation.Data, completion: (() -> ())?)
+  #endif
 }
 extension MiVIPApi.WebSocketClient {
   public func write(string: Swift.String)
@@ -839,9 +990,11 @@ public enum ImageScannerControllerError : Swift.Error {
   }
 }
 extension MiVIPApi.ImageScannerControllerError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 @objc @_inheritsConvenienceInitializers public class DeviceIdentifier : ObjectiveC.NSObject {
   public static func getDeviceData() -> MiVIPApi.DeviceDetails
@@ -860,8 +1013,12 @@ public struct HooyuAccountData {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension MiVIPApi.DocumentMultiImageScanner2 : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
