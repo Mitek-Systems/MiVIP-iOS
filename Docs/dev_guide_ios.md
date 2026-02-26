@@ -21,7 +21,7 @@ SDK also includes wallet/account/history functionality.
 1. [Cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)
 * add MiVIP pod dependancy. It will download all needed dependancies including MiSnap
 
-pod 'MiVIP', '3.6.15'
+pod 'MiVIP', '3.8.0'
 
 * Obtain MiSnap [license key](https://github.com/Mitek-Systems/MiSnap-iOS?tab=readme-ov-file#license-key)
 
@@ -45,7 +45,7 @@ pod 'MiVIP', '3.6.15'
 source 'https://github.com/CocoaPods/Specs.git'
         platform :ios, '13.0'
 
-		$misnapVersion = '5.8.1'
+		$misnapVersion = '5.10.0'
         
         target 'whitelabel_demo' do
 			# Comment the next line if you don't want to use dynamic frameworks
@@ -275,7 +275,7 @@ Refer to "Create the App Size Report" section of [this article](https://develope
 
 | Technology | Version |
 | :--- | :---: |
-| MiSnap | 5.9.1 |
+| MiSnap | 5.10.0 |
 | Xcode | 15.0 |
 | iOS | 13.0 |
 | iPhone | 7 |

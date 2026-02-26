@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/MiVIPLiveness-Swift.h</key>
 		<data>
-		uql4dhDiY0gJVr5gLC/sVD3VS1o=
+		XmsXGNeKVPGHynHOCq1kCXokTx8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oeSX0F8OaXK+ZEPAWZ3+/I8qW28=
+		xGYcBinnyr/JgewrgUP6VdFTqOc=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0ABWLWU8xlOlPMdLF4Aen8BiMeY=
+		8Gl6T693i4AibBsm7KAuR3yrLzg=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		uxHmnce+N9f29UAp7+xMa2tmrKI=
+		mtVgONKtcjNEFyynl/Rys2+5HIc=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0ABWLWU8xlOlPMdLF4Aen8BiMeY=
+		8Gl6T693i4AibBsm7KAuR3yrLzg=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3xcOi02yW6rnT2UdILEXlxmj1xw=
+		8zT78oc268kqLk8B2qsTjGGYOs4=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rFiATTDzPEbcE/oIDcAyMw3v/KA=
+		53VrmyRVukk4meH2j4LjvCE6Z8Y=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5KcNReZoXJiJhQFpLrvv7zBGRZQ=
+		QSuCI9coHVli1k4Fq8RA6oNux1E=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rFiATTDzPEbcE/oIDcAyMw3v/KA=
+		53VrmyRVukk4meH2j4LjvCE6Z8Y=
 		</data>
 		<key>Modules/MiVIPLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AWSTec7IalfxFMV0pwHEnXgBasU=
+		clDkE30RCTP9XGD0KrIHYasPFzg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YDTTJThi4jYfv47DpHeyEhKkBtYFxXavI0Oa103q93s=
+			ta0MfnaQicAzL3vDBGYb5EkrAuVOgo7g3462UeFySwo=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -97,28 +97,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jncf9RximKjhJncXwNfPSKNYve8cqs0cMPzR9Be0qIA=
+			JL2pneRwTvt4m9GE7lq+yqy5FF2p04C6NGQOSZ0Nins=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4vb6yGjWHQh3+khK6AyxdkTapa6ZxSXEOLqXtovrA5U=
+			Afg3rdL8dhDGk/zY9rpii2EGlFFH5fSoZDwXiioI50c=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jncf9RximKjhJncXwNfPSKNYve8cqs0cMPzR9Be0qIA=
+			JL2pneRwTvt4m9GE7lq+yqy5FF2p04C6NGQOSZ0Nins=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mBM3RgAjsacQdtQKYiDl3RF5u/J4770dUVUM3WrdEyk=
+			jA/T64hAu64FPO6FsJ0RACj7khohgsH+55frRupgLdg=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -132,28 +132,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uVZPKgl8/gxxo2/PkeGATR/hz2q4M86B5MuxqRG+KzY=
+			Sd2Y4Q5OtkmcvaYUSm1vIMgIwyDuAwOcCX9LO/02bBU=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sn6MG/zOUs59trkiqle4uwP0VN061BLuBoJLhPxQWto=
+			dFQc2wyrgPG1kavuXUe4XEOnSlB1XdLo5Kln+l9cGfQ=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uVZPKgl8/gxxo2/PkeGATR/hz2q4M86B5MuxqRG+KzY=
+			Sd2Y4Q5OtkmcvaYUSm1vIMgIwyDuAwOcCX9LO/02bBU=
 			</data>
 		</dict>
 		<key>Modules/MiVIPLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kZZBVLsLYDFrcev1pnTpbstPv1TZ75TGqx01CiA+AJo=
+			1wM8AlHcNomBEVURa9WsX31SxNtEyKWinEQ/kFphoOQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

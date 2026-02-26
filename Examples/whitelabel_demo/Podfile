@@ -1,12 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '13.0'
 
-#$misnapVersion = '5.8.1'
+#$misnapVersion = '5.10.0'
 
 target 'whitelabel_demo' do
 
   # MiVIP - will grab nested dependancies
-  pod 'MiVIP', '3.6.14'
+  pod 'MiVIP', '3.8.0'
 
   # or requred dependancies if using local framework
 #   pod 'MiSnap', $misnapVersion
