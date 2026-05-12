@@ -194,6 +194,7 @@ public class MiVIPHub {
   public func setReusableEnabled(_ reuseEnabled: Swift.Bool)
   public func setSoundsDisabled(_ disabled: Swift.Bool)
   public func setLogDisabled(_ disabled: Swift.Bool)
+  public func setMiDniEnabled(_ miDniEnabled: Swift.Bool)
   #if compiler(>=5.3) && $NonescapableTypes
   public func setAccountDetails(email: Swift.String?, phone: Swift.String?, name: Swift.String?)
   #endif

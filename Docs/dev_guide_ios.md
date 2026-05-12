@@ -13,6 +13,7 @@ Supported identity sources:
 * Attachments
 * Open banking
 * Voice
+* Spain MiDNI
 
 SDK also includes wallet/account/history functionality.
 
@@ -21,7 +22,7 @@ SDK also includes wallet/account/history functionality.
 1. [Cocoapods](https://guides.cocoapods.org/using/using-cocoapods.html)
 * add MiVIP pod dependancy. It will download all needed dependancies including MiSnap
 
-pod 'MiVIP', '3.8.0'
+pod 'MiVIP', '3.9.0'
 
 * Obtain MiSnap [license key](https://github.com/Mitek-Systems/MiSnap-iOS?tab=readme-ov-file#license-key)
 
@@ -45,7 +46,7 @@ pod 'MiVIP', '3.8.0'
 source 'https://github.com/CocoaPods/Specs.git'
         platform :ios, '13.0'
 
-		$misnapVersion = '5.10.0'
+		$misnapVersion = '5.11.0'
         
         target 'whitelabel_demo' do
 			# Comment the next line if you don't want to use dynamic frameworks
@@ -197,7 +198,9 @@ Application will ask user to grant permissions when needed (e.g. when start capt
     
             let mivip = MiVIPHub()
             mivip.setSoundsDisabled(true) // enable/disable short sound/vibration notification when something happens (e.g. document processing complete)
-            mivip.setReusableEnabled(false) // disable/enable wallet option
+            mivip.setReusableEnabled(false) // enable/disable wallet functionality
+            mivip.setLogDisabled(false) // if to send SDK failures to MiVIP server for logging. No PII is logged!
+            mivip.setMiDniEnabled(true) // if to enable Spain MiDNI QR scan for ID document. Default is false
     	…
     
     	// Start SDK with request QR code scan option
@@ -275,7 +278,7 @@ Refer to "Create the App Size Report" section of [this article](https://develope
 
 | Technology | Version |
 | :--- | :---: |
-| MiSnap | 5.10.0 |
+| MiSnap | 5.11.0 |
 | Xcode | 15.0 |
 | iOS | 13.0 |
 | iPhone | 7 |

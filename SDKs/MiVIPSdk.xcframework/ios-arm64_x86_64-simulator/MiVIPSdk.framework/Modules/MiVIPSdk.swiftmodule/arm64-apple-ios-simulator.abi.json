@@ -10160,6 +10160,32 @@
           },
           {
             "kind": "Function",
+            "name": "setMiDniEnabled",
+            "printedName": "setMiDniEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPSdk0A6VIPHubC03setA10DniEnabledyySbF",
+            "mangledName": "$s8MiVIPSdk0A6VIPHubC03setA10DniEnabledyySbF",
+            "moduleName": "MiVIPSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setAccountDetails",
             "printedName": "setAccountDetails(email:phone:name:)",
             "children": [
@@ -28678,33 +28704,33 @@
       "kind": "StringLiteral",
       "offset": 354,
       "length": 7,
-      "value": "\"3.8.0\""
+      "value": "\"3.9.0\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 2323,
+      "offset": 2456,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 2980,
+      "offset": 3113,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 3802,
+      "offset": 3935,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/MiVIPHub.swift",
       "kind": "BooleanLiteral",
-      "offset": 4472,
+      "offset": 4605,
       "length": 4,
       "value": "true"
     },
@@ -29873,938 +29899,1064 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 4513,
+      "offset": 4512,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 4581,
+      "offset": 4580,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 4625,
+      "offset": 4624,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 4643,
+      "offset": 4642,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 4645,
+      "offset": 4644,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 4950,
+      "offset": 4949,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 5126,
+      "offset": 5125,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 5232,
+      "offset": 5231,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5329,
+      "offset": 5323,
+      "length": 14,
+      "value": "\"home_menu_qr\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5459,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5484,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5579,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 5623,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5737,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5743,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5755,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5757,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5869,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6278,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6346,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6390,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6408,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6410,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6715,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6891,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6997,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 7094,
       "length": 10,
       "value": "\"mic.fill\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 5417,
+      "offset": 7182,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 5442,
+      "offset": 7207,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 5537,
+      "offset": 7302,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 5581,
+      "offset": 7346,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 5695,
+      "offset": 7460,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 5701,
+      "offset": 7466,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5713,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5715,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5827,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6236,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6304,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6348,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6366,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6368,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6673,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6849,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6955,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 7047,
-      "length": 11,
-      "value": "\"epassport\""
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7180,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7205,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7300,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 7344,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7458,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7464,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7476,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 7478,
       "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7480,
+      "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 7590,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9720,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9772,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 15790,
-      "length": 10,
-      "value": "\"•\""
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15850,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15902,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15958,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19005,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 29276,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 29974,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 31021,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 31053,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 34732,
-      "length": 3,
-      "value": "8.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 34790,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 34801,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 35139,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 35368,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 35388,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 35551,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 35648,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 38407,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "Array",
-      "offset": 47071,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "Array",
-      "offset": 47233,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "Array",
-      "offset": 47394,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "Array",
-      "offset": 47562,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 50123,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 50132,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 50144,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 50154,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 51224,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 51274,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 51322,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 51371,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 52380,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 53541,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 53591,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 53639,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 53688,
-      "length": 3,
-      "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 54975,
+      "offset": 7592,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 56652,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 59280,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 59582,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 59598,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 59626,
-      "length": 3,
-      "value": "150"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 59683,
-      "length": 3,
-      "value": "150"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 59748,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 59781,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 59871,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 59914,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 60132,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 60146,
+      "offset": 8001,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 60308,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 60314,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 60381,
-      "length": 3,
-      "value": "123"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 60806,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 60828,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 60873,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 60996,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 61308,
-      "length": 7,
-      "value": "\"close\""
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 61463,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 61485,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 61497,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 61598,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 61652,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 61715,
-      "length": 43,
-      "value": "\"hooyu.identify.mainmenu.accesablity.close\""
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 61806,
-      "length": 7,
-      "value": "\"Close\""
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 61923,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 61945,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 61957,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 62124,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 62355,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 62424,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "FloatLiteral",
-      "offset": 62472,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "IntegerLiteral",
-      "offset": 62586,
+      "offset": 8069,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 62664,
-      "length": 3,
-      "value": "135"
+      "offset": 8113,
+      "length": 1,
+      "value": "6"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 62722,
+      "offset": 8131,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8133,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8438,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8614,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8720,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 8812,
+      "length": 11,
+      "value": "\"epassport\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8945,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8970,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9065,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 9109,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9223,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9229,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9241,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9243,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9355,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11485,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 17555,
+      "length": 10,
+      "value": "\"•\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17615,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 62776,
+      "offset": 17667,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17723,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20770,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31041,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31739,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32786,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32818,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 36497,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 36555,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 36566,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36904,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37133,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37153,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37316,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 37413,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 40172,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "Array",
+      "offset": 48836,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "Array",
+      "offset": 48998,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "Array",
+      "offset": 49159,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "Array",
+      "offset": 49327,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51888,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51897,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51909,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51919,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 52989,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 53039,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 53087,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 53136,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54145,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 55306,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 55356,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 55404,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 55453,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 56740,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 58417,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 61045,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 61347,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 63024,
-      "length": 21,
-      "value": "\"square.and.arrow.up\""
+      "kind": "IntegerLiteral",
+      "offset": 61363,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 63122,
-      "length": 2,
-      "value": "25"
+      "offset": 61391,
+      "length": 3,
+      "value": "150"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 63167,
+      "offset": 61448,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 61513,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 61546,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 61636,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 61679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 61897,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 61911,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 63179,
+      "offset": 62073,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62079,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62146,
+      "length": 3,
+      "value": "123"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62571,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62593,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62638,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62761,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 63073,
+      "length": 7,
+      "value": "\"close\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63228,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
-      "kind": "BooleanLiteral",
-      "offset": 63302,
-      "length": 4,
-      "value": "true"
+      "kind": "IntegerLiteral",
+      "offset": 63250,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63262,
+      "length": 2,
+      "value": "20"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 63428,
+      "offset": 63363,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 63492,
+      "offset": 63417,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 63565,
+      "offset": 63480,
+      "length": 43,
+      "value": "\"hooyu.identify.mainmenu.accesablity.close\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 63571,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63688,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63710,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63722,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63889,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64120,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 64189,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 64237,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64351,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64429,
+      "length": 3,
+      "value": "135"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64487,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64541,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 64789,
+      "length": 21,
+      "value": "\"square.and.arrow.up\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64887,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64932,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64944,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 65067,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 65193,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 65257,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 65330,
       "length": 30,
       "value": "\"hooyu.identify.account.share\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 63643,
+      "offset": 65408,
       "length": 7,
       "value": "\"share\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 63859,
+      "offset": 65624,
       "length": 37,
       "value": "\"hooyu.identify.update.action_button\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 63944,
+      "offset": 65709,
       "length": 8,
       "value": "\"Update\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 64044,
+      "offset": 65809,
       "length": 18,
       "value": "\"main_menu_update\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 64139,
+      "offset": 65904,
       "length": 3,
       "value": "130"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 64161,
+      "offset": 65926,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 64192,
+      "offset": 65957,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 64444,
+      "offset": 66209,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 64448,
+      "offset": 66213,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 64506,
+      "offset": 66271,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 64510,
+      "offset": 66275,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 64550,
+      "offset": 66315,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 64556,
+      "offset": 66321,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/ViewUtils.swift",
       "kind": "StringLiteral",
-      "offset": 65094,
+      "offset": 66859,
       "length": 22,
       "value": "\"hooyuNotificationKey\""
     },
@@ -31623,14 +31775,21 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SettingsUtils.swift",
       "kind": "StringLiteral",
-      "offset": 9482,
+      "offset": 9483,
+      "length": 39,
+      "value": "\"hooyu.identify.settings.midni_enabled\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SettingsUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 9899,
       "length": 38,
       "value": "\"hooyu.identify.settings.log_disabled\""
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/utils\/SettingsUtils.swift",
       "kind": "StringLiteral",
-      "offset": 9900,
+      "offset": 10317,
       "length": 47,
       "value": "\"hooyu.identify.settings.last_request_instance\""
     },
@@ -36397,77 +36556,84 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1122,
+      "offset": 1442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1336,
+      "offset": 1656,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1727,
+      "offset": 2047,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1844,
+      "offset": 2164,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1871,
+      "offset": 2191,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1904,
+      "offset": 2224,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1955,
+      "offset": 2275,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2146,
+      "offset": 2466,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39984,
+      "offset": 2510,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 40006,
+      "offset": 43275,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 40051,
+      "offset": 43297,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/Identify\/Identify\/views\/docs\/CommonDocumentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 43342,
       "length": 5,
       "value": "false"
     },

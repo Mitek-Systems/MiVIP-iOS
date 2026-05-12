@@ -42271,6 +42271,116 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "eDoc",
+            "printedName": "eDoc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MiVIPApi.EDocVds?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EDocVds",
+                    "printedName": "MiVIPApi.EDocVds",
+                    "usr": "s:8MiVIPApi7EDocVdsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi8DocumentV4eDocAA7EDocVdsVSgvp",
+            "mangledName": "$s8MiVIPApi8DocumentV4eDocAA7EDocVdsVSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MiVIPApi.EDocVds?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EDocVds",
+                        "printedName": "MiVIPApi.EDocVds",
+                        "usr": "s:8MiVIPApi7EDocVdsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi8DocumentV4eDocAA7EDocVdsVSgvg",
+                "mangledName": "$s8MiVIPApi8DocumentV4eDocAA7EDocVdsVSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MiVIPApi.EDocVds?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EDocVds",
+                        "printedName": "MiVIPApi.EDocVds",
+                        "usr": "s:8MiVIPApi7EDocVdsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi8DocumentV4eDocAA7EDocVdsVSgvs",
+                "mangledName": "$s8MiVIPApi8DocumentV4eDocAA7EDocVdsVSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi8DocumentV4eDocAA7EDocVdsVSgvM",
+                "mangledName": "$s8MiVIPApi8DocumentV4eDocAA7EDocVdsVSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -43354,6 +43464,448 @@
         "declKind": "Struct",
         "usr": "s:8MiVIPApi7OcrDataV",
         "mangledName": "$s8MiVIPApi7OcrDataV",
+        "moduleName": "MiVIPApi",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EDocVds",
+        "printedName": "EDocVds",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EDocVds",
+                "printedName": "MiVIPApi.EDocVds",
+                "usr": "s:8MiVIPApi7EDocVdsV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8MiVIPApi7EDocVdsVACycfc",
+            "mangledName": "$s8MiVIPApi7EDocVdsVACycfc",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "payload",
+            "printedName": "payload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi7EDocVdsV7payloadSSSgvp",
+            "mangledName": "$s8MiVIPApi7EDocVdsV7payloadSSSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7EDocVdsV7payloadSSSgvg",
+                "mangledName": "$s8MiVIPApi7EDocVdsV7payloadSSSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7EDocVdsV7payloadSSSgvs",
+                "mangledName": "$s8MiVIPApi7EDocVdsV7payloadSSSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7EDocVdsV7payloadSSSgvM",
+                "mangledName": "$s8MiVIPApi7EDocVdsV7payloadSSSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataFormat",
+            "printedName": "dataFormat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi7EDocVdsV10dataFormatSSSgvp",
+            "mangledName": "$s8MiVIPApi7EDocVdsV10dataFormatSSSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7EDocVdsV10dataFormatSSSgvg",
+                "mangledName": "$s8MiVIPApi7EDocVdsV10dataFormatSSSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7EDocVdsV10dataFormatSSSgvs",
+                "mangledName": "$s8MiVIPApi7EDocVdsV10dataFormatSSSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7EDocVdsV10dataFormatSSSgvM",
+                "mangledName": "$s8MiVIPApi7EDocVdsV10dataFormatSSSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verificationLevels",
+            "printedName": "verificationLevels",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8MiVIPApi7EDocVdsV18verificationLevelsSaySSGSgvp",
+            "mangledName": "$s8MiVIPApi7EDocVdsV18verificationLevelsSaySSGSgvp",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7EDocVdsV18verificationLevelsSaySSGSgvg",
+                "mangledName": "$s8MiVIPApi7EDocVdsV18verificationLevelsSaySSGSgvg",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7EDocVdsV18verificationLevelsSaySSGSgvs",
+                "mangledName": "$s8MiVIPApi7EDocVdsV18verificationLevelsSaySSGSgvs",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8MiVIPApi7EDocVdsV18verificationLevelsSaySSGSgvM",
+                "mangledName": "$s8MiVIPApi7EDocVdsV18verificationLevelsSaySSGSgvM",
+                "moduleName": "MiVIPApi",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "toMap",
+            "printedName": "toMap()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi7EDocVdsV5toMapSDySSypGyF",
+            "mangledName": "$s8MiVIPApi7EDocVdsV5toMapSDySSypGyF",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8MiVIPApi7EDocVdsV",
+        "mangledName": "$s8MiVIPApi7EDocVdsV",
         "moduleName": "MiVIPApi",
         "declAttributes": [
           "AccessControl"
@@ -45080,6 +45632,53 @@
           },
           {
             "kind": "Function",
+            "name": "setEDocVds",
+            "printedName": "setEDocVds(eDoc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EDocVds",
+                "printedName": "MiVIPApi.EDocVds",
+                "usr": "s:8MiVIPApi7EDocVdsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15DocumentHandlerC10setEDocVds4eDocyAA0fG0V_tF",
+            "mangledName": "$s8MiVIPApi15DocumentHandlerC10setEDocVds4eDocyAA0fG0V_tF",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasEDocVds",
+            "printedName": "hasEDocVds()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15DocumentHandlerC10hasEDocVdsSbyF",
+            "mangledName": "$s8MiVIPApi15DocumentHandlerC10hasEDocVdsSbyF",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setCaptureData",
             "printedName": "setCaptureData(captureData:)",
             "children": [
@@ -45305,6 +45904,26 @@
             "declKind": "Func",
             "usr": "s:8MiVIPApi15DocumentHandlerC15userMaskingDoneyyF",
             "mangledName": "$s8MiVIPApi15DocumentHandlerC15userMaskingDoneyyF",
+            "moduleName": "MiVIPApi",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addVds",
+            "printedName": "addVds()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiVIPApi15DocumentHandlerC6addVdsyyF",
+            "mangledName": "$s8MiVIPApi15DocumentHandlerC6addVdsyyF",
             "moduleName": "MiVIPApi",
             "declAttributes": [
               "AccessControl"
@@ -53767,7 +54386,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/http\/DocumentApi.swift",
       "kind": "StringLiteral",
-      "offset": 269,
+      "offset": 232,
+      "length": 5,
+      "value": "\"4.0\""
+    },
+    {
+      "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/http\/DocumentApi.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
       "length": 15,
       "value": "\"HOOYU_API_URL\""
     },
@@ -55384,14 +56010,14 @@
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9474,
+      "offset": 9644,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielgyupchanov\/Documents\/src\/ios-demo2\/frameworks\/HooyuApi\/MiVIPApi\/DocumentHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11991,
+      "offset": 12811,
       "length": 4,
       "value": "true"
     },

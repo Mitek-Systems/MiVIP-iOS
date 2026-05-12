@@ -757,6 +757,7 @@ public struct Document {
   public var errors: [Swift.String : [Swift.String : Swift.String]]?
   public var ocr: MiVIPApi.OcrData?
   public var ocrIdRequest: Swift.String?
+  public var eDoc: MiVIPApi.EDocVds?
 }
 public enum DocumentStaus {
   case CREATED
@@ -777,6 +778,13 @@ public struct OcrData {
   public var dateOfExpiry: Swift.String?
   public var mrzString: Swift.String?
   public var issuingCountry: Swift.String?
+}
+public struct EDocVds {
+  public init()
+  public var payload: Swift.String?
+  public var dataFormat: Swift.String?
+  public var verificationLevels: [Swift.String]?
+  public func toMap() -> [Swift.String : Any]
 }
 public protocol DocumentDelegate {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -851,6 +859,8 @@ extension MiVIPApi.DocumentDelegate {
   #endif
   public func setOcr(ocr: MiVIPApi.OcrData)
   public func setImageData(imageData: [Swift.String : Swift.String])
+  public func setEDocVds(eDoc: MiVIPApi.EDocVds)
+  public func hasEDocVds() -> Swift.Bool
   public func setCaptureData(captureData: [Swift.String : Swift.String])
   public func setPdfBase64(pdfBase64: Swift.String)
   public func setDocumentCallbackUrl(callbackUrl: Swift.String)
@@ -860,6 +870,7 @@ extension MiVIPApi.DocumentDelegate {
   public func setNFC(nfc: MiVIPApi.NFCData, rawData: [Swift.String : Swift.String])
   public func postDocument(doPreporecess: Swift.Bool = true)
   public func userMaskingDone()
+  public func addVds()
   @objc deinit
 }
 extension MiVIPApi.DocumentHandler {

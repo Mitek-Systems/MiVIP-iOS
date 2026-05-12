@@ -3,6 +3,7 @@
 */
 
 // MiVIP SDK:
+"hooyu.identify.documents.add_screen.button.midni"="Verify with MiDNI";
 "hooyu.identify.welcome.title"="Confirm your identity";
 "hooyu.identify.welcome.continue"="Continue";
 "hooyu.identify.account.documents.details.vc"="Verifiable Credential";

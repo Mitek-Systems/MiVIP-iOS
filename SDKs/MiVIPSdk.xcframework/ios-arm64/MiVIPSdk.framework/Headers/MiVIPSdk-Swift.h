@@ -600,6 +600,7 @@ SWIFT_CLASS("_TtC8MiVIPSdk28CommonDocumentViewController")
 @property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
 - (void)backGestureWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;
 - (void)cameraButtonActionWithGesture:(DocGesture * _Nonnull)gesture;
+- (void)miDniButtonActionWithGesture:(DocGesture * _Nonnull)gesture;
 - (void)browseImagesWithGesture:(DocGesture * _Nonnull)gesture;
 - (void)browseFilesWithGesture:(DocGesture * _Nonnull)gesture;
 - (void)closePopupWithGesture:(UITapGestureRecognizer * _Nonnull)gesture;

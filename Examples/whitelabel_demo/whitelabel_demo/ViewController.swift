@@ -49,6 +49,7 @@ class ViewController: UIViewController {
             mivip.setSoundsDisabled(true) // enable/disable short sound/vibration notification when something happens (e.g. document processing complete)
             mivip.setReusableEnabled(false) // enable/disable wallet functionality
             mivip.setLogDisabled(false) // if to send SDK failures to MiVIP server for logging. No PII is logged!
+            mivip.setMiDniEnabled(true) // if to enable Spain MiDNI QR scan for ID document. Default is false
             
             // Set custom fonts:
             // 1. Import your font into the project
